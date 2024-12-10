@@ -1722,18 +1722,6 @@
 	  p position = -6.76236,0.5,-2.57886,0x8b73e946;
 	}
 }
-[t:gpg_torch_ice_02,n:0x50300059]
-{
-	[light_flicker_lightweight]
-	{
-	  x siege_light = 0xF17E4252;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.00872685,0,0.999962;
-	  p position = 6.34046,-2.3732,-4.93646,0x4266c089;
-	}
-}
 [t:gpg_torch_ice_03,n:0x50300105]
 {
 	[light_flicker_lightweight]
@@ -1848,6 +1836,18 @@
 	[placement]
 	{
 	  p position = 1.53378,7.45058e-009,-4.31226,0x7345e3b6;
+	}
+}
+[t:gpg_torch_ice_02,n:0x50300059]
+{
+	[light_flicker_lightweight]
+	{
+	  x siege_light = 0xF17E4252;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.00872685,0,0.999962;
+	  p position = 6.34046,-2.3732,-4.93646,0x4266c089;
 	}
 }
 [t:gpg_mound_ice_snow_02,n:0x5030009b]

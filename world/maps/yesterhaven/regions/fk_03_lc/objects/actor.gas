@@ -294,20 +294,20 @@
 	  p position = -0.454475,-0.227238,3.00027,0x295ed23f;
 	}
 }
-[t:gpg_krug_commander_fire,n:0x03d001cc]
+[t:gpg_krug_commander_fire,n:0x03d001b4]
 {
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.900002,0,1.53394,0x19667aa6;
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.48237,-1,-2.13795,0x18050859;
 	}
 }
-[t:gpg_krug_guard_fire,n:0x03d001f6]
+[t:gpg_krug_guard_fire,n:0x03d001f4]
 {
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -0.952263,0.714866,3.21549,0x750f798f;
+	  q orientation = 0,-2.98023e-008,0,1;
+	  p position = 3.25774,-1,-0.29232,0x18050859;
 	}
 }
 [t:gpg_krug_guard_fire,n:0x03d001f8]
@@ -572,6 +572,14 @@
 	  p position = 0.552479,2,2.2672,0xa1f02e29;
 	}
 }
+[t:horrid,n:0x03d001d1]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.3271,2,2.63692,0xa1f02e29;
+	}
+}
 [t:gpg_darkling_fire,n:0x03d00150]
 {
 	[placement]
@@ -607,12 +615,20 @@
 	  p position = 0.718082,0,-0.778072,0x19667aa6;
 	}
 }
-[t:gpg_krug_guard_fire,n:0x03d001f4]
+[t:gpg_krug_commander_fire,n:0x03d001cc]
 {
 	[placement]
 	{
-	  q orientation = 0,-2.98023e-008,0,1;
-	  p position = 3.25774,-1,-0.29232,0x18050859;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.900002,0,1.53394,0x19667aa6;
+	}
+}
+[t:gpg_krug_guard_fire,n:0x03d001f6]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.952263,0.714866,3.21549,0x750f798f;
 	}
 }
 [t:gpg_krug_guard_fire,n:0x03d0006c]
@@ -775,14 +791,6 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = 1.86452,0.073569,-0.934753,0x8ba9a45f;
-	}
-}
-[t:horrid,n:0x03d001d1]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 2.3271,2,2.63692,0xa1f02e29;
 	}
 }
 [t:horrid,n:0x03d001d2]
@@ -1449,13 +1457,5 @@
 	{
 	  q orientation = 0,1,0,5.96046e-008;
 	  p position = 1.94315,-0.344315,-0.807554,0x176ee2c9;
-	}
-}
-[t:gpg_krug_commander_fire,n:0x03d001b4]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 2.48237,-1,-2.13795,0x18050859;
 	}
 }

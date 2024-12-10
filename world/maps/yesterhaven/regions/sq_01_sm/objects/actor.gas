@@ -195,8 +195,8 @@
 	{
 		[other]
 		{
-			il_main = bw_g_c_s_s_c_avg;
 			il_main = potion_health_small;
+			il_main = bw_g_c_s_s_c_avg;
 		}
 	}
 	[placement]
@@ -690,8 +690,8 @@
 	{
 		[other]
 		{
-			il_main = spell_zap;
 			il_main = potion_mana_small;
+			il_main = spell_zap;
 		}
 	}
 	[placement]

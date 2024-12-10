@@ -105,18 +105,6 @@
 	  p position = 2.40533,0,0.168709,0x08c94b25;
 	}
 }
-[t:generator_generic,n:0x50200155]
-{
-	[generator_basic]
-	{
-		child_template_name = "mucosa";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 3.4549,0,-3.2106,0xb0f9c13e;
-	}
-}
 [t:generator_generic,n:0x5020015a]
 {
 	[generator_basic]
@@ -139,6 +127,18 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -0.988224,-2,-5.80984,0x8c9379b4;
+	}
+}
+[t:generator_generic,n:0x50200155]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 3.4549,0,-3.2106,0xb0f9c13e;
 	}
 }
 [t:generator_generic,n:0x502000c4]

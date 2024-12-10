@@ -1,3 +1,17 @@
+[t:emt_sound,n:0x045004da]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 2.49708,14,2.50076,0x225aa540;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_wolf_howl";
+	  f max_repeat_rate = 65;
+	  f repeat_rate = 35;
+	}
+}
 [t:emt_sound,n:0x045003c4]
 {
 	[placement]
@@ -22,19 +36,5 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_wind_01b";
-	}
-}
-[t:emt_sound,n:0x045004da]
-{
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 2.49708,14,2.50076,0x225aa540;
-	}
-	[sound_emitter]
-	{
-		event_sound = "env_wolf_howl";
-	  f max_repeat_rate = 65;
-	  f repeat_rate = 35;
 	}
 }

@@ -13653,66 +13653,6 @@
 	  p position = -1.114,0,-0.131516,0xaab44cf6;
 	}
 }
-[t:gpg_bush_glb_rhod_dead_03,n:0x00e002a6]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.00119;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.981627,0,0.190809;
-	  p position = 3.23493,-1.2,-2.64229,0x48ea1a9e;
-	}
-}
-[t:gpg_bush_glb_rhod_dead_03,n:0x00e002a7]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.917324;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.894934,0,0.446198;
-	  p position = 1.01269,-1.2,-2.74945,0x48ea1a9e;
-	}
-}
-[t:gpg_bush_glb_rhod_dead_03,n:0x00e002a8]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.66688;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.398749,0,-0.91706;
-	  p position = -1.32149,-0.933056,-2.23359,0x48ea1a9e;
-	}
-}
-[t:gpg_bush_glb_rhod_dead_03,n:0x00e002a9]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.0473;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.748956,0,0.66262;
-	  p position = -2.34456,-1.2,-0.899178,0x48ea1a9e;
-	}
-}
-[t:gpg_tree_glb_pine_dead_05,n:0x00e00319]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.942689;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.469471,0,-0.882948;
-	  p position = -2.2506,-1.2,-2.65355,0x48ea1a9e;
-	}
-}
 [t:gpg_tree_glb_pine_dead_05,n:0x00e00318]
 {
 	[aspect]
@@ -13818,6 +13758,78 @@
 	{
 	  q orientation = 0,0.580703,0,-0.814116;
 	  p position = -2.17395,0.893,2.96499,0x7dc4f902;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_03,n:0x00e002a6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00119;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.981627,0,0.190809;
+	  p position = 3.23493,-1.2,-2.64229,0x48ea1a9e;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_03,n:0x00e002a7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.917324;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.894934,0,0.446198;
+	  p position = 1.01269,-1.2,-2.74945,0x48ea1a9e;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_03,n:0x00e002a8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.66688;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.398749,0,-0.91706;
+	  p position = -1.32149,-0.933056,-2.23359,0x48ea1a9e;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_03,n:0x00e002a9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0473;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.748956,0,0.66262;
+	  p position = -2.34456,-1.2,-0.899178,0x48ea1a9e;
+	}
+}
+[t:gpg_tree_glb_pine_dead_05,n:0x00e00319]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.942689;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.469471,0,-0.882948;
+	  p position = -2.2506,-1.2,-2.65355,0x48ea1a9e;
+	}
+}
+[t:gpg_bush_glb_rhod_dead_03,n:0x00e001db]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.887772;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.113203,0,-0.993572;
+	  p position = 0.997064,-2,-1.60023,0xbcb01786;
 	}
 }
 [t:gpg_bush_glb_rhod_dead_03,n:0x00e001d6]
@@ -13974,18 +13986,6 @@
 	{
 	  q orientation = 0,0.21644,0,0.976296;
 	  p position = -0.592403,0,-0.808292,0xb124e0f0;
-	}
-}
-[t:gpg_bush_glb_rhod_dead_03,n:0x00e001db]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.887772;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.113203,0,-0.993572;
-	  p position = 0.997064,-2,-1.60023,0xbcb01786;
 	}
 }
 [t:tree_des_dead_03,n:0x00e00120]

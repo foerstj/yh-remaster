@@ -1261,17 +1261,17 @@
 	  f outer_radius = 0.785398;
 		[direction]
 		{
-		  x node = 0x9F77A957;
+		  x node = 0x07D0A424;
 		  f x = 0.000000;
 		  f y = -1.000000;
 		  f z = 0.000000;
 		}
 		[position]
 		{
-		  x node = 0x9F77A957;
-		  f x = -0.049652;
-		  f y = 0.981216;
-		  f z = 0.040970;
+		  x node = 0x2E6FCE58;
+		  f x = 0.115970;
+		  f y = -15.393784;
+		  f z = 0.049652;
 		}
 	}
 	[t:point,n:light_0x2582a84f]
@@ -4313,10 +4313,10 @@
 	  f outer_radius = 4.000000;
 		[position]
 		{
-		  x node = 0x8B73E946;
-		  f x = 8.961285;
-		  f y = 2.300232;
-		  f z = -4.422939;
+		  x node = 0x4E504372;
+		  f x = 4.822932;
+		  f y = 22.100235;
+		  f z = 8.661284;
 		}
 	}
 	[t:point,n:light_0xa2e3c0f3]
