@@ -1,0 +1,277 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_skrev_fk_04_df_fire_king.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2002 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit is to control the SkritedEvent where the fire king attacks the party
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Skrev controler, handles the fire king attacking the party SkritedEvent.";
+property string _required_component$	= "placement";
+
+// exported properties
+property scid 	blocking_object$	doc ="Scid of the blocking object to use with the fire wall.";
+property scid 	fire_king$			doc ="Scid of the Fire King";
+property scid 	cup$				doc ="Scid of the cup.";
+property scid	start_mood$			doc ="Scid of the mood trigger to send to when the fight starts.";
+
+owner									= GoSkritComponent;
+
+SFxSID cup_id$ = 0;
+SFxSID ring_id$ = 0;
+SFxSID king_id$ = 0;
+
+//////////////////////////////////////////////////////////////////////////////
+
+bool Hide$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		report.generic("Hiding\n");
+		target$.Go.Aspect.SSetIsVisible( false );
+		target$.Go.Mind.SetMayAttack( false );
+		target$.Go.Mind.SetMayAttack( false );
+		target$.Go.Mind.SetActorAutoFidgets( false );
+		target$.Go.Aspect.SetIsInvincible( true );
+		return true;
+	}
+	return false;
+}
+
+bool Show$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		report.generic("Showing\n");
+		target$.Go.Aspect.SSetIsVisible( true );
+		target$.Go.Mind.SetMayAttack( true );
+		target$.Go.Mind.SetMayBeAttacked( true );
+		target$.Go.Mind.SetActorAutoFidgets( true );
+		target$.Go.Aspect.SetIsInvincible( false );
+		target$.Go.Mind.ReqResetSensorsSelfAndVisible();
+		king_id$ = SiegeFx.SRunMpScript( "fire_king_eye_glow", target$, target$, "", target$, WE_REQ_ACTIVATE );
+		return true;
+	}
+	return false;
+}
+
+FireBlock$
+{	
+	// start up the fire wall effect
+	if( blocking_object$.goid.IsValidMp )
+	{
+		SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, blocking_object$ );
+	}
+	if( cup$.goid.IsValidMp )
+	{
+		ring_id$ = SiegeFx.SRunMpScript( "fire_ring_block", cup$.goid, cup$.goid, "", cup$.goid, WE_REQ_ACTIVATE );
+	}
+}
+
+FireBlockOff$
+{
+	if( blocking_object$.goid.IsValidMp )
+	{
+		SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, blocking_object$ );
+	}
+	if( ring_id$ != 0 )
+	{
+		SiegeFx.SStopScript( ring_id$ );
+		ring_id$ = null;
+	}
+}
+
+kingEffect$
+{
+	if( fire_king$.Goid.IsValidMp )
+	{
+		SiegeFx.SRunScript( "fire_king_materialize2", fire_king$.Goid, fire_king$.Goid, "", fire_king$.Goid, WE_REQ_ACTIVATE );
+	}	
+}
+
+TurnOff$
+{
+	GoDb.StopWatching( owner.goid, fire_king$.goid );
+	GoDb.StopWatching( owner.goid, cup$.goid );
+	GoDb.StopWatching( owner.goid, blocking_object$.goid );
+	if( king_id$ != 0 ) { SiegeFx.SStopScript( king_id$ ); king_id$ = null; }
+	if( ring_id$ != 0 ) { SiegeFx.SStopScript( ring_id$ ); ring_id$ = null; }
+	if( cup_id$ != 0 ) { SiegeFx.SStopScript( cup_id$ ); cup_id$ = null; }
+}
+
+startup state Startup$
+{
+	trigger OnGoHandleMessage$( WE_ENTERED_WORLD )
+	{
+		#only( game )
+		[[
+		setstate WaitForAllLoaded$;
+		]];
+	}
+}
+
+state WaitForAllLoaded$
+{
+	event OnEnterState$
+	{
+		this.CreateTimer(1, 0);	
+	}
+	trigger OnTimer$( 1 )
+	{
+		if( cup$.goid.IsValidMP && fire_king$.goid.IsValidMP && blocking_object$.goid.IsValidMP )
+		{
+			if( cup$.go.IsInAnyWorldFrustum && fire_king$.go.IsInAnyWorldFrustum && blocking_object$.go.IsInAnyWorldFrustum && owner.go.IsInAnyWorldFrustum )
+			{
+				GoDb.StartWatching( owner.goid, fire_king$.goid );
+				GoDb.StartWatching( owner.goid, cup$.goid );
+				GoDb.StartWatching( owner.goid, blocking_object$.goid );
+				setstate Setup$;
+				return;
+			}
+		}
+		this.CreateTimer(1, 1);	
+	}
+}
+
+state Setup$
+{
+	event OnEnterState$
+	{	
+		report.generic("Starting effects and hiding!\n");
+		cup_id$ = SiegeFx.SRunMpScript( "chalice_sparkles2", cup$.goid, cup$.goid, "", cup$.goid, WE_REQ_ACTIVATE );
+		Hide$( fire_king$.Goid );
+		setstate Waiting$;
+	}
+}
+
+
+state Waiting$
+{
+	event OnEnterState$
+	{
+		report.genericf("All characters hidden waiting for activate.\n");	
+	}
+	
+	trigger OnGoHandleMessage$( WE_LEFT_WORLD )
+	{
+		TurnOff$;
+		setstate WaitForAllLoaded$;
+	}
+	trigger OnGoHandleCCMessage$( WE_LEFT_WORLD )
+	{
+		TurnOff$;
+		setstate WaitForAllLoaded$;
+	}
+	
+	trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		setstate StartBattle$;
+	}
+}
+
+state WaitForReload$
+{
+	event OnEnterState$
+	{
+		this.CreateTimer(1, 1);	
+	}
+	trigger OnTimer$( 1 )
+	{
+		if( cup$.goid.IsValidMP && fire_king$.goid.IsValidMP && blocking_object$.goid.IsValidMP )
+		{
+			if( cup$.go.IsInAnyWorldFrustum && fire_king$.go.IsInAnyWorldFrustum && blocking_object$.go.IsInAnyWorldFrustum && owner.go.IsInAnyWorldFrustum )
+			{
+				cup_id$ = SiegeFx.SRunMpScript( "chalice_sparkles2", cup$.goid, cup$.goid, "", cup$.goid, WE_REQ_ACTIVATE );
+				Hide$( fire_king$.Goid );
+				GoDb.StartWatching( owner.goid, fire_king$.goid );
+				GoDb.StartWatching( owner.goid, cup$.goid );
+				GoDb.StartWatching( owner.goid, blocking_object$.goid );
+				setstate StartBattle$;
+			}
+		}
+		this.CreateTimer(1, 1);	
+	}
+}
+
+state Unload$
+{
+	event OnEnterState$
+	{	
+		TurnOff$;
+		setstate WaitForReload$;
+	}
+}
+
+state StartBattle$
+{
+	bool killed$ = false;
+	trigger OnGoHandleMessage$( WE_LEFT_WORLD )
+	{
+		if( !killed$ )
+		{
+			setstate Unload$;
+		}
+	}
+	trigger OnGoHandleCCMessage$( WE_LEFT_WORLD )
+	{
+		if( !killed$ )
+		{
+			setstate Unload$;
+		}
+	}
+	
+	event OnEnterState$
+	{
+		report.generic("trying to start the battle!\n");
+		if( cup$.goid.IsValidMP )
+		{
+			cup$.Go.Aspect.SSetIsSelectable( false );
+		}
+		SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, start_mood$ );
+	}
+	
+// >>>>>>> turn on the blocking fire.
+	fireon$ at			( 1.0 ) { FireBlock$; }
+
+// >>>>>>> start the ice queen appearing effect.
+	Effect_king$ at		( 4.0 ) { kingEffect$; }
+
+// >>>>>>> make the fire king visible
+	vis_king$ at		( 5.0 ) { Show$( fire_king$.goid ); }
+
+	trigger OnGoHandleCCMessage$( WE_KILLED )
+	{
+		GoDb.StopWatching( owner.goid, fire_king$.goid );
+		GoDb.StopWatching( owner.goid, blocking_object$.goid );
+		killed$ = true;		
+		if( cup$.goid.IsValid )
+		{
+			cup$.Go.Aspect.SSetIsSelectable( true );
+		}
+		FireBlockOff$;
+		if( king_id$ != 0 )
+		{
+			SiegeFx.SStopScript( king_id$ );
+			king_id$ = null;
+		}
+	}
+	trigger OnGoHandleCCMessage$( WE_PICKED_UP )
+	{
+		GoDb.StopWatching( owner.goid, cup$.goid );
+		if( cup_id$ != 0 ) { SiegeFx.SStopScript( cup_id$ ); cup_id$ = null; }
+	}
+}
+
+state Abort$
+{
+	
+}

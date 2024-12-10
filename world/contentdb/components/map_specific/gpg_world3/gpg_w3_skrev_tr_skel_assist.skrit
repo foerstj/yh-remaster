@@ -1,0 +1,76 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_skrev_tr_skel_assist.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit makes the skeletal assistant hoe, then attack one he is talked to.
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Plal an animation then become evil when talked to.";
+property string _required_component$	= "placement";
+
+owner									= GoSkritComponent;
+
+//////////////////////////////////////////////////////////////////////////////
+
+bool TryAnim$( int FourCC$ )
+{
+	MCPManager.Flush( owner.goid );
+					
+	int Anim$ = owner.Go.Aspect.AspectHandle.Blender.GetSubAnimIndex(CHORE_MISC,FourCC$);
+		
+	if (Anim$ >= 0)
+	{
+		eReqRetCode ret$ = MCPManager.MakeRequest( owner.goid, PL_PLAYANIM, CHORE_MISC, Anim$, 0 );
+		return true;	
+	}
+	return false;
+}
+
+startup state Startup$
+{
+	trigger OnGoHandleMessage$( WE_ANIM_DONE )
+	{
+		TryAnim$('hoe1');
+	}
+	
+	trigger OnGoHandleMessage$( WE_ENTERED_WORLD )
+	{
+		owner.Go.Mind.SetActorAutoFidgets( false );
+		TryAnim$('hoe1');
+		owner.Go.actor.ssetalignment( AA_NEUTRAL );
+//		owner.Go.Mind.SDoJob( MakeJobReq( JAT_STOP, JQ_ACTION, QP_CLEAR, AO_REFLEX ));
+		owner.Go.Mind.ResetSensors();
+		owner.Go.Mind.SetMayAttack( false );
+		owner.Go.Mind.SetMayBeAttacked( false );
+		owner.Go.Aspect.SetIsInvincible( true );
+	}
+	
+	trigger OnGoHandleMessage$( WE_REQ_TALK_END )
+	{
+		setstate Attack$;
+	}
+}
+	
+state Attack$
+{
+	event OnEnterState$
+	{
+		owner.Go.Mind.SetActorAutoFidgets( true );
+		owner.Go.Mind.SetMayAttack( true );
+		owner.Go.Mind.SetMayBeAttacked( true );
+		owner.Go.Aspect.SetIsInvincible( false );
+		owner.Go.actor.ssetalignment( AA_EVIL );
+		owner.Go.Mind.SDoJob( MakeJobReq( JAT_STOP, JQ_ACTION, QP_CLEAR, AO_REFLEX ));
+		owner.Go.Mind.ResetSensors();
+	}
+}

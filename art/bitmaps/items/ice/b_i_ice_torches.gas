@@ -1,0 +1,6 @@
+[t:tsd,n:b_i_ice_torches]
+{
+  b hasalpha = false;
+	layer1texture1 = b_i_ice_torches;
+  i texturedetail = 2;
+}

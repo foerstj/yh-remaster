@@ -1,0 +1,5 @@
+[t:tsd,n:b_t_world3_obelisk-grs02-a]
+{
+	layer1texture1 = b_t_world3_obelisk-grs02-a;
+  i texturedetail = 2;
+}

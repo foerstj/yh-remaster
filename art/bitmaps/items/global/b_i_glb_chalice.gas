@@ -1,0 +1,6 @@
+[t:tsd,n:b_i_glb_chalice]
+{
+  b hasalpha = false;
+	layer1texture1 = b_i_glb_chalice;
+  i texturedetail = 1;
+}

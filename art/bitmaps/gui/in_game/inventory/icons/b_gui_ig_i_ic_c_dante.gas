@@ -1,0 +1,5 @@
+[t:tsd,n:b_gui_ig_i_ic_c_dante]
+{
+	layer1texture1 = b_gui_ig_i_ic_c_dante;
+  i texturedetail = 0;
+}

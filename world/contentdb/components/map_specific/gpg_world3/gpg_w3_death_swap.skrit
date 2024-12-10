@@ -1,0 +1,62 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_death_swap.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit will teleport an actor to the location where something dies.
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "teleports an actor to the location where something died.";
+property string _required_component$	= "placement";
+
+// exported properties
+property scid 			swap_actor$						doc = "Scid of the actoe to move to this actor.";
+property eWorldEvent	swap_msg$		= WE_KILLED		doc = "message to swap on";
+property bool			toggle_vis$ 	= false			doc = "turn the swaped actor visible";
+property scid			death_scid$ 					doc = "Scid to send to when swaping.";
+
+//property float			select_delay$	= 1.0			doc = "How long to wait before making the 
+
+owner									= GoSkritComponent;
+goid Killer$;
+
+//////////////////////////////////////////////////////////////////////////////
+
+startup state Startup$
+{
+	event OnGoHandleMessage$( eWorldEvent e$, WorldMessage msg$ ) 
+	{
+		if( e$ == WE_KILLED ) 
+		{
+			Killer$ = msg$.GetSendFrom;
+		}
+		if( e$ == swap_msg$ ) 
+		{
+			if( swap_actor$.IsValid )
+			{
+				float old_speed$ = swap_actor$.Go.Body.SetAvgMoveVelocity( 10000 );
+				swap_actor$.Go.Mind.SDoJob( MakeJobReq( JAT_MOVE, JQ_ACTION, QP_CLEAR, AO_COMMAND, owner.Go.placement.position ) );
+				swap_actor$.Go.Body.SetAvgMoveVelocity( old_speed$ );
+				swap_actor$.Go.Aspect.SSetIsSelectable( true );
+				if( toggle_vis$ )
+				{
+					swap_actor$.go.Aspect.SSetIsVisible( true );
+				}
+				SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, swap_actor$, MakeInt( Killer$ ) );
+				if( death_scid$.IsValid )
+				{
+					SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, death_scid$ );
+				}
+			}
+		}
+	}
+}

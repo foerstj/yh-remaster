@@ -1,0 +1,52 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_skrev_ll_spirit.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit is to control the SkritedEvent when the lich spirit gets unloaded.
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Skrev controler, handles the lich king spirit.";
+property string _required_component$	= "placement";
+                             		
+property scid 	lich_spirit_sarco$		doc ="Scid of the lich spirit at the Sarcoughagus.";
+
+owner									= GoSkritComponent;
+
+//////////////////////////////////////////////////////////////////////////////
+
+Startup state Startup$
+{
+	Trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		setstate Activated$;	
+	}
+}	
+
+state Activated$
+{
+	Trigger OnGoHandleMessage$( WE_REQ_DEACTIVATE )
+	{
+		setstate Abort$;
+	}
+	Trigger OnGoHandleMessage$( WE_LEFT_WORLD )
+	{
+		if( lich_spirit_sarco$.IsValid )
+		{			
+			SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, lich_spirit_sarco$ );
+			SendWorldMessage( WE_REQ_DELETE, owner.Goid, owner.Goid );
+		}
+	}
+}
+state Abort$
+{
+}

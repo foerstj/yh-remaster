@@ -1,0 +1,200 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_skrev_tr_03_des_well.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit is to control the SkritedEvent where the snow queen fills the well.
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Skrev controler, handles the snow queen filling the well.";
+property string _required_component$	= "placement";
+
+// exported properties
+property scid 	snow_queen$			doc ="Scid of the snow queen.";
+
+property scid 	person1$			doc ="Scid of 1st townsperson.";
+property scid 	person2$			doc ="Scid of 2nd townsperson.";
+property scid 	person3$			doc ="Scid of 3rd townsperson.";
+property scid 	person4$			doc ="Scid of 4th townsperson.";
+property scid 	person5$			doc ="Scid of 5th townsperson.";
+property scid 	person6$			doc ="Scid of 6th townsperson.";
+
+property scid 	effect_point$		doc ="Scid to play the well effects on.";
+property scid 	rain_mood$			doc ="Scid of the mood tigger.";
+
+owner									= GoSkritComponent;
+//////////////////////////////////////////////////////////////////////////////
+
+bool TryAnim$( int FourCC$, Goid target$ )
+{
+	MCPManager.Flush( target$ );
+					
+	int Anim$ = target$.Go.Aspect.AspectHandle.Blender.GetSubAnimIndex(CHORE_MISC,FourCC$);
+		
+	if (Anim$ >= 0)
+	{
+		eReqRetCode ret$ = MCPManager.MakeRequest( target$, PL_PLAYANIM, CHORE_MISC, Anim$, 0 );
+		return true;	
+	}
+	return false;
+}
+
+StartUp State StartUp$
+{
+	int deselect$ = 0;
+	bool activated$ = false;
+	
+	
+	trigger OnGoHandleMessage$( WE_ENTERED_WORLD )
+	{
+		#only( game )
+		[[
+		if( person1$.Goid.IsValid )
+		  { person1$.Go.Aspect.SSetIsSelectable( false ); deselect$ += 1; }
+		else
+		  { this.createTimer( MakeInt( person1$ ), 1 ); }
+		
+		if( person2$.Goid.IsValid )
+		  { person2$.Go.Aspect.SSetIsSelectable( false ); deselect$ += 1; }
+		else
+		  { this.createTimer( MakeInt( person2$ ), 1 ); }
+		
+		if( person3$.Goid.IsValid )
+		  { person3$.Go.Aspect.SSetIsSelectable( false ); deselect$ += 1; }
+		else
+		  { this.createTimer( MakeInt( person3$ ), 1 ); }
+		
+		if( person4$.Goid.IsValid )
+		  { person4$.Go.Aspect.SSetIsSelectable( false ); deselect$ += 1; }
+		else
+		  { this.createTimer( MakeInt( person4$ ), 1 ); }
+		
+		if( person5$.Goid.IsValid )
+		  { person5$.Go.Aspect.SSetIsSelectable( false ); deselect$ += 1; }
+		else
+		  { this.createTimer( MakeInt( person5$ ), 1 ); }
+		
+		if( snow_queen$.Goid.IsValid )
+		  { snow_queen$.Go.Aspect.SSetIsSelectable( false ); deselect$ += 1; }
+		else
+		  { this.createTimer( MakeInt( snow_queen$ ), 1 ); }
+		
+		if( deselect$ == 6 )
+		{
+			setstate Waiting$;	
+		}
+		]]
+	}
+	
+	event OnTimer$( int id$, float /*off$*/ )
+	{
+		if( MakeScid( id$ ).goid.IsValid )
+		  { MakeScid( id$ ).go.Aspect.SSetIsSelectable( false ); deselect$ += 1; }
+		else
+		  { this.createTimer( id$, 1 ); }
+	
+		if( deselect$ == 6 )
+		{
+			if( activated$ )
+			{
+				setstate Appearing$;
+				report.genericf("Finshed deselecting characters, going strait to activated state since I was activated early.\n");		
+			}
+			else
+			{
+				setstate Waiting$;	
+			}
+		}
+	}
+	
+	Trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		activated$ = true;
+	}
+	
+	trigger OnGoHandleMessage$( WE_LEFT_WORLD )
+	{
+		deselect$ = 0;
+	}
+}
+
+State Waiting$
+{
+	Trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		setstate Appearing$;	
+	}
+}
+
+state Appearing$
+{
+	event OnEnterState$
+	{
+		SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, rain_mood$ );
+	}
+	
+	materialize$ at ( 1.0 )
+	{	
+		if( snow_queen$.Goid.IsValid )
+		{
+			TryAnim$('tele', snow_queen$.Goid);
+			GoDb.StartWatching( owner.goid, snow_queen$.goid );
+			SiegeFx.SRunMpScript( "snow_queen_skrev_materialize_small", snow_queen$.Goid, snow_queen$.Goid, "", snow_queen$.Goid, WE_REQ_ACTIVATE );
+		}
+	}
+	vis$ at ( 1.1 )
+	{
+		if( snow_queen$.Goid.IsValid )
+		{
+			snow_queen$.Go.Aspect.SSetIsVisible( true );
+		}
+	}
+	trigger OnGoHandleCCMessage$( WE_ANIM_DONE )
+	{
+		if( snow_queen$.Goid.IsValidMP )
+		{
+			TryAnim$('cast', snow_queen$.Goid);
+			SiegeFx.SRunMpScript( "snow_queen_skrev_rain", snow_queen$.Goid, snow_queen$.Goid, "", snow_queen$.Goid, WE_REQ_ACTIVATE );
+			setstate Casting$;
+			return;	
+		}
+	}	
+}
+
+state Casting$
+{
+	trigger OnGoHandleCCMessage$( WE_ANIM_DONE )
+	{
+		GameAuditor.GetDb.SetBool( "c_0x00e000ff", true );
+		if( snow_queen$.Goid.IsValid )
+		{
+			snow_queen$.Go.Mind.SetActorAutoFidgets( true );
+		}
+		if( effect_point$.Goid.IsValidMP )
+		{
+			SiegeFx.SRunMpScript( "snow_queen_well", effect_point$.Goid, effect_point$.Goid, "", effect_point$.Goid, WE_REQ_ACTIVATE );
+		}
+		setstate Done$;
+	}
+}
+state Done$
+{
+	select$ at ( 5.0 )
+	{
+		person1$.Go.Aspect.SSetIsSelectable( true );
+		person2$.Go.Aspect.SSetIsSelectable( true );
+		person3$.Go.Aspect.SSetIsSelectable( true );
+		person4$.Go.Aspect.SSetIsSelectable( true );
+		person5$.Go.Aspect.SSetIsSelectable( true );
+		snow_queen$.Go.Aspect.SSetIsSelectable( true );
+	}
+}

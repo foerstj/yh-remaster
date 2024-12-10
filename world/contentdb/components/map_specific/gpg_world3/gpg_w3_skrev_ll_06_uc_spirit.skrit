@@ -1,0 +1,94 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_skrev_ll_06_uc_spirit.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit is to control the SkritedEvent where the lich king spirit enters the Sarcoughagus
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Skrev controler, handles the lich king spirit.";
+property string _required_component$	= "placement";
+                             		
+property scid 	lich_spirit$			doc ="Scid of the lich spirit from the lich king.";
+property scid 	lich_spirit_sarco$		doc ="Scid of the lich spirit in front of the Sarcoughagus.";
+
+property scid 	sarco$					doc ="Scid of the Sarcoughagus.";
+
+owner									= GoSkritComponent;
+Goid target$;
+		
+//////////////////////////////////////////////////////////////////////////////
+
+Startup state Startup$
+{
+	event OnEnterState$
+	{
+		this.createTimer( 1, 0 );
+	}
+		
+	trigger OnTimer$( 1 )
+	{
+		if( sarco$.Goid.IsValidMp ) 
+		{ 
+			if( sarco$.Go.IsInAnyWorldFrustum ) 
+			{
+				sarco$.Go.Aspect.SSetIsSelectable( false );
+				GoDb.StartWatching( owner.goid, sarco$.Goid );
+				setstate Play$;
+			}
+		}	
+		this.createTimer( 1, 1 );
+	}
+}
+
+state Play$
+{
+	trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		if( lich_spirit$.Goid.IsValid )
+		{
+			target$ = lich_spirit$.Goid;
+		}
+		else
+		{
+			target$ = lich_spirit_sarco$.Goid;
+		}
+		if( target$.IsValidMp && sarco$.Goid.IsValidMp )
+		{
+			SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, target$ );
+			SiegeFx.SRunMpScript( "lich_king_tomb_transfer", sarco$.Goid, target$, "", target$, WE_REQ_ACTIVATE );
+			setstate Explode$;
+		}
+	}
+	Trigger OnGoHandleCCMessage$( WE_LEFT_WORLD )
+	{
+		GoDb.StopWatching( owner.goid, sarco$.Goid );
+		setstate Startup$;
+	}
+}
+
+state Explode$
+{
+	disapear$ at ( 2.0 )
+	{		
+		sarco$.Go.Aspect.SSetIsSelectable( true );
+		SiegeFx.SStopScript( target$, "lich_king_blob" );
+	}
+	
+	Delete$ at ( 4.0 )
+	{
+		if( target$.IsValidMp )
+		{
+			GoDb.SMarkForDeletion( target$ );
+		}
+	}
+}

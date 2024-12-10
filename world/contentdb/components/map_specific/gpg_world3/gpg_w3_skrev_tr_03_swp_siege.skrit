@@ -1,0 +1,341 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_skrev_tr_03_swp_siege.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit is to control the SkritedEvent where undead attack the swamp town
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Skrev controler, handles the snow queen defending SkritedEvent.";
+property string _required_component$	= "placement";
+
+// exported properties
+property scid 	skeleton_guard1$	doc ="Scid of the 1st attacking skeleton guard.";
+property scid 	skeleton_guard2$	doc ="Scid of the 2nd attacking skeleton guard.";
+property scid 	skeleton_archer1$	doc ="Scid of the 1st attacking skeleton archer.";
+property scid 	skeleton_house1$	doc ="Scid of the 1st attacking skeleton archer.";
+property scid 	spider_large1$		doc ="spider.scid";
+property scid 	spider_large2$		doc ="spider.scid";
+property scid 	spider3$			doc ="spider.scid";
+property scid 	spider4$			doc ="spider.scid";
+property scid 	spider5$			doc ="spider.scid";
+property scid 	spider6$			doc ="spider.scid";
+property scid 	spider7$			doc ="spider.scid";
+property scid 	spider8$			doc ="spider.scid";
+property scid 	spider_house1$		doc ="spider.scid";
+property scid 	spider_house2$		doc ="spider.scid";
+property scid 	spider_house3$		doc ="spider.scid";
+property scid 	spider_house4$		doc ="spider.scid";
+property scid 	spider_house5$		doc ="spider.scid";
+
+property scid 	spider_large_house1$	doc ="spider.scid";
+
+property scid 	defender$			doc ="Scid of the 1st defending NPC.";
+property scid 	complete_scid$		doc ="Scid to send an activate to when all of the creatures are killed.";
+
+
+owner									= GoSkritComponent;
+int killed$ = 0;
+Goid new_skrev$;
+
+//////////////////////////////////////////////////////////////////////////////
+
+bool TryAnim$( Goid target$, int FourCC$ )
+{
+	if( target$.IsValidMp )
+	{
+		MCPManager.Flush( target$ );
+					
+		int Anim$ = target$.Go.Aspect.AspectHandle.Blender.GetSubAnimIndex(CHORE_MISC,FourCC$);
+			
+		if (Anim$ >= 0)
+		{
+			eReqRetCode ret$ = MCPManager.MakeRequest( target$, PL_PLAYANIM, CHORE_MISC, Anim$, 0 );
+			return true;	
+		}
+	}
+	return false;
+}
+bool Reveal$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		target$.Go.Body.SetAvgMoveVelocity( 1.6 );
+		
+		int Anim$;
+		Anim$ = 'wak0';
+		int stance$ = target$.Go.Inventory.GetAnimStanceInt();
+		if ( stance$ < 0 )
+		{
+			stance$ = 0;
+		}
+		Anim$ += stance$;
+		return( TryAnim$( target$, Anim$ ) );
+	}
+	return false;
+}
+bool Sleep$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		int Anim$;
+		Anim$ = 'slp0';
+		int stance$ = target$.Go.Inventory.GetAnimStanceInt();
+		if ( stance$ < 0 )
+		{
+			stance$ = 0;
+		}
+		Anim$ += stance$;
+		return( TryAnim$( target$, Anim$ ) );
+	}
+	return false;
+}
+
+bool watch$( Goid target$ )
+{
+	if( target$.IsValidMp  )
+	{
+		report.generic("watching\n");
+		GoDb.StartWatching( owner.goid, target$ );
+		return true;
+	}
+	return false;
+}
+
+bool Hide$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		report.generic("Hiding\n");
+		target$.Go.Aspect.SSetIsVisible( false );
+		target$.Go.Mind.SetMayAttack( false );
+		target$.Go.Mind.SetMayBeAttacked( false );
+		target$.Go.Aspect.SetIsInvincible( true );
+		target$.Go.Mind.SetActorAutoFidgets( false );
+		return true;
+	}
+	return false;
+}
+
+bool Attack$( Goid target$, bool patrol$ )
+{
+	if( target$.IsValidMp )
+	{
+		report.generic("Showing, gonna attack now.\n");
+		watch$( target$ );
+		target$.Go.Aspect.SSetIsVisible( true );
+		target$.Go.Mind.SetMayAttack( true );
+		target$.Go.Mind.SetMayBeAttacked( true );
+		target$.Go.Aspect.SetIsInvincible( false );
+		target$.Go.Mind.SetActorAutoFidgets( true );
+		target$.Go.Mind.ResetSensors();
+		
+		if( patrol$ )
+		{
+			target$.Go.Mind.SDoJob( MakeJobReq( JAT_PATROL, JQ_ACTION, QP_FRONT, AO_COMMAND, owner.Go.placement.position ) );
+		}
+		return true;
+	}
+	return false;
+}
+
+event OnGoHandleCCMessage$( eWorldEvent e$, WorldMessage msg$ )
+{
+	if( e$ == WE_KILLED )
+	{
+		killed$ += 1;
+		report.genericf("Killed %d\n",killed$);
+		if( killed$ == 18 )
+		{
+			report.generic("Killed em all!\n");
+			goid Killer$ = msg$.GetSendFrom;
+			Victory.RSCompletedQuest( "quest_siege", ( Killer$.IsValid ) ? Killer$ : Goid.InvalidGoid );
+			SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, complete_scid$ );
+			setstate Abort$;
+		}
+	}
+}
+
+startup state WaitToClone$
+{
+	trigger OnGoHandleMessage$( WE_ENTERED_WORLD )
+	{
+		#only( game )
+		[[
+			this.CreateTimer( 1, 2 );
+		]];
+	}
+	trigger OnGoHandleMessage$( WE_REQ_USE )
+	{
+		if( owner.Go.IsOmni )
+		{
+			setstate Setup$;
+		}
+	}
+	trigger OnTimer$( 1 )
+	{
+		setstate Start$;	
+	}
+}
+
+state Start$
+{
+	event OnEnterState$
+	{
+		if( !owner.Go.IsOmni )
+		{
+			GoCloneReq cloneReq$ = MakeGoCloneReq( owner.goid );
+			cloneReq$.Omni = true;
+			new_skrev$ = GoDb.SCloneGo( cloneReq$ );
+			SendWorldMessage( WE_REQ_USE, owner.Goid, new_skrev$ );
+		}
+	}
+	trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		if( new_skrev$.IsValid )
+		{
+			SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, new_skrev$ );
+			setstate Abort$;
+		}
+		else
+		{
+			report.errorf("Tell Eric: Tried to activate swamp but the omni skrev controler was invalid!!\n");
+		}
+	}
+}
+	
+state Setup$
+{		
+	int invis$ = 0;
+	bool activated$ = false;
+	
+	event OnEnterState$
+	{	
+		if( !Hide$( skeleton_guard1$.Goid ) ) { this.createTimer( MakeInt( skeleton_guard1$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( skeleton_guard2$.Goid ) ) { this.createTimer( MakeInt( skeleton_guard2$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( skeleton_archer1$.Goid ) ) { this.createTimer( MakeInt( skeleton_archer1$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( skeleton_house1$.Goid ) ) { this.createTimer( MakeInt( skeleton_house1$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider_large1$.Goid ) ) { this.createTimer( MakeInt( spider_large1$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider_large2$.Goid ) ) { this.createTimer( MakeInt( spider_large2$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider3$.Goid ) ) { this.createTimer( MakeInt( spider3$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider4$.Goid ) ) { this.createTimer( MakeInt( spider4$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider5$.Goid ) ) { this.createTimer( MakeInt( spider5$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider6$.Goid ) ) { this.createTimer( MakeInt( spider6$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider7$.Goid ) ) { this.createTimer( MakeInt( spider7$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider8$.Goid ) ) { this.createTimer( MakeInt( spider8$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider_house1$.Goid ) ) { this.createTimer( MakeInt( spider_house1$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider_house2$.Goid ) ) { this.createTimer( MakeInt( spider_house2$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider_house3$.Goid ) ) { this.createTimer( MakeInt( spider_house3$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider_house4$.Goid ) ) { this.createTimer( MakeInt( spider_house4$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider_house5$.Goid ) ) { this.createTimer( MakeInt( spider_house5$ ), 1 ); } else { invis$ += 1;	}
+		if( !Hide$( spider_large_house1$.Goid ) ) { this.createTimer( MakeInt( spider_large_house1$ ), 1 ); } else { invis$ += 1;	}
+
+		if( invis$ == 18 )
+		{
+			setstate Waiting$;	
+		}
+	}
+	event OnTimer$( int id$, float /*off$*/ )
+	{
+		if( !Hide$( MakeScid( id$ ).goid ) )
+		{
+			this.createTimer( id$, 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		
+		if( invis$ == 18 )
+		{
+			if( activated$ )
+			{
+				setstate StartBattle$;
+				report.genericf("Finshed Hiding, going strait to activated state since I was activated early.\n");		
+			}
+			else
+			{
+				setstate Waiting$;	
+			}
+		}
+	}
+	
+	trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		activated$ = true;
+		report.genericf("Activated while trying to hide!!\n");	
+	}
+}
+
+state Waiting$
+{
+	event OnEnterState$
+	{
+//		setstate StartBattle$;
+		report.genericf("All characters hidden waiting for activate.\n");	
+	}
+	
+	trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		setstate StartBattle$;
+		report.genericf("Activated.\n");	
+	}
+}
+
+state StartBattle$
+{
+	sleep1$ at			( 0.1 ) { Sleep$( skeleton_guard1$.Goid ); }
+	sleep2$ at			( 0.1 ) { Sleep$( skeleton_guard2$.Goid ); }
+	sleep3$ at			( 0.1 ) { Sleep$( skeleton_archer1$.Goid ); }
+	sleep4$ at			( 0.1 ) { Sleep$( skeleton_house1$.Goid ); }
+
+	
+	pre_wake2$ at		( 2 ) { if( skeleton_guard1$.Goid.IsValid ) { skeleton_guard1$.Go.Aspect.SSetIsVisible( true ); } }
+	wake2$ at			( 3 ) { Reveal$( skeleton_guard1$.Goid ); }
+
+	pre_wake3$ at		( 5 ) { if( skeleton_archer1$.Goid.IsValid ) { skeleton_archer1$.Go.Aspect.SSetIsVisible( true ); } }
+	wake3$ at			( 6 ) { Reveal$( skeleton_archer1$.Goid ); }
+
+	pre_wake4$ at		( 8 ) { if( skeleton_guard2$.Goid.IsValid ) { skeleton_guard2$.Go.Aspect.SSetIsVisible( true ); } }
+	wake4$ at			( 9 ) { Reveal$( skeleton_guard2$.Goid ); }
+
+	attack1$ at			( 6 )  { Attack$( skeleton_guard1$.Goid, true ); }
+	attack2$ at			( 9 )  { Attack$( skeleton_archer1$.Goid, true ); }
+	attack3$ at			( 11 )  { Attack$( skeleton_guard2$.Goid, true ); }
+	attack4$ at			( 5 )  { Attack$( spider_large1$.Goid, true ); }
+	attack5$ at			( 6 )  { Attack$( spider_large2$.Goid, true ); }
+	attack6$ at			( 6 )  { Attack$( spider3$.Goid, true ); }
+	attack7$ at			( 8 )  { Attack$( spider4$.Goid, true ); }
+	attack8$ at			( 10 )  { Attack$( spider5$.Goid, true ); }
+	attack9$ at			( 12 )  { Attack$( spider6$.Goid, true ); }
+	attack10$ at		( 15 )  { Attack$( spider7$.Goid, true ); }
+	attack11$ at		( 17 )  { Attack$( spider8$.Goid, true ); }
+
+	pre_wake1$ at		( 8 ) { if( skeleton_house1$.Goid.IsValid ) { skeleton_house1$.Go.Aspect.SSetIsVisible( true ); } }
+	wake1$ at			( 9 ) { Reveal$( skeleton_house1$.Goid ); }
+	vis1$ at			( 11 )  { Attack$( skeleton_house1$.Goid, false ); }
+	vis2$ at			( 11 )  { Attack$( spider_house1$.Goid, false ); }
+	vis3$ at			( 11 )  { Attack$( spider_house2$.Goid, false ); }
+	vis4$ at			( 11 )  { Attack$( spider_house3$.Goid, false ); }
+	vis5$ at			( 11 )  { Attack$( spider_house4$.Goid, false ); }
+	vis6$ at			( 11 )  { Attack$( spider_house5$.Goid, false ); }
+	vis7$ at			( 11 )  { Attack$( spider_large_house1$.Goid, false ); }
+}
+
+state Abort$
+{
+	event OnEnterState$
+	{
+//		GoDB.SMarkForDeletion( owner.goid );
+		report.generic("Deleting\n");
+	}
+}

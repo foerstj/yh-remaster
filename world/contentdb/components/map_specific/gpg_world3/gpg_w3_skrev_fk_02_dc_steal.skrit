@@ -1,0 +1,315 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_skrev_fk_02_dc_steal.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit is to control the SkritedEvent where the fire king steals the cup
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Skrev controler, handles the fire king stealing the cup SkritedEvent.";
+property string _required_component$	= "placement";
+
+// exported properties
+property scid 	fire_krug1$			doc ="Scid of the 1st attacking fire krug.";
+property scid 	fire_krug2$			doc ="Scid of the 2nd attacking fire krug.";
+property scid 	fire_krug3$			doc ="Scid of the 3rd attacking fire krug.";
+
+property scid 	fire_wall$			doc ="Scid of the Point where we should create the firewall";
+property scid 	blocking_object$	doc ="Scid of the blocking object to use with the fire wall.";
+
+property scid 	fire_king$			doc ="Scid of the Fire King";
+property scid 	cup$				doc ="Scid of the cup.";
+
+owner									= GoSkritComponent;
+
+SFxSID cup_id$ = 0;
+SFxSID king_id$ = 0;
+
+//////////////////////////////////////////////////////////////////////////////
+
+bool Hide$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		report.generic("Hiding\n");
+		target$.Go.Aspect.SSetIsVisible( false );
+		target$.Go.Mind.SetMayAttack( false );
+		target$.Go.Mind.SetMayAttack( false );
+		target$.Go.Mind.SetActorAutoFidgets( false );
+		target$.Go.Aspect.SetIsInvincible( true );
+		return true;
+	}
+	return false;
+}
+
+bool Show$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		report.generic("Showing\n");
+		target$.Go.Aspect.SSetIsVisible( true );
+		target$.Go.Mind.SetMayAttack( true );
+		target$.Go.Mind.SetMayBeAttacked( true );
+		target$.Go.Mind.SetActorAutoFidgets( true );
+		target$.Go.Aspect.SetIsInvincible( false );
+		target$.Go.Mind.ReqResetSensorsSelfAndVisible();
+		SiegeFx.SRunScript( "krug_materialize", target$, target$, "", target$, WE_REQ_ACTIVATE );
+		return true;
+	}
+	return false;
+}
+
+FireBlock$
+{	
+	// start up the fire wall effect
+	if( blocking_object$.goid.IsValidMp )
+	{
+		SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, blocking_object$.goid );
+	}
+	if( fire_wall$.goid.IsValidMp )
+	{
+		SiegeFx.SRunMpScript( "fire_wall_block2", fire_wall$.goid, fire_wall$.goid, "", fire_wall$.Goid, WE_REQ_ACTIVATE );
+	}
+}
+
+FireBlockOff$
+{
+	if( blocking_object$.goid.IsValidMp )
+	{
+		SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, blocking_object$.goid );
+	}
+}
+
+kingEffect$
+{
+//	if( queen_light$.goid.IsValidMp )
+//	{
+//		SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, queen_light$.goid );			
+//	}
+	if( fire_king$.Goid.IsValidMp )
+	{
+		SiegeFx.SRunScript( "fire_king_materialize", fire_king$.Goid, fire_king$.Goid, "", fire_king$.Goid, WE_REQ_ACTIVATE );
+	}	
+}
+
+kingVis$
+{
+	Goid fk$ = fire_king$.Goid;
+	if( fk$.IsValidMp )
+	{
+		fk$.Go.Aspect.SSetIsVisible( true );
+		king_id$ = SiegeFx.SRunMpScript( "fire_king_eye_glow", fk$, fk$, "", fk$, WE_REQ_ACTIVATE );
+		if( cup$.goid.IsValidMP )
+		{
+			SiegeFx.SRunMpScript( "chalice_steal", cup$.goid, fk$, "", fk$, WE_REQ_ACTIVATE );
+		}
+		MCPManager.MakeRequest( fk$, PL_OPEN );
+	}
+}
+
+CupInVis$
+{
+	if( cup_id$ != 0 )
+	{
+		SiegeFx.SStopScript( cup_id$ );
+		cup_id$ = null; 
+	}
+	if( cup$.Goid.IsValidMp )
+	{	
+		cup$.Go.Aspect.SSetIsVisible( false );
+	}
+}
+
+
+kingInVis$
+{
+	if( king_id$ != 0 )
+	{
+		SiegeFx.SStopScript( king_id$ );
+		king_id$ = null; 
+	}
+	if( fire_king$.Goid.IsValidMp )
+	{	
+		fire_king$.Go.Aspect.SSetIsVisible( false );
+	}
+	
+}
+trigger OnTimer$( 0x80000001 )
+{
+	if( cup$.goid.IsValidMP )
+	{
+		cup_id$ = SiegeFx.SRunMpScript( "chalice_sparkles", cup$.goid, cup$.goid, "", cup$.goid, WE_REQ_ACTIVATE );
+		this.DestroyTimer( 0x80000001 ); 
+	}
+}
+
+trigger OnGoHandleMessage$( WE_LEFT_WORLD )
+{
+	if( cup_id$ != 0 )
+	{
+		SiegeFx.SStopScript( cup_id$ );
+		cup_id$ = null;
+	}
+}
+
+startup state Startup$
+{
+	int invis$ = 0;
+	bool activated$ = false;
+	
+	
+	trigger OnGoHandleMessage$( WE_ENTERED_WORLD )
+	{
+		#only( game )
+		[[
+		
+		if( cup$.goid.IsValidMP )
+		{
+			cup_id$ = SiegeFx.SRunMpScript( "chalice_sparkles", cup$.goid, cup$.goid, "", cup$.goid, WE_REQ_ACTIVATE );
+		}
+		else
+		{
+			this.createTimer( 0x80000001, 1 ); 
+			this.SetTimerGlobal( 0x80000001, true );
+			this.SetTimerRepeatCount( 0x80000001, -1 );
+		}
+		
+		if( !Hide$( fire_krug1$.Goid ) )
+		{
+			this.createTimer( MakeInt( fire_krug1$ ), 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		if( !Hide$( fire_krug2$.Goid ) )
+		{
+			this.createTimer( MakeInt( fire_krug2$ ), 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		if( !Hide$( fire_krug3$.Goid ) )
+		{
+			this.createTimer( MakeInt( fire_krug3$ ), 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		
+		if( invis$ == 3 )
+		{
+			setstate Waiting$;	
+		}
+		]];
+	}
+	
+	event OnTimer$( int id$, float /*off$*/ )
+	{
+		if( !Hide$( MakeScid( id$ ).goid ) )
+		{
+			this.createTimer( id$, 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		
+		if( invis$ == 3 )
+		{
+			if( activated$ )
+			{
+				setstate StartBattle$;
+				report.genericf("Finshed Hiding, going strait to activated state since I was activated early.\n");		
+			}
+			else
+			{
+				setstate Waiting$;	
+			}
+		}
+	}
+	
+	trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		activated$ = true;
+		report.genericf("Activated while trying to hide!!\n");	
+	}
+	trigger OnGoHandleMessage$( WE_LEFT_WORLD )
+	{
+		#only( game )
+		[[
+		if( activated$ )
+		{
+			setstate Abort$;	
+		}
+		else
+		{
+			invis$ = 0;
+		}
+		]];
+	}
+}
+
+
+state Waiting$
+{
+	event OnEnterState$
+	{
+		report.genericf("All characters hidden waiting for activate.\n");	
+	}
+	
+	trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		setstate StartBattle$;
+		report.genericf("Activated.\n");	
+	}
+}
+
+state StartBattle$
+{
+// >>>>>>> turn on the blocking fire.
+	fireon$ at			( 1.0 ) { FireBlock$; }
+
+// >>>>>>> start the ice queen appearing effect.
+	Effect_king$ at		( 4.0 ) { kingEffect$; }
+
+// >>>>>>> make the fire king visible
+	vis_king$ at		( 5.0 ) { kingVis$; }
+	tele_king$ at		( 9.0 ) { if( fire_king$.Goid.IsValidMp ) { SiegeFx.SRunMpScript( "fire_king_teleport", fire_king$.Goid, fire_king$.Goid, "", fire_king$.Goid, WE_REQ_ACTIVATE ); } }
+	invis_king$ at		( 9.95 ) { kingInVis$; }
+	invis_cup$ at		( 8.25 ) { CupInVis$; }
+	
+	delete_king$ at		( 13.75 ) 
+	{ 
+		if( fire_king$.Goid.IsValidMp ) { GoDb.SMarkGoAndChildrenForDeletion( fire_king$.Goid, true, false ); } 
+		if( cup$.Goid.IsValidMp ) { GoDb.SMarkGoAndChildrenForDeletion( cup$.Goid, true, false ); } 
+	}
+		
+// >>>>>>> turn the fire krugs visible
+	vis1$ at			( 10.2 )  { Show$( fire_krug1$.Goid ); }
+	vis2$ at			( 10.6 )  { Show$( fire_krug2$.Goid ); }
+	vis3$ at			( 11.0 )  { Show$( fire_krug3$.Goid ); }
+	
+	fireoff$ at 		( 10.4 ) { FireBlockOff$; }
+		
+	trigger OnGoHandleMessage$( WE_LEFT_WORLD )
+	{
+		setstate Abort$;
+	}
+}
+
+state Abort$
+{
+	
+}

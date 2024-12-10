@@ -1,0 +1,3382 @@
+// The moods in this file are organized according to when
+// you encounter them in the game.  (Not alphabetically.)
+
+[mood_setting*]
+{
+	// This is the starting mood: dark and gloomy
+	mood_name				= gpg_world_3_tr_01_rt_01;
+	transition_time			= 0.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF404040;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_swamp";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_DwarvenMines_09";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Starting mood w/ transition time
+	mood_name				= gpg_world_3_tr_01_rt_01a;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF404040;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_swamp";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_DwarvenMines_09";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Obelisk 1 mood
+	mood_name				= gpg_world_3_tr_01_rt_01_01;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF404040;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 20;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_swamp";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_DwarvenMines_09";
+		room_type			= rt_generic;
+	}
+
+}
+[mood_setting*]
+{
+	// Obelisk 2 mood
+	mood_name				= gpg_world_3_tr_01_rt_01_02;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF404040;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 20;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_swamp";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_DwarvenMines_09";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Obelisk 3 mood
+	mood_name				= gpg_world_3_tr_01_rt_01_03;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF606060;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 50;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_swamp";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_DwarvenMines_09";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Obelisk 4 mood
+	mood_name				= gpg_world_3_tr_01_rt_01_04;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF606060;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 50;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_swamp";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_DwarvenMines_09";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Obelisk 5 mood
+	mood_name				= gpg_world_3_tr_01_rt_01_05;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFFAAAAAA;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 200;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_DwarvenMines_09";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Obelisk 6 mood
+	mood_name				= gpg_world_3_tr_01_rt_01_06;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFFAAAAAA;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 200;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_DwarvenMines_09";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Obelisk 7 mood
+	mood_name				= gpg_world_3_tr_01_rt_01_07;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 8.0f;
+		fog_far_dist		= 30.0f;
+		fog_lowdetail_near_dist		= 8.0f;
+		fog_lowdetail_far_dist		= 25.0f;
+		fog_color			= 0xFFEEEEEE;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 400;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_DwarvenMines_09";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// This is the white transition mood
+	mood_name				= gpg_world_3_tr_01_rt_02;
+	transition_time			= 5f;  // this may need to be faster; we'll see
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 0.01f;
+		fog_far_dist		= 0.02f;
+		fog_lowdetail_near_dist		= 0.01f;
+		fog_lowdetail_far_dist		= 0.02f;
+		fog_color			= 0xFFFFFFFF;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 400;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+//		standard_repeat_delay = 5.0f;
+//		standard_track		= "s_m_DwarvenMines_01"; // Trying silence during whiteout
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// This is the white transition mood, instant
+	mood_name				= gpg_world_3_tr_01_rt_02_01;
+	transition_time			= 0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 0.01f;
+		fog_far_dist		= 0.02f;
+		fog_lowdetail_near_dist		= 0.01f;
+		fog_lowdetail_far_dist		= 0.02f;
+		fog_color			= 0xFFFFFFFF;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 5.0f;
+//		standard_track		= "s_m_DwarvenMines_01"; // placeholder; should be something
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// town mood
+	// instant transition for exiting buildings (restore snow)
+	mood_name				= gpg_world_3_tr_02_st_01;
+	transition_time			= 0.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFFa0a0b0;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 250;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_01";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// No snow in buildings
+	mood_name				= gpg_world_3_tr_02_st_02;
+	transition_time			= 0.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFFa0a0b0;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_01";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Normal transition to town music
+	mood_name				= gpg_world_3_tr_02_st_03;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFFA0A0B0;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 250;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_01";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// This is the white transition mood to tr_03
+	mood_name				= gpg_world_3_tr_02_st_04;
+	transition_time			= 0.5f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 0.01f;
+		fog_far_dist		= 0.02f;
+		fog_lowdetail_near_dist		= 0.01f;
+		fog_lowdetail_far_dist		= 0.02f;
+		fog_color			= 0xFFFFFFFF;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+//		standard_repeat_delay = 5.0f;
+//		standard_track		= "s_m_DwarvenMines_01"; // Trying silence during whiteout
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= gpg_world_3_sq_01_sm_01;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFFA0A0B0;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 250;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_MainTheme";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= gpg_world_3_sq_02_sm_01;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFFA0A0B0;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.5f;
+		wind_direction		= 0.0f;
+	}
+
+	[snow]
+	{
+		snow_density		= 250;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_06";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// More fog, more snow, more wind
+	mood_name				= gpg_world_3_sq_02_sm_02;
+	transition_time			= 10.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFFA0A0B0;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.5f;
+		wind_direction		= 0.75f;
+	}
+
+	[snow]
+	{
+		snow_density		= 400;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_06";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// special mood for a vista; pulling fog back
+	mood_name				= gpg_world_3_sq_02_sm_03;
+	transition_time			= 15.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFFA0A0B0;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 150;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_06";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= gpg_world_3_sq_03_sm_01;
+	transition_time			= 10.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFFA0A0B0;
+		fog_density			= 0.5f;
+	}
+
+	[snow]
+	{
+		snow_density		= 250;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_01";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// heavy snow; fog
+	mood_name				= gpg_world_3_sq_03_sm_02;
+	transition_time			= 15.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 30.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFFA0A0B0;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.2f;
+		wind_direction		= 1.7f;
+	}
+
+	[snow]
+	{
+		snow_density		= 400;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_TempleRuins_04";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// fast transition time for coming back out of the ice caves
+	mood_name				= gpg_world_3_sq_03_sm_03;
+	transition_time			= 2.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 5.0f;
+		fog_far_dist		= 30.0f;
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFFA0A0B0;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.2f;
+		wind_direction		= 1.7f;
+	}
+
+	[snow]
+	{
+		snow_density		= 400;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_TempleRuins_04";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// This is the first mood for the ice caves
+	mood_name				= gpg_world_3_sq_04_ic_01;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF101820;
+		fog_density			= 0.5f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_ice_cavern";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_ArcticCaverns_02";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// Longer transition time from other ice cave regions
+	mood_name				= gpg_world_3_sq_04_ic_02;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF101820;
+		fog_density			= 0.5f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_ice_cavern";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_ArcticCaverns_02";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// Music change
+	mood_name				= gpg_world_3_sq_04_ic_03;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF101820;
+		fog_density			= 0.5f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_ArcticCaverns_03";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// Music change
+	mood_name				= gpg_world_3_sq_05_ic_01;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF101820;
+		fog_density			= 0.5f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 4.0f;
+		standard_track		= "s_m_ArcticCaverns_06";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// Suspense music leading to Fire Krug encounter
+	mood_name				= gpg_world_3_sq_05_ic_02_01;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF101820;
+		fog_density			= 0.5f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 4.0f;
+		standard_track		= "s_m_misc_03";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// Red fog for Fire Krug encounter
+	mood_name				= gpg_world_3_sq_05_ic_02_02;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 45.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 40.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF200C00;
+		fog_density			= 0.5f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_ice_cavern";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_GoblinInventor_04";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// White flash during Fire Krug encounter
+	mood_name				= gpg_world_3_sq_05_ic_02_03;
+	transition_time			= 0.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 1.0f;
+		fog_far_dist		= 2.0f;
+		fog_lowdetail_near_dist		= 1.0f;
+		fog_lowdetail_far_dist		= 2.0f;
+		fog_color			= 0xFFFFFFFF;
+		fog_density			= 0.5f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+}
+[mood_setting*]
+{
+	// Transition from white flash to white fog
+	mood_name				= gpg_world_3_sq_05_ic_02_04;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF425A66;
+		fog_density			= 0.5f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_ice_cavern";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_ArcticCaverns_06";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// A slower transition to the bright fog
+	mood_name				= gpg_world_3_sq_05_ic_02_05;
+	transition_time			= 10.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF425A66;
+		fog_density			= 0.5f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_ice_cavern";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_ArcticCaverns_06";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// Slower transition to near-black fog
+	mood_name				= gpg_world_3_sq_05_ic_02_06;
+	transition_time			= 6.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF101820;
+		fog_density			= 0.5f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 4.0f;
+		standard_track		= "s_m_misc_03";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// Rapid transition when coming back from sq_06_ft
+	mood_name				= gpg_world_3_sq_05_ic_03;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF425A66;
+		fog_density			= 0.5f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_ice_cavern";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_ArcticCaverns_06";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// fast transition time for coming back out of the ice caves
+	mood_name				= gpg_world_3_sq_06_ft_01;
+	transition_time			= 2.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[frustum] // normal frustum
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 30.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFFB0B0B6;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[snow]
+	{
+		snow_density		= 100;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_ArcticCaverns_04";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// normal transition time
+	mood_name				= gpg_world_3_sq_06_ft_01_01;
+	transition_time			= 10.0f;
+	interior				= false;
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[frustum] // normal frustum
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 30.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFFA0A0B0;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[snow]
+	{
+		snow_density		= 100;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_ArcticCaverns_04";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Fog clears when the ice tower is reached
+	mood_name				= gpg_world_3_sq_06_ft_02;
+	transition_time			= 2.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 120.0f; // extra high frustum
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF9090A8;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_06";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Fog clears when the ice tower is reached, slower transition from short vert frust
+	mood_name				= gpg_world_3_sq_06_ft_02b;
+	transition_time			= 2.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 120.0f; // extra high frustum
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF9090A8;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_06";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// experiment for Greg
+	mood_name				= gpg_world_3_sq_06_ft_02_30;
+	transition_time			= 2.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 30.0f; // extra small frustum
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF9090A8;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_06";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// experiment for Greg, longer trans
+	mood_name				= gpg_world_3_sq_06_ft_02_60;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF9090A8;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_06";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// experiment for Greg, shorter trans
+	mood_name				= gpg_world_3_sq_06_ft_02_60b;
+	transition_time			= 3.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF9090A8;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_06";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// experiment for Greg
+	mood_name				= gpg_world_3_sq_06_ft_02_90;
+	transition_time			= 2.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 90.0f; // extra high frustum
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF9090A8;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_Glacern_06";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Boss Music
+	mood_name				= gpg_world_3_sq_06_ft_03;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 120.0f; // extra high frustum
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF808096;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_Boss_01";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Narrow frustum in preparation for loading town below
+	mood_name				= gpg_world_3_sq_06_ft_04;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 25.0f;
+		frustum_height		= 120.0f;
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF909096;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_drums_01"; // placeholder -- see how people like this
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Huge frustum to load the town below; full height, limited width
+	mood_name				= gpg_world_3_sq_06_ft_05;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 25.0f;
+		frustum_height		= 300.0f; // extra high frustum
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF909096;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_drums_01"; // placeholder -- see how people like this
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Huge frustum to load the town below; full height and width
+	mood_name				= gpg_world_3_sq_06_ft_06;
+	transition_time			= 20.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 300.0f; // extra high frustum
+	}
+
+	[sun]
+	{
+		00h00m:color = 0xFF000000; // These values
+		05h00m:color = 0xFF0D0D00; // are for
+		06h00m:color = 0xFF331906; // all snowy
+		07h00m:color = 0xFF594D20; // areas.
+		08h00m:color = 0xFF595959; // This gets
+		10h00m:color = 0xFF78787F; // rid of
+		12h00m:color = 0xFF7F7F7F; // "yellow snow"
+		19h00m:color = 0xFF424242; // and uses
+		20h00m:color = 0xFF202026; // blues to
+		21h00m:color = 0xFF101020; // make the
+		22h00m:color = 0xFF000010; // atmosphere feel
+		23h00m:color = 0xFF000000; // colder.
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF909096;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 2.0f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_drums_01"; // placeholder -- see how people like this
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// This is the main mood for the swamp town
+	mood_name				= gpg_world_3_tr_03_swp_01;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 25.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xff1e281e;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_FortKroth_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Normal mood with normal sized frustum -- which will load in the town above or below
+	mood_name				= gpg_world_3_tr_03_swp_01_01;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xff1e281e;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_FortKroth_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Town mood with instant transition for starting points
+	mood_name				= gpg_world_3_tr_03_swp_02;
+	transition_time			= 0.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 25.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 10.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 10.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xff1e281e;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_FortKroth_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// This is the white transition mood to tr_04
+	mood_name				= gpg_world_3_tr_03_swp_03;
+	transition_time			= 0.5f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 0.01f;
+		fog_far_dist		= 0.02f;
+		fog_lowdetail_near_dist		= 0.01f;
+		fog_lowdetail_far_dist		= 0.02f;
+		fog_color			= 0xFFFFFFFF;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+//		standard_repeat_delay = 5.0f;
+//		standard_track		= "s_m_DwarvenMines_01"; // Trying silence during whiteout
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// This is the first mood in the haunted forest
+	mood_name				= gpg_world_3_ll_01_hf_01;
+	transition_time			= 4.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF202420;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_woods_01";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_MainTheme_02"; // this is the more depressed-sounding version of the main theme //"s_m_templeruins_05";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Short piece of music
+	mood_name				= gpg_world_3_ll_01_hf_02;
+	transition_time			= 4.0f;
+	interior				= false;
+
+	[frustum]
+	{
+		frustum_width		= 45.0f;
+		frustum_height		= 60.0f;
+	}
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF202420;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_woods_01";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_darkforest_03";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Some rain, longer music, gray fog
+	mood_name				= gpg_world_3_ll_01_hf_03;
+	transition_time			= 4.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF242424;
+		fog_density			= 0.5f;
+	}
+
+	[rain]
+	{
+		rain_density		= 50.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_woods_01";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_templeruins_05";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Going into the swamp
+	mood_name				= gpg_world_3_ll_02_hf_01;
+	transition_time			= 9.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 12.5f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 12.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF232720;
+		fog_density			= 0.5f;
+	}
+
+	[rain]
+	{
+		rain_density		= 20.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay = 5.0f;
+		standard_track		= "s_m_DarkSwamp_01";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// music change
+	mood_name				= gpg_world_3_ll_02_hf_02;
+	transition_time			= 4.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 12.5f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 12.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF232720;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_swamp";
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_DarkSwamp_04";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= gpg_world_3_ll_03_hf_01;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_FuryDen_01";
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= gpg_world_3_ll_05_uc_01;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_Crypts_01";
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// music #2
+	mood_name				= gpg_world_3_ll_05_uc_02;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_Crypts_02";
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// music #3
+	mood_name				= gpg_world_3_ll_05_uc_03;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_Crypts_03";
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// music #4
+	mood_name				= gpg_world_3_ll_05_uc_04;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_Crypts_04";
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// music #5
+	mood_name				= gpg_world_3_ll_05_uc_05;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_CastleDungeon_01";
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// music #6
+	mood_name				= gpg_world_3_ll_05_uc_06;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 5.0f;
+		standard_track		= "s_m_CastleDungeon_03";
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// EAX change, now in cave.  Also removing ambience.
+	mood_name				= gpg_world_3_ll_06_uc_01;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_CastleDungeon_01";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// EAX change, back in dungeon.  Ambience restored.
+	mood_name				= gpg_world_3_ll_06_uc_02;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_nonataya";  // weird that this could work in a dungeon
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// Music change
+	mood_name				= gpg_world_3_ll_06_uc_03;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_Crypts_02"; // our much-beloved crypt ambience/music
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// Boss fight with big bad Lich
+	mood_name				= gpg_world_3_ll_06_uc_04;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 15.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 15.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF002500;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_Boss_01";
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// After Lich has been defeated
+	mood_name				= gpg_world_3_ll_06_uc_05;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_FortKroth_01";
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// Desert town: Normal transition to town music
+	mood_name				= gpg_world_3_tr_04_des_01;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF908070;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_BesiegedTown_01";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Desert town: Rain mood for Snow Queen / Well encounter
+	mood_name				= gpg_world_3_tr_04_des_01_01;
+	transition_time			= 1.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF574F47;
+		fog_density			= 0.5f;
+	}
+
+	[rain]
+	{
+		rain_density		= 250.0f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_BesiegedTown_01";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// Desert town: instant transition for starting points
+	mood_name				= gpg_world_3_tr_04_des_02;
+	transition_time			= 0.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF908070;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay = 10.0f;
+		standard_track		= "s_m_BesiegedTown_01";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= gpg_world_3_fk_01_dc_01;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFFb09070;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_MainTheme_03"; // was "s_m_Path2Stonebridge_01"; // was "s_m_DesertCanyons_01";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// EAX set to arena, same music as mood 03
+	mood_name				= gpg_world_3_fk_01_dc_02;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFFb09070;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_DesertCanyons_02";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// EAX set to generic, same music as mood 02
+	mood_name				= gpg_world_3_fk_01_dc_03;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFFb09070;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_DesertCanyons_02";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	// EAX set to arena, same music as mood 05
+	mood_name				= gpg_world_3_fk_01_dc_04;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFFb09070;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_DesertCanyons_05";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// EAX set to generic, same music as mood 04
+	mood_name				= gpg_world_3_fk_01_dc_05;
+	transition_time			= 5.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFFb09070;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_DesertCanyons_05";
+		room_type			= rt_generic;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= gpg_world_3_fk_02_dc_01;
+	transition_time			= 8.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFFb09070;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_DesertCanyons_01";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// EAX change, and adding wind
+	mood_name				= gpg_world_3_fk_02_dc_02;
+	transition_time			= 15.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFFa09080;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_DesertCanyons_01";
+		room_type			= rt_mountains;
+	}
+}
+[mood_setting*]
+{
+	// music change
+	mood_name				= gpg_world_3_fk_02_dc_03;
+	transition_time			= 15.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF888080;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_WaterDungeon_02";
+		room_type			= rt_mountains;
+	}
+}
+[mood_setting*]
+{
+	// music change
+	mood_name				= gpg_world_3_fk_02_dc_04;
+	transition_time			= 15.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF666060;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_Path2Stonebridge_02";
+		room_type			= rt_mountains;
+	}
+}
+[mood_setting*]
+{
+	// quick tranisition for coming out of fk_03_lc
+	mood_name				= gpg_world_3_fk_02_dc_05;
+	transition_time			= 2.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF666060;
+		fog_density			= 0.5f;
+	}
+
+	[wind]
+	{
+		wind_velocity		= 1.5f;
+		wind_direction		= 4.7f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01b";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_Path2Stonebridge_02";
+		room_type			= rt_mountains;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= gpg_world_3_fk_03_lc_01;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_LavaCaverns_02";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	mood_name				= gpg_world_3_fk_03_lc_02;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_LavaCaverns_02";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// EAX and fog change, same music as 02
+	mood_name				= gpg_world_3_fk_03_lc_03;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF3F1800;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_LavaCaverns_02";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// Pushing fog farther out...
+	mood_name				= gpg_world_3_fk_03_lc_04;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF3F1800;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_LavaCaverns_02";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// Pushing fog farther out...with ambience for lava rivers
+	mood_name				= gpg_world_3_fk_03_lc_04_01;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF3F1800;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_env_blast_furnace";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_LavaCaverns_02";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// Pushing fog very far out for a vista
+	mood_name				= gpg_world_3_fk_03_lc_05;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 55.0f;  // uber-vista fog distance
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF3F1800;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_LavaCaverns_02";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// EAX, music, and fog change (from 02)
+	mood_name				= gpg_world_3_fk_03_lc_06;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF3F1800;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_LavaCaverns_01";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// 06 plus ambience for lava rivers
+	mood_name				= gpg_world_3_fk_03_lc_06_01;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF3F1800;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_env_blast_furnace";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_LavaCaverns_01";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// darker than 06, for when the lava is farther away
+	mood_name				= gpg_world_3_fk_03_lc_07;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF341400;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_LavaCaverns_01";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// fk_04 mood
+	mood_name				= gpg_world_3_fk_04_df_01;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF3F1800;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_CastleEhb_03";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// fk_04 mood; darker, closer fog
+	mood_name				= gpg_world_3_fk_04_df_02;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF321400;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_CastleEhb_03";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// music change
+	mood_name				= gpg_world_3_fk_04_df_03;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF321400;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_CastleEhb_04";
+		room_type			= rt_arena;
+	}
+}
+[mood_setting*]
+{
+	// music change again
+	mood_name				= gpg_world_3_fk_04_df_04;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF3F1800;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_FuryDen_02";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// this version has the blast_furnace ambience for the lava river
+	mood_name				= gpg_world_3_fk_04_df_04_01;
+	transition_time			= 2.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 20.0f;
+		fog_far_dist		= 45.0f;
+		fog_lowdetail_near_dist		= 20.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+		fog_color			= 0xFF3F1800;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_env_blast_furnace";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_FuryDen_02";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// castle interior mood
+	mood_name				= gpg_world_3_fk_04_df_05;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_FuryDen_02";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// quick switch to interior fog values
+	mood_name				= gpg_world_3_fk_04_df_06;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_FuryDen_02";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// elevator to roof (pre-boss encounter)
+	mood_name				= gpg_world_3_fk_04_df_07;
+	transition_time			= .5f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF3F1800;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_Chamber_01";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// boss encounter music
+	mood_name				= gpg_world_3_fk_04_df_08;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 40.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 35.0f;
+		fog_color			= 0xFF3F1800;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_gom_battle";
+		room_type			= rt_cave;
+	}
+}
+[mood_setting*]
+{
+	// Mood for transition area between fk_04 and tr_05 (1 second transition)
+	mood_name				= gpg_world_3_tr_06_dun_01;
+	transition_time			= 1.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_Crypts_02";
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// Trying a slow transition for fk_04 -> tr_06
+	mood_name				= gpg_world_3_tr_06_dun_02;
+	transition_time			= 5.0f;
+	interior				= true;
+
+	[fog]
+	{
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 35.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_crypt";
+		standard_repeat_delay	= 0.0f;
+		standard_track		= "s_m_Crypts_02";
+		room_type			= rt_stonecorridor;
+	}
+}
+[mood_setting*]
+{
+	// Final mood
+	mood_name				= gpg_world_3_tr_05_ruin_01;
+	transition_time			= 2.0f;
+	interior				= false;
+
+	[fog]
+	{
+		fog_near_dist		= 35.0f;
+		fog_far_dist		= 55.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 50.0f;
+		fog_color			= 0xFF686868;
+		fog_density			= 0.5f;
+	}
+
+	[music]
+	{
+		ambient_track		= "s_e_ambient_wind_01"; // happy ambience
+		standard_repeat_delay = 0.0f;
+		standard_track		= "s_m_BesiegedTown_04"; // dramatic music
+		room_type			= rt_generic;
+	}
+}

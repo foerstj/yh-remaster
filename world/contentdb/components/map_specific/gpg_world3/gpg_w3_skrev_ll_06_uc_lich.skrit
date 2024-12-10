@@ -1,0 +1,452 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_skrev_ll_06_uc_lich.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit is to control the SkritedEvent where the lich king appears, once he is killed
+//	his spirit appears and moves back to his sacroghogus which will then talk to you.
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Skrev controler, handles the lich king boss fight.";
+property string _required_component$	= "placement";
+
+// exported properties
+property scid 	torch1$				doc ="Scid of the 1st torch.";
+property scid 	torch2$				doc ="Scid of the 2nd torch.";
+property scid 	torch3$				doc ="Scid of the 3rd torch.";
+property scid 	torch4$				doc ="Scid of the 4th torch.";
+
+property scid 	torch1_light_green$	doc ="Scid of green light enable for the 1st torch.";
+property scid 	torch1_light_red$	doc ="Scid of red light enable for the 1st torch.";
+property scid 	torch2_light_green$	doc ="Scid of green light enable for the 2nd torch.";
+property scid 	torch2_light_red$	doc ="Scid of red light enable for the 2nd torch.";
+property scid 	torch3_light_green$	doc ="Scid of green light enable for the 3rd torch.";
+property scid 	torch3_light_red$	doc ="Scid of red light enable for the 3rd torch.";
+property scid 	torch4_light_green$	doc ="Scid of green light enable for the 4th torch.";
+property scid 	torch4_light_red$	doc ="Scid of red light enable for the 4th torch.";
+
+property scid 	hallway_light1$		doc ="Scid of the 1st hallway light enable.";
+property scid 	hallway_light2$		doc ="Scid of the 2nd hallway light enable.";
+
+property scid 	center_light1$		doc ="Scid of the center light enable.";
+
+property scid 	fire1$				doc ="Scid of the 1st path flame.";
+property scid 	fire2$				doc ="Scid of the 2nd path flame.";
+property scid 	fire3$				doc ="Scid of the 3rd path flame.";
+property scid 	fire4$				doc ="Scid of the 4th path flame.";
+property scid 	fire5$				doc ="Scid of the 5th path flame.";
+property scid 	fire6$				doc ="Scid of the 6th path flame.";
+property scid 	fire7$				doc ="Scid of the 7th path flame.";
+property scid 	fire8$				doc ="Scid of the 8th path flame.";
+                                		
+property scid 	lich_king$			doc ="Scid of the lich king.";
+property scid 	lich_spirit$		doc ="Scid of the lich spirit.";
+
+property scid	reveal_mood$		doc ="Mood to turn on when the lich reveals.";
+property scid	fight_mood_trigger$	doc ="Mood trigger to activate while the lich is alive.";
+property scid	death_mood$			doc ="Mood to turn on when the lich dies.";
+
+property scid	locked_door$		doc ="Scid of the doors to unlock after the lich is killed.";
+
+property scid	command_chain$		doc ="comand chain for the lich spirit.";
+
+owner									= GoSkritComponent;
+
+SFxSID pillar_id$ = 0;
+
+SFxSID lich_id$ = 0;
+
+SFxSID fire1_id$ = 0;
+SFxSID fire2_id$ = 0;
+SFxSID fire3_id$ = 0;
+SFxSID fire4_id$ = 0;
+SFxSID fire5_id$ = 0;
+SFxSID fire6_id$ = 0;
+SFxSID fire7_id$ = 0;
+SFxSID fire8_id$ = 0;
+SFxSID fire9_id$ = 0;
+SFxSID fire10_id$ = 0;
+SFxSID fire11_id$ = 0;
+SFxSID fire12_id$ = 0;
+
+bool awake$ = false;
+Goid new_skrev$;
+
+//////////////////////////////////////////////////////////////////////////////
+
+bool Hide$( Goid target$ )
+{
+	if( target$.IsValidMp)
+	{
+		if( target$.Go.IsInAnyWorldFrustum )
+		{
+			report.generic("Hiding\n");
+			target$.Go.Aspect.SSetIsVisible( false );
+			target$.Go.Mind.SetMayAttack( false );
+			target$.Go.Mind.SetMayBeAttacked( false );
+			target$.Go.Aspect.SetIsInvincible( true );
+			target$.Go.Mind.SetActorAutoFidgets( false );
+			return true;
+		}
+	}
+	return false;
+}
+
+bool Show$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		report.generic("Showing\n");
+		target$.Go.Aspect.SSetIsVisible( true );
+		target$.Go.Mind.SetMayAttack( true );
+		target$.Go.Mind.SetMayBeAttacked( true );
+		target$.Go.Aspect.SetIsInvincible( false );
+		target$.Go.Mind.ReqResetSensorsSelfAndVisible();
+		
+//		SiegeFx.SRunScript( "krug_materialize", target$, target$, "", owner.Goid, WE_REQ_ACTIVATE );
+		return true;
+	}
+	return false;
+}
+
+FlamesOff$
+{
+	if( fire1_id$ != 0 ) { SiegeFx.SStopScript( fire1_id$ ); fire1_id$ = null; }
+	if( fire2_id$ != 0 ) { SiegeFx.SStopScript( fire2_id$ ); fire2_id$ = null; }
+	if( fire3_id$ != 0 ) { SiegeFx.SStopScript( fire3_id$ ); fire3_id$ = null; }
+	if( fire4_id$ != 0 ) { SiegeFx.SStopScript( fire4_id$ ); fire4_id$ = null; }
+	if( fire5_id$ != 0 ) { SiegeFx.SStopScript( fire5_id$ ); fire5_id$ = null; }
+	if( fire6_id$ != 0 ) { SiegeFx.SStopScript( fire6_id$ ); fire6_id$ = null; }
+	if( fire7_id$ != 0 ) { SiegeFx.SStopScript( fire7_id$ ); fire7_id$ = null; }
+	if( fire8_id$ != 0 ) { SiegeFx.SStopScript( fire8_id$ ); fire8_id$ = null; }
+	if( fire9_id$ != 0 ) { SiegeFx.SStopScript( fire9_id$ ); fire9_id$ = null; }
+	if( fire10_id$ != 0 ) { SiegeFx.SStopScript( fire10_id$ ); fire10_id$ = null; }
+	if( fire11_id$ != 0 ) { SiegeFx.SStopScript( fire11_id$ ); fire11_id$ = null; }
+	if( fire12_id$ != 0 ) { SiegeFx.SStopScript( fire12_id$ ); fire12_id$ = null; }
+}
+
+
+RestoreState$
+{
+	FlamesOff$;
+	SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, torch1$ );
+	SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, torch2$ );
+	SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, torch3$ );
+	SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, torch4$ );
+	SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, torch1_light_red$ );
+ 	SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, torch1_light_green$ );
+	SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, torch2_light_red$ );  
+	SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, torch3_light_green$ ); 
+	SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, torch3_light_red$ );
+	SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, torch4_light_green$ ); 
+	SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, torch4_light_red$ );  
+	SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, hallway_light1$ );
+	SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, hallway_light2$ );
+	SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, center_light1$ );
+	SendWorldMessage( WE_TRIGGER_DEACTIVATE, owner.Goid, fight_mood_trigger$ );
+}
+
+startup state WaitToClone$
+{
+	trigger OnGoHandleMessage$( WE_ENTERED_WORLD )
+	{
+		#only( game )
+		[[
+			this.CreateTimer( 1, 2 );
+		]];
+	}
+	trigger OnGoHandleMessage$( WE_REQ_USE )
+	{
+		if( owner.Go.IsOmni )
+		{
+			setstate Setup$;
+		}
+	}
+	trigger OnTimer$( 1 )
+	{
+		setstate Start$;	
+	}
+}
+
+state Start$
+{
+	event OnEnterState$
+	{
+		if( !owner.Go.IsOmni )
+		{
+			GoCloneReq cloneReq$ = MakeGoCloneReq( owner.goid );
+			cloneReq$.Omni = true;
+			new_skrev$ = GoDb.SCloneGo( cloneReq$ );
+			SendWorldMessage( WE_REQ_USE, owner.Goid, new_skrev$ );
+		}
+	}
+	trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		report.generic("Trying to Activate\n");
+		if( new_skrev$.IsValid )
+		{
+			report.generic("Activating\n");
+			SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, new_skrev$ );
+			setstate Abort$;
+		}
+		else
+		{
+			report.errorf("Tell Eric: Tried to activate lich encounter but the omni skrev controler was invalid!!\n");
+		}
+	}
+}
+
+state Setup$
+{
+	event OnEnterState$
+	{
+		this.createTimer( 1, 0 );
+	}
+		
+	trigger OnTimer$( 1 )
+	{
+		if( !Hide$( lich_king$.Goid ) ) 
+		{ 
+			this.createTimer( 1, 1 );
+		}
+		else
+		{
+			GoDb.StartWatching( owner.goid, lich_king$.goid );
+			setstate Wait$;
+		}
+	}
+}
+state Setup2$
+{
+	event OnEnterState$
+	{
+		this.createTimer( 1, 3 );
+	}
+		
+	trigger OnTimer$( 1 )
+	{
+		if( !Hide$( lich_king$.Goid ) ) 
+		{ 
+			this.createTimer( 1, 1 );
+		}
+		else
+		{
+			RestoreState$;
+			GoDb.StartWatching( owner.goid, lich_king$.goid );
+			setstate Fire$;
+		}
+	}
+}
+state Setup3$
+{
+	event OnEnterState$
+	{
+		this.createTimer( 1, 3 );
+	}
+		
+	trigger OnTimer$( 1 )
+	{
+		if( lich_king$.Goid.IsValidMp )
+		{
+			if( lich_king$.Go.IsInAnyWorldFrustum )
+			{
+				lich_id$ = SiegeFx.SRunMpScript( "lich_king_eyes", lich_king$.Goid, lich_king$.Goid, "", lich_king$.Goid, WE_REQ_ACTIVATE );
+				GoDb.StartWatching( owner.goid, lich_king$.goid );
+				setstate Fire$;
+				return;
+			}
+		}
+		this.createTimer( 1, 1 );
+	}
+}
+
+state Wait$
+{		
+	trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		if( lich_king$.Goid.IsValidMp )
+		{
+			setstate fire$;
+		}
+		else
+		{
+			setstate Setup2$;
+		}
+	}
+}
+
+
+state Fire$
+{
+	hallway_light1_off$	at	( 0 )  { SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, hallway_light1$ ); }
+	hallway_light2_off$	at	( 0 )  { SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, hallway_light2$ ); }
+	
+	start_fire1$		at	( 0 ) { if( fire1$.goid.IsValidMp ) 
+		{ fire1_id$ = SiegeFx.SRunMpScript( "lich_king_fire", fire1$.Goid, fire1$.Goid, "", fire1$.Goid, WE_REQ_ACTIVATE ); } }
+	start_fire2$		at	( 0 ) { if( fire2$.goid.IsValidMp ) 
+		{ fire2_id$ = SiegeFx.SRunMpScript( "lich_king_fire", fire2$.Goid, fire2$.Goid, "", fire2$.Goid, WE_REQ_ACTIVATE ); } }
+	start_fire3$		at	( 0.2 ) { if( fire3$.goid.IsValidMp ) 
+		{ fire3_id$ = SiegeFx.SRunMpScript( "lich_king_fire", fire3$.Goid, fire3$.Goid, "", fire3$.Goid, WE_REQ_ACTIVATE ); } }
+	start_fire4$		at	( 0.2 ) { if( fire4$.goid.IsValidMp ) 
+		{ fire4_id$ = SiegeFx.SRunMpScript( "lich_king_fire", fire4$.Goid, fire4$.Goid, "", fire4$.Goid, WE_REQ_ACTIVATE ); } }
+	start_fire5$		at	( 0.4 ) { if( fire5$.goid.IsValidMp ) 
+		{ fire5_id$ = SiegeFx.SRunMpScript( "lich_king_fire", fire5$.Goid, fire5$.Goid, "", fire5$.Goid, WE_REQ_ACTIVATE ); } }
+	start_fire6$		at	( 0.4 ) { if( fire6$.goid.IsValidMp ) 
+		{ fire6_id$ = SiegeFx.SRunMpScript( "lich_king_fire", fire6$.Goid, fire6$.Goid, "", fire6$.Goid, WE_REQ_ACTIVATE ); } }
+	start_fire7$		at	( 0.6 ) { if( fire7$.goid.IsValidMp ) 
+		{ fire7_id$ = SiegeFx.SRunMpScript( "lich_king_fire", fire7$.Goid, fire7$.Goid, "", fire7$.Goid, WE_REQ_ACTIVATE ); } }
+	start_fire8$		at	( 0.6 ) { if( fire8$.goid.IsValidMp ) 
+		{ fire8_id$ = SiegeFx.SRunMpScript( "lich_king_fire", fire8$.Goid, fire8$.Goid, "", fire8$.Goid, WE_REQ_ACTIVATE ); } }
+	
+	douse_torch1$ 		at	( 1.0 )	{ SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, torch1$ ); }
+	douse_torch2$		at	( 1.0 ) { SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, torch2$ ); }
+	douse_torch3$		at	( 1.0 ) { SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, torch3$ ); }
+	douse_torch4$		at	( 1.0 ) { SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, torch4$ ); }
+	                	
+	start_fire9$		at	( 1.0 ) { if( torch1$.goid.IsValidMp ) 
+		{ fire9_id$ = SiegeFx.SRunMpScript( "lich_king_torch", torch1$.Goid, torch1$.Goid, "", torch1$.Goid, WE_REQ_ACTIVATE ); } }
+	start_fire10$		at	( 1.0 ) { if( torch2$.goid.IsValidMp ) 
+		{ fire10_id$ = SiegeFx.SRunMpScript( "lich_king_torch", torch2$.Goid, torch2$.Goid, "", torch2$.Goid, WE_REQ_ACTIVATE ); } }
+	start_fire11$		at	( 1.0 ) { if( torch3$.goid.IsValidMp ) 
+		{ fire11_id$ = SiegeFx.SRunMpScript( "lich_king_torch", torch3$.Goid, torch3$.Goid, "", torch3$.Goid, WE_REQ_ACTIVATE ); } }
+	start_fire12$		at	( 1.0 ) { if( torch4$.goid.IsValidMp ) 
+		{ fire12_id$ = SiegeFx.SRunMpScript( "lich_king_torch", torch4$.Goid, torch4$.Goid, "", torch4$.Goid, WE_REQ_ACTIVATE ); } }
+	                	
+	center_light1_on$	at	( 1.5 ) { SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, center_light1$ ); }
+	start_fire13$ 		at	( 1.5 ) { if( lich_king$.goid.IsValidMp && !awake$) 
+		{ pillar_id$ = SiegeFx.SRunMpScript( "lich_king_pillar_reveal", lich_king$.Goid, lich_king$.Goid, "", lich_king$.Goid, WE_REQ_ACTIVATE ); } }
+
+	switch_lights$	at	( 1.0 )  
+	{ 
+		SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, torch1_light_red$ );
+		SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, torch1_light_green$ );
+		SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, torch2_light_red$ );  
+		SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, torch3_light_green$ );
+		SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, torch3_light_red$ );
+		SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, torch4_light_green$ );
+		SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, torch4_light_red$ ); 
+	}
+	
+	event OnEnterState$
+	{
+		if( !awake$ )
+		{
+			this.CreateTimer( 1, 0 );
+		}
+		else
+		{
+			this.CreateTimer( 2, 2.0 );
+		}
+	}
+		
+	trigger OnTimer$( 1 )
+	{
+		AIQuery.GetOccupantsInSphere( lich_king$.Go.Placement.Position, 9, AIQuery.TempGopColl1 );
+			
+		AIQuery.TempQtColl1.Clear;
+		AIQuery.TempQtColl1.Add( QT_ACTOR );
+		AIQuery.TempQtColl1.Add( QT_GOOD );
+	
+		AIQuery.TempGopColl2.Clear;
+		
+		if( AIQuery.Get( lich_king$.Go, AIQuery.TempQtColl1, AIQuery.TempGopColl1, AIQuery.TempGopColl2 ) )
+		{
+			lich_id$ = SiegeFx.SRunMpScript( "lich_king_eyes", lich_king$.Goid, lich_king$.Goid, "", lich_king$.Goid, WE_REQ_ACTIVATE );
+			SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, reveal_mood$ );
+			SendWorldMessage( WE_TRIGGER_ACTIVATE, owner.Goid, fight_mood_trigger$.goid );
+			awake$ = true;
+			setstate visible$;
+		}
+		else
+		{
+			this.CreateTimer( 1, 0.25 );
+		}
+	}
+	
+	trigger OnTimer$( 2 )
+	{
+		setstate visible$;
+	}
+	
+	trigger OnGoHandleCCMessage$( WE_LEFT_WORLD )
+	{	
+		report.generic("Left World\n");
+		report.generic("Going to setup\n");
+		FlamesOff$;
+		if( pillar_id$ != 0 ) {	SiegeFx.SStopScript( pillar_id$ ); pillar_id$ = null; }
+		GoDb.StopWatching( owner.goid, lich_king$.goid );
+		setstate Setup2$;
+	}
+}
+
+state visible$
+{
+	vis$ at	( 0.25 )
+	{
+		Show$( lich_king$.Goid );
+	}
+
+	pillar_off$ at	( 1.5 )
+	{
+		if( pillar_id$ != 0 )
+		{
+			SiegeFx.SStopScript( pillar_id$ );
+			pillar_id$ = null;
+		}
+	}
+	trigger OnGoHandleCCMessage$( WE_LEFT_WORLD )
+	{
+		report.generic("Left World2\n");
+		report.generic("Going to setup3\n");
+		FlamesOff$;
+		if( pillar_id$ != 0 ) {	SiegeFx.SStopScript( pillar_id$ ); pillar_id$ = null; }
+		if( lich_id$ != 0 ) {	SiegeFx.SStopScript( lich_id$ ); lich_id$ = null; }
+		GoDb.StopWatching( owner.goid, lich_king$.goid );
+		setstate Setup3$;
+	}
+
+	Trigger OnGoHandleCCMessage$( WE_KILLED )
+	{
+		RestoreState$;
+		SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, locked_door$ );
+		GoDb.StopWatching( owner.goid, lich_king$.goid );
+		setstate Killed$;
+	}
+}
+	
+state Killed$
+{
+	move_blob$ 	at	( 3.0 )
+	{
+		if( lich_spirit$.Goid.IsValid )
+		{
+			lich_spirit$.Go.Mind.SetInitialCommand( command_chain$ );	
+		}
+	}
+	dead_mood$ 	at	( 1.0 )
+	{
+		SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, death_mood$ );
+	}
+	delete$ 	at	( 10.0 )
+	{
+		setstate Abort$;
+	}
+}
+
+state Abort$
+{
+	event OnEnterState$
+	{
+//		GoDB.SMarkForDeletion( owner.goid );
+		report.generic("Deleting\n");
+	}
+}

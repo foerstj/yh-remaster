@@ -1,0 +1,1534 @@
+///////////////////////////////////////////////////////////////$$frags
+[t:template,n:gpg_frag_glb_ice_01]
+{
+	doc = "ice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-ice-01;
+		scale_base = 4.0;
+	}
+	physics:sim_duration = 5;
+}
+[t:template,n:gpg_frag_glb_ice_02]
+{
+	doc = "ice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-ice-02;
+		scale_base = 4.0;
+	}
+	physics:sim_duration = 5;
+}
+[t:template,n:gpg_frag_glb_ice_03]
+{
+	doc = "ice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-ice-03;
+		scale_base = 4.0;
+	}
+	physics:sim_duration = 5;
+}
+[t:template,n:gpg_frag_glb_ice_04]
+{
+	doc = "ice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-ice-04;
+		scale_base = 8.0;
+	}
+	physics:sim_duration = 5;
+}
+[t:template,n:gpg_frag_glb_ice_05]
+{
+	doc = "ice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-ice-05;
+		scale_base = 4.0;
+	}
+	physics:sim_duration = 5;
+}
+[t:template,n:gpg_frag_glb_ice_06]
+{
+	doc = "ice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-ice-06;
+		scale_base = 8.0;
+	}
+	physics:sim_duration = 5;
+}
+[t:template,n:gpg_frag_glb_gargoyle_snow_01]
+{
+	doc = "Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-gargoyle-01;
+		[textures] {0 = b_c_edm_ga-04;}
+	}
+}
+[t:template,n:gpg_frag_glb_gargoyle_snow_02]
+{
+	doc = "Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-gargoyle-02;
+		[textures] {0 = b_c_edm_ga-04;}
+	}
+}
+[t:template,n:gpg_frag_glb_gargoyle_snow_03]
+{
+	doc = "Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-gargoyle-03;
+		[textures] {0 = b_c_edm_ga-04;}
+	}
+}
+[t:template,n:gpg_frag_glb_gargoyle_snow_04]
+{
+	doc = "Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-gargoyle-04;
+		[textures] {0 = b_c_edm_ga-04;}
+	}
+}
+[t:template,n:gpg_frag_glb_gargoyle_snow_05]
+{
+	doc = "Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-gargoyle-05;
+		[textures] {0 = b_c_edm_ga-04;}
+	}
+}
+[t:template,n:gpg_frag_glb_gargoyle_snow_06]
+{
+	doc = "Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model=m_i_glb_frag-gargoyle-06;
+		[textures] {0 = b_c_edm_ga-04;}
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_snow_01]
+{
+	doc = "Snow Krug Grunt fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_snow_02]
+{
+	doc = "Snow Krug Grunt fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_snow_03]
+{
+	doc = "Snow Krug Grunt fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_snow_04]
+{
+	doc = "Snow Krug Grunt fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_snow_05]
+{
+	doc = "Snow Krug Grunt fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_snow_06]
+{
+	doc = "Snow Krug Grunt fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_snow_07]
+{
+	doc = "Snow Krug Grunt fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_snow_08]
+{
+	doc = "Snow Krug Grunt fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_chucker_snow_01]
+{
+	doc = "Snow Krug Chucker fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		textures:0 = b_c_eam_kg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_chucker_snow_02]
+{
+	doc = "Snow Krug Chucker fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		textures:0 = b_c_eam_kg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_chucker_snow_03]
+{
+	doc = "Snow Krug Chucker fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		textures:0 = b_c_eam_kg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_chucker_snow_04]
+{
+	doc = "Snow Krug Chucker fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		textures:0 = b_c_eam_kg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_chucker_snow_05]
+{
+	doc = "Snow Krug Chucker fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		textures:0 = b_c_eam_kg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_chucker_snow_06]
+{
+	doc = "Snow Krug Chucker fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		textures:0 = b_c_eam_kg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_chucker_snow_07]
+{
+	doc = "Snow Krug Chucker fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		textures:0 = b_c_eam_kg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_chucker_snow_08]
+{
+	doc = "Snow Krug Chucker fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		textures:0 = b_c_eam_kg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_boss_snow_01]
+{
+	doc = "Snow Brankar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		textures:0 = b_c_eam_kg-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_boss_snow_02]
+{
+	doc = "Snow Brankar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		textures:0 = b_c_eam_kg-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_boss_snow_03]
+{
+	doc = "Snow Brankar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		textures:0 = b_c_eam_kg-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_boss_snow_04]
+{
+	doc = "Snow Brankar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		textures:0 = b_c_eam_kg-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_boss_snow_05]
+{
+	doc = "Snow Brankar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		textures:0 = b_c_eam_kg-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_boss_snow_06]
+{
+	doc = "Snow Brankar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		textures:0 = b_c_eam_kg-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_boss_snow_07]
+{
+	doc = "Snow Brankar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		textures:0 = b_c_eam_kg-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_boss_snow_08]
+{
+	doc = "Snow Brankar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		textures:0 = b_c_eam_kg-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_boss_snow_01]
+{
+	doc = "Snow Klandank fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		textures:0 = b_c_eam_kg-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_boss_snow_02]
+{
+	doc = "Snow Klandank fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		textures:0 = b_c_eam_kg-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_boss_snow_03]
+{
+	doc = "Snow Klandank fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		textures:0 = b_c_eam_kg-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_boss_snow_04]
+{
+	doc = "Snow Klandank fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		textures:0 = b_c_eam_kg-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_boss_snow_05]
+{
+	doc = "Snow Klandank fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		textures:0 = b_c_eam_kg-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_boss_snow_06]
+{
+	doc = "Snow Klandank fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		textures:0 = b_c_eam_kg-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_boss_snow_07]
+{
+	doc = "Snow Klandank fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		textures:0 = b_c_eam_kg-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_boss_snow_08]
+{
+	doc = "Snow Klandank fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		textures:0 = b_c_eam_kg-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_guard_fire_01]
+{
+	doc = "Fire Krug Guard fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_guard_fire_02]
+{
+	doc = "Fire Krug Guard fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_guard_fire_03]
+{
+	doc = "Fire Krug Guard fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_guard_fire_04]
+{
+	doc = "Fire Krug Guard fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_guard_fire_05]
+{
+	doc = "Fire Krug Guard fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_guard_fire_06]
+{
+	doc = "Fire Krug Guard fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_guard_fire_07]
+{
+	doc = "Fire Krug Guard fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_guard_fire_08]
+{
+	doc = "Fire Krug Guard fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_raider_fire_01]
+{
+	doc = "Fire Krug Raider fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		textures:0 = b_c_eam_kr-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_raider_fire_02]
+{
+	doc = "Fire Krug Raider fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		textures:0 = b_c_eam_kr-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_raider_fire_03]
+{
+	doc = "Fire Krug Raider fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		textures:0 = b_c_eam_kr-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_raider_fire_04]
+{
+	doc = "Fire Krug Raider fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		textures:0 = b_c_eam_kr-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_raider_fire_05]
+{
+	doc = "Fire Krug Raider fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		textures:0 = b_c_eam_kr-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_raider_fire_06]
+{
+	doc = "Fire Krug Raider fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		textures:0 = b_c_eam_kr-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_raider_fire_07]
+{
+	doc = "Fire Krug Raider fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		textures:0 = b_c_eam_kr-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_raider_fire_08]
+{
+	doc = "Fire Krug Raider fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		textures:0 = b_c_eam_kr-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_fire_01]
+{
+	doc = "Fire Krug Shaman fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-01;
+		textures:0 = b_c_eam_ks-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_fire_02]
+{
+	doc = "Fire Krug Shaman fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-02;
+		textures:0 = b_c_eam_ks-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_fire_03]
+{
+	doc = "Fire Krug Shaman fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-03;
+		textures:0 = b_c_eam_ks-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_fire_04]
+{
+	doc = "Fire Krug Shaman fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-04;
+		textures:0 = b_c_eam_ks-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_fire_05]
+{
+	doc = "Fire Krug Shaman fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-05;
+		textures:0 = b_c_eam_ks-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_fire_06]
+{
+	doc = "Fire Krug Shaman fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-06;
+		textures:0 = b_c_eam_ks-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_fire_07]
+{
+	doc = "Fire Krug Shaman fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-07;
+		textures:0 = b_c_eam_ks-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_fire_08]
+{
+	doc = "Fire Krug Shaman fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-08;
+		textures:0 = b_c_eam_ks-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_boss_fire_01]
+{
+	doc = "Fire Huskar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-01;
+		textures:0 = b_c_eam_ks-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_boss_fire_02]
+{
+	doc = "Fire Huskar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-02;
+		textures:0 = b_c_eam_ks-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_boss_fire_03]
+{
+	doc = "Fire Huskar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-03;
+		textures:0 = b_c_eam_ks-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_boss_fire_04]
+{
+	doc = "Fire Huskar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-04;
+		textures:0 = b_c_eam_ks-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_boss_fire_05]
+{
+	doc = "Fire Huskar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-05;
+		textures:0 = b_c_eam_ks-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_boss_fire_06]
+{
+	doc = "Fire Huskar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-06;
+		textures:0 = b_c_eam_ks-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_boss_fire_07]
+{
+	doc = "Fire Huskar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-07;
+		textures:0 = b_c_eam_ks-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_shaman_boss_fire_08]
+{
+	doc = "Fire Huskar fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-08;
+		textures:0 = b_c_eam_ks-04;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_apprentice_snow_01]
+{
+	doc = "Snow Krug Apprentice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-01;
+		textures:0 = b_c_eam_ks-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_apprentice_snow_02]
+{
+	doc = "Snow Krug Apprentice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-02;
+		textures:0 = b_c_eam_ks-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_apprentice_snow_03]
+{
+	doc = "Snow Krug Apprentice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-03;
+		textures:0 = b_c_eam_ks-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_apprentice_snow_04]
+{
+	doc = "Snow Krug Apprentice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-04;
+		textures:0 = b_c_eam_ks-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_apprentice_snow_05]
+{
+	doc = "Snow Krug Apprentice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-05;
+		textures:0 = b_c_eam_ks-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_apprentice_snow_06]
+{
+	doc = "Snow Krug Apprentice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-06;
+		textures:0 = b_c_eam_ks-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_apprentice_snow_07]
+{
+	doc = "Snow Krug Apprentice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-07;
+		textures:0 = b_c_eam_ks-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_apprentice_snow_08]
+{
+	doc = "Snow Krug Apprentice fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-shaman-08;
+		textures:0 = b_c_eam_ks-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_snow_01]
+{
+	doc = "Snow Krug Scout fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_snow_02]
+{
+	doc = "Snow Krug Scout fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_snow_03]
+{
+	doc = "Snow Krug Scout fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_snow_04]
+{
+	doc = "Snow Krug Scout fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_snow_05]
+{
+	doc = "Snow Krug Scout fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_snow_06]
+{
+	doc = "Snow Krug Scout fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_snow_07]
+{
+	doc = "Snow Krug Scout fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scout_snow_08]
+{
+	doc = "Snow Krug Scout fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_snow_01]
+{
+	doc = "Snow Krug Scavenger fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_snow_02]
+{
+	doc = "Snow Krug Scavenger fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_snow_03]
+{
+	doc = "Snow Krug Scavenger fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_snow_04]
+{
+	doc = "Snow Krug Scavenger fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_snow_05]
+{
+	doc = "Snow Krug Scavenger fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_snow_06]
+{
+	doc = "Snow Krug Scavenger fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_snow_07]
+{
+	doc = "Snow Krug Scavenger fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_scav_snow_08]
+{
+	doc = "Snow Krug Scavenger fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_frag_glb_gargoyle_lrg_snow_01]
+{
+	doc = "Snow Ruby Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-gargoyle-01;
+		textures:0 = b_c_edm_ga-05;
+		scale_base = 3.0;
+	}
+}
+[t:template,n:gpg_frag_glb_gargoyle_lrg_snow_02]
+{
+	doc = "Snow Ruby Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-gargoyle-02;
+		textures:0 = b_c_edm_ga-05;
+		scale_base = 3.0;
+	}
+}
+[t:template,n:gpg_frag_glb_gargoyle_lrg_snow_03]
+{
+	doc = "Snow Ruby Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-gargoyle-03;
+		textures:0 = b_c_edm_ga-05;
+		scale_base = 3.0;
+	}
+}
+[t:template,n:gpg_frag_glb_gargoyle_lrg_snow_04]
+{
+	doc = "Snow Ruby Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-gargoyle-04;
+		textures:0 = b_c_edm_ga-05;
+		scale_base = 3.0;
+	}
+}
+[t:template,n:gpg_frag_glb_gargoyle_lrg_snow_05]
+{
+	doc = "Snow Ruby Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-gargoyle-05;
+		textures:0 = b_c_edm_ga-05;
+		scale_base = 3.0;
+	}
+}
+[t:template,n:gpg_frag_glb_gargoyle_lrg_snow_06]
+{
+	doc = "Snow Ruby Gargoyle fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-gargoyle-06;
+		textures:0 = b_c_edm_ga-05;
+		scale_base = 3.0;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_commander_fire_01]
+{
+	doc = "Fire Krug Commander fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		textures:0 = b_c_eam_kc-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_commander_fire_02]
+{
+	doc = "Fire Krug Commander fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		textures:0 = b_c_eam_kc-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_commander_fire_03]
+{
+	doc = "Fire Krug Commander fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		textures:0 = b_c_eam_kc-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_commander_fire_04]
+{
+	doc = "Fire Krug Commander fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		textures:0 = b_c_eam_kc-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_commander_fire_05]
+{
+	doc = "Fire Krug Commander fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		textures:0 = b_c_eam_kc-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_commander_fire_06]
+{
+	doc = "Fire Krug Commander fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		textures:0 = b_c_eam_kc-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_commander_fire_07]
+{
+	doc = "Fire Krug Commander fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		textures:0 = b_c_eam_kc-02;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_commander_fire_08]
+{
+	doc = "Fire Krug Commander fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		textures:0 = b_c_eam_kc-02;
+	}
+}
+[t:template,n:gpg_frag_glb_darkling_fire_01]
+{
+	doc = "Fire Darkling fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-darkling-01;
+		textures:0 = b_c_edm_dg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_darkling_fire_02]
+{
+	doc = "Fire Darkling fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-darkling-02;
+		textures:0 = b_c_edm_dg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_darkling_fire_03]
+{
+	doc = "Fire Darkling fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-darkling-03;
+		textures:0 = b_c_edm_dg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_darkling_fire_04]
+{
+	doc = "Fire Darkling fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-darkling-04;
+		textures:0 = b_c_edm_dg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_darkling_fire_05]
+{
+	doc = "Fire Darkling fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-darkling-05;
+		textures:0 = b_c_edm_dg-03;
+	}
+}
+[t:template,n:gpg_frag_glb_rock_beast_fire_01]
+{
+	doc = "Fire Rock Beast fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-rock-beast-01;
+		textures:0 = b_c_edm_rb-04;
+	}
+}
+[t:template,n:gpg_frag_glb_rock_beast_fire_02]
+{
+	doc = "Fire Rock Beast fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-rock-beast-02;
+		textures:0 = b_c_edm_rb-04;
+	}
+}
+[t:template,n:gpg_frag_glb_rock_beast_fire_03]
+{
+	doc = "Fire Rock Beast fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-rock-beast-03;
+		textures:0 = b_c_edm_rb-04;
+	}
+}
+[t:template,n:gpg_frag_glb_rock_beast_fire_04]
+{
+	doc = "Fire Rock Beast fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-rock-beast-04;
+		textures:0 = b_c_edm_rb-04;
+	}
+}
+[t:template,n:gpg_frag_glb_rock_beast_fire_05]
+{
+	doc = "Fire Rock Beast fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-rock-beast-05;
+		textures:0 = b_c_edm_rb-04;
+	}
+}
+[t:template,n:gpg_frag_glb_rock_beast_fire_06]//$$for fire r.b. blast spell -CN
+{
+	doc = "Fire Rock Beast fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-rock-beast-06;
+		textures:0 = b_c_edm_rb-04;
+		scale_base = 1.2;
+	}
+	physics:sim_duration = 2;
+}
+[t:template,n:gpg_frag_glb_rock_beast_fire_07]//$$for fire r.b. blast spell -CN
+{
+	doc = "Fire Rock Beast fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-rock-beast-07;
+		textures:0 = b_c_edm_rb-04;
+		scale_base = 1.4;
+	}
+	physics:sim_duration = 2;
+}
+[t:template,n:gpg_frag_glb_rock_beast_fire_08]//$$for fire r.b. blast spell -CN
+{
+	doc = "Fire Rock Beast fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-rock-beast-08;
+		textures:0 = b_c_edm_rb-04;
+		scale_base = 2.0;
+	}
+	physics:sim_duration = 2;
+}
+[t:template,n:gpg_frag_glb_phrak_snow_01]
+{
+	doc = "Snow Phrak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-01;
+		textures:0 = b_c_edm_ph-04;
+		scale_base = 0.55;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_snow_02]
+{
+	doc = "Snow Phrak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-02;
+		textures:0 = b_c_edm_ph-04;
+		scale_base = 0.55;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_snow_03]
+{
+	doc = "Snow Phrak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-03;
+		textures:0 = b_c_edm_ph-04;
+		scale_base = 0.55;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_snow_04]
+{
+	doc = "Snow Phrak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-04;
+		textures:0 = b_c_edm_ph-04;
+		scale_base = 0.55;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_snow_05]
+{
+	doc = "Snow Phrak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-05;
+		textures:0 = b_c_edm_ph-04;
+		scale_base = 0.55;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_piercer_snow_01]
+{
+	doc = "Snow Phrak Piercer fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-01;
+		textures:0 = b_c_edm_ph-05;
+		scale_base = 0.55;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_piercer_snow_02]
+{
+	doc = "Snow Phrak Piercer fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-02;
+		textures:0 = b_c_edm_ph-05;
+		scale_base = 0.55;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_piercer_snow_03]
+{
+	doc = "Snow Phrak Piercer fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-03;
+		textures:0 = b_c_edm_ph-05;
+		scale_base = 0.55;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_piercer_snow_04]
+{
+	doc = "Snow Phrak Piercer fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-04;
+		textures:0 = b_c_edm_ph-05;
+		scale_base = 0.55;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_piercer_snow_05]
+{
+	doc = "Snow Phrak Piercer fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-05;
+		textures:0 = b_c_edm_ph-05;
+		scale_base = 0.55;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_ballista_snow_01]
+{
+	doc = "Snow Phrak Ballista fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-01;
+		textures:0 = b_c_edm_ph-06;
+		scale_base = 0.8;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_ballista_snow_02]
+{
+	doc = "Snow Phrak Ballista fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-02;
+		textures:0 = b_c_edm_ph-06;
+		scale_base = 0.8;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_ballista_snow_03]
+{
+	doc = "Snow Phrak Ballista fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-03;
+		textures:0 = b_c_edm_ph-06;
+		scale_base = 0.8;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_ballista_snow_04]
+{
+	doc = "Snow Phrak Ballista fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-04;
+		textures:0 = b_c_edm_ph-06;
+		scale_base = 0.8;
+	}
+}
+[t:template,n:gpg_frag_glb_phrak_ballista_snow_05]
+{
+	doc = "Snow Phrak Ballista fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-phrak-05;
+		textures:0 = b_c_edm_ph-06;
+		scale_base = 0.8;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_boss_snow_01]
+{
+	doc = "Snow Futak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-01;
+		textures:0 = b_c_eam_kg-06;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_boss_snow_02]
+{
+	doc = "Snow Futak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-02;
+		textures:0 = b_c_eam_kg-06;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_boss_snow_03]
+{
+	doc = "Snow Futak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-03;
+		textures:0 = b_c_eam_kg-06;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_boss_snow_04]
+{
+	doc = "Snow Futak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-04;
+		textures:0 = b_c_eam_kg-06;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_boss_snow_05]
+{
+	doc = "Snow Futak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-05;
+		textures:0 = b_c_eam_kg-06;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_boss_snow_06]
+{
+	doc = "Snow Futak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-06;
+		textures:0 = b_c_eam_kg-06;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_boss_snow_07]
+{
+	doc = "Snow Futak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-07;
+		textures:0 = b_c_eam_kg-06;
+	}
+}
+[t:template,n:gpg_frag_glb_krug_grunt_boss_snow_08]
+{
+	doc = "Snow Futak fragment";
+	specializes = fragment;
+	[aspect]
+	{
+		model = m_i_glb_frag-krug-08;
+		textures:0 = b_c_eam_kg-06;
+	}
+}

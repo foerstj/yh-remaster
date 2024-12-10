@@ -1,0 +1,230 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_skrev_tr_01_ruin_elevator.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit is to control the SkritedEvent where people stand near the
+//  obelisk and get teleported back in time.
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Skrev controler, handles the obelisk teleportation SkritedEvent.";
+property string _required_component$	= "placement";
+
+// exported properties
+property scid 	trigger1$			doc ="Scid of the 1st circle trigger.";
+property scid 	trigger2$			doc ="Scid of the 2nd circle trigger.";
+property scid 	trigger3$			doc ="Scid of the 3rd circle trigger.";
+property scid 	trigger4$			doc ="Scid of the 4th circle trigger.";
+property scid 	trigger5$			doc ="Scid of the 5th circle trigger.";
+property scid 	trigger6$			doc ="Scid of the 6th circle trigger.";
+property scid 	trigger7$			doc ="Scid of the 7th circle trigger.";
+property scid 	trigger8$			doc ="Scid of the 8th circle trigger.";
+
+property scid 	mood0$				doc ="Scid to send to to change the mood for having 0 people in the circles.";
+property scid 	mood1$				doc ="Scid to send to to change the mood for having 1 person in the circles.";
+property scid 	mood2$				doc ="Scid to send to to change the mood for having 2 people in the circles.";
+property scid 	mood3$				doc ="Scid to send to to change the mood for having 3 people in the circles.";
+property scid 	mood4$				doc ="Scid to send to to change the mood for having 4 people in the circles.";
+property scid 	mood5$				doc ="Scid to send to to change the mood for having 5 people in the circles.";
+property scid 	mood6$				doc ="Scid to send to to change the mood for having 6 people in the circles.";
+property scid 	mood7$				doc ="Scid to send to to change the mood for having 7 people in the circles.";
+
+property scid 	start_scid$			doc ="Scid of the object to send to when the sequence starts.";
+
+property int 	region$				doc ="Property for the region query.";
+property int 	section$			doc ="Property for the region query.";
+property int 	level$				doc ="Property for the region query.";
+property int 	object$				doc ="Property for the region query.";
+
+owner									= GoSkritComponent;
+
+//////////////////////////////////////////////////////////////////////////////
+
+int human_count$( GopColl list$ )
+{
+	AIQuery.TempQtColl1.Clear;
+	AIQuery.TempQtColl1.Add( QT_ACTOR );
+	AIQuery.TempQtColl1.Add( QT_GOOD );
+
+	AIQuery.TempGopColl2.Clear;
+	AIQuery.Get( owner.Go, AIQuery.TempQtColl1, list$, AIQuery.TempGopColl2 );
+	
+	int i$ = 0;
+	int iend$ = AIQuery.TempGopColl2.size;
+	int player_count$ = 0;
+	
+	while( i$ < iend$ )
+	{
+		Go Temp$ = AIQuery.TempGopColl2.Get( i$ );
+		if ( Temp$ != null )
+		{
+			if ( Temp$.IsAnyHumanPartyMember )
+			{
+				player_count$ += 1;
+			}
+		}
+		i$ += 1;	
+	}
+	return player_count$;
+}
+
+int check_trigger$( Goid trigger$ )
+{
+	int human_occupants$ = 0;
+	if( trigger$.IsValid ) 
+	{ 
+		AIQuery.TempGopColl1.Clear;
+		AIQuery.GetOccupantsInSphere( trigger$.Go.Placement.Position, .6, AIQuery.TempGopColl1 );
+		human_occupants$ = human_count$( AIQuery.TempGopColl1 );
+	}
+	return human_occupants$;
+}
+
+startup state Startup$
+{
+	int previous_occupants$ = 0;
+	trigger OnGoHandleMessage$( WE_ENTERED_WORLD )
+	{
+		#only( game )
+		[[
+		this.createTimer( 1, 1.0 );
+		]];
+	}
+	
+	trigger OnTimer$( 1 )
+	{
+		int player_count$ = 0;
+		
+		player_count$ += check_trigger$( trigger1$.Goid );
+		player_count$ += check_trigger$( trigger2$.Goid );
+		player_count$ += check_trigger$( trigger3$.Goid );
+		player_count$ += check_trigger$( trigger4$.Goid );
+		player_count$ += check_trigger$( trigger5$.Goid );
+		player_count$ += check_trigger$( trigger6$.Goid );
+		player_count$ += check_trigger$( trigger7$.Goid );
+		player_count$ += check_trigger$( trigger8$.Goid );
+		
+		report.genericf("Found %d players in the spheres\n", player_count$);
+		
+		AIQuery.TempGopColl1.Clear;
+		AIQuery.TempGopColl3.Clear;
+		AIQuery.GetHumanPartyMembersInNodes( region$, section$, level$, object$, AIQuery.TempGopColl1 );
+		
+		report.genericf("Found %d players in the region\n", AIQuery.TempGopColl1.size);
+		
+		if( player_count$ > previous_occupants$ )
+		{
+			SiegeFx.SRunScript( "snow_foot_swirl", trigger1$.goid, trigger1$.goid, "", trigger1$.goid, WE_REQ_ACTIVATE ); 
+			SiegeFx.SRunScript( "snow_foot_swirl", trigger2$.goid, trigger2$.goid, "", trigger2$.goid, WE_REQ_ACTIVATE ); 
+			SiegeFx.SRunScript( "snow_foot_swirl", trigger3$.goid, trigger3$.goid, "", trigger3$.goid, WE_REQ_ACTIVATE ); 
+			SiegeFx.SRunScript( "snow_foot_swirl", trigger4$.goid, trigger4$.goid, "", trigger4$.goid, WE_REQ_ACTIVATE ); 
+			SiegeFx.SRunScript( "snow_foot_swirl", trigger5$.goid, trigger5$.goid, "", trigger5$.goid, WE_REQ_ACTIVATE ); 
+			SiegeFx.SRunScript( "snow_foot_swirl", trigger6$.goid, trigger6$.goid, "", trigger6$.goid, WE_REQ_ACTIVATE ); 
+			SiegeFx.SRunScript( "snow_foot_swirl", trigger7$.goid, trigger7$.goid, "", trigger7$.goid, WE_REQ_ACTIVATE ); 
+			SiegeFx.SRunScript( "snow_foot_swirl", trigger8$.goid, trigger8$.goid, "", trigger8$.goid, WE_REQ_ACTIVATE ); 
+		}
+
+		bool set_mood$ = false;
+
+		if( previous_occupants$ != player_count$ )
+		{
+			set_mood$ = true;
+		}
+		
+		if( previous_occupants$ > player_count$ )
+		{
+			previous_occupants$ = player_count$;
+		}
+		else if( previous_occupants$ < player_count$ )
+		{
+			previous_occupants$ = player_count$;
+			string message$;
+			
+			if( player_count$ == 1 )
+			{
+				message$ = "transition1";
+			}
+			else if( player_count$ == 2 )
+			{
+				message$ = "transition2";
+			}
+			else if( player_count$ == 3 )
+			{
+				message$ = "transition3";
+			}
+			else if( player_count$ == 4 )
+			{
+				message$ = "transition4";
+			}
+			else if( player_count$ == 5 )
+			{
+				message$ = "transition5";
+			}
+			else if( player_count$ == 6 )
+			{
+				message$ = "transition6";
+			}
+			else if( player_count$ == 7 )
+			{
+				message$ = "transition7";
+			}
+			
+			if( !StringTool.IsEmpty( message$ ) )
+			{
+				int j$ = 0;
+				int jend$ = AIQuery.TempGopColl1.size;
+				
+				while( j$ < jend$ )
+				{
+					Go Temp$ = AIQuery.TempGopColl1.Get( j$ );
+					if ( Temp$ != null )
+					{
+						Report.SScreen( Temp$.Player.MachineId, Report.Translate( owner.go.getmessage( message$ ) ) );
+					}
+					j$ += 1;
+				}
+			}
+		}
+		
+		if( ( AIQuery.TempGopColl1.size == player_count$ ) && ( player_count$ >= 1 ) )
+		{
+			report.generic("Fire!!\n");
+			SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, start_scid$ );	
+			setstate Finished$;
+		}
+		else
+		{
+			if( set_mood$ )
+			{
+				if( player_count$ == 0 ) { SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, mood0$ ); }
+				else if( player_count$ == 1 ) { SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, mood1$ ); }
+				else if( player_count$ == 2 ) { SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, mood2$ ); }
+				else if( player_count$ == 3 ) { SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, mood3$ ); }
+				else if( player_count$ == 4 ) { SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, mood4$ ); }
+				else if( player_count$ == 5 ) { SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, mood5$ ); }
+				else if( player_count$ == 6 ) { SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, mood6$ ); }
+				else if( player_count$ == 7 ) { SSendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, mood7$ ); }
+			}
+			
+			report.generic("Falied, trying again in 1 second.\n");
+			this.createTimer( 1, 1.0 );
+		}
+	}
+}
+
+state Finished$
+{
+	event OnEnterState$
+	{
+		godb.SMarkForDeletion( owner.goid );	
+	}
+}

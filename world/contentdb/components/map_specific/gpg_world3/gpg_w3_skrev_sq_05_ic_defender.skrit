@@ -1,0 +1,470 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_skrev_sq_05_ic_defender.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit is to control the SkritedEvent where fire krugs attack the snow
+//  queens land. She appears and encases them all in ice stopping the attack.
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Skrev controler, handles the snow queen defending SkritedEvent.";
+property string _required_component$	= "placement";
+
+// exported properties
+property scid 	snow_krug1$			doc ="Scid of the 1st defending snow krug.";
+property scid 	snow_krug2$			doc ="Scid of the 2nd defending snow krug.";
+property scid 	snow_krug3$			doc ="Scid of the 3rd defending snow krug.";
+property scid 	snow_krug4$			doc ="Scid of the 4th defending snow krug.";
+property scid 	snow_krug5$			doc ="Scid of the 5th defending snow krug.";
+property scid 	snow_krug6$			doc ="Scid of the 6th defending snow krug.";
+property scid 	snow_krug7$			doc ="Scid of the 7th defending snow krug.";
+property scid 	snow_krug8$			doc ="Scid of the 8th defending snow krug.";
+                                	
+property scid 	fire_krug1$			doc ="Scid of the 1st attacking fire krug.";
+property scid 	fire_krug2$			doc ="Scid of the 2nd attacking fire krug.";
+property scid 	fire_krug3$			doc ="Scid of the 3rd attacking fire krug.";
+property scid 	fire_krug4$			doc ="Scid of the 4th attacking fire krug.";
+property scid 	fire_krug5$			doc ="Scid of the 5th attacking fire krug.";
+property scid 	fire_krug6$			doc ="Scid of the 6th attacking fire krug.";
+
+property scid 	fire_wall$			doc ="Scid of the Point where we should create the firewall";
+property scid 	fire_wall_light$	doc ="Scid of the light enable to light up the firewall.";
+property scid 	blocking_object$	doc ="Scid of the blocking object to use with the fire wall.";
+
+property scid 	light1$				doc ="Scid of the light enable to light up krugs teleporting in.";
+property scid 	light2$				doc ="Scid of the light enable to light up krugs teleporting in.";
+property scid 	light3$				doc ="Scid of the light enable to light up krugs teleporting in.";
+property scid 	light4$				doc ="Scid of the light enable to light up krugs teleporting in.";
+property scid 	light5$				doc ="Scid of the light enable to light up krugs teleporting in.";
+
+property scid 	snow_queen$			doc ="Scid of the Snow queen";
+property scid 	queen_light$		doc ="Scid of the light enable to light up the snow queen.";
+
+owner									= GoSkritComponent;
+
+//////////////////////////////////////////////////////////////////////////////
+
+bool watch$( Goid target$ )
+{
+	if( target$.IsValidMp  )
+	{
+		report.generic("watching\n");
+		GoDb.StartWatching( owner.goid, target$ );
+		return true;
+	}
+	return false;
+}
+
+bool Hide$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		report.generic("Hiding\n");
+		target$.Go.Aspect.SSetIsVisible( false );
+		target$.Go.Mind.SetMayAttack( false );
+		target$.Go.Mind.SetMayBeAttacked( false );
+		target$.Go.Aspect.SetIsInvincible( true );
+		return true;
+	}
+	return false;
+}
+
+bool Show$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		report.generic("Showing\n");
+		watch$( target$ );
+		target$.Go.Aspect.SSetIsVisible( true );
+		target$.Go.Mind.SetMayAttack( true );
+		target$.Go.Mind.SetMayBeAttacked( true );
+//		target$.Go.Mind.ResetSensors();
+		target$.Go.Mind.ReqResetSensorsSelfAndVisible();
+		
+		SiegeFx.SRunScript( "krug_materialize", target$, target$, "", target$, WE_REQ_ACTIVATE );
+		return true;
+	}
+	return false;
+}
+
+bool Good$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		report.generic("Turning Good\n");
+		watch$( target$ );
+		target$.Go.actor.SSetAlignment( AA_GOOD );
+		target$.Go.Mind.ResetSensors();
+		target$.Go.Mind.SDoJob( MakeJobReq( JAT_STOP, JQ_ACTION, QP_CLEAR, AO_COMMAND ));
+		return true;
+	}
+	return false;
+}
+
+bool Freeze$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		GoMind TargetMind$ = target$.Go.Mind;
+		
+		TargetMind$.TempGopColl1.clear;
+		TargetMind$.GetEngagedMeEnemies( TargetMind$.TempGopColl1 );
+		
+		int j$ = 0;
+		int jend$ = TargetMind$.TempGopColl1.Size();
+		
+		Go Enemy$;
+		
+		while( j$ < jend$ )
+		{
+			Enemy$ = TargetMind$.TempGopColl1.Get( j$ );
+			if( Enemy$ != NULL )
+			{
+				report.generic("stopping attacker\n");
+				Enemy$.Mind.SDoJob( MakeJobReq( JAT_STOP, JQ_ACTION, QP_CLEAR, AO_COMMAND ));
+				Enemy$.Mind.ResetSensors();
+			}
+			j$ += 1;   
+		}	
+		
+		report.generic("Freezing\n");
+		target$.Go.actor.SSetAlignment( AA_GOOD );
+		TargetMind$.SetMayAttack( false );
+		TargetMind$.SetMayBeAttacked( false );
+		TargetMind$.SetActorAutoFidgets( false );
+		
+		// stop moving
+		target$.Go.Aspect.SSetLockMeshFlag(true);
+		
+		// add cool box effect
+		target$.Go.Aspect.SSetFreezeMeshFlag( true );
+		
+		//turn off brain so he wont try to attack any more.
+		TargetMind$.SDoJob( MakeJobReq( JAT_STOP, JQ_ACTION, QP_CLEAR, AO_COMMAND ));
+		MCPManager.MakeRequest( target$, PL_FACE );
+		TargetMind$.Clear();
+		MCPManager.Flush( target$ );
+		
+		SiegeFx.SRunMpScript( "krug_frozen", target$, target$, "", target$, WE_REQ_ACTIVATE );
+		return true;
+	}
+	return false;
+}
+
+bool Kill$( Goid target$ )
+{
+	if( target$.IsValidMp )
+	{
+		if( target$.Go.Aspect.Lifestate == LS_ALIVE_CONSCIOUS )
+		{
+			Rules.DamageGo( target$, target$, target$, target$.Go.Aspect.MaxLife * 1.1, true, false );
+		}
+		return true;
+	}
+	return false;
+}
+
+bool AttackQueen$( Goid target$ )
+{
+	if( target$.IsValidMp  )
+	{
+		report.generic("trying to attack\n");
+		target$.Go.Mind.ResetSensors();
+		target$.Go.Mind.SDoJob( MakeJobReq( JAT_ATTACK_OBJECT, JQ_ACTION, QP_CLEAR, AO_COMMAND, snow_queen$.Goid ));
+		return true;
+	}
+	return false;
+}
+
+FireBlock$
+{	
+	// turn all of the snow krugs good so they will attack the fire krugs and not attack the players.
+	good$( snow_krug1$.Goid );
+	good$( snow_krug2$.Goid );
+	good$( snow_krug3$.Goid );
+	good$( snow_krug4$.Goid );
+	good$( snow_krug5$.Goid );
+	good$( snow_krug6$.Goid );
+	good$( snow_krug7$.Goid );
+	good$( snow_krug8$.Goid );
+	
+	// start up the fire wall effect
+	
+	if( blocking_object$.goid.IsValidMp )
+	{
+		SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, blocking_object$.goid );
+	}
+	if( fire_wall$.goid.IsValidMp )
+	{
+		SiegeFx.SRunMPScript( "fire_wall_block", fire_wall$.goid, fire_wall$.goid, "", fire_wall$.goid, WE_REQ_ACTIVATE );
+	}
+	if( fire_wall_light$.goid.IsValidMp )
+	{
+		SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, fire_wall_light$.goid );			
+	}
+}
+
+FireBlockOff$
+{
+	if( blocking_object$.goid.IsValidMp )
+	{
+		SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, blocking_object$.goid );
+	}
+	if( fire_wall_light$.goid.IsValidMp )
+	{
+		SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, fire_wall_light$.goid );			
+	}
+}
+
+queenEffect$
+{
+	if( queen_light$.goid.IsValidMp )
+	{
+		SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, queen_light$.goid );			
+	}
+	if( snow_queen$.Goid.IsValidMp )
+	{
+		SiegeFx.SRunScript( "snow_queen_skrev_materialize", snow_queen$.Goid, snow_queen$.Goid, "", snow_queen$.Goid, WE_REQ_ACTIVATE );
+	}	
+}
+
+queenVis$
+{
+	Goid sq$ = snow_queen$.Goid;
+	if( sq$.IsValidMp )
+	{
+		sq$.Go.Aspect.SSetIsVisible( true );
+		sq$.Go.Mind.SetMayBeAttacked( true );
+		SiegeFx.SRunScript( "snow_queen_head_frost", sq$, sq$, "", sq$, WE_REQ_ACTIVATE );
+		SiegeFx.SRunScript( "snow_queen_skrev_freeze", sq$, sq$, "", sq$, WE_REQ_ACTIVATE );
+		MCPManager.MakeRequest( sq$, PL_OPEN );
+		AttackQueen$( fire_krug1$.Goid );
+		AttackQueen$( fire_krug2$.Goid );
+		AttackQueen$( fire_krug3$.Goid );
+		AttackQueen$( fire_krug4$.Goid );
+		AttackQueen$( fire_krug5$.Goid );
+		AttackQueen$( fire_krug6$.Goid );
+		watch$( snow_queen$.Goid );
+	}
+}
+
+FreezeAll$
+{
+	Freeze$( fire_krug1$.Goid );
+	Freeze$( fire_krug2$.Goid );
+	Freeze$( fire_krug3$.Goid );
+	Freeze$( fire_krug4$.Goid );
+	Freeze$( fire_krug5$.Goid );
+	Freeze$( fire_krug6$.Goid );
+	
+	Kill$( snow_krug1$.Goid );
+	Kill$( snow_krug2$.Goid );
+	Kill$( snow_krug3$.Goid );
+	Kill$( snow_krug4$.Goid );
+	Kill$( snow_krug5$.Goid );
+	Kill$( snow_krug6$.Goid );
+	Kill$( snow_krug7$.Goid );
+	Kill$( snow_krug8$.Goid );
+	
+	if( snow_queen$.Goid.IsValidMp )
+	{
+		GoDb.SMarkGoAndChildrenForDeletion( snow_queen$.Goid, true, true );
+	}	
+}
+
+event OnGoHandleCCMessage$( eWorldEvent e$, WorldMessage msg$ )
+{
+	if( e$ == WE_LEFT_WORLD )
+	{
+		goid target$ = msg$.GetSendTo();
+		if( target$.IsValidMp )
+		{
+			report.generic("Deleting!!\n");
+			GoDb.SMarkGoAndChildrenForDeletion( target$, true, true );
+		}
+	}
+}
+
+startup state Startup$
+{
+	int invis$ = 0;
+	bool activated$ = false;
+	
+	trigger OnGoHandleMessage$( WE_ENTERED_WORLD )
+	{
+		#only( game )
+		[[
+	
+		if( !Hide$( fire_krug1$.Goid ) )
+		{
+			this.createTimer( MakeInt( fire_krug1$ ), 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		if( !Hide$( fire_krug2$.Goid ) )
+		{
+			this.createTimer( MakeInt( fire_krug2$ ), 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		if( !Hide$( fire_krug3$.Goid ) )
+		{
+			this.createTimer( MakeInt( fire_krug3$ ), 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		if( !Hide$( fire_krug4$.Goid ) )
+		{
+			this.createTimer( MakeInt( fire_krug4$ ), 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		if( !Hide$( fire_krug5$.Goid ) )
+		{
+			this.createTimer( MakeInt( fire_krug5$ ), 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		if( !Hide$( fire_krug6$.Goid ) )
+		{
+			this.createTimer( MakeInt( fire_krug6$ ), 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		
+		if( invis$ == 6 )
+		{
+			setstate Waiting$;	
+		}
+		]];
+	}
+	
+	event OnTimer$( int id$, float /*off$*/ )
+	{
+		if( !Hide$( MakeScid( id$ ).goid ) )
+		{
+			this.createTimer( id$, 1 ); 	
+		}
+		else
+		{
+			invis$ += 1;
+		}
+		
+		if( invis$ == 6 )
+		{
+			if( activated$ )
+			{
+				setstate StartBattle$;
+				report.genericf("Finshed Hiding, going strait to activated state since I was activated early.\n");		
+			}
+			else
+			{
+				setstate Waiting$;	
+			}
+		}
+	}
+	
+	trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		activated$ = true;
+		report.genericf("Activated while trying to hide!!\n");	
+	}
+	trigger OnGoHandleMessage$( WE_LEFT_WORLD )
+	{
+		#only( game )
+		[[
+		if( activated$ )
+		{
+			setstate Abort$;	
+		}
+		else
+		{
+			invis$ = 0;
+		}
+		]];
+	}
+}
+
+state Waiting$
+{
+	event OnEnterState$
+	{
+		report.genericf("All characters hidden waiting for activate.\n");	
+	}
+	
+	trigger OnGoHandleMessage$( WE_REQ_ACTIVATE )
+	{
+		setstate StartBattle$;
+		report.genericf("Activated.\n");	
+	}
+}
+
+state StartBattle$
+{
+// >>>>>>> turn on the blocking fire.
+	fireon$ at			( 3.0 ) { FireBlock$; }
+	
+// >>>>>>> turn the fire krugs visible
+	vis1$ at			( 6.1 )  { Show$( fire_krug1$.Goid ); }
+	vis2$ at			( 3.5 )  { Show$( fire_krug2$.Goid ); }
+	vis3$ at			( 6.2 )  { Show$( fire_krug3$.Goid ); }
+	vis4$ at			( 5.1 )  { Show$( fire_krug4$.Goid ); }
+	vis5$ at			( 6.3 )  { Show$( fire_krug5$.Goid ); }
+	vis6$ at			( 5.2 )  { Show$( fire_krug6$.Goid ); }
+	
+// >>>>>>> turn on the fire krug lights.
+	light1_on$ at		( 5.0 )  { if( light1$.goid.IsValidMp ) { SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, light1$.goid ); } }
+	light2_on$ at		( 6.0 )  { if( light2$.goid.IsValidMp ) { SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, light2$.goid ); } }
+	light3_on$ at		( 5.0 )  { if( light3$.goid.IsValidMp ) { SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, light3$.goid ); } }
+	light4_on$ at		( 6.0 )  { if( light4$.goid.IsValidMp ) { SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, light4$.goid ); } }
+	light5_on$ at		( 5.0 )  { if( light5$.goid.IsValidMp ) { SendWorldMessage( WE_REQ_ACTIVATE, owner.Goid, light5$.goid ); } }
+
+// >>>>>>> turn off the fire krug lights.
+	light1_off$ at		( 14.1 )  { if( light1$.goid.IsValidMp ) { SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, light1$.goid ); } }
+	light2_off$ at		( 14.3 )  { if( light2$.goid.IsValidMp ) { SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, light2$.goid ); } }
+	light3_off$ at		( 14.5 )  { if( light3$.goid.IsValidMp ) { SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, light3$.goid ); } }
+	light4_off$ at		( 14.6 )  { if( light4$.goid.IsValidMp ) { SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, light4$.goid ); } }
+	light5_off$ at		( 14.7 )  { if( light5$.goid.IsValidMp ) { SendWorldMessage( WE_REQ_DEACTIVATE, owner.Goid, light5$.goid ); } }		
+
+// >>>>>>> start the ice queen appearing effect.
+	effect_queen$ at	( 14.0 ) { queenEffect$; }
+
+// >>>>>>> make the snow queen visible
+	vis_queen$ at		( 15.0 ) { queenVis$; }
+	
+	fireoff$ at 		( 19.25 ) { FireBlockOff$; }
+		
+// >>>>>>> freeze the fire krugs.
+	StartFreeze$ at		( 19.25 ) { FreezeAll$; }
+	
+	trigger OnGoHandleMessage$( WE_LEFT_WORLD )
+	{
+		setstate Abort$;
+	}
+}
+
+state Abort$
+{
+	
+}

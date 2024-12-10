@@ -1,0 +1,5 @@
+[t:tsd,n:b_t_world3_for01-tx-swp-wall-e]
+{
+	layer1texture1 = b_t_world3_for01-tx-swp-wall-e;
+  i texturedetail = 2;
+}

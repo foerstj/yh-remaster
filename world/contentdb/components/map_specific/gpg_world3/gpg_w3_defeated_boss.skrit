@@ -1,0 +1,88 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_defeated_boss.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit makes the defeated bosses stand up.
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Start Lying down then play a get up animation.";
+property string _required_component$	= "placement";
+
+owner									= GoSkritComponent;
+
+//////////////////////////////////////////////////////////////////////////////
+
+bool TryAnim$( int FourCC$ )
+{
+	MCPManager.Flush( owner.goid );
+					
+	int Anim$ = owner.Go.Aspect.AspectHandle.Blender.GetSubAnimIndex(CHORE_MISC,FourCC$);
+		
+	if (Anim$ >= 0)
+	{
+		eReqRetCode ret$ = MCPManager.MakeRequest( owner.goid, PL_PLAYANIM, CHORE_MISC, Anim$, 0 );
+		return true;	
+	}
+	return false;
+}
+
+startup state Startup$
+{	
+	trigger OnGoHandleMessage$( WE_ENTERED_WORLD )
+	{
+		owner.Go.Mind.SetActorAutoFidgets( false );
+	}
+	
+	event OnGoHandleMessage$( eWorldEvent e$, WorldMessage msg$ ) 
+	{
+		if( e$ == WE_REQ_ACTIVATE ) 
+		{
+			Goid temp_enemy$ = MakeGoid( msg$.data1 );
+    	
+			if (temp_enemy$.IsValid )
+			{
+				owner.Go.Mind.SDoJob( MakeJobReq( JAT_FACE, JQ_ACTION, QP_CLEAR, AO_COMMAND, temp_enemy$ ) );
+			}
+			this.CreateTimer( 1, 0.1 );
+		}
+	}
+	
+	trigger OnTimer$( 1 )
+	{
+		MCPManager.MakeRequest( owner.goid, PL_PLAYANIM, CHORE_DIE, 0, 1);
+		setstate Wakeup$;
+	}
+}
+
+state Wakeup$
+{
+	trigger OnGoHandleMessage$( WE_ANIM_DONE )
+	{
+		owner.go.Aspect.SSetIsVisible( true );
+		this.CreateTimer( 1, 3.0 );
+	}
+	
+	trigger OnTimer$( 1 )
+	{
+		TryAnim$('gtup');
+		setstate Done$;
+	}
+}
+	
+state Done$
+{
+	trigger OnGoHandleMessage$( WE_ANIM_DONE )
+	{
+		owner.Go.Mind.SetActorAutoFidgets( true );
+	}
+}

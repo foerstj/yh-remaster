@@ -1,0 +1,2601 @@
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////$$webbed/dead_trees
+[t:template,n:gpg_tree_glb_pine_dead_01]
+{
+	category_name = "trees";
+	doc = "grs_pine_9m_webbed_lots";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.75;
+		cam_fade_alpha = 50;
+		model = m_i_glb_tree-pine-dead-01;
+		textures:0 = b_i_glb_tree-pine-dead-01;
+		scale_base = 0.75;
+	}
+}
+[t:template,n:gpg_tree_glb_pine_dead_02]
+{
+	category_name = "trees";
+	doc = "grs_pine_9m_webbed_some";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.75;
+		cam_fade_alpha = 50;
+		model = m_i_glb_tree-pine-dead-02;
+		textures:0 = b_i_glb_tree-pine-dead-02;
+		scale_base = 0.75;
+	}
+}
+[t:template,n:gpg_tree_glb_pine_dead_03]
+{
+	category_name = "trees";
+	doc = "grs_pine_9m_webbed_barely";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.75;
+		cam_fade_alpha = 50;
+		model = m_i_glb_tree-pine-dead-03;
+		textures:0 = b_i_glb_tree-pine-dead-03;
+		scale_base = 0.75;
+	}
+}
+[t:template,n:gpg_tree_glb_pine_dead_04]
+{
+	category_name = "trees";
+	doc = "grs_pine_9m_webbed_some_green";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.75;
+		cam_fade_alpha = 50;
+		model = m_i_glb_tree-pine-dead-04;
+		textures:0 = b_i_glb_tree-pine-dead-04;
+		scale_base = 0.75;
+	}
+}
+[t:template,n:gpg_tree_glb_pine_dead_05]
+{
+	category_name = "trees";
+	doc = "grs_pine_9m_dying";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.75;
+		cam_fade_alpha = 50;
+		model = m_i_glb_tree-pine-dead-05;
+		textures:0 = b_i_glb_tree-pine-dead-05;
+		scale_base = 0.75;
+	}
+}
+[t:template,n:gpg_tree_glb_pine_dead_06]
+{
+	category_name = "trees";
+	doc = "grs_pine_9m_sick";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.75;
+		cam_fade_alpha = 50;
+		model = m_i_glb_tree-pine-dead-06;
+		textures:0 = b_i_glb_tree-pine-dead-06;
+		scale_base = 0.75;
+	}
+}
+////////////////////////////////////////
+
+////////////////////////////////////////$$webbed/dead_bushes
+[t:template,n:gpg_bush_glb_dead_01]
+{
+	category_name = "foliage";
+	doc = "grs_bush_dead_webbed_lots";
+	specializes = base_bush;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.6;
+		model = m_i_glb_bush-dead-01;
+		textures:0 = b_i_glb_bush-dead-01;
+	}
+}
+[t:template,n:gpg_bush_glb_dead_02]
+{
+	category_name = "foliage";
+	doc = "grs_bush_dead";
+	specializes = base_bush;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.6;
+		model = m_i_glb_bush-dead-02;
+		textures:0 = b_i_glb_bush-dead-02;
+	}
+}
+[t:template,n:gpg_bush_glb_dead_03]
+{
+	category_name = "foliage";
+	doc = "grs_bush_dead_webbed_some";
+	specializes = base_bush;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.6;
+		model = m_i_glb_bush-dead-03;
+		textures:0 = b_i_glb_bush-dead-03;
+	}
+}
+[t:template,n:gpg_bush_glb_rhod_dead_01]
+{
+	category_name = "foliage";
+	doc = "grs_rhod_webbed_lots";
+	specializes = base_bush;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+		model = m_i_glb_bush-rhod-dead-01;
+		textures:0 = b_i_glb_bush-rhod-dead-01;
+	}
+}
+[t:template,n:gpg_bush_glb_rhod_dead_02]
+{
+	category_name = "foliage";
+	doc = "grs_rhod_webbed_some";
+	specializes = base_bush;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+		model = m_i_glb_bush-rhod-dead-02;
+		textures:0 = b_i_glb_bush-rhod-dead-02;
+	}
+}
+[t:template,n:gpg_bush_glb_rhod_dead_03]
+{
+	category_name = "foliage";
+	doc = "grs_rhod_dying";
+	specializes = base_bush;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+		model = m_i_glb_bush-rhod-dead-03;
+		textures:0 = b_i_glb_bush-rhod-dead-03;
+	}
+}
+[t:template,n:gpg_bush_glb_rhod_dead_04]
+{
+	category_name = "foliage";
+	doc = "grs_rhod_sick";
+	specializes = base_bush;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+		model = m_i_glb_bush-rhod-dead-04;
+		textures:0 = b_i_glb_bush-rhod-dead-04;
+	}
+}
+////////////////////////////////////////
+
+////////////////////////////////////////$$webbed/dead_logs/oldgrowth
+[t:template,n:gpg_log_glb_old_01]
+{
+	category_name = "misc";
+	doc = "swp_log_long_old";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = m_i_glb_log-old-01;
+		textures:0 = b_i_glb_log-old-01;
+	}
+}
+[t:template,n:gpg_log_glb_old_02]
+{
+	category_name = "misc";
+	doc = "swp_log_branched_old";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = m_i_glb_log-old-02;
+		textures:0 = b_i_glb_log-old-01;
+	}
+}
+[t:template,n:gpg_log_glb_old_webbed_01]
+{
+	category_name = "misc";
+	doc = "swp_log_long_webbed";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = m_i_glb_log-old-01;
+		textures:0 = b_i_glb_log-old-webbed-01;
+	}
+}
+[t:template,n:gpg_log_glb_old_webbed_02]
+{
+	category_name = "misc";
+	doc = "swp_log_branched_webbed";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = m_i_glb_log-old-02;
+		textures:0 = b_i_glb_log-old-webbed-01;
+	}
+}
+[t:template,n:gpg_log_glb_old_webbed_03]
+{
+	category_name = "misc";
+	doc = "swp_log_long_webbed_lots";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = m_i_glb_log-old-webbed-02;
+		textures:0 = b_i_glb_log-old-webbed-02;
+	}
+}
+[t:template,n:gpg_log_glb_old_webbed_04]
+{
+	category_name = "misc";
+	doc = "swp_log_branched_webbed_lots";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = m_i_glb_log-old-webbed-03;
+		textures:0 = b_i_glb_log-old-webbed-03;
+	}
+}
+[t:template,n:gpg_tree_glb_oldgrowth_dead_01]
+{
+	category_name = "misc";
+	doc = "grs_branches_2_old";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = .9;
+		model = m_i_glb_tree-oldgrowth-dead-01;
+		textures:0 = b_i_glb_tree-oldgrowth-dead-01;
+	}
+}
+[t:template,n:gpg_tree_glb_oldgrowth_dead_02]
+{
+	category_name = "misc";
+	doc = "grs_branches_3_old";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1.0;
+		model = m_i_glb_tree-oldgrowth-dead-02;
+		textures:0 = b_i_glb_tree-oldgrowth-dead-01;
+	}
+}
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_01]
+{
+	category_name = "misc";
+	doc = "grs_branches_2_webbed";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1.0;
+		model = m_i_glb_tree-oldgrowth-dead-01;
+		textures:0 = b_i_glb_tree-oldgrth-dead-webd-01;
+	}
+}
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_02]
+{
+	category_name = "misc";
+	doc = "grs_branches_3_webbed";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1.0;
+		model = m_i_glb_tree-oldgrowth-dead-02;
+		textures:0 = b_i_glb_tree-oldgrth-dead-webd-01;
+	}
+}
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_03]
+{
+	category_name = "misc";
+	doc = "grs_branches_2_webbed_lots";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1.0;
+		model = m_i_glb_tree-oldgrth-dead-webd-01;
+		textures:0 = b_i_glb_tree-oldgrth-dead-webd-02;
+	}
+}
+[t:template,n:gpg_tree_glb_oldgrowth_dead_webbed_04]
+{
+	category_name = "misc";
+	doc = "grs_branches_3_webbed_lots";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1.0;
+		model = m_i_glb_tree-oldgrth-dead-webd-02;
+		textures:0 = b_i_glb_tree-oldgrth-dead-webd-03;
+	}
+}
+////////////////////////////////////////
+
+////////////////////////////////////////$$items/terrain_objects
+[t:template,n:gpg_webbing_glb_ground_01]
+{
+	category_name = "misc";
+	doc = "cobweb_ground_01";
+	extra_doc = "Don't overlap me with other ground webs!";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_webbing-ground-01;
+		textures:0 = b_i_glb_webbing-ground-01;
+	}
+}
+[t:template,n:gpg_webbing_glb_ground_02]
+{
+	category_name = "misc";
+	doc = "cobweb_ground_02";
+	extra_doc = "Don't overlap me with other ground webs!";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_webbing-ground-01;
+		textures:0 = b_i_glb_webbing-ground-02;
+	}
+}
+[t:template,n:gpg_webbing_glb_ground_03]
+{
+	category_name = "misc";
+	doc = "cobweb_ground_03";
+	extra_doc = "Don't overlap me with other ground webs!";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_webbing-ground-01;
+		textures:0 = b_i_glb_webbing-ground-03;
+	}
+}
+[t:template,n:gpg_webbing_glb_ground_04]
+{
+	category_name = "misc";
+	doc = "cobweb_ground_04";
+	extra_doc = "Don't overlap me with other ground webs!";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_webbing-ground-01;
+		textures:0 = b_i_glb_webbing-ground-04;
+	}
+}
+[t:template,n:gpg_webbing_glb_ground_05]
+{
+	category_name = "misc";
+	doc = "cobweb_ground_05";
+	extra_doc = "Don't overlap me with other ground webs!";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_glb_webbing-ground-01;
+		textures:0 = b_i_glb_webbing-ground-05;
+	}
+}
+[t:template,n:gpg_rubble_glb_fence_01]
+{
+	category_name = "rocks";
+	doc = "rubble_fence_chunks";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.5;
+		lodfi_upper = 0.7;
+		model = m_i_glb_fence-rubble-01;
+		textures:0 = b_i_glb_fence-rubble-01;
+	}
+}
+[t:template,n:gpg_rubble_glb_fence_02]
+{
+	category_name = "misc";
+	doc = "rubble_fence_brick";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.6;
+		model = m_i_glb_fence-rubble-02;
+		textures:0 = b_i_glb_fence-rubble-01;
+	}
+}
+[t:template,n:gpg_plaque_swp_obelisk_01]
+{
+	category_name = "node";
+	doc = "plaque_swp_obelisk";
+	specializes = actor;
+
+	[aspect]
+	{
+		model = m_i_glb_obelisk-plaque-01;
+		textures:0 = b_i_glb_obelisk-plaque-swp;
+		is_invincible = true;
+		draw_shadow = false;
+	}
+	[body]
+	{
+		initial_chore = chore_none;
+	}
+	[common]
+	{
+		screen_name = "Obelisk";
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[conversation]
+	{
+	}
+}
+[t:template,n:gpg_plaque_ice_obelisk_01]
+{
+	category_name = "node";
+	doc = "plaque_ice_obelisk";
+	specializes = actor;
+
+	[aspect]
+	{
+		model = m_i_glb_obelisk-plaque-01;
+		textures:0 = b_i_glb_obelisk-plaque-sn02;
+		is_invincible = true;
+		draw_shadow = false;
+	}
+	[body]
+	{
+		initial_chore = chore_none;
+	}
+	[common]
+	{
+		screen_name = "Obelisk";
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[conversation]
+	{
+	}
+}
+[t:template,n:gpg_plaque_grs_obelisk_01]
+{
+	category_name = "node";
+	doc = "plaque_grs_obelisk";
+	specializes = actor;
+
+	[aspect]
+	{
+		model = m_i_glb_obelisk-plaque-01;
+		textures:0 = b_i_glb_obelisk-plaque-grs01;
+		is_invincible = true;
+		draw_shadow = false;
+	}
+	[body]
+	{
+		initial_chore = chore_none;
+	}
+	[common]
+	{
+		screen_name = "Obelisk";
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[conversation]
+	{
+	}
+}
+[t:template,n:gpg_plaque_grs_obelisk_02]
+{
+	category_name = "bad";
+	doc = "gpg_plaque_grs_obelisk_02";
+	specializes = actor;
+
+	[aspect]
+	{
+		model = m_i_glb_obelisk-plaque-01;
+		textures:0 = b_i_glb_obelisk-plaque-grs02;
+		is_invincible = true;
+		draw_shadow = false;
+	}
+	[body]
+	{
+		initial_chore = chore_none;
+	}
+	[common]
+	{
+		screen_name = "Obelisk";
+	}
+	[conversation]
+	{
+	}
+}	
+[t:template,n:gpg_sarcophagus_cav_talk_01]
+{
+	category_name = "ll_05";
+	doc = "talking_sarcophagus_cav_01";
+	specializes = actor;
+
+	[aspect]
+	{
+		model = m_i_cav_sarcophagus-01;
+		material = stone;
+		[textures]
+		{
+			0 = b_i_cav_sarcophagus-01;
+		}
+		is_invincible = true;
+		draw_shadow = false;
+		does_block_path = true;
+	}
+	[body]
+	{
+		initial_chore = chore_none;
+	}
+	[common]
+	{
+		screen_name = "Sarcophagus";
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[conversation]
+	{
+	}
+}
+[t:template,n:gpg_drift_ice_snow_01]
+{
+	category_name = "node";
+	doc = "ice_tower_drift_bridge_24_a";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.7;
+		model = m_i_ice_snow-drift-bridge-24-a01;
+		textures:0 = b_i_ice_snow-drifts;
+	}
+}
+[t:template,n:gpg_drift_ice_snow_02]
+{
+	category_name = "node";
+	doc = "ice_tower_drift_bridge_24_b";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.20;
+		lodfi_upper = 0.65;
+		model = m_i_ice_snow-drift-bridge-24-b01;
+		textures:0 = b_i_ice_snow-drifts;
+	}
+}
+[t:template,n:gpg_drift_ice_snow_03]
+{
+	category_name = "node";
+	doc = "ice_tower_drift_bridge_32_a";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.20;
+		lodfi_upper = 0.65;
+		model = m_i_ice_snow-drift-bridge-32-a01;
+		textures:0 = b_i_ice_snow-drifts;
+	}
+}
+[t:template,n:gpg_drift_ice_snow_04]
+{
+	category_name = "node";
+	doc = "ice_tower_drift_bridge_32_b";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.20;
+		lodfi_upper = 0.65;
+		model = m_i_ice_snow-drift-bridge-32-b01;
+		textures:0 = b_i_ice_snow-drifts;
+	}
+}
+[t:template,n:gpg_drift_ice_snow_05]
+{
+	category_name = "node";
+	doc = "ice_tower_drift_ramp_short";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.4;
+		model = m_i_ice_snow-drift-floor-ramp-a;
+		textures:0 = b_i_ice_snow-drifts;
+	}
+}
+[t:template,n:gpg_drift_ice_snow_06]
+{
+	category_name = "node";
+	doc = "ice_tower_drift_ramp_long";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.4;
+		model = m_i_ice_snow-drift-ramp-a;
+		textures:0 = b_i_ice_snow-drifts;
+	}
+}
+[t:template,n:gpg_drift_ice_snow_07]
+{
+	category_name = "node";
+	doc = "ice_tower_drift_wall_a";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.4;
+		model = m_i_ice_snow-drift-wall-a;
+		textures:0 = b_i_ice_snow-drifts;
+	}
+}
+[t:template,n:gpg_drift_ice_snow_08]
+{
+	category_name = "node";
+	doc = "ice_tower_drift_wall_b";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.4;
+		model = m_i_ice_snow-drift-wall-b;
+		textures:0 = b_i_ice_snow-drifts;
+	}
+}
+[t:template,n:gpg_mound_ice_snow_01]
+{
+	category_name = "misc";
+	doc = "ice_mound_a";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.4;
+		model = m_i_ice_snow-mound-01;
+		textures:0 = b_i_ice_snow-drifts;
+	}
+}
+[t:template,n:gpg_mound_ice_snow_02]
+{
+	category_name = "misc";
+	doc = "ice_mound_b";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.4;
+		model = m_i_ice_snow-mound-02;
+		textures:0 = b_i_ice_snow-drifts;
+	}
+}
+[t:template,n:gpg_chunks_ice_floating_01]
+{
+	category_name = "node";
+	doc = "ice_floating_chunk_xlg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.4;
+		model = m_i_ice_floating-chunks-01;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_chunks_ice_floating_02]
+{
+	category_name = "node";
+	doc = "ice_floating_chunk_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.5;
+		model = m_i_ice_floating-chunks-02;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_chunks_ice_floating_03]
+{
+	category_name = "node";
+	doc = "ice_floating_chunk_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.35;
+		lodfi_upper = 0.65;
+		model = m_i_ice_floating-chunks-03;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_chunks_ice_floating_04]
+{
+	category_name = "node";
+	doc = "ice_floating_chunk_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.45;
+		lodfi_upper = 0.8;
+		model = m_i_ice_floating-chunks-04;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_chunks_ice_floating_05]
+{
+	category_name = "node";
+	doc = "ice_floating_chunks_xlg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.6;
+		lodfi_upper = 1.0;
+		model = m_i_ice_floating-chunks-05;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_chunks_ice_floating_06]
+{
+	category_name = "node";
+	doc = "ice_floating_chunks_xxlg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.5;
+		lodfi_upper = 1.0;
+		model = m_i_ice_floating-chunks-06;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_chunks_ice_floating_07]
+{
+	category_name = "node";
+	doc = "ice_floating_chunks_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1.0;
+		model = m_i_ice_floating-chunks-07;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_chunks_ice_floating_08]
+{
+	category_name = "node";
+	doc = "ice_floating_chunks_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.9;
+		lodfi_upper = 1.0;
+		model = m_i_ice_floating-chunks-08;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_chunks_ice_floating_09]
+{
+	category_name = "node";
+	doc = "ice_floating_chunks_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1.0;
+		model = m_i_ice_floating-chunks-09;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_chunks_ice_floating_10]
+{
+	category_name = "node";
+	doc = "ice_floating_chunks_xsm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1.0;
+		model = m_i_ice_floating-chunks-10;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_icicles_ice_01]
+{
+	category_name = "node";
+	doc = "ice_tower_icicles";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.7;
+		lodfi_upper = 1.0;
+		model = m_i_ice_icicles-02;
+		textures:0 = b_i_ice_icicles-02;
+	}
+}
+[t:template,n:gpg_railing_ice_01]
+{
+	category_name = "node";
+	doc = "ice_tower_railing_large_b";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.65;
+		model = m_i_ice_railing-01;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_railing_ice_02]
+{
+	category_name = "node";
+	doc = "ice_tower_railing_large_a";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.65;
+		model = m_i_ice_railing-02;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_railing_ice_03]
+{
+	category_name = "node";
+	doc = "ice_tower_railing_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.65;
+		model = m_i_ice_railing-03;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_railing_ice_04]
+{
+	category_name = "node";
+	doc = "ice_tower_railing_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.65;
+		model = m_i_ice_railing-04;
+		textures:0 = b_i_ice_floating-chunks-01;
+	}
+}
+[t:template,n:gpg_lever_ice_01]
+{
+	doc	= "lever_ice";
+	category_name	= "levers";
+	specializes	= base_usable;
+	[aspect]
+	{
+		model	= m_i_ice_lever;
+		textures:0	= b_i_ice_lever;
+		is_collidable	= true;
+		scale_base	= 1.3;
+		material	= button_stone;
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_ice;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= lever-push;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files: 00	= lever-pull;
+			}
+		}
+	}
+	[common] { screen_name = "Lever"; }
+	[on_off_lever]
+	{
+		reset_time = 1.0000;
+	}
+}
+[t:template,n:gpg_chalice_glb_01]
+{
+	category_name = "quest";
+	doc = "w3_chalice_gold";
+	specializes = treasure;
+	[common] { screen_name = "Chalice"; }
+	[aspect]
+	{
+		//lodfi_lower = 0.5;
+		//lodfi_upper = 1.0;
+		model = m_i_glb_chalice;
+		textures:0 = b_i_glb_chalice;
+	}
+	[gui]
+	{
+		inventory_icon = b_gui_ig_i_it_chalice;
+	}
+}
+////////////////////////////////////////
+
+////////////////////////////////////////$$lighting
+[t:template,n:gpg_torch_ice_01]
+{
+	doc = "ice_torch_floor_short";
+	category_name = "lighting";
+	specializes = non_interactive;
+	[aspect]
+	{
+		lodfi_lower = 0.0;
+		lodfi_upper = 0.0;
+		model = m_i_ice_torch-short;
+		textures:0 = b_i_ice_torches;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("ice_torch_frost");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+		}
+	}
+	[light_flicker_lightweight]
+	{
+		duration = 0;
+		flicker_frequency_max = 12;
+		flicker_frequency_min = 10;
+		magnitude = 0.15;
+	}
+}
+[t:template,n:gpg_torch_ice_02]
+{
+	doc = "ice_torch_wall";
+	category_name = "lighting";
+	specializes = non_interactive;
+	[aspect]
+	{
+		lodfi_lower = 0.0;
+		lodfi_upper = 0.0;
+		model = m_i_ice_torch-wall;
+		textures:0 = b_i_ice_torches;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("ice_torch_frost2");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+		}
+	}
+	[light_flicker_lightweight]
+	{
+		duration = 0;
+		flicker_frequency_max = 12;
+		flicker_frequency_min = 10;
+		magnitude = 0.15;
+	}
+}
+[t:template,n:gpg_torch_ice_03]
+{
+	doc = "ice_torch_floor_tall";
+	category_name = "lighting";
+	specializes = non_interactive;
+	[aspect]
+	{
+		lodfi_lower = 0.0;
+		lodfi_upper = 0.0;
+		model = m_i_ice_torch-tall;
+		textures:0 = b_i_ice_torches;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("ice_torch_frost3");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+		}
+	}
+	[light_flicker_lightweight]
+	{
+		duration = 0;
+		flicker_frequency_max = 12;
+		flicker_frequency_min = 10;
+		magnitude = 0.15;
+	}
+}
+
+[t:template,n:gpg_lamp_crypt_01]
+{
+	category_name = "lighting";
+	doc = "lamp_table_stone_unlit";
+	specializes = non_interactive;
+	[aspect]
+	{
+		lodfi_lower = -1;
+		lodfi_upper = -1;
+		model = m_i_csl_lantern-02;
+	}
+	[generic_emitter_act] 
+	{
+		other_effect = torch_firews;
+		start_on_creation = true;
+	}
+}   
+
+////////////////////////////////////////
+
+////////////////////////////////////////$$dead_bodies
+[t:template,n:gpg_body_glb_krug_snow_01]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_01";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-04;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_02]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_02";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-05;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_03]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_03";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-06;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_04]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_04";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-07;
+		textures:0 = b_c_eam_ksv-03;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_05]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_05";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-08;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_06]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_06";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-09;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_07]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_07";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-10;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_08]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_08";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-11;
+		textures:0 = b_c_eam_kg-02;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_09]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_09";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.9;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-01;
+		textures:0 = b_c_eam_kg-03;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_10]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_10";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.9;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-02;
+		textures:0 = b_c_eam_kg-03;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_11]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_11";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.9;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-03;
+		textures:0 = b_c_eam_kg-03;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_12]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_12";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-04;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_13]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_13";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-05;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_14]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_14";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-06;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_body_glb_krug_snow_15]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_snow_15";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-07;
+		textures:0 = b_c_eam_ksc-05;
+	}
+}
+[t:template,n:gpg_body_glb_krug_fire_01]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_fire_01";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-08;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_body_glb_krug_fire_02]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_fire_02";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-09;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_body_glb_krug_fire_03]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_fire_03";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-10;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_body_glb_krug_fire_04]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_fire_04";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-11;
+		textures:0 = b_c_eam_kg-07;
+	}
+}
+[t:template,n:gpg_body_glb_krug_fire_05]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_fire_05";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.9;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-03;
+		textures:0 = b_c_eam_kc-02;
+	}
+}
+[t:template,n:gpg_body_glb_krug_fire_06]
+{
+	category_name = "dead";
+	doc = "gpg_body_glb_krug_fire_06";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.9;
+		lodfi_upper = 1;
+		model = m_i_glb_dead_krug-02;
+		textures:0 = b_c_eam_kr-02;
+	}
+}
+////////////////////////////////////////
+
+////////////////////////////////////////$$gates/doors
+[t:template,n:gpg_gate_glb_fence_iron_left]
+{
+	specializes		= base_door;
+	doc				= "fence_glb_left";
+    category_name   = "bad"; //dupe of grs version
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01;
+    	textures:0 = b_i_glb_fence-iron-gate;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-left-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-left-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_glb_fence_iron_right]
+{
+	specializes		= base_door;
+	doc				= "fence_glb_right";
+    category_name   = "bad"; //dup of grs version
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01-right;
+    	textures:0 = b_i_glb_fence-iron-gate;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-right-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-right-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_swp_fence_iron_left]
+{
+	specializes		= base_door;
+	doc				= "fence_swp_left";
+    category_name   = "doors";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01;
+    	textures:0 = b_i_glb_fence-iron-gate-swp;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-left-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-left-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_swp_fence_iron_left_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "fence_swp_left_use_toggle";
+    category_name   = "use_toggle";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01;
+    	textures:0 = b_i_glb_fence-iron-gate-swp;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-left-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-left-close;
+			}
+		}
+	}
+    [messages]
+	{
+		[locked]
+		{
+			screen_text = "This gate is locked.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+[t:template,n:gpg_gate_swp_fence_iron_right]
+{
+	specializes		= base_door;
+	doc				= "fence_swp_right";
+    category_name   = "doors";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01-right;
+    	textures:0 = b_i_glb_fence-iron-gate-swp;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-right-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-right-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_swp_fence_iron_right_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "fence_swp_right_use_toggle";
+    category_name   = "use_toggle";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01-right;
+    	textures:0 = b_i_glb_fence-iron-gate-swp;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-right-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-right-close;
+			}
+		}
+	}
+    [messages]
+	{
+		[locked]
+		{
+			screen_text = "This gate is locked.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+[t:template,n:gpg_gate_ice_fence_iron_left]
+{
+	specializes		= base_door;
+	doc				= "fence_ice_left";
+    category_name   = "doors";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01;
+    	textures:0 = b_i_glb_fence-iron-gate-sn02;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-left-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-left-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_ice_fence_iron_left_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "fence_ice_left_use_toggle";
+    category_name   = "use_toggle";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01;
+    	textures:0 = b_i_glb_fence-iron-gate-sn02;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-left-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-left-close;
+			}
+		}
+	}
+    [messages]
+	{
+		[locked]
+		{
+			screen_text = "This gate is locked.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+[t:template,n:gpg_gate_ice_fence_iron_right]
+{
+	specializes		= base_door;
+	doc				= "fence_ice_right";
+    category_name   = "doors";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01-right;
+    	textures:0 = b_i_glb_fence-iron-gate-sn02;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-right-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-right-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_ice_fence_iron_right_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "fence_ice_right_use_toggle";
+    category_name   = "use_toggle";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01-right;
+    	textures:0 = b_i_glb_fence-iron-gate-sn02;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-right-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-right-close;
+			}
+		}
+	}
+    [messages]
+	{
+		[locked]
+		{
+			screen_text = "This gate is locked.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+[t:template,n:gpg_gate_grs_fence_iron_left_01]
+{
+	specializes		= base_door;
+	doc				= "fence_iron_left";
+    category_name   = "doors";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01;
+    	textures:0 = b_i_glb_fence-iron-gate-grs01;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-left-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-left-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_grs_fence_iron_left_01_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "fence_iron_left_use_toggle";
+    category_name   = "use_toggle";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01;
+    	textures:0 = b_i_glb_fence-iron-gate-grs01;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-left-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-left-close;
+			}
+		}
+	}
+    [messages]
+	{
+		[locked]
+		{
+			screen_text = "This gate is locked.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+[t:template,n:gpg_gate_grs_fence_iron_right_01]
+{
+	specializes		= base_door;
+	doc				= "fence_iron_right";
+    category_name   = "doors";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01-right;
+    	textures:0 = b_i_glb_fence-iron-gate-grs01;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-right-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-right-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_grs_fence_iron_right_01_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "fence_iron_right_use_toggle";
+    category_name   = "use_toggle";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01-right;
+    	textures:0 = b_i_glb_fence-iron-gate-grs01;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-right-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-right-close;
+			}
+		}
+	}
+    [messages]
+	{
+		[locked]
+		{
+			screen_text = "This gate is locked.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+[t:template,n:gpg_gate_grs_fence_iron_left_02]
+{
+	specializes		= base_door;
+	doc				= "fence_rusted_left";
+    category_name   = "doors";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01;
+    	textures:0 = b_i_glb_fence-iron-gate-grs02;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-left-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-left-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_grs_fence_iron_left_02_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "fence_rusted_left_use_toggle";
+    category_name   = "use_toggle";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01;
+    	textures:0 = b_i_glb_fence-iron-gate-grs02;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-left-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-left-close;
+			}
+		}
+	}
+    [messages]
+	{
+		[locked]
+		{
+			screen_text = "This gate is locked.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+[t:template,n:gpg_gate_grs_fence_iron_right_02]
+{
+	specializes		= base_door;
+	doc				= "fence_rusted_right";
+    category_name   = "doors";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01-right;
+    	textures:0 = b_i_glb_fence-iron-gate-grs02;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-right-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-right-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_grs_fence_iron_right_02_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "fence_rusted_right_use_toggle";
+    category_name   = "use_toggle";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01-right;
+    	textures:0 = b_i_glb_fence-iron-gate-grs02;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-right-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-right-close;
+			}
+		}
+	}
+    [messages]
+	{
+		[locked]
+		{
+			screen_text = "This gate is locked.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+[t:template,n:gpg_gate_des_fence_iron_left]
+{
+	specializes		= base_door;
+	doc				= "fence_des_left";
+    category_name   = "doors";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01;
+    	textures:0 = b_i_glb_fence-iron-gate-dc01;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-left-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-left-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_des_fence_iron_left_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "fence_des_left_use_toggle";
+    category_name   = "use_toggle";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01;
+    	textures:0 = b_i_glb_fence-iron-gate-dc01;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-left-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-left-close;
+			}
+		}
+	}
+    [messages]
+	{
+		[locked]
+		{
+			screen_text = "This gate is locked.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+[t:template,n:gpg_gate_des_fence_iron_right]
+{
+	specializes		= base_door;
+	doc				= "fence_des_right";
+    category_name   = "doors";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01-right;
+    	textures:0 = b_i_glb_fence-iron-gate-dc01;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-right-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-right-close;
+			}
+		}
+	}
+    [door_basic] {}
+}
+[t:template,n:gpg_gate_des_fence_iron_right_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "fence_des_right_use_toggle";
+    category_name   = "use_toggle";
+    //extra_doc   = "door opens opposite direction of the arrow";
+    common:screen_name = "Gate";
+	[aspect]
+    {
+    	model	= m_i_glb_fence-iron-gate-01-right;
+    	textures:0 = b_i_glb_fence-iron-gate-dc01;
+    	material = grate;
+    }
+	[body]
+	{
+		[chore_dictionary]
+		{
+            chore_prefix = a_i_glb;
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= fence-iron-gate-right-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files:	00	= fence-iron-gate-right-close;
+			}
+		}
+	}
+    [messages]
+	{
+		[locked]
+		{
+			screen_text = "This gate is locked.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+
+[t:template,n:gpg_w3_door_grs_peasant_right_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "w3_wooden_peasant-R_use_toggle";
+    category_name   = "use_toggle";
+    extra_doc   = "door opens opposite direction of the arrow";
+
+    aspect:material = wood;
+    aspect:model		= m_i_glb_door-01-R;
+    aspect:textures:0	= b_i_grs_door-02;
+
+	[body]
+	{
+		[chore_dictionary]
+		{
+        	chore_prefix = a_i_glb;
+
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= door-barn-01-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files: 00	= door-barn-01-close;
+			}
+		}
+	}
+	[messages]
+	{
+		[locked]
+		{
+			screen_text = "This door is locked.";
+		}
+	}
+	[door_basic]
+	{
+		use_toggle		= true;
+	}
+}
+
+[t:template,n:gpg_w3_door_glb_gendungeon_03_use_toggle]
+{
+	specializes		= base_door;
+	doc				= "w3_tr_04_des_mausoleum";
+    category_name   = "use_toggle";
+	
+	[aspect]
+    {
+    	model		= m_i_glb_door-gendungeon-01;
+    	[textures]	{ 0 = b_i_glb_door-gendungeon-03; }
+    	use_range   = 3.0;
+    	material = stone_medium;
+    	scale_base = 1.5;
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+        	chore_prefix = a_i_glb;
+
+			[chore_open]
+			{
+				skrit			= transition;
+				anim_files: 00	= door-gendungeon-01-open;
+			}
+			[chore_close]
+			{
+				skrit			= transition;
+				anim_files: 00	= door-gendungeon-01-close;
+			}
+		}
+	}
+	/*[messages]
+	{
+		[locked]
+		{
+			screen_text = "This door is magically sealed.";
+		}
+	}*/
+	[door_basic]
+	{
+		open_sfx = "door_shake";
+        oneshot = false;
+        delete_on_open = false; 
+        use_toggle = false;
+      
+	}
+}
+////////////////////////////////////////
+
+
+///////////////////// Weapons
+
+//////// snowball chucker bow and arrow.
+
+[t:template,n:gpg_snowball_krug]
+{
+	doc = "gpg_snowball_krug";
+	specializes = base_bow;
+	[aspect]
+	{
+		is_selectable = false;
+		model = m_w_misc_017;
+		is_visible = false;
+		[voice]
+		{
+			[attack]
+			{
+				* = s_e_swing_01;
+				* = s_e_swing_03;
+			}
+		}
+	}
+	[attack]
+	{
+		ammo_appears_jit = true;
+		ammo_template = gpg_snowball_krug_ammo;
+		damage_max = 12;
+		damage_min = 11;
+	}
+	[common]
+	{
+		is_pcontent_allowed = false;
+		screen_name = "Snowball";
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("snowball_tracer");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+		}
+	}
+	[gui]
+	{
+		is_droppable = false;
+	}
+	[physics]
+	{
+		velocity = 10;
+	}
+}
+[t:template,n:gpg_snowball_krug_ammo]
+{
+	specializes = base_arrow;
+	[aspect]
+	{
+		material = stonesmall;
+		model=m_w_misc_018;
+		is_selectable	= false;
+		force_no_render = true;
+		[voice]
+		{
+			[attack] { * = s_e_swing_01; }
+		}
+	}
+	[attack]
+	{
+		damage_max = 0;
+		damage_min = 0;
+	}
+	[common]
+	{
+		is_pcontent_allowed = FALSE;
+		screen_name = "Snowball";
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("snowball_tracer");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+		}
+	}
+
+	[physics]
+	{
+		angular_velocity = 8,8,8;
+		randomize_velocity = TRUE;
+		elasticity = 0.5;
+		deflection_angle = .2;
+		orient_to_trajectory = FALSE;
+		explode_if_hit_go = true;
+		explode_if_hit_terrain = true;
+		explode_when_expired = true;
+		break_effect = snowball_explosion;
+	}
+}
+
+[t:template,n:gpg_fire_king_skull]
+{
+	doc = "gpg_fire_king_skull";
+	specializes = base_arrow;
+	[aspect]
+	{
+		model=m_w_misc_029;
+//		textures:0=m_w_misc_fireskull;
+		scale_base = 4.0;
+	}
+	[attack]
+	{
+		damage_max = 1;
+		damage_min = 1;
+		skill_class = "Combat Magic";
+	}
+	[common]
+	{
+		is_pcontent_allowed = FALSE;
+		screen_name = "Skull";
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("fire_king_skull_flames");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+		}
+	}
+	[physics]
+	{
+		orient_to_trajectory = true;
+		angular_velocity = 0,0,0;
+		break_effect = fire_king_swipe_hit;
+		explode_if_hit_go		= true;
+		explode_if_hit_terrain	= true;
+		explode_when_expired 	= true;
+		gravity = 20;
+	}
+}
+
+/////// Fire King Hammer //////////////////
+
+[t:template,n:gpg_hammer_fire_king]
+{
+	doc = "Fire King Hammer";
+	specializes = base_hammer;
+	[aspect]
+	{
+		model = m_w_hmr_fireking;
+		textures:0 = b_w_misc_fkhammer;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+	  f damage_max = 30.000000;
+	  f damage_min = 20.000000;
+	  	is_two_handed = true;
+	}
+	[common]
+	{
+		is_pcontent_allowed = FALSE;
+		screen_name = "Hammer";
+	}
+	[gui]
+	{
+		is_droppable = false;
+	}
+}
+
+///////////////////////////////////////////
+
+/////// Skrevs ///////////////////////////
+
+[t:template,n:gpg_w3_skrev_sq_05_ic_defender]
+{
+	specializes 	= cmd_const;
+	doc				= "gpg_skrev_sq_05_ic_defender";
+   	extra_doc		= "This is the controller for the snow queen defense skrev.";
+    category_name	= "skrev";
+
+	[gpg_w3_skrev_sq_05_ic_defender] {}
+	[gizmo]
+	{
+		diffuse_color=1.000000,0.600000,0.200000;
+		model = m_i_glb_object-gogen;
+	}
+}
+[t:template,n:gpg_w3_skrev_fk_02_dc_steal]
+{
+	specializes 	= cmd_const;
+	doc				= "gpg_w3_skrev_fk_02_dc_steal";
+   	extra_doc		= "This is the controller for the fire kings stealing the cup skrev.";
+    category_name	= "skrev";
+
+	[gpg_w3_skrev_fk_02_dc_steal] {}
+	[gizmo]
+	{
+		diffuse_color=1.000000,0.600000,0.200000;
+		model = m_i_glb_object-gogen;
+	}
+}
+[t:template,n:gpg_w3_skrev_fk_04_df_fire_king]
+{
+	specializes 	= command;
+	doc				= "gpg_w3_skrev_fk_02_df_fire_king";
+   	extra_doc		= "This is the controller for the fire king encounter.";
+    category_name	= "skrev";
+
+	[gpg_w3_skrev_fk_04_df_fire_king] {}
+	[gizmo]
+	{
+		diffuse_color=1.000000,0.600000,0.200000;
+		model = m_i_glb_object-gogen;
+	}
+}
+[t:template,n:gpg_w3_skrev_ll_06_uc_spirit]
+{
+	specializes 	= cmd_const;
+	doc				= "gpg_w3_skrev_ll_06_uc_spirit";
+   	extra_doc		= "This is the controller for the lich spirit entering the sarcaughagus.";
+    category_name	= "skrev";
+
+	[gpg_w3_skrev_ll_06_uc_spirit] {}
+	[gizmo]
+	{
+		diffuse_color=1.000000,0.600000,0.200000;
+		model = m_i_glb_object-gogen;
+	}
+}
+
+[t:template,n:gpg_w3_skrev_ll_06_uc_lich]
+{
+	specializes 	= command;
+	doc				= "gpg_w3_skrev_ll_06_uc_lich";
+   	extra_doc		= "This is the controller for the lich king boss fight.";
+    category_name	= "skrev";
+
+	[gpg_w3_skrev_ll_06_uc_lich] {}
+	[gizmo]
+	{
+		diffuse_color=1.000000,0.600000,0.200000;
+		model = m_i_glb_object-gogen;
+	}
+}
+
+[t:template,n:gpg_w3_skrev_tr_04_des_well]
+{
+	specializes 	= command;
+	doc				= "gpg_w3_skrev_tr_04_des_well";
+   	extra_doc		= "This is the controller for the snow queen filling the well skrev.";
+    category_name	= "skrev";
+
+	[gpg_w3_skrev_tr_04_des_well] {}
+	[gizmo]
+	{
+		diffuse_color=1.000000,0.600000,0.200000;
+		model = m_i_glb_object-gogen;
+	}
+}
+
+[t:template,n:gpg_w3_skrev_tr_03_swp_siege]
+{
+	specializes 	= command;
+	doc				= "gpg_w3_skrev_tr_03_swp_siege";
+	extra_doc		= "Skrev controler, handles the undead attacking the town SkritedEvent.";
+	category_name	= "skrev";
+
+	[gpg_w3_skrev_tr_03_swp_siege] {}
+	[gizmo]
+	{
+		diffuse_color=1.000000,0.600000,0.200000;
+		model = m_i_glb_object-gogen;
+	}
+}
+
+[t:template,n:gpg_w3_skrev_tr_01_ruin_elevator]
+{
+	specializes 	= cmd_const;
+	doc				= "gpg_w3_skrev_tr_01_ruin_elevator";
+	extra_doc		= "This is the controller for the obelisk teleportation SkritedEvent.";
+	category_name	= "skrev";
+
+	[gpg_w3_skrev_tr_01_ruin_elevator] {}
+	[gizmo]
+	{
+		diffuse_color=1.000000,0.600000,0.200000;
+		model = m_i_glb_object-gogen;
+	}
+	[messages]
+	{
+		[transition1]
+		{
+			screen_text = "A chill is in the air.";
+		}
+		[transition2]
+		{
+			screen_text = "Light snow begins to fall.";
+		}
+		[transition3]
+		{
+			screen_text = "The temperature drops.";
+		}
+		[transition4]
+		{
+			screen_text = "The shadows deepen.";
+		}
+		[transition5]
+		{
+			screen_text = "A frigid wind blows.";
+		}
+		[transition6]
+		{
+			screen_text = "Whispers float on the wind.";
+		}
+		[transition7]
+		{
+			screen_text = "An icy mist descends.";
+		}
+	}
+}
+
+/////// other scripted sequence gizmos ///////
+
+[t:template,n:gpg_w3_blocking_object]
+{
+	specializes = cmd_const;
+	doc = "path blocker";
+	category_name = "special";
+	[aspect]
+	{
+		model						= m_i_glb_object-gogen;
+		draw_selection_indicator	= false;
+		dynamically_lit				= false;
+		force_no_render				= true;
+		bounding_volume_scale       = 5.0;
+		does_block_path				= false;
+	}
+	[placement]		{}
+	[gpg_w3_block] {}
+	[gizmo]
+	{
+		model				=	m_i_glb_object-gogen;
+		texture				=	;
+		diffuse_color		=	1.0, 0.5, 0.0;
+		use_diffuse_color	=	true;
+	}
+}

@@ -1,0 +1,6 @@
+[t:tsd,n:b_i_ice_snow-drifts]
+{
+  b hasalpha = true;
+	layer1texture1 = b_i_ice_snow-drifts;
+  i texturedetail = 2;
+}

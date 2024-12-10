@@ -1,0 +1,5 @@
+[t:tsd,n:b_t_sn02_tombstone]
+{
+	layer1texture1 = b_t_sn02_tombstone;
+  i texturedetail = 2;
+}

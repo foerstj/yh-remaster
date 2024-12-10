@@ -1,0 +1,49 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// File     :  gpg_w3_skrev_ll_gwen.skrit
+// Author(s):  Eric Tams
+//
+// Copyright © 2000 Gas Powered Games, Inc.  All rights reserved.
+//----------------------------------------------------------------------------
+//  $Revision:: $              $Date:$
+//----------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////
+//
+//	This skrit control selectability on Gwendolyn, you should be able to talk to her when
+//  there aren't any more monsters near her.
+//
+//////////////////////////////////////////////////////////////////////////////
+
+// reserved tags
+property bool   _server_only$			= true;
+property string _doc$					= "Skrev controler, handles the gwendolyn captive sequence.";
+property string _required_component$	= "placement";
+
+owner									= GoSkritComponent;
+
+//////////////////////////////////////////////////////////////////////////////
+
+startup state Startup$
+{
+	event OnEnterState$
+	{
+		#only( game )
+		[[
+		this.CreateTimer( 1, 2 );	
+		]]
+	}	
+	
+	Trigger OnTimer$( 1 )
+	{
+		if( !owner.Go.Mind.AliveEnemiesVisible )	
+		{
+			this.CreateTimer( 1, 2 );
+			owner.Go.Aspect.SSetIsSelectable( true );
+		}
+		else
+		{
+			this.CreateTimer( 1, 2 );
+			owner.Go.Aspect.SSetIsSelectable( false );
+		}
+	}
+}

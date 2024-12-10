@@ -1,0 +1,46 @@
+[t:siege_nodes,n:*]
+{
+	[mesh_file*] { filename=t_world3_Obelisk-grs01-ground-a; guid=0xab300003; }
+	[mesh_file*] { filename=t_world3_Obelisk-grs01-platform-a; guid=0xab300004; }
+	[mesh_file*] { filename=t_world3_Obelisk-grs02-ground-a; guid=0xab300005; }
+	[mesh_file*] { filename=t_world3_Obelisk-grs02-platform-a; guid=0xab300006; }
+	[mesh_file*] { filename=t_world3_Obelisk-swp-ground-a; guid=0xab300007; }
+	[mesh_file*] { filename=t_world3_Obelisk-swp-platform-a; guid=0xab300008; }
+	[mesh_file*] { filename=t_world3_Obelisk-sn02-ground-a; guid=0xab300009; }
+	[mesh_file*] { filename=t_world3_Obelisk-sn02-platform-a; guid=0xab300010; }
+
+	[mesh_file*] { filename=t_world3_keep05-bridge-b; guid=0xab300011; }
+	[mesh_file*] { filename=t_world3_keep05-bridge-a; guid=0xab300012; }
+
+
+	[mesh_file*] { filename=t_world3_swp-tx-for01-flr-04x04-b; guid=0xab300013; }
+	[mesh_file*] { filename=t_world3_swp-tx-for01-flr-04x04-c; guid=0xab300014; }
+	[mesh_file*] { filename=t_world3_swp-tx-for01-flr-04x04-e; guid=0xab300015; }
+	[mesh_file*] { filename=t_world3_swp-tx-for01-flr-04x08-c; guid=0xab300016; }
+	[mesh_file*] { filename=t_world3_swp-tx-for01-flr-04x08-d; guid=0xab300017; }
+	[mesh_file*] { filename=t_world3_swp-tx-for01-flr-04x08-e; guid=0xab300018; }
+	[mesh_file*] { filename=t_world3_swp-tx-for01-flr-04x08-f; guid=0xab300019; }
+	[mesh_file*] { filename=t_world3_swp-tx-for01-wal-12-L; guid=0xab300020; }
+	[mesh_file*] { filename=t_world3_swp-tx-for01-wal-12-R; guid=0xab300021; }
+
+	[mesh_file*] { filename=t_world3_ele-big-top-04x04-a; guid=0xab300022; }
+
+	[mesh_file*] { filename=t_world3_secret-portal-base-a; guid=0xab300023; }
+	[mesh_file*] { filename=t_world3_secret-portal-base-b; guid=0xab300024; }
+	[mesh_file*] { filename=t_world3_secret-portal-stair-a; guid=0xab300025; }
+	[mesh_file*] { filename=t_world3_secret-portal-stair-b; guid=0xab300026; }
+	[mesh_file*] { filename=t_world3_secret-portal-stair-c; guid=0xab300027; }
+	[mesh_file*] { filename=t_world3_secret-portal-stair-d; guid=0xab300028; }
+	[mesh_file*] { filename=t_world3_secret-portal-stair-e; guid=0xab300029; }
+	[mesh_file*] { filename=t_world3_secret-portal-stair-f; guid=0xab300030; }
+	[mesh_file*] { filename=t_world3_secret-portal-stair-g; guid=0xab300031; }
+	[mesh_file*] { filename=t_world3_secret-portal-stair-h; guid=0xab300032; }
+	[mesh_file*] { filename=t_world3_secret-portal-stair-i; guid=0xab300033; }
+	[mesh_file*] { filename=t_world3_secret-portal-stair-j; guid=0xab300034; }
+	[mesh_file*] { filename=t_world3_secret-portal-top-a; guid=0xab300035; }
+	[mesh_file*] { filename=t_world3_secret-portal-cap-a; guid=0xab300036
+; }
+
+
+
+}

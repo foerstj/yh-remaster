@@ -1,0 +1,6 @@
+[t:tsd,n:b_i_ice_icicles-02]
+{
+  b hasalpha = false;
+	layer1texture1 = b_i_ice_icicles-02;
+  i texturedetail = 2;
+}

@@ -1,0 +1,58 @@
+[t:siege_nodes,n:*]
+{
+	[mesh_file*] { filename=t_icetwr_base-a; guid=0xcc000001; }
+	[mesh_file*] { filename=t_icetwr_base-doorway-top-a; guid=0xcc000002; }
+	[mesh_file*] { filename=t_icetwr_bottom-a; guid=0xcc000003; }
+	[mesh_file*] { filename=t_icetwr_bridge-12-a; guid=0xcc000004; }
+	[mesh_file*] { filename=t_icetwr_bridge-24-a; guid=0xcc000005; }
+	[mesh_file*] { filename=t_icetwr_bridge-32-a; guid=0xcc000006; }
+	[mesh_file*] { filename=t_icetwr_bridge-platform-a; guid=0xcc000007; }
+	[mesh_file*] { filename=t_icetwr_elevator-a; guid=0xcc000008; }
+	[mesh_file*] { filename=t_icetwr_floor-a; guid=0xcc000009; }
+	[mesh_file*] { filename=t_icetwr_floor-doorway-cap-a; guid=0xcc000010; }
+	[mesh_file*] { filename=t_icetwr_floor-ele-cap-a; guid=0xcc000011; }
+	[mesh_file*] { filename=t_icetwr_floor-ramp-base-a; guid=0xcc000012; }
+	[mesh_file*] { filename=t_icetwr_floor-ramp-cap-a; guid=0xcc000013; }
+	[mesh_file*] { filename=t_icetwr_platform-a; guid=0xcc000014; }
+	[mesh_file*] { filename=t_icetwr_ramp-a; guid=0xcc000015; }
+	[mesh_file*] { filename=t_icetwr_top-a; guid=0xcc000016; }
+	[mesh_file*] { filename=t_icetwr_top-platform-a; guid=0xcc000017; }
+	[mesh_file*] { filename=t_icetwr_bridge-top-platform-a; guid=0xcc000018; }
+	[mesh_file*] { filename=t_icetwr_top-platform-floorcap-a; guid=0xcc000019; }
+	[mesh_file*] { filename=t_icetwr_walls-04-a; guid=0xcc000020; }
+	[mesh_file*] { filename=t_icetwr_walls-08-a; guid=0xcc000021; }
+	[mesh_file*] { filename=t_icetwr_walls-12-a; guid=0xcc000022; }
+	[mesh_file*] { filename=t_icetwr_walls-balcony-a; guid=0xcc000023; }
+	[mesh_file*] { filename=t_icetwr_walls-bridge-a; guid=0xcc000024; }
+	[mesh_file*] { filename=t_icetwr_walls-doorway-base-a; guid=0xcc000025; }
+	[mesh_file*] { filename=t_icetwr_walls-doorway-top-a; guid=0xcc000026; }
+	[mesh_file*] { filename=t_icetwr_walls-wall-04-45-a; guid=0xcc000027; }
+	[mesh_file*] { filename=t_icetwr_walls-wall-04-a; guid=0xcc000028; }
+	[mesh_file*] { filename=t_icetwr_walls-wall-08-45-a; guid=0xcc000029; }
+	[mesh_file*] { filename=t_icetwr_walls-wall-08-a; guid=0xcc000030; }
+	[mesh_file*] { filename=t_icetwr_walls-wall-12-45-a; guid=0xcc000031; }
+	[mesh_file*] { filename=t_icetwr_walls-wall-12-a; guid=0xcc000032; }
+	[mesh_file*] { filename=t_icetwr_walls-window-04-45-a; guid=0xcc000033; }
+	[mesh_file*] { filename=t_icetwr_walls-window-04-a; guid=0xcc000034; }
+	[mesh_file*] { filename=t_icetwr_walls-window-08-45-a; guid=0xcc000035; }
+	[mesh_file*] { filename=t_icetwr_walls-window-08-a; guid=0xcc000036; }
+	[mesh_file*] { filename=t_icetwr_walls-window-12-45-a; guid=0xcc000037; }
+	[mesh_file*] { filename=t_icetwr_walls-window-12-a; guid=0xcc000038; }
+	[mesh_file*] { filename=t_icetwr_walls-doorway-base-b; guid=0xcc000039; }
+	[mesh_file*] { filename=t_icetwr_walls-doorway-top-b; guid=0xcc000040; }
+	[mesh_file*] { filename=t_icetwr_walls-doorway-base-c; guid=0xcc000041; }
+	[mesh_file*] { filename=t_icetwr_walls-doorway-top-c; guid=0xcc000042; }
+	[mesh_file*] { filename=t_icetwr_top-b; guid=0xcc000043; }
+	[mesh_file*] { filename=t_icetwr_ele-bottom-cap-a; guid=0xcc000044; }
+	[mesh_file*] { filename=t_icetwr_final-floor-a; guid=0xcc000045; }
+	[mesh_file*] { filename=t_icetwr_final-bottom-a; guid=0xcc000046; }
+	[mesh_file*] { filename=t_icetwr_final-elevator-a; guid=0xcc000047; }
+	[mesh_file*] { filename=t_icetwr_final-swamp-flr-a; guid=0xcc000048; }
+	[mesh_file*] { filename=t_icetwr_final-shaft-a; guid=0xcc000049; }
+	[mesh_file*] { filename=t_icetwr_top-platform-floorcap-spike-a; guid=0xcc000050; }
+	[mesh_file*] { filename=t_icetwr_final-top-platform-a; guid=0xcc000051; }
+
+
+
+
+}
