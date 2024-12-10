@@ -1,0 +1,114 @@
+[conversation_undertaker]
+{
+	[text*]
+	{
+		order = 0;
+		choice = more;
+		screen_text = "The Lich lord sent you to seek the Chalice of Mourning, didn't he?\n\nThe Fire King seems to know you are coming if this blistering heat is any indication. I never dreamed it would come to this. I wish I had never spoken to the Fire King that lonely evening.";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		screen_text = "He knew all too well that I alone could travel into the tombs. I should have known it was a trick. He said he could use it to make Gwendolyn love me. He forged the pendant from it for her to wear, but she never loved me; she just got taken away and nearly killed. She will never love me now.\n\nI don't know if you can undo what I have done, but if you do, I will be content to live out my days never meddling in the affairs of the gods again, and let the Imperial Tombs fall to dust at my passing. Perhaps this is written somehow.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_queen]
+{
+	[text*]
+	{
+		screen_text = "I am sorry I misjudged you, outlander. I was too absorbed in my study to realize that the Fire King had been scheming against all of us. He has always been possessive, but we used to keep each other in balance. His power now grows unchecked with every passing moment.\n\nI will use what little power I have left to keep these good people alive, if you are brave enough to put the Fire King in his place before his greed spills over into the world around us.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_captain]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "We're in a bad way now friend.\n\nBy the looks of it, the Fire King aims to take this whole valley by force, and without my men, I frankly don't think we stand a chance. They don't want to negotiate, and if the weapons they bear are any indication of what is yet to come, our days are numbered.\n\nLucky for you we looted some pretty good gear off the last few waves of Krug that came through. If you are of the mind to go talk to the King, you are going to need them worse than us.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_gwendolyn]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "I made it back alive, thanks to you, and not a moment too soon either. I just hope we can settle things with the Fire King before I run out of potions.\n\nSo much greed in the valley these days... I was as much a victim of my own greed as the Undertaker was of his, I can't blame him for that.\n\nMayor Gilwin said you are the only one who can help us now. I saved my biggest vials for you if you need them, it is the least I could do for our savior.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_obelisk]
+{
+	[text*]
+	{
+		screen_text = "~The Town of Yesterhaven~";
+	  f scroll_rate = 0.000000;
+	}
+}
+[conversation_rho]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Having the well filled means we aren't going to die of thirst, but with the forges of the Fire King blasting night and day, it won't be long before the Krug come calling in numbers we can't hope to stand against.\n\nUnless you've got it in you to march up Mount Underforge and talk some sense into the Fire King, you may as well head back to wherever you came from and let us die in peace.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_scribe]
+{
+	[text*]
+	{
+		order = 0;
+		choice = more;
+		screen_text = "Our Undertaker came clean with us, friend. We are indeed in a bad place. If it weren't for you, we might have frozen in the snows only to have our bones baked in these sands. We seem to have made it, and so have you, so there is still hope.\n\nThe Undertaker let me take a look at an acolyte's journal mentioning this Chalice of Mourning you seek; would you like to hear what I have found?";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		order = 1;
+		choice = more;
+		screen_text = "It appears that the Chalice of Mourning was used during the ritual preparation of the Valley of the Dead. Anything placed within the Chalice and allowed to rest in the midday sun would be granted temporary binding to the Valley.\n\nThis was apparently used on just about everything there, including the inks of the protective runes, the ashes of his servants, and the perfumes to douse the chambers, but here's where it gets interesting...";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		order = 2;
+		choice = more;
+		screen_text = "Once the glyphs had been set, the living could only enter the Valley by drinking water prepared in the Chalice. The Fire King must have figured all this out, and used the Chalice to grant passage to his armies to attack the Snow Queen.\n\nWhat the journal doesn't mention, and what I think the Fire King hasn't figured out, is that removing the Chalice from the Valley has somehow broken the enchantments, and allowed the dead to roam free of the Valley.";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "If the Fire King is still using it to enchant his armies, he must be bringing it to the surface to prepare the waters when the sun is high. I don't know if that helps you or not, but I found it interesting to say the least.\n\nI shouldn't keep you any more. If Yesterhaven is to survive to be more than a footnote in someone else's tome, you had better get moving. Our prayers are with you always, friend.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_mayor]
+{
+	[text*]
+	{
+		screen_text = "You've saved us twice now, friend. I don't think there is anything we can do to repay that, but it looks like after all your hard work and bravery, we've only managed to tip the delicate balance of our land, and played into the hands of the Fire King.\n\nThe Snow Queen has realized the errors of her ways, but without your help, we have no hope of holding Yesterhaven against the armies of Underforge. Are you willing to fight for us once more, stranger? Perhaps the Fire King can be brought to his senses at the edge of your sword, much as the Snow Queen was.";
+	  f scroll_rate = 6.500000;
+	  activate_quest* = quest_fire;
+		quest_dialog = true;
+	}
+}
+[conversation_trini]
+{
+	[text*]
+	{
+		screen_text = "You made it out alive!\n\nWhatever you did, the Fire King must be terribly mad. It is becoming hotter and drier with every passing moment. The well has all but dried up already, and everyone is gathering to see what we should do. I hope you have good news for us, we could use it.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_trini_well]
+{
+	[text*]
+	{
+		screen_text = "Perhaps now that we have water to drink, my livestock will return to me... if any of them lived through the blizzard and spiders, that is.";
+	  f scroll_rate = 6.500000;
+	}
+}

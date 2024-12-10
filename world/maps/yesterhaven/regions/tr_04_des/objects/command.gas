@@ -1,0 +1,36 @@
+[t:gpg_w3_skrev_tr_04_des_well,n:0x00e00576]
+{
+	[gpg_w3_skrev_tr_04_des_well]
+	{
+	  x effect_point = 0x00E0059D;
+	  x person1 = 0x00E00578;
+	  x person2 = 0x00E0057C;
+	  x person3 = 0x00E00579;
+	  x person4 = 0x00E0057A;
+	  x person5 = 0x00E0057B;
+	  x rain_mood = 0x00E005A1;
+	  x snow_queen = 0x00E005A0;
+	}
+	[placement]
+	{
+	  p position = 1.20896,0,-1.04291,0x734eeae4;
+	}
+}
+[t:cmd_ai_c_move,n:0x00e0054c]
+{
+	[placement]
+	{
+	  p position = 1.45654,-3.8743e-007,0.0556145,0x1c76e272;
+	}
+}
+[t:animate_elevator,n:0x00e00583]
+{
+	[nodal_tex_anim]
+	{
+	  x siege_node = 0xF241DAF6;
+	}
+	[placement]
+	{
+	  p position = 1.15749,0.15,-0.342415,0x51cef20f;
+	}
+}

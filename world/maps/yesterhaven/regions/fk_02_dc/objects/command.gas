@@ -1,0 +1,17 @@
+[t:gpg_w3_skrev_fk_02_dc_steal,n:0x0250012f]
+{
+	[gpg_w3_skrev_fk_02_dc_steal]
+	{
+	  x blocking_object = 0x0250022B;
+	  x cup = 0x02500126;
+	  x fire_king = 0x0250020F;
+	  x fire_krug1 = 0x02500149;
+	  x fire_krug2 = 0x02500222;
+	  x fire_krug3 = 0x02500226;
+	  x fire_wall = 0x0250022A;
+	}
+	[placement]
+	{
+	  p position = 1.82642,3.9014,1.95896,0x823d43fa;
+	}
+}

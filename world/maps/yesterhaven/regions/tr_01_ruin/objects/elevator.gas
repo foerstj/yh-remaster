@@ -1,0 +1,49 @@
+[t:elevator_2s_1c_2n,n:0x00b006c6]
+{
+	[elevator_2s_1c_2n]
+	{
+	  i connect_door_level1 = 18;
+	  i connect_door_level2 = 18;
+	  x connect_node_level1 = 0xF2DF21D4;
+	  x connect_node_level2 = 0x8C63B81D;
+	  f duration = 1;
+	  i elevator_door_level1 = 1;
+	  i elevator_door_level2 = 1;
+	  x elevator_node = 0x9BFA978D;
+	  f level2_message_delay = 0;
+	  x level2_scid = 0x00B00352;
+		moving1_actioninfo = "0x73E41677,1,-1,-1,out:black;0x73E41676,1,-1,-1,in";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.977945,0,-0.208862;
+	  p position = -0.850052,0.80125,1.19208,0x9bfa978d;
+	}
+}
+[t:elevator_2s_1c_2n,n:0x00b00011]
+{
+	[elevator_2s_1c_2n]
+	{
+	  i connect_door_level1 = 4;
+	  i connect_door_level2 = 4;
+	  x connect_node_level1 = 0x2E3C95E4;
+	  x connect_node_level2 = 0x962FBC72;
+	  f duration = 0.1;
+	  i elevator_door_level1 = 4;
+	  i elevator_door_level2 = 4;
+	  x elevator_node = 0x7486BD6B;
+		level2_message = we_req_deactivate;
+	  f level2_message_delay = 0;
+	  x level2_scid = 0x00B00366;
+		moving1_actioninfo = "gpg_world_3_tr_02_st_03,1";
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0.5,0,0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.0174524,0,0.999848;
+	  p position = 1.15663,0,-0.0120971,0x7486bd6b;
+	}
+}

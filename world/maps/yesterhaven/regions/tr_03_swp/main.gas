@@ -1,0 +1,10 @@
+[t:region,n:region]
+{
+	created = sarah boulian,sarahb;
+	description = "none";
+  x guid = 0x73E41678;
+	lastmodified = Sarah Boulian,SARAHB;
+	notes = "none";
+  i scid_range = 13;
+	se_version = Version - 1.0.0.306;
+}

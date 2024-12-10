@@ -1,0 +1,100 @@
+[conversation_assistant]
+{
+	[text*]
+	{
+		screen_text = "So much work to do, so many of my brothers still to free. Soon we will all be free, free to bring the living into the land of the dead. Come join us, stranger; join us in death!";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_captain]
+{
+	[text*]
+	{
+		screen_text = "Glad to see you again, friend. It looks like you made it just in time.\n\nWe've been fighting wave after wave of undead and spiders all night. I don't know how much longer I can keep this up.\n\nHere comes another wave now!";
+	  f scroll_rate = 6.500000;
+	  activate_quest* = quest_siege;
+		quest_dialog = true;
+	}
+}
+[conversation_captain_victory]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Well fought! I have the rest of the town holed up in here to keep them safe. We already lost Gwendolyn and the Undertaker last night. We think they dragged them off into the woods, but nobody knows that area except the Undertaker and his apprentice.\n\nThe Mayor was hoping you would show up to help look for them. I can supply you with some extra weapons we have left over, or you can head on inside if you need anything else, I need to keep an eye out from here.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_mayor]
+{
+	[text*]
+	{
+		screen_text = "Oh thank heavens you have survived!\n\nWe knew you had talked some sense into the Snow Queen when everything started to melt, but now what has got the dead all turned up? They took dear Gwendolyn in the night, and I think the Undertaker is missing too.\n\nIf the Kellan brothers can't keep them at bay we may all perish and join them in the grave. Oh what have we done to deserve these curses?";
+	  f scroll_rate = 6.500000;
+	  activate_quest* = quest_gwendolyn;
+		quest_dialog = true;
+	}
+}
+[conversation_rho]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "My brother tells me you rescued him from the clutches of the Krug. I can't help but think that the whole detachment would have come back alive if I had gone with them, but I won't forget your kindness all the same.\n\nI've got some special armor here that won't be seeing much use from now on. If it helps you against these undead, you are welcome to have it for what it took me to make it.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_scribe]
+{
+	[text*]
+	{
+		order = 0;
+	  	choice = more;
+		screen_text = "Well, I told you this was a peculiar town; I guess this just proves my point.\n\nLooks like my old bones are not the only ones that are up and about now that the snow is gone, eh?\n\nWe don't talk about the Valley of the Dead much around here, but since the dead won't let us sleep, I've been reading up a bit. Care to hear a little more, or would you like to look at some of the potions I was able to secure from Gwendolyn's stash?";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "My Granddaddy used to talk about the royal catacombs beyond the cemetery, and how they just wind around forever. It makes me wonder just how many more dead there are back there to come after us.\n\nThe tombs are supposed to be the remnants of a burial chamber for an Archmage of the old Empire. The whole valley is warded against passage from the living save for one who knows its secrets, and that would currently be our Undertaker. As to why the undead are all up and about, and the spiders with them, I haven't got a clue, and without our Undertaker, we may never find out.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_undertaker]
+{
+	[text*]
+	{
+		order = 0;
+	  	choice = more;
+		screen_text = "Aaaagh! I don't have it anymore, don't eat my brain!\n\nOh... it's you, stranger. You mustn't tell anyone that I am here. I don't want them to know what I have done.";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		order = 1;
+	  	choice = more;
+		screen_text = "You have to understand. My father and forefathers have tended the Valley of the Dead since the ancient days of the Empire.\n\nMy lineage is descended from the royal retainers of the Archmage of the tombs. It is people of our bloodlines alone that are permitted entry to the catacombs... but I have no children to take my place, and when I die there will be noone left to tend the Valley of the Dead as my fathers before me did.";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		screen_text = "When the Fire King offered to smith me a charm to make Maid Gwendolyn love me, I couldn't refuse.\n\nThe Fire King only required a relic from the Imperial tomb to fashion the charm. I saw no harm in loaning it to him; I had no idea that he would use it to break the wards guarding the valley.\n\nI have forsaken my vow as the Warden of the Valley, and now the dead roam free, and the minions of the Fire King are given unlimited passage to the realm of the Snow Queen. What have I done? What have I done!";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_trini]
+{
+	[text*]
+	{
+		screen_text = "I have never been so scared in all my life. Why is all this happening to us?";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_obelisk]
+{
+	[text*]
+	{
+		screen_text = "~The Town of Yesterhaven~";
+	  f scroll_rate = 0.000000;
+	}
+}

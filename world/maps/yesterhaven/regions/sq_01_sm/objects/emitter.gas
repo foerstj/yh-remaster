@@ -1,0 +1,28 @@
+[t:emt_sound,n:0x151003d2]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.06539,-17.7,1.90906,0x43acc94c;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_wolf_howl";
+	  f max_repeat_rate = 55;
+	  f repeat_rate = 25;
+	}
+}
+[t:emt_sound,n:0x151003d1]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.35769,-20.7885,-1.12947,0xa2d88871;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_wolf_howl";
+	  f max_repeat_rate = 55;
+	  f repeat_rate = 25;
+	}
+}

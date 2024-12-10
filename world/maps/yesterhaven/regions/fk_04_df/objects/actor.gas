@@ -1,0 +1,214 @@
+[t:gpg_darkling_fire,n:0x04100239]
+{
+	[placement]
+	{
+	  p position = -0.249229,12,1.49335,0x72c23cd0;
+	}
+}
+[t:gpg_darkling_fire,n:0x04100207]
+{
+	[placement]
+	{
+	  p position = -1.59648,0,-1.62663,0x745aa517;
+	}
+}
+[t:gpg_darkling_fire,n:0x04100129]
+{
+	[placement]
+	{
+	  p position = -1.72249,0,-1.88002,0x016e142a;
+	}
+}
+[t:horrid,n:0x0410023a]
+{
+	[placement]
+	{
+	  q orientation = 0,7.74859e-007,0,1;
+	  p position = -2.0404,-2,-5.27449,0xeea6cbed;
+	}
+}
+[t:gpg_darkling_fire,n:0x04100248]
+{
+	[placement]
+	{
+	  p position = -0.80183,0,-1.21249,0xa772a336;
+	}
+}
+[t:gpg_klaw_fire,n:0x04100243]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = 0.531252,11.8133,1.66631,0x2d12c7d6;
+	}
+}
+[t:gpg_darkling_fire,n:0x04100245]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707106,0,0.707107;
+	  p position = -1.67158,11.8167,1.33031,0x2d12c7d6;
+	}
+}
+[t:gpg_defeated_king_fire,n:0x04100192]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_king;
+			* = conversation_king_saved;
+		}
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+		jat_talk = world\ai\jobs\map_specific\gpg_world3\job_talk_w3_fireking.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = 1.24305,0,1.35998,0x76f99aaf;
+	}
+}
+[t:gpg_king_fire,n:0x041001a7]
+{
+	[body]
+	{
+		terrain_movement_permissions = lf_dirt | lf_boss | lf_size1_mover | lf_size2_mover | lf_size3_mover | lf_size4_mover;
+	}
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("quest_fire","completed",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[gpg_w3_death_swap]
+	{
+	  x death_scid = 0x04100206;
+	  x swap_actor = 0x04100192;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = -1.9346,-0.0950365,0.224548,0x76f99aaf;
+	}
+}
+[t:gpg_dante_fire_02,n:0x041001b0]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_dante;
+			* = conversation_dante_complete;
+			* = conversation_dante_cup;
+		}
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707105,0,0.707108;
+	  p position = -1.06994,9.53674e-007,-0.0223764,0x2054b635;
+	}
+}
+[t:gpg_krug_guard_fire,n:0x04100022]
+{
+	[placement]
+	{
+	  p position = -1.93218,0,-0.130127,0xbf88ca25;
+	}
+}
+[t:gpg_krug_guard_fire,n:0x04100023]
+{
+	[placement]
+	{
+	  p position = -0.0324311,0,-0.321727,0xbf88ca25;
+	}
+}
+[t:gpg_krug_guard_fire,n:0x04100024]
+{
+	[placement]
+	{
+	  p position = 0.30299,0,1.3021,0xbf88ca25;
+	}
+}
+[t:gpg_darkling_fire,n:0x0410002b]
+{
+	[placement]
+	{
+	  p position = 2.66591,15.7245,2.89817,0xa6713808;
+	}
+}
+[t:gpg_darkling_fire,n:0x0410013a]
+{
+	[placement]
+	{
+	  p position = -0.100403,15.9849,3.29177,0xa6713808;
+	}
+}
+[t:gpg_krug_commander_fire,n:0x04100025]
+{
+	[placement]
+	{
+	  p position = -0.239511,1.90735e-006,-1.26183,0x554098e6;
+	}
+}
+[t:gpg_krug_commander_fire,n:0x04100026]
+{
+	[placement]
+	{
+	  p position = -2.63251,0,-1.09692,0x554098e6;
+	}
+}
+[t:gpg_krug_shaman_fire,n:0x04100027]
+{
+	[placement]
+	{
+	  p position = 1.01581,0,-1.83516,0x554098e6;
+	}
+}
+[t:gpg_krug_shaman_fire,n:0x04100028]
+{
+	[placement]
+	{
+	  p position = 3.85546,0,0.482059,0x554098e6;
+	}
+}
+[t:gpg_krug_shaman_fire,n:0x04100029]
+{
+	[placement]
+	{
+	  p position = 1.27881,0,1.6933,0x554098e6;
+	}
+}
+[t:gpg_krug_shaman_fire,n:0x0410002a]
+{
+	[placement]
+	{
+	  p position = 1.57628,5.8,1.67562,0x70e1dc7a;
+	}
+}

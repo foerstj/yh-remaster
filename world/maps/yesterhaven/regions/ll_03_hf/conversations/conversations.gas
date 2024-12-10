@@ -1,0 +1,24 @@
+[conversation_gwendolyn]
+{
+	[text*]
+	{
+	  i order = 0;
+		screen_text = "Oh my! Bless you for saving me from these hideous creatures, outlander. When I get my nerves back, I will make a break for town. I wish I had never seen that stupid amulet. No sooner had I placed it around my neck than horrid beasts began clawing at my windows.";
+	  f scroll_rate = 6.500000;
+	  choice = more;
+	  complete_quest* = quest_gwendolyn;
+	}
+	[text*]
+	{
+	  i order = 1;
+		screen_text = "When I awoke, I found myself here, and nothing had changed except the amulet was missing. I don't know why they didn't kill me, but I have heard them muttering in the dark. Speaking of holding me for judgement before their dark master. They think I bear the mark of the 'Chalicebearer', whatever that means.\n\nI don't know who their master is, but I think he plans to destroy my town for his dark judgements.";
+	  f scroll_rate = 6.500000;
+	  activate_quest* = quest_lich;
+		quest_dialog = true;
+	}
+	[text*]
+	{
+		screen_text = "Bless you outlander. I am just getting up the nerve to head back to town. You have more important matters to tend to now.";
+	  f scroll_rate = 6.500000;
+	}
+}

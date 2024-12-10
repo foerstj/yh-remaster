@@ -1,0 +1,329 @@
+//////////////////////////////
+//	 Yesterhaven QUESTS FILE	//
+//////////////////////////////
+
+///////////////////////////////////////////////////////////////
+//
+//DOCUMENTATION:
+//
+// The first step to take is that we need to add chapters to the quests.gas.  The format of chapters is as follows:
+// 
+// [chapters]
+// {
+// 	[chapter_1]
+// 	{
+// 		// Name that will be seen in the listbox with the quests
+// 		screen_name = "Chapter 1: Stonebridge";
+// 
+// 		// Chapter image for the journal
+//		chapter_image = b_gui_ig_menu_chapter;
+//
+//		// Add [*] block for each "state" the chapter can be in.
+//		[*]
+//		{
+//			// Activation state
+//			order = 0; 
+//
+//	 		// Text that will serve as the "dialog" portion of the chapter.
+//	 		description = "";
+//	 
+//	 		// Sound file that plays the description text ( or something similar )
+//	 		sample = ;
+//		}
+//		[*]
+//		{
+//			// Activation state
+//			order = 1;
+//			
+//	 		// Text that will serve as the "dialog" portion of the chapter.
+//	 		description = "Long ago stuff happened, and it was bad.";
+//	 
+//	 		// Sound file that plays the description text ( or something similar )
+//	 		sample = s_e_bad_stuff;
+//		}
+//		
+// 	}
+// 
+// 	// add more chapters here...
+// }
+// 
+// Once all the chapters have been added to quests.gas, the existing quests need to be in this format:
+// 
+// [quests]
+// {
+// 	[quest_for_gyorn]
+// 	{
+// 		// Chapter the quest belongs in.  Must be in the format of the fuel block name
+// 		// in the [chapters] definition.
+// 		chapter = chapter_1;
+// 
+// 		// Screen name used in the listbox 
+// 		screen_name = "Seek Gyorn in Stonebridge";
+// 
+// 		// Sound file to play when the quest is completed
+// 		victory_sample = s_e_level_up_quest;
+// 
+// 		// Image for the quest 
+// 		quest_image = b_gui_ig_mnu_quest;
+// 
+// 		// Quest completion skrit ( no .skrit extension necessary. )
+// 		skrit = get_award;
+// 
+// 		// Each one of these blocks counts as a speaker that has offered information
+// 		// about the quest.  Once their order is activated, it becomes available in
+// 		// the conversation listing.
+// 		[*]
+// 		{
+// 			// Order of the quest that is currently activated.
+// 			order = 0;
+// 
+// 			// Must this part of the quest be actived for the next order to work ( default is true )
+// 			required = true;
+// 
+// 			// Description put in the textbox when you click on the listbox name
+// 			description = "Find my buddy Gyorn.";
+//
+//			// Speaker name
+//			speaker = "Norick";
+// 
+// 			// Fuel address of the conversation that has the dialogue we want in it.
+// 			// quest_dialog = true must be set in the conversation [text*] block we want,
+// 			// or it will not work!!
+// 			address = fh_r1:conversations:conversation_norick;
+// 		}
+// 
+// 		[*]
+// 		{
+// 			order 1;
+// 			address = path2crypts:conversations:conversation_skartis;
+// 		}
+// 	}
+// 
+// 	// add the rest of the quests here...
+// }
+
+//////////////
+// CHAPTERS //
+//////////////
+
+[chapters]
+{
+	[chapter_1]
+	{
+		// Name that will be seen in the listbox with the quests
+		screen_name = "Chapter 1: Ice";
+		
+		// Chapter image for the journal
+		chapter_image = b_gui_ig_mnu_jnl_chapter_01;
+		
+		[*]
+		{
+			// Activation state
+			order = 0; 
+		
+			// Text that will serve as the "dialog" portion of the chapter.
+			description = "The story of Yesterhaven's liberation from the Curse of Ice.";
+
+			// Sound file that plays the description text ( or something similar )
+			//sample = ;
+		}
+	}
+	[chapter_2]
+	{
+		// Name that will be seen in the listbox with the quests
+		screen_name = "Chapter 2: Death";
+
+		// Chapter image for the journal
+		chapter_image = b_gui_ig_mnu_jnl_chapter_02;
+		
+		[*]
+		{
+			// Activation state
+			order = 0; 
+		
+			// Text that will serve as the "dialog" portion of the chapter.
+			description = "The story of Yesterhaven's liberation from the Curse of Death.";
+
+			// Sound file that plays the description text ( or something similar )
+			//sample = ;
+		}
+	}
+	[chapter_3]
+	{
+		// Name that will be seen in the listbox with the quests
+		screen_name = "Chapter 3: Fire";
+
+		// Chapter image for the journal
+		chapter_image = b_gui_ig_mnu_jnl_chapter_03;
+		
+		[*]
+		{
+			// Activation state
+			order = 0; 
+				
+			// Text that will serve as the "dialog" portion of the chapter.
+			description = "The story of Yesterhaven's liberation from the Curse of Fire.";
+
+			// Sound file that plays the description text ( or something similar )
+			//sample = ;
+		}
+	}
+}
+
+////////////
+// QUESTS //
+////////////
+
+[quests]
+{
+	[quest_captain] //Quest given by Mayor of Yesterhaven
+	{		
+		chapter			= chapter_1;
+		screen_name		= "The Lost Detachment";
+		victory_sample	= s_e_level_up_quest;
+		quest_image 	= b_gui_ig_mnu_jnl_quest_42;              
+		
+		[*]
+		{
+			order		= 0;
+			speaker     = "Mayor of Yesterhaven";                  
+			description = "Search for the Guard Captain and the fighting men of Yesterhaven in the forests of Wintershroud to the north.";
+			sample      = ;   
+			address		= tr_02_sno:conversations:conversation_mayor;  
+			play_update_sound = true;
+		}
+		[*]
+		{
+			order		= 1;
+			speaker     = " ";
+			description = "Free the Guard Captain of Yesterhaven from the Snow Krug's prison.";
+							
+		}
+	}
+	
+	[quest_queen] 
+	{		
+		chapter			= chapter_1;
+		screen_name		= "Confront the Snow Queen";
+		victory_sample	= s_e_level_up_quest;
+		quest_image 	= b_gui_ig_mnu_jnl_quest_43;              
+		
+		[*]
+		{
+			order		= 0;
+			speaker     = "Guard Captain Kellan";                  
+			description = "Confront the Snow Queen in her towers to prevent further attacks against Yesterhaven.";
+			sample      = ;   
+			address		= sq_02_sm:conversations:conversation_captain;  
+			play_update_sound = true;
+		}
+		
+	}
+	
+	[quest_siege] 
+	{		
+		chapter			= chapter_2;
+		screen_name		= "Defend the Town";
+		victory_sample	= s_e_level_up_quest;
+		quest_image 	= b_gui_ig_mnu_jnl_quest_44;              
+		
+		[*]
+		{
+			order		= 0;
+			speaker     = "Guard Captain Kellan";                  
+			description = "Destroy the undead and spiders overrunning the town.";
+			sample      = ;   
+			address		= tr_03_swp:conversations:conversation_captain;  
+			play_update_sound = true;
+		}
+		
+	}
+	
+	[quest_gwendolyn] 
+	{		
+		chapter			= chapter_2;
+		screen_name		= "Rescue Maid Gwendolyn";
+		victory_sample	= s_e_level_up_quest;
+		quest_image 	= b_gui_ig_mnu_jnl_quest_45;              
+		
+		[*]
+		{
+			order		= 0;
+			speaker     = "Mayor of Yesterhaven";                  
+			description = "Rescue Maid Gwendolyn from the Undead to the east.";
+			sample      = ;   
+			address		= tr_03_swp:conversations:conversation_mayor;  
+			play_update_sound = true;
+		}
+		
+	}
+	
+	[quest_lich] 
+	{		
+		chapter			= chapter_2;
+		screen_name		= "Confront the Undead Master";
+		victory_sample	= s_e_level_up_quest;
+		quest_image 	= b_gui_ig_mnu_jnl_quest_46;              
+		
+		[*]
+		{
+			order		= 0;
+			speaker     = "Gwendolyn";                  
+			description = "Stop the Undead Master before he destroys the town of Yesterhaven.";
+			sample      = ;   
+			address		= ll_03_hl:conversations:conversation_gwendolyn;  
+			play_update_sound = true;
+		}
+		
+	}
+	
+	[quest_cup] 
+	{		
+		chapter			= chapter_2;
+		screen_name		= "The Chalice of Mourning";
+		victory_sample	= s_e_level_up_quest;
+		quest_image 	= b_gui_ig_mnu_jnl_quest_47;              
+		
+		[*]
+		{
+			order		= 0;
+			speaker     = "Lich Tomb";                  
+			description = "Locate the Chalice of Mourning within the Fire King's Domain.";
+			sample      = ;   
+			address		= ll_06_uc:conversations:conversation_lich_spirit;  
+			play_update_sound = true;
+		}
+		[*]
+		{
+			order		= 1;
+			speaker     = "Dante";                  
+			description = "Return the Chalice of Mourning to Dante";
+			sample      = ;   
+			address		= fk_04_df:conversations:conversation_dante;  
+			play_update_sound = true;
+		}
+		
+	}
+	
+	[quest_fire] 
+	{		
+		chapter			= chapter_3;
+		screen_name		= "Confront the Fire King";
+		victory_sample	= s_e_level_up_quest;
+		quest_image 	= b_gui_ig_mnu_jnl_quest_48;              
+		
+		[*]
+		{
+			order		= 0;
+			speaker     = "Mayor of Yesterhaven";                  
+			description = "Destroy the Fire King before he can obliterate the town of Yesterhaven.";
+			sample      = ;   
+			address		= tr_04_des:conversations:conversation_mayor;  
+			play_update_sound = true;
+		}
+		
+	}
+	
+	
+}
+

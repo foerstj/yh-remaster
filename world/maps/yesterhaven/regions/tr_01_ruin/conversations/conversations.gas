@@ -1,0 +1,16 @@
+[conversation_ruins]
+{
+	[text*]
+	{
+		screen_text = "Once a town, never sleeping\nThrice cursed, ever weeping\nFrozen time, still as death\nBurning mind, laid to rest\nValleys rise, mountains fall\nWith none to heed the heroes' call";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_snow]
+{
+	[text*]
+	{
+		screen_text = "~ The Town of Yesterhaven ~";
+	  f scroll_rate = 0.000000;
+	}
+}

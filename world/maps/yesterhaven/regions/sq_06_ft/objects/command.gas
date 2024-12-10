@@ -1,0 +1,153 @@
+[t:cmd_alignment_changer,n:0x503001a3]
+{
+	[cmd_dumb_guy]
+	{
+	  b change_selection = false;
+	  b invincible_spawn = true;
+		life_state_spawn = ls_alive_conscious;
+	  i start_state = 1;
+	  x target_actor = 0x5030019E;
+	}
+	[placement]
+	{
+	  p position = -3.18224,-9.53674e-007,0.632309,0x286b468a;
+	}
+}
+[t:camera_quake,n:0x50300064]
+{
+	[camera_quake]
+	{
+	  f duration = 0.25;
+	  f magnitude_x = 0.08;
+	  f magnitude_y = 0.3;
+	  f magnitude_z = 0.08;
+	}
+	[placement]
+	{
+	  p position = -1.53805,2.625,-0.0452346,0x3bb91ce2;
+	}
+}
+[t:camera_quake,n:0x50300054]
+{
+	[camera_quake]
+	{
+	  f duration = 0.25;
+	  f magnitude_x = 0.08;
+	  f magnitude_y = 0.3;
+	  f magnitude_z = 0.08;
+	}
+	[placement]
+	{
+	  p position = -0.200622,2.625,0.891925,0x9f77a957;
+	}
+}
+[t:cmd_selection_toggle,n:0x503000a1]
+{
+	[cmd_selection_toggle]
+	{
+	  x object_scid = 0x50300169;
+	  i start_state = 1;
+	  b toggle_usability = true;
+	  b toggle_visability = true;
+	}
+	[placement]
+	{
+	  p position = -1.57657,4.10001,-4.31804,0x3627e602;
+	}
+}
+[t:light_colorwave,n:0x50300278]
+{
+	[light_colorwave]
+	{
+	  b apply_to_color = false;
+	  f period = 3.75;
+	  f secondary_intensity = 0.3;
+	  x siege_light = 0xCC7B53B5;
+	}
+	[placement]
+	{
+	  p position = 1.39984,5.51563,9.56816,0x3627e602;
+	}
+}
+[t:cmd_ai_t_move,n:0x503002dd]
+{
+	[cmd_ai_dojob]
+	{
+	  x target1 = 0x503000A0;
+	}
+	[placement]
+	{
+	  p position = 6.14955,4.1,-0.676216,0x3627e602;
+	}
+}
+[t:light_enable,n:0x503002de]
+{
+	[light_enable]
+	{
+	  b initially_active = false;
+	  x siege_light = 0x4FA39B86;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  p position = -3.10135,4.1,-4.39332,0x3627e602;
+	}
+}
+[t:light_colorwave,n:0x503002df]
+{
+	[light_colorwave]
+	{
+	  b apply_to_color = false;
+	  b initially_active = false;
+	  f period = 0.75;
+	  x siege_light = 0x4FA39B86;
+	}
+	[placement]
+	{
+	  p position = -3.18901,4.1,-5.54008,0x3627e602;
+	}
+}
+[t:camera_quake,n:0x50300053]
+{
+	[camera_quake]
+	{
+	  f duration = 0.5;
+	  f magnitude_x = 0.1;
+	  f magnitude_y = 0.5;
+	  f magnitude_z = 0.1;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999999,0,0;
+	  p position = -1.41214,2.55,0.414993,0xd5c0a7f5;
+	}
+}
+[t:camera_quake,n:0x50300055]
+{
+	[camera_quake]
+	{
+	  f duration = 0.25;
+	  f magnitude_x = 0.08;
+	  f magnitude_y = 0.3;
+	  f magnitude_z = 0.08;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1.51992e-006,0,0.999999;
+	  p position = -0.0476073,4.26764,0.997397,0xc9dc9c7f;
+	}
+}
+[t:camera_quake,n:0x50300063]
+{
+	[camera_quake]
+	{
+	  f duration = 0.25;
+	  f magnitude_x = 0.08;
+	  f magnitude_y = 0.3;
+	  f magnitude_z = 0.08;
+	}
+	[placement]
+	{
+	  p position = 1.40902,2.625,-0.166977,0x0f1b174e;
+	}
+}

@@ -1,0 +1,17 @@
+[conversation_queen]
+{
+	[text*]
+	{
+		screen_text = "After all these years of my benevolence, this is how you people reward me? By siding with the Fire King to break our centuries of peace? I spent every ounce of my strength to fend him off, but with your people just letting him march right through your town to attack me, how could I hope to hold him off forever? Mark my words. You will see him for what he really is now.\n\nTake my lift back to your people, and leave me to pass in peace. There is nothing I can do to help you now.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_dante]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Well, fancy meeting you up here so far from town. Are you out for a stroll? Going to do some yodeling, I bet. I think I have some yodeling knickknacks here somewhere; would you like to buy them?\n\nWhat are you looking at? Oh I am sorry, I must look a fright. I have been fighting a terrible cold this last week, and it has gotten the better of me.\n\nSo what was it you were looking for again? Oh yes, you were going to sell me a chalice or something. I've got plenty of coin to part with for that, to be sure. Plenty to sell. More to buy. Don't be shy. Step right up.";
+	  f scroll_rate = 6.500000;
+	}
+}

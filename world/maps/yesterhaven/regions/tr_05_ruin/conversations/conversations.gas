@@ -1,0 +1,8 @@
+[conversation_obelisk]
+{
+	[text*]
+	{
+		screen_text = "A blizzard howled and fell wolves bayed,\nThe Snow Queen's power at last was stayed;\nBroken wards bought death's release,\nAn Undead Lord at last found peace;\nMountains roared and ashes rolled,\nThe Fire King's forge has since grown cold.\n\nThankless deeds for heroes gone.\nSeen no more, recalled in song.\nWith hope restored, for this we plead\nOur gift of thanks would be received.\nAnd on some future brighter day,\nThat flowers bloom where treasure lay.";
+	  f scroll_rate = 6.500000;
+	}
+}

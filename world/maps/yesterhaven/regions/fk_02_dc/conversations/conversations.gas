@@ -1,0 +1,11 @@
+[conversation_dante]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "The citizens of Yesterhaven will do right by you yet, outlander. I had my doubts about whether you were suited to the tasks of my master, the Archmage, but you have made it farther than I had hoped.\n\nWhen you find the Chalice. I will return it to its rightful place, and bring final peace to the Valley of the Dead. I cannot yet bring peace to the living, however. That is between you and the Fire King.\n\nUntil then, I still have several items which would be better left for the living, if you need them.";
+	  f scroll_rate = 6.500000;
+	  activate_quest* = quest_cup;
+	}
+}
+

@@ -1,0 +1,102 @@
+[world_locations]
+{
+//Towns and Misc
+	[t:location,n:yesterhaven]
+	{
+		id = 0101;
+		screen_name = "Yesterhaven";
+	}
+	[t:location,n:yesterhaven_ruins]
+	{
+		id = 0102;
+		screen_name = "Yesterhaven Ruins";
+	} 
+	[t:location,n:passage]
+	{
+		id = 0103;
+		screen_name = "the Ancient Passage";
+	} 
+	
+	
+	//Snow Queen Theme
+	
+	[t:location,n:foothills]
+	{
+		id = 0201;
+		screen_name = "Wintershroud Foothills";
+	}
+	[t:location,n:slopes]
+	{
+		id = 0202;
+		screen_name = "Wintershroud Slopes";
+	}
+	[t:location,n:ice_caves]
+	{
+		id = 0203;
+		screen_name = "the Halls of Winter";
+	}
+	[t:location,n:summit]
+	{
+		id = 0204;
+		screen_name = "Wintershroud Summit";
+	}
+	[t:location,n:towers]
+	{
+		id = 0205;
+		screen_name = "the Crystal Towers";
+	}
+	
+	//Lich Lord Theme
+	
+	[t:location,n:forest]
+	{
+		id = 0301;
+		screen_name = "the Haunted Forest";
+	}
+	[t:location,n:valley]
+	{
+		id = 0302;
+		screen_name = "the Valley of the Dead";
+	}
+	[t:location,n:catacombs]
+	{
+		id = 0303;
+		screen_name = "the Broken Catacombs";
+	}
+	[t:location,n:halls]
+	{
+		id = 0304;
+		screen_name = "the Halls of the Dead";
+	}
+	[t:location,n:tomb]
+	{
+		id = 0305;
+		screen_name = "the Tomb of Mourning";
+	}
+	
+	//Fire King Theme
+	
+	[t:location,n:gorge]
+	{
+		id = 0401;
+		screen_name = "the Blasted Gorge";
+	}
+	[t:location,n:steppes]
+	{
+		id = 0402;
+		screen_name = "the Underforge Steppes";
+	}
+	[t:location,n:underforge]
+	{
+		id = 0403;
+		screen_name = "Mount Underforge";
+	}
+	[t:location,n:citadel]
+	{
+		id = 0404;
+		screen_name = "the Citadel of Ash";
+	}
+	
+	
+}
+

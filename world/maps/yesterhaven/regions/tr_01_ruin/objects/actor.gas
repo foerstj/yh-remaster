@@ -1,0 +1,37 @@
+[t:gpg_plaque_ice_obelisk_01,n:0x00b00041]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_snow;
+		}
+	}
+	[placement]
+	{
+	  p position = -0.0104809,0,0.0177302,0x9bfa978d;
+	}
+}
+[t:gpg_plaque_grs_obelisk_01,n:0x00b00101]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_ruins;
+		}
+	}
+	[placement]
+	{
+	  p position = -0.0104809,0,0.0177302,0x9bfa978d;
+		use_point_scids = 0x00b00340,0x00b001e2,0x00b00292,0x00b002fd,0x00b0032c,0x00b00334,0x00b0033e,0x00b0033f;
+	}
+}
+[t:fairy,n:0x00b00356]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.262695,0,-0.818974,0x6a419cfa;
+	}
+}

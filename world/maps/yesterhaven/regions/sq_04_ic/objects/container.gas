@@ -1,0 +1,112 @@
+[t:crate_glb_sq_04_ic,n:0x0490013e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999962,0,0.00872632;
+	  p position = -1.50515,-2,-4.44759,0xd1974284;
+	}
+}
+[t:crate_glb_sq_04_ic,n:0x0490013f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.587786,0,0.809017;
+	  p position = -2.48434,-2,-3.42744,0xd1974284;
+	}
+}
+[t:crate_glb_sq_04_ic,n:0x04900141]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.694658,0,0.71934;
+	  p position = 0.640579,-3.91007,1.61363,0x57a41070;
+	}
+}
+[t:barrel_glb_sq_04_ic,n:0x04900144]
+{
+	[placement]
+	{
+	  q orientation = 0,0.71934,0,0.694658;
+	  p position = -0.265053,-3.78007,1.64753,0x57a41070;
+	}
+}
+[t:barrel_glb_sq_04_ic,n:0x04900147]
+{
+	[placement]
+	{
+	  q orientation = 0,0.994522,0,0.104528;
+	  p position = 1.52934,-2,-4.51513,0x38f8b4de;
+	}
+}
+[t:crate_glb_sq_04_ic,n:0x04900148]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999848,0,-0.0174525;
+	  p position = 1.49313,-2,-5.45831,0x38f8b4de;
+	}
+}
+[t:crate_glb_sq_04_ic,n:0x04900149]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = 2.48466,-2,-4.52156,0x38f8b4de;
+	}
+}
+[t:crate_glb_sq_04_ic,n:0x04900140]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999657,0,-0.0261771;
+	  p position = -1.53625,-0.25,-1.48502,0x1d4f5494;
+	}
+}
+[t:barrel_glb_sq_04_ic,n:0x04900142]
+{
+	[placement]
+	{
+	  q orientation = 0,0.700909,0,0.71325;
+	  p position = -0.534576,-0.00678965,-0.499581,0x1d4f5494;
+	}
+}
+[t:barrel_glb_sq_04_ic,n:0x04900143]
+{
+	[placement]
+	{
+	  q orientation = 0,0.771625,0,0.636078;
+	  p position = -1.43105,-0.226352,-0.490128,0x1d4f5494;
+	}
+}
+[t:barrel_glb_sq_04_ic,n:0x04900145]
+{
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 3.53721,0,-1.50924,0x48b9581c;
+	}
+}
+[t:barrel_glb_sq_04_ic,n:0x04900146]
+{
+	[placement]
+	{
+	  q orientation = 0,0.224951,0,0.97437;
+	  p position = 3.48485,0,-0.454269,0x48b9581c;
+	}
+}
+[t:barrel_glb_sq_04_ic,n:0x04900139]
+{
+	[placement]
+	{
+	  q orientation = 0,0.748956,0,-0.66262;
+	  p position = 0.628662,0,1.37148,0x5a9789a2;
+	}
+}
+[t:barrel_glb_sq_04_ic,n:0x0490013a]
+{
+	[placement]
+	{
+	  q orientation = 0,0.997564,0,-0.0697566;
+	  p position = 1.49527,0,0.547726,0x5a9789a2;
+	}
+}

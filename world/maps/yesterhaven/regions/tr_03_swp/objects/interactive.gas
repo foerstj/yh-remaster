@@ -1,0 +1,356 @@
+[t:gpg_w3_door_grs_peasant_right_use_toggle,n:0x00d00020]
+{
+	[door_basic]
+	{
+	  x msg_scid_open = 0x00D000BF;
+		msg_type_open = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.984808,0,-0.173648;
+	  p position = 0.0316286,-3.65,-2.90004,0xbb0ea776;
+		use_point_scids = 0x00d005cc,0x00d005cd;
+	}
+}
+[t:sign_glb_blacksmith_03,n:0x00d00023]
+{
+	[common]
+	{
+		screen_name = "Kellan & Kellan Steel";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.173648,0,0.984808;
+	  p position = 2.65453,-4.59722,-5.40129,0xbb0ea776;
+	}
+}
+[t:gpg_gate_swp_fence_iron_right_use_toggle,n:0x00d00178]
+{
+	[door_basic]
+	{
+	  b can_use = false;
+	  b non_blocking = true;
+	  b use_toggle = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -0.183982,0.349998,0.0554123,0xaacc7eca;
+	}
+}
+[t:door_grs_peasant_left,n:0x00d0002b]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00D000B0;
+		msg_type_opening = we_trigger_activate;
+	}
+	[gizmo]
+	{
+	  b is_visible = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.990268,0,0.139173;
+	  p position = 0.932384,-3,-2.94659,0x0ed4264e;
+		use_point_scids = 0x00d005ce,0x00d005d0;
+	}
+}
+[t:gpg_gate_swp_fence_iron_right_use_toggle,n:0x00d001a1]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00D001A0;
+	}
+	[placement]
+	{
+	  p position = -0.231306,0.35,-0.0237312,0x7bc8b1b8;
+		use_point_scids = 0x00d005bc,0x00d005bd;
+	}
+}
+[t:lever_on_off_01,n:0x00d00559]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x00D00563;
+	  x on_scid = 0x00D00563;
+	}
+	[placement]
+	{
+	  q orientation = -0.707107,0,0,0.707107;
+	  p position = -4.56275,15.85,2.34645,0xd04d02b3;
+		use_point_scids = 0x00d0055e,0x00d00566;
+	}
+}
+[t:lever_on_off_01,n:0x00d00568]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x00D00563;
+	  x on_scid = 0x00D00563;
+	}
+	[placement]
+	{
+	  q orientation = -0.5,0.5,0.5,0.5;
+	  p position = -0.661754,0,3.82605,0x75c0de3e;
+		use_point_scids = 0x00d0055e,0x00d00567;
+	}
+}
+[t:lever_on_off_01,n:0x00d001cc]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x00D005C1;
+	  x on_scid = 0x00D005C1;
+	  f reset_time = 10;
+	  f reset_time_2 = 10;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0.707107,0;
+	  p position = -2.19612,-2.5,-0.00770819,0x905ed4b1;
+	}
+}
+[t:gpg_gate_swp_fence_iron_left_use_toggle,n:0x00d001a0]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00D001A1;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.214106,0.349998,0.0674858,0x0faca110;
+		use_point_scids = 0x00d005bc,0x00d005bd;
+	}
+}
+[t:sign_swp_01,n:0x00d00611]
+{
+	[common]
+	{
+		screen_name = "Valley of the Dead";
+	}
+	[placement]
+	{
+	  p position = -3.8936,-0.260007,-1.88503,0xd8e6795a;
+	}
+}
+[t:door_grs_peasant_left,n:0x00d00011]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00D000B6;
+		msg_type_opening = we_trigger_activate;
+	}
+	[gizmo]
+	{
+	  b is_visible = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.986286,0,-0.165048;
+	  p position = 1.33191,-3.64999,-3.44375,0x7ff64020;
+		use_point_scids = 0x00d005ca,0x00d005cb;
+	}
+}
+[t:sign_glb_magicshop_01,n:0x00d000b3]
+{
+	[common]
+	{
+		screen_name = "Rodric's Tomes";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.986286,0,-0.165048;
+	  p position = -3.76608,-4.47991,-3.96189,0x7ff64020;
+	}
+}
+[t:door_grs_peasant_left,n:0x00d0002c]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00D000A6;
+		msg_type_opening = we_trigger_activate;
+	}
+	[gizmo]
+	{
+	  b is_visible = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.990268,0,0.139173;
+	  p position = 0.92642,-3,-2.96668,0xe69ae28d;
+		use_point_scids = 0x00d005c6,0x00d005c9;
+	}
+}
+[t:sign_glb_magicshop_01,n:0x00d00558]
+{
+	[common]
+	{
+		screen_name = "Gwendolyn's Tonics";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.991445,0,0.130526;
+	  p position = -0.94001,-4.9492,-6.89529,0xe69ae28d;
+	}
+}
+[t:door_csl_02,n:0x00d005a6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1;
+	}
+	[door_basic]
+	{
+	  b can_use = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.49012e-007;
+	  p position = -0.0159912,-2,-5.06009,0x2d07f9ee;
+	}
+}
+[t:door_csl_right_02,n:0x00d005a7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1;
+	}
+	[door_basic]
+	{
+	  b can_use = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = 0.0119247,-2,-5.03372,0x2d07f9ee;
+	}
+}
+[t:gpg_gate_swp_fence_iron_left,n:0x00d0017d]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00D0017B;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.17605,0.349999,-0.0350647,0x5fd85096;
+		use_point_scids = 0x00d005ab,0x00d005aa;
+	}
+}
+[t:gpg_gate_swp_fence_iron_right,n:0x00d0017b]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00D0017D;
+	}
+	[placement]
+	{
+	  p position = -0.238494,0.350001,0.0440025,0x762405c0;
+		use_point_scids = 0x00d005ab,0x00d005aa;
+	}
+}
+[t:gpg_gate_swp_fence_iron_left_use_toggle,n:0x00d00171]
+{
+	[door_basic]
+	{
+	  b can_use = false;
+	  b non_blocking = true;
+	  b use_toggle = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.771625,0,0.636078;
+	  p position = -0.246418,0.35,0.0479679,0xe7ee1414;
+	}
+}
+[t:gpg_gate_swp_fence_iron_left_use_toggle,n:0x00d00103]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.250355,0.35,0.00659561,0x117ea0c4;
+		use_point_scids = 0x00d005d5;
+	}
+}
+[t:gpg_gate_swp_fence_iron_right_use_toggle,n:0x00d00165]
+{
+	[placement]
+	{
+	  p position = -0.172256,0.350002,0.0156364,0x2b2c29e2;
+		use_point_scids = 0x00d005d5;
+	}
+}
+[t:door_grs_peasant_right,n:0x00d00013]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00D00050;
+		msg_type_opening = we_trigger_activate;
+	}
+	[gizmo]
+	{
+	  b is_visible = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.984808,0,-0.173648;
+	  p position = 0.0108566,-3.65001,-2.90263,0x723869df;
+		use_point_scids = 0x00d005ac, 0x00d005c3;
+	}
+}
+[t:gpg_gate_swp_fence_iron_left_use_toggle,n:0x00d005e0]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00D005DF;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,1.19209e-007;
+	  p position = -0.213885,0.350004,-0.0430145,0x6ba6f078;
+		use_point_scids = 0x00d005bb,0x00d005e2;
+	}
+}
+[t:gpg_gate_swp_fence_iron_right_use_toggle,n:0x00d005df]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00D005E0;
+	}
+	[placement]
+	{
+	  q orientation = 0,1.19209e-007,0,1;
+	  p position = -0.212034,0.349999,0.0778427,0xad2068d2;
+		use_point_scids = 0x00d005bb,0x00d005e2;
+	}
+}
+[t:sign_swp_01,n:0x00d0060f]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = -3.82547,-0.500535,-3.56302,0x8d8cd0a4;
+	}
+}
+[t:sign_swp_01,n:0x00d00610]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.77493,-1.19209e-006,-1.63464,0x7daee926;
+	}
+}

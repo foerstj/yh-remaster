@@ -1,0 +1,65 @@
+[t:gpg_w3_skrev_tr_03_swp_siege,n:0x00d000d9]
+{
+	[gpg_w3_skrev_tr_03_swp_siege]
+	{
+	  x complete_scid = 0x00D00020;
+	  x defender = 0x00D00542;
+	  x skeleton_archer1 = 0x00D0054F;
+	  x skeleton_guard1 = 0x00D00547;
+	  x skeleton_guard2 = 0x00D0054A;
+	  x skeleton_house1 = 0x00D005BA;
+	  x spider3 = 0x00D005B3;
+	  x spider4 = 0x00D005B4;
+	  x spider5 = 0x00D005B7;
+	  x spider6 = 0x00D005B6;
+	  x spider7 = 0x00D005B5;
+	  x spider8 = 0x00D005B8;
+	  x spider_house1 = 0x00D005AF;
+	  x spider_house2 = 0x00D005AE;
+	  x spider_house3 = 0x00D005B2;
+	  x spider_house4 = 0x00D005B1;
+	  x spider_house5 = 0x00D005B0;
+	  x spider_large1 = 0x00D00550;
+	  x spider_large2 = 0x00D00551;
+	  x spider_large_house1 = 0x00D005AD;
+	}
+	[placement]
+	{
+	  p position = 2.26808,0,-1.50388,0x23c2e354;
+	}
+}
+[t:cmd_animation_command,n:0x00d0054e]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1819242347;
+	  x client_scid = 0x00D00543;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = -0.680964,-3.65,-0.587283,0xbb0ea776;
+	}
+}
+[t:gpg_w3_blocking_object,n:0x00d005c0]
+{
+	[aspect]
+	{
+	  f bounding_volume_scale = 3;
+	}
+	[placement]
+	{
+	  p position = -0.0380554,-14.7,-0.00817275,0xf0d53e44;
+	}
+}
+[t:animate_elevator,n:0x00d005a5]
+{
+	[nodal_tex_anim]
+	{
+	  x siege_node = 0xDBC0F01E;
+	}
+	[placement]
+	{
+	  p position = 1.01273,0.15,-0.30246,0xfe50fdd5;
+	}
+}

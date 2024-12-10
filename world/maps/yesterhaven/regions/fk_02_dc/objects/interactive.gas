@@ -1,0 +1,26 @@
+[t:respawn_statue,n:0x02500211]
+{
+	[placement]
+	{
+	  q orientation = 0,0.165048,0,0.986286;
+	  p position = 2.99289,-1.92822,-3.84198,0xb72a668e;
+		use_point_scids = 0x02500212;
+	}
+}
+[t:respawn_statue,n:0x02500227]
+{
+	[placement]
+	{
+	  q orientation = 0,0.866026,0,0.5;
+	  p position = 3.12705,-0.987772,-0.754059,0x5cbffb18;
+		use_point_scids = 0x02500228;
+	}
+}
+[t:gpg_king_fire_effect,n:0x0250020f]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.766045,0,0.642788;
+	  p position = -3.62194,0,-1.01849,0xd8df9c2f;
+	}
+}

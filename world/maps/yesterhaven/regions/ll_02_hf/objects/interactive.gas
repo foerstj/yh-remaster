@@ -1,0 +1,18 @@
+[t:respawn_statue,n:0x50100063]
+{
+	[placement]
+	{
+	  q orientation = 0,0.976296,0,0.21644;
+	  p position = 2.93216,0.669293,1.84646,0x8a6f7ded;
+		use_point_scids = 0x50100092;
+	}
+}
+[t:respawn_statue,n:0x50100517]
+{
+	[placement]
+	{
+	  q orientation = 0,0.913546,0,0.406737;
+	  p position = -1.33617,0.91041,3.05205,0x95c7b321;
+		use_point_scids = 0x50100518;
+	}
+}

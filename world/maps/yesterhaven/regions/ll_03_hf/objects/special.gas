@@ -1,0 +1,371 @@
+[t:trigger_generic,n:0x50200085]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x50200187,0f,"default","every",0), doc("spider_adolescent");
+				action* = send_world_message("we_req_activate",0x50200188,0f,"default","every",0), doc("mucosa");
+				action* = send_world_message("we_req_activate",0x5020018E,0f,"default","every",0), doc("mucosa_small");
+				action* = send_world_message("we_req_activate",0x5020018C,0f,"default","every",0), doc("spider_adolescent");
+				action* = send_world_message("we_req_activate",0x5020018B,0f,"default","every",0), doc("spider_adolescent");
+				action* = send_world_message("we_req_activate",0x50200181,0f,"default","every",0), doc("spider_adolescent");
+				action* = send_world_message("we_req_activate",0x5020018F,0f,"default","every",0), doc("mucosa");
+				action* = send_world_message("we_req_activate",0x5020018A,0f,"default","every",0), doc("spider_adolescent");
+				action* = send_world_message("we_req_activate",0x50200189,0f,"default","every",0), doc("spider_adolescent");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,0.500000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.182748,-0.05,1.96678,0x25c2af94;
+	}
+}
+[t:trigger_generic,n:0x50200010]
+{
+	[common]
+	{
+		dev_instance_text = "FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x7B2E0A38,2,-1,-1,"out:black");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,2.100000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.112079,0.0499997,1.32977,0x03882f5e;
+	}
+}
+[t:trigger_generic,n:0x50200011]
+{
+	[common]
+	{
+		dev_instance_text = "FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x7B2E0A38,2,-1,-1,"in");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,2.100000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.152335,0.0500002,-2.00631,0x03882f5e;
+	}
+}
+[t:trigger_generic,n:0x50200158]
+{
+	[common]
+	{
+		dev_instance_text = "CAP FADE   CAMERA FLAG CHANGE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes_global(0x7B2E0A38,1,1,-1,"out:black");
+				action* = set_camera_fade_node(0x2BA48A0C,1);
+				action* = set_occludes_camera_node(0x2BA48A0C,0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,1.000000,1.000000,"on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.0414791,0.0499959,-3.3333,0x03882f5e;
+	}
+}
+[t:trigger_generic,n:0x50200012]
+{
+	[common]
+	{
+		dev_instance_text = "FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x7B2E0A38,3,-1,-1,"out:black");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,2.100000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,8.64267e-007;
+	  p position = 0.0503312,0.0499997,1.06952,0xad5995a1;
+	}
+}
+[t:trigger_generic,n:0x50200013]
+{
+	[common]
+	{
+		dev_instance_text = "FADE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x7B2E0A38,3,-1,-1,"in");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,2.100000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.0748213,0.0500002,-2.37101,0xad5995a1;
+	}
+}
+[t:trigger_generic,n:0x5020016e]
+{
+	[common]
+	{
+		dev_instance_text = "CAP FADE   CAMERA FLAG CHANGE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes_global(0x7B2E0A38,1,1,-1,"out:black");
+				action* = set_camera_fade_node(0x47E23149,1);
+				action* = set_occludes_camera_node(0x47E23149,0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,1.000000,1.000000,"on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,1.90735e-008;
+	  p position = 0.0356369,0.0499992,-3.2948,0xad5995a1;
+	}
+}
+[t:trigger_generic,n:0x50200152]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x5020015B,0f,"default","every",0), doc("mucosa_small");
+				action* = send_world_message("we_req_activate",0x50200156,0f,"default","every",0), doc("mucosa");
+				action* = send_world_message("we_req_activate",0x50200086,0f,"default","every",0), doc("mucosa_small");
+				action* = send_world_message("we_req_activate",0x5020015D,0f,"default","every",0), doc("mucosa_small");
+				action* = send_world_message("we_req_activate",0x50200159,0f,"default","every",0), doc("mucosa");
+				action* = send_world_message("we_req_activate",0x5020015C,0f,"default","every",0), doc("mucosa_small");
+				action* = send_world_message("we_req_activate",0x5020010E,0f,"default","every",0), doc("mucosa");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,0.500000,6.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -1.05249,0,-0.0940018,0xb0f9c13e;
+	}
+}
+[t:trigger_generic,n:0x50200192]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x50200157,0f,"default","every",0), doc("mucosa");
+				action* = send_world_message("we_req_activate",0x50200191,0f,"default","every",0), doc("mucosa_boss");
+				action* = send_world_message("we_req_activate",0x5020017F,0f,"default","every",0), doc("skeleton_archer");
+				action* = send_world_message("we_req_activate",0x5020017C,0f,"default","every",0), doc("skeleton_archer");
+				action* = send_world_message("we_req_activate",0x5020017E,0f,"default","every",0), doc("skeleton_archer");
+				action* = send_world_message("we_req_activate",0x5020017D,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,0.500000,6.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 0.222584,0,-0.0444565,0xb0f9c13e;
+	}
+}
+[t:trigger_generic,n:0x50200150]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x502000C3,0f,"default","every",0), doc("mucosa_small");
+				action* = send_world_message("we_req_activate",0x502000CA,0f,"default","every",0), doc("mucosa_small");
+				action* = send_world_message("we_req_activate",0x502000C4,0f,"default","every",0), doc("mucosa");
+				action* = send_world_message("we_req_activate",0x5020015A,0f,"default","every",0), doc("mucosa");
+				action* = send_world_message("we_req_activate",0x502000C7,0f,"default","every",0), doc("mucosa");
+				action* = send_world_message("we_req_activate",0x50200155,0f,"default","every",0), doc("mucosa_small");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.500000,2.000000,6.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 0.0393032,0.5,5.84879,0x8599d6ce;
+	}
+}
+[t:trigger_generic,n:0x50200180]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x50200182,0f,"default","every",0), doc("spider_adolescent");
+				action* = send_world_message("we_req_activate",0x50200183,0f,"default","every",0), doc("spider_adolescent");
+				action* = send_world_message("we_req_activate",0x50200184,0f,"default","every",0), doc("spider_adolescent");
+				action* = send_world_message("we_req_activate",0x50200185,0f,"default","every",0), doc("spider_adolescent");
+				action* = send_world_message("we_req_activate",0x5020018D,0f,"default","every",0), doc("mucosa_small");
+				action* = send_world_message("we_req_activate",0x50200186,0f,"default","every",0), doc("spider_adolescent");
+				action* = send_world_message("we_req_activate",0x50200190,0f,"default","every",0), doc("mucosa_small");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,0.500000,3.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -3.77048,0,0.0433524,0xfd338096;
+	}
+}

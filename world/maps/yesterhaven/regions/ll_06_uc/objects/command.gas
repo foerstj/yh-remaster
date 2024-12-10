@@ -1,0 +1,323 @@
+[t:light_enable,n:0x1500020f]
+{
+	[light_enable]
+	{
+	  f flare_magnitude = 1;
+	  x siege_light = 0x5DBDECF2;
+	  b use_fizzle = true;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  p position = -0.0655851,-2,4.7494,0x145abf19;
+	}
+}
+[t:light_enable,n:0x15000210]
+{
+	[light_enable]
+	{
+	  b initially_active = false;
+	  x siege_light = 0x25095980;
+	  b use_fizzle = true;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  p position = 1.47937,-2,4.75883,0x145abf19;
+	}
+}
+[t:gpg_w3_skrev_ll_06_uc_lich,n:0x150000b8]
+{
+	[gpg_w3_skrev_ll_06_uc_lich]
+	{
+	  x center_light1 = 0x15000208;
+	  x command_chain = 0x15000216;
+	  x death_mood = 0x15000205;
+	  x fight_mood_trigger = 0x15000223;
+	  x fire1 = 0x150001F9;
+	  x fire2 = 0x150001FE;
+	  x fire3 = 0x150001FB;
+	  x fire4 = 0x150001FF;
+	  x fire5 = 0x150001FC;
+	  x fire6 = 0x15000200;
+	  x fire7 = 0x150001FD;
+	  x fire8 = 0x15000201;
+	  x hallway_light1 = 0x15000206;
+	  x hallway_light2 = 0x15000207;
+	  x lich_king = 0x1500009C;
+	  x lich_spirit = 0x1500009D;
+	  x locked_door = 0x150000AD;
+	  x reveal_mood = 0x1500021F;
+	  x torch1 = 0x150000D6;
+	  x torch1_light_green = 0x1500020A;
+	  x torch1_light_red = 0x15000209;
+	  x torch2 = 0x150000D8;
+	  x torch2_light_green = 0x1500020C;
+	  x torch2_light_red = 0x1500020B;
+	  x torch3 = 0x15000121;
+	  x torch3_light_green = 0x1500020E;
+	  x torch3_light_red = 0x1500020D;
+	  x torch4 = 0x15000229;
+	  x torch4_light_green = 0x15000210;
+	  x torch4_light_red = 0x1500020F;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 6.82303,-2,-0.4466,0x81c96cba;
+	}
+}
+[t:light_enable,n:0x15000208]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x1500021B,0f,"default","every",0), doc("light flicker");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[light_enable]
+	{
+	  f flare_magnitude = 1;
+	  b initially_active = false;
+	  x siege_light = 0x8F67BAB8;
+	  b use_fizzle = true;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 6.88501,-2,0.171642,0x3a817868;
+	}
+}
+[t:light_enable,n:0x15000209]
+{
+	[light_enable]
+	{
+	  f flare_magnitude = 1;
+	  x siege_light = 0x8D24EC73;
+	  b use_fizzle = true;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  p position = 0.278589,-2,4.83418,0x3a817868;
+	}
+}
+[t:light_enable,n:0x1500020a]
+{
+	[light_enable]
+	{
+	  b initially_active = false;
+	  x siege_light = 0x3F4DB304;
+	  b use_fizzle = true;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  p position = 0.239305,-2,3.4363,0x3a817868;
+	}
+}
+[t:light_flicker,n:0x1500021b]
+{
+	[light_flicker]
+	{
+	  f flicker_frequency_max = 12;
+	  f flicker_frequency_min = 10;
+	  b initially_active = false;
+	  f magnitude = 0.35;
+	  x siege_light = 0x8F67BAB8;
+	}
+	[placement]
+	{
+	  p position = 6.82975,-2,1.31054,0x3a817868;
+	}
+}
+[t:light_enable,n:0x1500020c]
+{
+	[light_enable]
+	{
+	  b initially_active = false;
+	  x siege_light = 0xAB012EEF;
+	  b use_fizzle = true;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  p position = 0.13554,-2,1.02185,0xbbd20fe7;
+	}
+}
+[t:cmd_ai_t_move,n:0x15000098]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x150000A9;
+	  x target1 = 0x1500009D;
+	}
+	[placement]
+	{
+	  p position = 6.38978,-1.75,2.05933,0x3a1ac814;
+	}
+}
+[t:cmd_ai_t_move,n:0x15000218]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x15000098;
+	  x target1 = 0x1500009D;
+	}
+	[placement]
+	{
+	  p position = 1.88725,-1.75,1.22981,0x07ecd5b9;
+	}
+}
+[t:light_colorwave,n:0x15000232]
+{
+	[light_colorwave]
+	{
+	  b apply_to_intensity = false;
+	  f period = 4;
+	  f secondary_color_g = 0;
+	  f secondary_color_r = 0;
+	  x siege_light = 0xC52A1B0D;
+	}
+	[placement]
+	{
+	  p position = -1.97345,0.55,1.59609,0xcd3c6517;
+	}
+}
+[t:cmd_ai_t_move,n:0x15000219]
+{
+	[cmd_ai_dojob]
+	{
+	  x target1 = 0x1500009D;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.0208843,0,1.57138,0xe22d0220;
+	}
+}
+[t:gpg_w3_skrev_ll_06_uc_spirit,n:0x150000af]
+{
+	[gpg_w3_skrev_ll_06_uc_spirit]
+	{
+	  x lich_spirit = 0x1500009D;
+	  x lich_spirit_sarco = 0x15000097;
+	  x sarco = 0x150001F0;
+	}
+	[placement]
+	{
+	  p position = -3.65146,-0.45,-0.646373,0x6b9dbb32;
+	}
+}
+[t:cmd_ai_t_move,n:0x150000a9]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x15000219;
+	  x target1 = 0x1500009D;
+	}
+	[placement]
+	{
+	  p position = 6.2044,-1.75,2.10586,0xd09df12c;
+	}
+}
+[t:light_enable,n:0x15000207]
+{
+	[light_enable]
+	{
+	  f flare_magnitude = 1;
+	  b is_toggle = true;
+	  x siege_light = 0x54BC3182;
+	  b use_fizzle = true;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  p position = 1.86958,-2,3.73957,0xce43bc69;
+	}
+}
+[t:light_enable,n:0x15000206]
+{
+	[light_enable]
+	{
+	  f flare_magnitude = 1;
+	  b is_toggle = true;
+	  x siege_light = 0x6EB33E77;
+	  b use_fizzle = true;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  p position = 0.220221,-1.75,-0.181187,0x5769d9b1;
+	}
+}
+[t:cmd_ai_t_move,n:0x15000216]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x15000218;
+	  x target1 = 0x1500009D;
+	}
+	[placement]
+	{
+	  p position = 0.00391144,1.25,3.91846,0x92a1b5ac;
+	}
+}
+[t:light_enable,n:0x1500020d]
+{
+	[light_enable]
+	{
+	  f flare_magnitude = 1;
+	  x siege_light = 0x382B25BB;
+	  b use_fizzle = true;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  p position = 2.50995,-2,0.307741,0xa436a0ec;
+	}
+}
+[t:light_enable,n:0x1500020e]
+{
+	[light_enable]
+	{
+	  b initially_active = false;
+	  x siege_light = 0xCC6B0281;
+	  b use_fizzle = true;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  p position = 2.60901,-2,-1.1051,0xa436a0ec;
+	}
+}
+[t:light_enable,n:0x1500020b]
+{
+	[light_enable]
+	{
+	  f flare_magnitude = 1;
+	  x siege_light = 0xE716AFAF;
+	  b use_fizzle = true;
+	  b use_flare = true;
+	}
+	[placement]
+	{
+	  p position = -1.77426,0,-0.705839,0xbaca1f14;
+	}
+}

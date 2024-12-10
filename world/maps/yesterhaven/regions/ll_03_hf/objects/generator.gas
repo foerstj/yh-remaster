@@ -1,0 +1,419 @@
+[t:generator_generic,n:0x50200182]
+{
+	[generator_basic]
+	{
+		child_template_name = "spider_adolescent";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 3.61775,-0.5,3.19815,0xd7cb6862;
+	}
+}
+[t:generator_generic,n:0x50200185]
+{
+	[generator_basic]
+	{
+		child_template_name = "spider_adolescent";
+	}
+	[placement]
+	{
+	  q orientation = 0,2.98023e-008,0,1;
+	  p position = 1.09224,-1.45,-1.3293,0x87ed059e;
+	}
+}
+[t:generator_generic,n:0x50200184]
+{
+	[generator_basic]
+	{
+		child_template_name = "spider_adolescent";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.66169,0,-0.693229,0xa09d7535;
+	}
+}
+[t:generator_generic,n:0x50200183]
+{
+	[generator_basic]
+	{
+		child_template_name = "spider_adolescent";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.28097e-008;
+	  p position = -1.54603,0,-0.800234,0x6c93fcf3;
+	}
+}
+[t:generator_generic,n:0x5020018d]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.38419e-007,0,1;
+	  p position = -0.0311184,0,-1.44311,0x1450a6df;
+	}
+}
+[t:generator_generic,n:0x50200186]
+{
+	[generator_basic]
+	{
+		child_template_name = "spider_adolescent";
+	}
+	[placement]
+	{
+	  p position = -0.785275,0,-1.65421,0x9b9264b5;
+	}
+}
+[t:generator_generic,n:0x50200190]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -2.15077,0,-0.239782,0x9b9264b5;
+	}
+}
+[t:generator_generic,n:0x50200156]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  q orientation = 0,2.98023e-008,0,1;
+	  p position = -2.49873,0,-0.255089,0x08c94b25;
+	}
+}
+[t:generator_generic,n:0x5020015b]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,8.9407e-008,0,1;
+	  p position = 2.40533,0,0.168709,0x08c94b25;
+	}
+}
+[t:generator_generic,n:0x50200155]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 3.4549,0,-3.2106,0xb0f9c13e;
+	}
+}
+[t:generator_generic,n:0x5020015a]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,8.9407e-008,0,1;
+	  p position = -2.79715,-0.116386,-0.918072,0x3da578bf;
+	}
+}
+[t:generator_generic,n:0x502000c7]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.988224,-2,-5.80984,0x8c9379b4;
+	}
+}
+[t:generator_generic,n:0x502000c4]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-5.8981e-008;
+	  p position = 1.74813,0,-0.44883,0xf416377d;
+	}
+}
+[t:generator_generic,n:0x502000ca]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 3.8527,0,-0.172348,0xea554c6e;
+	}
+}
+[t:generator_generic,n:0x502000c3]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.8981e-008;
+	  p position = -0.0184022,-0.222788,-0.870653,0x814d685b;
+	}
+}
+[t:generator_generic,n:0x50200159]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = -1.13837,0,0.284294,0x7fcc042c;
+	}
+}
+[t:generator_generic,n:0x5020015c]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-8.9407e-008;
+	  p position = -2.99248,0,-1.43597,0x7fcc042c;
+	}
+}
+[t:generator_generic,n:0x5020015d]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-8.9407e-008;
+	  p position = 2.06506,0,-0.738142,0x7fcc042c;
+	}
+}
+[t:generator_generic,n:0x5020010e]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.0818027,-2,-2.79082,0xeac05894;
+	}
+}
+[t:generator_generic,n:0x50200181]
+{
+	[generator_basic]
+	{
+		child_template_name = "spider_adolescent";
+	}
+	[placement]
+	{
+	  q orientation = 0,-7.74859e-007,0,1;
+	  p position = 2.11733,-2.00001,-5.71981,0xbd7be9c5;
+	}
+}
+[t:generator_generic,n:0x5020018b]
+{
+	[generator_basic]
+	{
+		child_template_name = "spider_adolescent";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707106;
+	  p position = 1.50483,0,0.403503,0x6cca0f9a;
+	}
+}
+[t:generator_generic,n:0x5020018f]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -2.08717,0,1.1757,0x6cca0f9a;
+	}
+}
+[t:generator_generic,n:0x5020018a]
+{
+	[generator_basic]
+	{
+		child_template_name = "spider_adolescent";
+	}
+	[placement]
+	{
+	  q orientation = 0,-8.34465e-007,0,1;
+	  p position = -2.0898,0,3.65012,0xa1149c5d;
+	}
+}
+[t:generator_generic,n:0x5020018c]
+{
+	[generator_basic]
+	{
+		child_template_name = "spider_adolescent";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,7.92944e-007;
+	  p position = 0.558533,-0.5,3.6305,0x77372f62;
+	}
+}
+[t:generator_generic,n:0x50200187]
+{
+	[generator_basic]
+	{
+		child_template_name = "spider_adolescent";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.65448,-2.00001,-5.90976,0x285f8657;
+	}
+}
+[t:generator_generic,n:0x50200188]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707106;
+	  p position = 2.27767,-2.00001,-3.11217,0xfdedb40f;
+	}
+}
+[t:generator_generic,n:0x5020018e]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.0178413,-0.5,0.258529,0x72ccc049;
+	}
+}
+[t:generator_generic,n:0x50200189]
+{
+	[generator_basic]
+	{
+		child_template_name = "spider_adolescent";
+	}
+	[placement]
+	{
+	  q orientation = 0,-8.34465e-007,0,1;
+	  p position = 2.72381,-2.00001,-5.16411,0x83cf25d8;
+	}
+}
+[t:generator_generic,n:0x50200191]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_boss_01";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382684;
+	  p position = 0.838925,-0.5,1.39232,0x2350e313;
+	}
+}
+[t:generator_generic,n:0x50200157]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = 1.17802,0,1.11657,0xfb3a7479;
+	}
+}
+[t:generator_generic,n:0x5020017f]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.84235,0,1.02365,0xfb3a7479;
+	}
+}
+[t:generator_generic,n:0x5020017c]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -3.77335,0,-1.22519,0x5c24c4b6;
+	}
+}
+[t:generator_generic,n:0x5020017d]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-2.98023e-008;
+	  p position = 1.26903,0,-1.79533,0x735551db;
+	}
+}
+[t:generator_generic,n:0x5020017e]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,2.28097e-008;
+	  p position = -0.676005,0,-1.69297,0xf21f075a;
+	}
+}
+[t:generator_generic,n:0x50200086]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,1.19209e-007,0,1;
+	  p position = 0.292182,-2.00001,-4.86246,0xc70b67a4;
+	}
+}

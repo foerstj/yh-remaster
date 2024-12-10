@@ -1,0 +1,73 @@
+[t:emt_generic_act,n:0x503002e1]
+{
+	[generic_emitter_act]
+	{
+		other_effect = "snow_queen_obelisk";
+	  b start_on_creation = true;
+	}
+	[placement]
+	{
+	  p position = 0.00564575,6.37105,10.7663,0x3627e602;
+	}
+}
+[t:emt_go,n:0x50300299]
+{
+	[go_emitter]
+	{
+	  i count = 1;
+	  f lvz = 13;
+		model = "frag_glb_stone_03";
+		model4 = "frag_glb_stone_01";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.75471,0.656058,0;
+	  p position = 0.813079,2.53081,-2.76978,0xd5c0a7f5;
+	}
+}
+[t:emt_go,n:0x5030029c]
+{
+	[go_emitter]
+	{
+	  i count = 1;
+	  f lvz = 14;
+		model = "frag_glb_stone_01";
+		model3 = "chunks_ice_02";
+		model4 = "chunks_ice_04";
+	}
+	[placement]
+	{
+	  q orientation = -0.476143,0.534438,0.451521,0.532719;
+	  p position = 3.1705,2.47998,1.31654,0xd5c0a7f5;
+	}
+}
+[t:emt_go,n:0x5030029d]
+{
+	[go_emitter]
+	{
+	  f avx = 15;
+	  i count = 1;
+		model = "frag_glb_stone_02";
+		model4 = "chunks_ice_05";
+	}
+	[placement]
+	{
+	  q orientation = -0.548776,-0.451927,-0.431967,0.554985;
+	  p position = -3.35049,2.66608,1.15962,0xd5c0a7f5;
+	}
+}
+[t:emt_go,n:0x5030029f]
+{
+	[go_emitter]
+	{
+	  i count = 1;
+	  f lvz = 14;
+		model = "frag_glb_stone_01";
+		model4 = "chunks_ice_05";
+	}
+	[placement]
+	{
+	  q orientation = -0.655958,0.00121683,-0.0174097,0.754595;
+	  p position = -1.10446,2.50116,3.3549,0xd5c0a7f5;
+	}
+}

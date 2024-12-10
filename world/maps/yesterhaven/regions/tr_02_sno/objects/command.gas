@@ -1,0 +1,25 @@
+[t:cmd_animation_command,n:0x00c00499]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1752130865;
+	  x client_scid = 0x00C00498;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.387234,-0.749999,-0.974798,0x25de7b35;
+	}
+}
+[t:gpg_w3_blocking_object,n:0x00c004bb]
+{
+	[aspect]
+	{
+	  f bounding_volume_scale = 3;
+	}
+	[placement]
+	{
+	  p position = 0.0265398,-14.7,0.0740051,0x82172ac6;
+	}
+}

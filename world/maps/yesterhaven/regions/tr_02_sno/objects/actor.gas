@@ -1,0 +1,175 @@
+[t:gpg_scribe_redric_snow,n:0x00c00493]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_redric;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = 1.06092,-3.5,0.582985,0x0bd4152d;
+	}
+}
+[t:gpg_krug_scavenger_snow,n:0x00c004c0]
+{
+	[placement]
+	{
+	  p position = -1.17395,-9.53674e-007,-1.45355,0x5672ce34;
+	}
+}
+[t:gpg_mayor_gilwin,n:0x00c00497]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_mayor;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = 1.56841,-2.95,4.10897,0x3843693c;
+	}
+}
+[t:gpg_maid_gwendolyn_snow,n:0x00c00494]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  f max_life = 284.2;
+	  f max_mana = 124;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_gwendolyn;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.49012e-007;
+	  p position = 0.713837,-2.95,2.91764,0x58556c78;
+	}
+}
+[t:gpg_shepherd_trini,n:0x00c004ef]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_trini;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.996195,0,0.0871558;
+	  p position = -5.38098,-15,6.29913,0x8c63b81d;
+	}
+}
+[t:gpg_rho_kellan_snow,n:0x00c00492]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_rho;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = -3.05825,-3.5,2.17367,0xf49ec8b4;
+	}
+}
+[t:gpg_undertaker,n:0x00c00490]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_undertaker;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.975572,0,1.61333,0xbf54c263;
+	}
+}
+[t:gpg_undertaker_assistant_snow,n:0x00c00498]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_assistant;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_feet = bo_bo_le_light;
+			es_forearms = gl_gl_bl_f_g_c_avg;
+			es_head = he_ca_ro_woven_01;
+			es_weapon_hand = hoe;
+		}
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.87625,-0.25,-1.16882,0xc6e36d25;
+	}
+}
+[t:gpg_krug_scavenger_snow,n:0x00c004be]
+{
+	[inventory]
+	{
+		[other]
+		{
+			il_main = potion_health_small;
+			il_main = potion_mana_small;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.497635,0,-1.20061,0xa3601455;
+	}
+}
+[t:gpg_krug_scavenger_snow,n:0x00c004bf]
+{
+	[inventory]
+	{
+		[other]
+		{
+			il_main = bd_le_r_g_c_low;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.05619,0,1.37315,0xa3601455;
+	}
+}

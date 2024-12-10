@@ -1,0 +1,423 @@
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c00289]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.00236702,0.55,1.84436,0x4cb73e46;
+		use_point_scids = 0x02c0028a;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c000de]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.664549,0.55,1.91237,0xbf80a7c0;
+		use_point_scids = 0x02c000e0;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c000df]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-8.9407e-008;
+	  p position = -1.97085,0.55,-0.664705,0xbf80a7c0;
+		use_point_scids = 0x02c0013f;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c003b7]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.731636,0.55,1.8972,0x1ff9fba4;
+		use_point_scids = 0x02c003cf;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c0028f]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  p position = -1.97199,0.55,-0.716542,0xed1675f3;
+		use_point_scids = 0x02c003d6;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c003b6]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.731481,0.55,1.95691,0xed1675f3;
+		use_point_scids = 0x02c003d7;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c0028e]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1.78814e-007,0,1;
+	  p position = -1.94492,0.55,-0.74029,0xb5a2b93e;
+		use_point_scids = 0x02c003d5;
+	}
+}
+[t:crate_glb_ll_05_uc,n:0x02c003de]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.51135,0,-1.50936,0xe007378a;
+	}
+}
+[t:crate_glb_ll_05_uc,n:0x02c003df]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.50382,-1.5,-1.57576,0xd5d08bce;
+	}
+}
+[t:barrel_glb_ll_05_uc,n:0x02c003e0]
+{
+	[placement]
+	{
+	  p position = -0.483499,-1.5,-1.43865,0xd5d08bce;
+	}
+}
+[t:crate_glb_ll_05_uc,n:0x02c003d8]
+{
+	[placement]
+	{
+	  p position = 1.44277,-0.45,-0.534663,0x04b0d612;
+	}
+}
+[t:crate_glb_ll_05_uc,n:0x02c003d9]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.526866,-0.45,-0.652939,0x04b0d612;
+	}
+}
+[t:barrel_glb_ll_05_uc,n:0x02c003db]
+{
+	[placement]
+	{
+	  p position = 0.499705,-0.45,-1.51665,0x04b0d612;
+	}
+}
+[t:barrel_glb_ll_05_uc,n:0x02c003da]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.49872,-0.45,-1.51364,0xee2fe51f;
+	}
+}
+[t:barrel_glb_ll_05_uc,n:0x02c003dc]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -3.46645,-1.5,-0.471292,0xf78d49ae;
+	}
+}
+[t:barrel_glb_ll_05_uc,n:0x02c003dd]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.52125,-1.5,-0.544008,0xf78d49ae;
+	}
+}
+[t:crate_glb_ll_05_uc,n:0x02c001df]
+{
+	[placement]
+	{
+	  p position = -0.572445,-1.5,-0.504436,0xeeb47498;
+	}
+}
+[t:crate_glb_ll_05_uc,n:0x02c001e0]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.47736,-1.5,-0.54393,0xeeb47498;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c00206]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = -0.381427,0,1.71638,0x015c2edf;
+		use_point_scids = 0x02c00208;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c001e2]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  p position = -1.62093,0,0.333855,0x62613d0d;
+		use_point_scids = 0x02c00205;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c001c3]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  p position = -1.63663,0,0.0162052,0x5627cb54;
+		use_point_scids = 0x02c001c4;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c0024e]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.541386,0.55,0.84869,0xa79f5c35;
+		use_point_scids = 0x02c0025b;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c003fb]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.138287,0.55,1.99031,0xf684217f;
+		use_point_scids = 0x02c003fc;
+	}
+}
+[t:crate_glb_ll_05_uc,n:0x02c0024c]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 2.50754,-1.75,-2.45799,0xdcfd23dd;
+	}
+}
+[t:crate_glb_ll_05_uc,n:0x02c0024d]
+{
+	[placement]
+	{
+	  p position = 3.33641,-1.75,-2.69056,0xdcfd23dd;
+	}
+}
+[t:chest_glb_ll_05_uc,n:0x02c0025e]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = 3.75912,0,1.81646,0x1a5f437a;
+		use_point_scids = 0x02c0025f;
+	}
+}
+[t:barrel_glb_ll_05_uc,n:0x02c00260]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.53529,-1.5,-1.48533,0x3b2f944c;
+	}
+}
+[t:barrel_glb_ll_05_uc,n:0x02c00262]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.55308,-1.5,-0.516854,0x05d964d3;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c0025c]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.08616e-007,0,-1;
+	  p position = -0.943775,0.55,0.695827,0xf4f75dbc;
+		use_point_scids = 0x02c0025d;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c00267]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = -1.67152,0,0.066064,0xe020828e;
+		use_point_scids = 0x02c00268;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c0026d]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.0123111,0,-1.70329,0x6bac1e91;
+		use_point_scids = 0x02c0026e;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c0026f]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,1.78814e-007;
+	  p position = -1.69762,0,0.0645117,0x36e82caf;
+		use_point_scids = 0x02c00270;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c0027f]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,2.38419e-007;
+	  p position = -1.7197,0,0.0364851,0xd0eae628;
+		use_point_scids = 0x02c00280;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c00281]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-2.08616e-007;
+	  p position = -1.68253,0,0.0270326,0x92e11ec2;
+		use_point_scids = 0x02c00282;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c00283]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.0586641,0,1.68906,0xdd8ba165;
+		use_point_scids = 0x02c00284;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c00285]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.0733813,0.55,1.80742,0x9b4bfa26;
+		use_point_scids = 0x02c00286;
+	}
+}
+[t:sarcophagus_cav_01_ll_05_uc,n:0x02c00287]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = 0.0100898,0,-0.0883904,0xeece6889;
+		use_point_scids = 0x02c00288;
+	}
+}
+[t:crate_glb_ll_05_uc,n:0x02c0028b]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.508013,-0.5,-0.0328374,0x415e3318;
+		use_point_scids = 0x02c0028d;
+	}
+}
+[t:crate_glb_ll_05_uc,n:0x02c0028c]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  p position = -0.482811,-0.5,0.0416035,0x415e3318;
+		use_point_scids = 0x02c0028d;
+	}
+}

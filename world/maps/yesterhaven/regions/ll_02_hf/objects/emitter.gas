@@ -1,0 +1,27 @@
+[t:emt_sound,n:0x501000f8]
+{
+	[placement]
+	{
+	  p position = 2.91668,3.8147e-006,3.40343,0x6fb600ef;
+	}
+	[sound_emitter]
+	{
+		event_sound = "amb_crickets";
+	  f max_repeat_rate = 60;
+	  f repeat_rate = 30;
+	}
+}
+[t:emt_sound,n:0x501000db]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 3.61585,0.828284,2.55499,0x5b69c842;
+	}
+	[sound_emitter]
+	{
+		event_sound = "amb_crickets";
+	  f max_repeat_rate = 60;
+	  f repeat_rate = 30;
+	}
+}

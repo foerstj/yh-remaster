@@ -1,0 +1,18 @@
+[conversation_captain]
+{
+	[text*]
+	{
+	  i order = 0;
+		choice = more;
+		screen_text = "Well done, friend! I don't know who you are, but I am in your debt. These Krug are minions of the Snow Queen, and they killed my men in cold blood. By the sound of it, they will do the same to the people of Yesterhaven if they get the chance.";
+	  f scroll_rate = 6.500000;
+	  complete_quest* = quest_captain;
+	}
+	[text*]
+	{
+		screen_text = "I don't know what set the Snow Queen off after all these years, but we stand accused of aiding the Fire King. She is going to need someone like you to stand up to her now that all my men are dead.\n\nIf you have come this far, you can't turn back until you confront her to find out what's gone wrong. I should be able to make it back to town to warn them and ready them to defend Yesterhaven in case you fail.";
+	  f scroll_rate = 6.500000;
+	  activate_quest* = quest_queen;
+		quest_dialog = true;
+	}
+}

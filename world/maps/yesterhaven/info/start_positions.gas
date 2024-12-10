@@ -1,0 +1,980 @@
+[start_positions]
+{
+	[t:start_group,n:dev_06]
+	{
+	  b default = false;
+		description = "sq_04";
+	  b dev_only = true;
+	  i id = 334;
+		screen_name = "sq_04";
+		[start_position]
+		{
+		  i id = 1;
+			position = -1.587030,0.000000,-0.859882,0x8990CE63;
+			[camera]
+			{
+			  f azimuth = 0.530796;
+			  f distance = 17.600000;
+			  f orbit = -0.100001;
+				position = -1.587030,0.000000,-0.859882,0x8990CE63;
+			}
+		}
+		[start_position]
+		{
+		  i id = 2;
+			position = -1.529198,0.000000,1.604132,0x8990CE63;
+			[camera]
+			{
+			  f azimuth = 0.530796;
+			  f distance = 17.600000;
+			  f orbit = -0.100001;
+				position = -1.529198,0.000000,1.604132,0x8990CE63;
+			}
+		}
+		[start_position]
+		{
+		  i id = 3;
+			position = 2.002562,0.000000,2.255356,0xF67536DB;
+			[camera]
+			{
+			  f azimuth = 0.610796;
+			  f distance = 17.600000;
+			  f orbit = 0.179999;
+				position = 2.002562,0.000000,2.255356,0xF67536DB;
+			}
+		}
+		[start_position]
+		{
+		  i id = 4;
+			position = 0.707677,0.121689,1.764034,0x3F53D0BE;
+			[camera]
+			{
+			  f azimuth = 0.610796;
+			  f distance = 17.600000;
+			  f orbit = 0.179999;
+				position = 0.707677,0.121689,1.764034,0x3F53D0BE;
+			}
+		}
+		[start_position]
+		{
+		  i id = 5;
+			position = -1.485014,-0.129808,1.922001,0x3F53D0BE;
+			[camera]
+			{
+			  f azimuth = 0.610796;
+			  f distance = 17.600000;
+			  f orbit = 0.179999;
+				position = -1.485014,-0.129808,1.922001,0x3F53D0BE;
+			}
+		}
+		[start_position]
+		{
+		  i id = 6;
+			position = 2.267437,0.000000,-0.104538,0xF67536DB;
+			[camera]
+			{
+			  f azimuth = 0.610796;
+			  f distance = 17.600000;
+			  f orbit = 0.179999;
+				position = 2.267437,0.000000,-0.104538,0xF67536DB;
+			}
+		}
+		[start_position]
+		{
+		  i id = 7;
+			position = -0.479685,0.004372,-0.540380,0x3F53D0BE;
+			[camera]
+			{
+			  f azimuth = 0.610796;
+			  f distance = 17.600000;
+			  f orbit = 0.179999;
+				position = -0.479685,0.004372,-0.540380,0x3F53D0BE;
+			}
+		}
+		[start_position]
+		{
+		  i id = 8;
+			position = 3.604717,0.066383,-2.296576,0xF67536DB;
+			[camera]
+			{
+			  f azimuth = 0.610796;
+			  f distance = 17.600000;
+			  f orbit = 0.179999;
+				position = 3.604717,0.066383,-2.296576,0xF67536DB;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:dev_01]
+	{
+	  b default = false;
+		description = "Dev Snow/Fire Krug Fight";
+	  b dev_only = true;
+	  i id = 1241248;
+		screen_name = "Dev Snow/Fire Krug Fight";
+		[start_position]
+		{
+		  i id = 13;
+			position = 1.391281,0.000000,-1.007437,0xDDE88C69;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.391281,0.000000,-1.007437,0xDDE88C69;
+			}
+		}
+		[start_position]
+		{
+		  i id = 14;
+			position = 1.967309,0.000000,1.112114,0xDDE88C69;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.967309,0.000000,1.112114,0xDDE88C69;
+			}
+		}
+		[start_position]
+		{
+		  i id = 15;
+			position = -2.342100,0.000000,-1.443194,0xA896DB45;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.342100,0.000000,-1.443194,0xA896DB45;
+			}
+		}
+		[start_position]
+		{
+		  i id = 16;
+			position = -0.267115,0.000000,-0.346545,0xA896DB45;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.267115,0.000000,-0.346545,0xA896DB45;
+			}
+		}
+		[start_position]
+		{
+		  i id = 9;
+			position = -1.208511,0.000000,0.108922,0xDDE88C69;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.208511,0.000000,0.108922,0xDDE88C69;
+			}
+		}
+		[start_position]
+		{
+		  i id = 10;
+			position = -3.950433,0.000000,1.244149,0xA896DB45;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -3.950433,0.000000,1.244149,0xA896DB45;
+			}
+		}
+		[start_position]
+		{
+		  i id = 11;
+			position = -2.344290,0.000000,1.197759,0xA896DB45;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.344290,0.000000,1.197759,0xA896DB45;
+			}
+		}
+		[start_position]
+		{
+		  i id = 12;
+			position = -0.104158,0.000000,1.352539,0xA896DB45;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.104158,0.000000,1.352539,0xA896DB45;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:dev_02]
+	{
+	  b default = false;
+		description = "Dev Snow Queen Fight";
+	  b dev_only = true;
+	  i id = 1241248;
+		screen_name = "Dev Snow Queen Fight";
+		[start_position]
+		{
+		  i id = 14;
+			position = 6.509331,5.301392,1.912493,0xDCDBB80D;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 2.648648,5.255768,-1.873085,0x41B9992D;
+			}
+		}
+		[start_position]
+		{
+		  i id = 13;
+			position = 6.287133,5.316666,0.068508,0xDCDBB80D;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 2.426053,5.271042,-3.718330,0x41B9992D;
+			}
+		}
+		[start_position]
+		{
+		  i id = 11;
+			position = 6.926567,5.318970,-1.647377,0xDCDBB80D;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 3.066428,5.273348,-5.435413,0x41B9992D;
+			}
+		}
+		[start_position]
+		{
+		  i id = 10;
+			position = 8.726065,5.345627,-1.329302,0xDCDBB80D;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 4.869556,5.299997,-5.117162,0x41B9992D;
+			}
+		}
+		[start_position]
+		{
+		  i id = 9;
+			position = -0.107078,1.425201,1.465147,0xFD024F2F;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 6.325919,5.279575,-3.893985,0x41B9992D;
+			}
+		}
+		[start_position]
+		{
+		  i id = 16;
+			position = 1.925997,1.411331,1.815397,0xFD024F2F;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 5.973840,5.265701,-1.859625,0x41B9992D;
+			}
+		}
+		[start_position]
+		{
+		  i id = 12;
+			position = 8.135336,5.321854,1.059811,0xDCDBB80D;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 4.277095,5.276230,-2.726247,0x41B9992D;
+			}
+		}
+		[start_position]
+		{
+		  i id = 15;
+			position = 8.379477,5.297211,2.909775,0xDCDBB80D;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 4.522486,5.251587,-0.875237,0x41B9992D;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:dev_03]
+	{
+	  b default = false;
+		description = "Dev Lich Fight";
+	  b dev_only = true;
+	  i id = 1241248;
+		screen_name = "Dev Lich Fight";
+		[start_position]
+		{
+		  i id = 9;
+			position = -0.357848,-2.000002,2.268517,0x3A4F66B8;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.357848,-2.000002,2.268517,0x3A4F66B8;
+			}
+		}
+		[start_position]
+		{
+		  i id = 10;
+			position = 1.450458,-1.999998,3.048973,0x3A4F66B8;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.450458,-1.999998,3.048973,0x3A4F66B8;
+			}
+		}
+		[start_position]
+		{
+		  i id = 11;
+			position = 3.143863,-1.999996,2.338535,0x3A4F66B8;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 3.143863,-1.999996,2.338535,0x3A4F66B8;
+			}
+		}
+		[start_position]
+		{
+		  i id = 16;
+			position = 4.941745,-2.000002,3.071663,0x3A4F66B8;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 4.941745,-2.000002,3.071663,0x3A4F66B8;
+			}
+		}
+		[start_position]
+		{
+		  i id = 12;
+			position = 6.625692,-2.000002,2.335976,0x3A4F66B8;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 6.625692,-2.000002,2.335976,0x3A4F66B8;
+			}
+		}
+		[start_position]
+		{
+		  i id = 14;
+			position = 1.255843,-2.000006,5.317818,0x3A4F66B8;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.255843,-2.000006,5.317818,0x3A4F66B8;
+			}
+		}
+		[start_position]
+		{
+		  i id = 15;
+			position = 1.783322,-1.500002,-1.902657,0x8B3E895B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.783322,-1.500002,-1.902657,0x8B3E895B;
+			}
+		}
+		[start_position]
+		{
+		  i id = 13;
+			position = 5.057028,-2.000002,5.749004,0x3A4F66B8;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 5.057028,-2.000002,5.749004,0x3A4F66B8;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:dev_04]
+	{
+	  b default = false;
+		description = "Dev Fire King / Cup encounter";
+	  b dev_only = true;
+	  i id = 1241248;
+		screen_name = "Dev Fire King/Cup encounter";
+		[start_position]
+		{
+		  i id = 9;
+			position = 0.911536,-0.013271,1.913856,0x0CA08C65;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.911536,-0.013271,1.913856,0x0CA08C65;
+			}
+		}
+		[start_position]
+		{
+		  i id = 10;
+			position = -0.634115,-0.001883,1.461057,0x0CA08C65;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.634115,-0.001883,1.461057,0x0CA08C65;
+			}
+		}
+		[start_position]
+		{
+		  i id = 11;
+			position = 1.234947,0.097067,0.599100,0x0CA08C65;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.234947,0.097067,0.599100,0x0CA08C65;
+			}
+		}
+		[start_position]
+		{
+		  i id = 12;
+			position = -0.302936,0.030039,-0.001219,0x0CA08C65;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.302936,0.030039,-0.001219,0x0CA08C65;
+			}
+		}
+		[start_position]
+		{
+		  i id = 13;
+			position = 1.311712,0.058142,-1.132232,0x0CA08C65;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.311712,0.058142,-1.132232,0x0CA08C65;
+			}
+		}
+		[start_position]
+		{
+		  i id = 14;
+			position = -0.704361,0.164012,-1.323010,0x0CA08C65;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.704361,0.164012,-1.323010,0x0CA08C65;
+			}
+		}
+		[start_position]
+		{
+		  i id = 15;
+			position = -18.473179,12.000001,-13.399124,0xACCF45B3;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -18.473179,12.000001,-13.399124,0xACCF45B3;
+			}
+		}
+		[start_position]
+		{
+		  i id = 16;
+			position = -18.504292,12.000001,-14.987722,0xACCF45B3;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -18.504292,12.000001,-14.987722,0xACCF45B3;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:dev_05]
+	{
+	  b default = false;
+		description = "Dev Citadel of Ash";
+	  b dev_only = true;
+	  i id = 1241616;
+		screen_name = "Dev Citadel of Ash";
+		[start_position]
+		{
+		  i id = 12;
+			position = 0.655752,-0.540285,-1.825127,0x44828ED2;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.655752,-0.540285,-1.825127,0x44828ED2;
+			}
+		}
+		[start_position]
+		{
+		  i id = 11;
+			position = 0.489856,-0.341758,-1.039120,0x33AF6E09;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.489856,-0.341758,-1.039120,0x33AF6E09;
+			}
+		}
+		[start_position]
+		{
+		  i id = 13;
+			position = 0.415034,-0.284525,-1.635034,0x63D39E9F;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.415034,-0.284525,-1.635034,0x63D39E9F;
+			}
+		}
+		[start_position]
+		{
+		  i id = 14;
+			position = -0.192285,-0.404127,1.206195,0x2B32DB89;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.192285,-0.404127,1.206195,0x2B32DB89;
+			}
+		}
+		[start_position]
+		{
+		  i id = 15;
+			position = -3.007611,-0.593613,-1.872246,0x33AF6E09;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -3.007611,-0.593613,-1.872246,0x33AF6E09;
+			}
+		}
+		[start_position]
+		{
+		  i id = 16;
+			position = -3.449966,0.049999,1.585102,0x33AF6E09;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -3.449966,0.049999,1.585102,0x33AF6E09;
+			}
+		}
+		[start_position]
+		{
+		  i id = 9;
+			position = 0.405056,0.035841,0.691536,0x2EFD502B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.405056,0.035841,0.691536,0x2EFD502B;
+			}
+		}
+		[start_position]
+		{
+		  i id = 10;
+			position = -0.212338,0.049999,1.763978,0x33AF6E09;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.212338,0.049999,1.763978,0x33AF6E09;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:group_1]
+	{
+	  b default = true;
+		description = "Yesterhaven";
+	  b dev_only = false;
+	  i id = 1242552;
+		screen_name = "Chapter 1";
+		[start_position]
+		{
+		  i id = 1;
+			position = -2.214439,0.000000,2.331177,0x7486BD6B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.214439,0.000000,2.331177,0x7486BD6B;
+			}
+		}
+		[start_position]
+		{
+		  i id = 2;
+			position = -2.567513,0.000000,-0.328811,0x7486BD6B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -2.567513,0.000000,-0.328811,0x7486BD6B;
+			}
+		}
+		[start_position]
+		{
+		  i id = 3;
+			position = -1.318672,0.000000,-2.500198,0x7486BD6B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.318672,0.000000,-2.500198,0x7486BD6B;
+			}
+		}
+		[start_position]
+		{
+		  i id = 4;
+			position = 1.188362,0.000000,-2.409382,0x7486BD6B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.188362,0.000000,-2.409382,0x7486BD6B;
+			}
+		}
+		[start_position]
+		{
+		  i id = 5;
+			position = 2.839981,-0.000001,-0.718751,0x7486BD6B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 2.839981,-0.000001,-0.718751,0x7486BD6B;
+			}
+		}
+		[start_position]
+		{
+		  i id = 6;
+			position = 2.465841,0.000000,1.869324,0x7486BD6B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 2.465841,0.000000,1.869324,0x7486BD6B;
+			}
+		}
+		[start_position]
+		{
+		  i id = 7;
+			position = 0.281738,0.000000,2.777600,0x7486BD6B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.281738,0.000000,2.777600,0x7486BD6B;
+			}
+		}
+		[start_position]
+		{
+		  i id = 8;
+			position = -0.134880,0.000000,0.066249,0x7486BD6B;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.134880,0.000000,0.066249,0x7486BD6B;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:group_2]
+	{
+	  b default = false;
+		description = "Yesterhaven";
+	  b dev_only = false;
+	  i id = 1241248;
+		screen_name = "Chapter 2";
+		[world_levels]
+		{
+			[regular]
+			{
+				required_level = 3;
+			}
+		}
+		[start_position]
+		{
+		  i id = 1;
+			position = -1.938420,0.000000,1.960860,0x0184D912;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.938420,0.000000,1.960860,0x0184D912;
+			}
+		}
+		[start_position]
+		{
+		  i id = 2;
+			position = -1.913592,0.000000,1.836520,0x7244612A;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.913592,0.000000,1.836520,0x7244612A;
+			}
+		}
+		[start_position]
+		{
+		  i id = 3;
+			position = 1.861316,0.000000,1.954395,0x0E2026C4;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 1.861316,0.000000,1.954395,0x0E2026C4;
+			}
+		}
+		[start_position]
+		{
+		  i id = 4;
+			position = -0.164608,0.000000,1.931843,0xD8E6795A;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.164608,0.000000,1.931843,0xD8E6795A;
+			}
+		}
+		[start_position]
+		{
+		  i id = 5;
+			position = -0.194729,0.000000,1.980022,0xA31283A4;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.194729,0.000000,1.980022,0xA31283A4;
+			}
+		}
+		[start_position]
+		{
+		  i id = 6;
+			position = -3.941676,0.000000,1.936892,0xB1E88772;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -3.941676,0.000000,1.936892,0xB1E88772;
+			}
+		}
+		[start_position]
+		{
+		  i id = 7;
+			position = 3.918139,0.001250,-7.958904,0x39C5E3F4;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 3.918139,0.001250,-7.958904,0x39C5E3F4;
+			}
+		}
+		[start_position]
+		{
+		  i id = 8;
+			position = 0.327118,0.000000,1.888162,0x1F646282;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.327118,0.000000,1.888162,0x1F646282;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:group_3]
+	{
+	  b default = false;
+		description = "Yesterhaven";
+	  b dev_only = false;
+	  i id = 1241248;
+		screen_name = "Chapter 3";
+		[world_levels]
+		{
+			[regular]
+			{
+				required_level = 6;
+			}
+		}
+		[start_position]
+		{
+		  i id = 1;
+			position = -1.835022,0.000000,1.993584,0x0D881684;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -1.835022,0.000000,1.993584,0x0D881684;
+			}
+		}
+		[start_position]
+		{
+		  i id = 2;
+			position = 0.271486,0.000000,1.946930,0x9F7421E6;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.271486,0.000000,1.946930,0x9F7421E6;
+			}
+		}
+		[start_position]
+		{
+		  i id = 3;
+			position = 7.919806,0.001250,21.962685,0xAEF93963;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 7.919806,0.001250,21.962685,0xAEF93963;
+			}
+		}
+		[start_position]
+		{
+		  i id = 4;
+			position = 3.868346,0.001250,25.870472,0xAEF93963;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 3.868346,0.001250,25.870472,0xAEF93963;
+			}
+		}
+		[start_position]
+		{
+		  i id = 5;
+			position = -7.968458,0.001250,21.536797,0xAEF93963;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -7.968458,0.001250,21.536797,0xAEF93963;
+			}
+		}
+		[start_position]
+		{
+		  i id = 6;
+			position = 0.141981,0.000000,1.847115,0x8AFE0B68;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.141981,0.000000,1.847115,0x8AFE0B68;
+			}
+		}
+		[start_position]
+		{
+		  i id = 7;
+			position = -3.851425,0.000000,1.993435,0x8C60CDEA;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -3.851425,0.000000,1.993435,0x8C60CDEA;
+			}
+		}
+		[start_position]
+		{
+		  i id = 8;
+			position = -3.825984,0.001250,25.769814,0xAEF93963;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -3.825984,0.001250,25.769814,0xAEF93963;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+}

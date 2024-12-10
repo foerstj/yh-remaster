@@ -1,0 +1,120 @@
+[t:emt_light_ray,n:0x0380009b]
+{
+	[placement]
+	{
+	  q orientation = -0.153495,0.575543,-0.168232,0.785422;
+	  p position = -2.02704,3.45733,-1.85431,0xf74d45ca;
+	}
+}
+[t:emt_light_ray,n:0x03800099]
+{
+	[placement]
+	{
+	  q orientation = -0.0910461,0.468392,-0.167686,0.862671;
+	  p position = 2.59546,3.49031,-2.9344,0xa1e3eddf;
+	}
+}
+[t:emt_light_ray,n:0x0380009a]
+{
+	[placement]
+	{
+	  q orientation = -0.167686,0.862671,0.0910461,-0.468392;
+	  p position = 2.48018,7.43596,-3.10829,0xa9c489fa;
+	}
+}
+[t:emt_light_ray,n:0x0380000a]
+{
+	[placement]
+	{
+	  q orientation = 0.134922,-0.694115,-0.134922,0.694115;
+	  p position = 2.47525,6.54066,0.861694,0x1c2e98f0;
+	}
+}
+[t:emt_light_ray,n:0x03800010]
+{
+	[placement]
+	{
+	  q orientation = 0.134922,-0.694115,-0.134922,0.694115;
+	  p position = 4.72474,10.3122,-1.36707,0x1c2e98f0;
+	}
+}
+[t:emt_light_ray,n:0x03800098]
+{
+	[placement]
+	{
+	  q orientation = -0.134922,0.694115,-0.134922,0.694115;
+	  p position = 1.53961,1.29066,-1.87984,0x66652544;
+	}
+}
+[t:emt_light_ray,n:0x0380009c]
+{
+	[placement]
+	{
+	  q orientation = -0.175415,0.679251,-0.145232,0.697678;
+	  p position = -2.36475,3.45733,-0.445202,0x875ee0d3;
+	}
+}
+[t:emt_generic_act,n:0x038001a4]
+{
+	[generic_emitter_act]
+	{
+		other_effect = "krug_materialize";
+	  x target = 0x038000B5;
+	}
+	[placement]
+	{
+	  p position = -0.147869,-4.76837e-007,-1.18356,0x0fa1dc3f;
+	}
+}
+[t:emt_generic_act,n:0x038001a5]
+{
+	[generic_emitter_act]
+	{
+		other_effect = "krug_materialize";
+	  x target = 0x038000B7;
+	}
+	[placement]
+	{
+	  p position = -0.115353,-4.76837e-007,-0.204811,0x0fa1dc3f;
+	}
+}
+[t:emt_light_ray,n:0x03800009]
+{
+	[placement]
+	{
+	  q orientation = -0.130131,-0.669468,0.139549,0.717917;
+	  p position = 5.53928,19.5626,-1.19976,0x44f53133;
+	}
+}
+[t:emt_generic_act,n:0x038001a6]
+{
+	[generic_emitter_act]
+	{
+		other_effect = "krug_teleport";
+	  x target = 0x038000A7;
+	}
+	[placement]
+	{
+	  p position = 0.855255,1.90735e-006,3.82754,0x69314a0e;
+	}
+}
+[t:emt_generic_act,n:0x038001a7]
+{
+	[generic_emitter_act]
+	{
+		other_effect = "krug_teleport";
+	  x target = 0x038000A8;
+	}
+	[placement]
+	{
+	  p position = 0.832359,-2.86102e-006,2.42228,0x69314a0e;
+	}
+}
+[t:emt_light_ray,n:0x03800008]
+{
+	[placement]
+	{
+	  q orientation = 0.00665919,0.0342586,0.190693,0.981029;
+	  p position = 1.00697,7.31872,0.520134,0x1c9cbeff;
+	}
+}

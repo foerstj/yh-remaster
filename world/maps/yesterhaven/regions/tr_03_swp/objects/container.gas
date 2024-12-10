@@ -1,0 +1,67 @@
+[t:crate_glb,n:0x00d00553]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  b is_invincible = true;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 3.00979,-3.65,-0.368073,0x7ff64020;
+	}
+}
+[t:crate_glb,n:0x00d00554]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  p position = 4.27246,-3.65,0.11877,0x7ff64020;
+	}
+}
+[t:crate_glb,n:0x00d00555]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  b is_invincible = true;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 3.15204,-3.65,-1.44846,0x7ff64020;
+	}
+}
+[t:crate_glb,n:0x00d00556]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 0.381704,-3.65,2.99072,0x7ff64020;
+	}
+}
+[t:crate_glb,n:0x00d00557]
+{
+	[aspect]
+	{
+	  b interest_only = true;
+	  b is_invincible = true;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 2.78627,-3.65,2.07001,0x7ff64020;
+	}
+}

@@ -1,0 +1,743 @@
+[t:trigger_generic,n:0x00b00380]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD 2";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_01_rt_01_02"), doc("mood 2");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+				condition* = party_member_within_node(0x73E41677,-1,-1,-1,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -6.60346,15,-7.98264,0xf2df21d4;
+	}
+}
+[t:trigger_generic,n:0x00b00382]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD 3";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_01_rt_01_03"), doc("mood 3");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+				condition* = party_member_within_node(0x73E41677,-1,-1,-1,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -6.58133,15,-6.93776,0xf2df21d4;
+	}
+}
+[t:trigger_generic,n:0x00b00385]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD 6";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_01_rt_01_06"), doc("mood 6");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+				condition* = party_member_within_node(0x73E41677,-1,-1,-1,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -7.62096,15,-7.98583,0xf2df21d4;
+	}
+}
+[t:trigger_generic,n:0x00b00386]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD 7";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_01_rt_01_07"), doc("mood 7");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+				condition* = party_member_within_node(0x73E41677,-1,-1,-1,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -7.60414,15,-6.85191,0xf2df21d4;
+	}
+}
+[t:trigger_generic,n:0x00b0034c]
+{
+	[common]
+	{
+		dev_instance_text = "COMMIT ELEVATOR SEQUENCE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00B0010D,0f,"default","every",0), delay(5), doc("activate obelisk vator actions");
+				action* = send_world_message("we_req_activate",0x00B00343,0f,"default","every",0), delay(1), doc("final message");
+				action* = send_world_message("we_req_activate",0x00B00350,0f,"default","every",0), doc("start whiteout mood");
+				action* = send_world_message("we_req_activate",0x00B00354,0f,"default","every",0), doc("turn on obelisk blocking object");
+				action* = send_world_message("we_req_activate",0x00B003CE,0f,"default","every",0), doc("activate start node vator actions");
+				action* = send_world_message("we_req_deactivate",0x00B003DA,0f,"default","every",0), doc("turn off wolf howl");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 1,0.5,0;
+	}
+	[placement]
+	{
+	  p position = -2.25719,0,-1.45974,0x4b649e1a;
+	}
+}
+[t:trigger_generic,n:0x00b00350]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD - WHITE-OUT TRANSITION";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_01_rt_02"), doc("white-out mood");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+				condition* = party_member_within_node(0x73E41677,-1,-1,-1,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 1,0,1;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.25208,3.43323e-005,-1.40769,0x4b649e1a;
+	}
+}
+[t:interface_fade,n:0x00b0003f]
+{
+	[interface_fade]
+	{
+	  f duration = 7;
+		interface = "yesterhaven_chapter_1";
+	}
+	[placement]
+	{
+	  p position = -3.15341,0.800985,1.38398,0x9bfa978d;
+	}
+}
+[t:trigger_generic,n:0x00b0010d]
+{
+	[common]
+	{
+		dev_instance_text = "TOGGLE PLAQUE VIS";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00B00105,0f,"default","every",0), doc("unhide snow plaque");
+				action* = send_world_message("we_req_deactivate",0x00B00108,0f,"default","every",0), doc("hide grass plaque");
+				action* = send_world_message("we_req_activate",0x00B005C6,0f,"default","every",0), doc("swap obelisk texture to snow");
+				action* = send_world_message("we_req_activate",0x00B006C6,0f,"default","every",0), doc("activate obelisk vator");
+				action* = send_world_message("we_req_delete",0x00B003CD,0f,"default","every",0), doc("delete off light ray");
+				action* = send_world_message("we_req_deactivate",0x00B0034D,0f,"default","every",0), doc("turn off sound");
+				action* = send_world_message("we_req_deactivate",0x00B003BE,0f,"default","every",0), doc("turn off spotlight");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.922947,0.80125,-1.20303,0x9bfa978d;
+	}
+}
+[t:use_point,n:0x00b001e2]
+{
+	[placement]
+	{
+	  p position = 3.72057,0.877504,-0.0596423,0x9bfa978d;
+	}
+}
+[t:use_point,n:0x00b00292]
+{
+	[placement]
+	{
+	  p position = 2.60555,0.877506,2.617,0x9bfa978d;
+	}
+}
+[t:use_point,n:0x00b002fd]
+{
+	[placement]
+	{
+	  p position = -0.0122392,0.877506,3.69824,0x9bfa978d;
+	}
+}
+[t:use_point,n:0x00b0032c]
+{
+	[placement]
+	{
+	  p position = -2.627,0.877506,2.59407,0x9bfa978d;
+	}
+}
+[t:use_point,n:0x00b00334]
+{
+	[placement]
+	{
+	  p position = -3.74005,0.877506,-0.0256634,0x9bfa978d;
+	}
+}
+[t:use_point,n:0x00b0033e]
+{
+	[placement]
+	{
+	  p position = -2.60823,0.877505,-2.60143,0x9bfa978d;
+	}
+}
+[t:use_point,n:0x00b0033f]
+{
+	[placement]
+	{
+	  p position = -0.0108263,0.877505,-3.7011,0x9bfa978d;
+	}
+}
+[t:use_point,n:0x00b00340]
+{
+	[placement]
+	{
+	  p position = 2.61277,0.877506,-2.62107,0x9bfa978d;
+	}
+}
+[t:trigger_generic,n:0x00b00352]
+{
+	[common]
+	{
+		dev_instance_text = "L2 ELEVATOR ACTIONS";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_02_st_03"), doc("transition to snow town");
+				action* = send_world_message("we_req_deactivate",0x00B00354,0f,"default","every",0), doc("turn off blocking object");
+				action* = set_player_world_location("yesterhaven");
+				action* = send_world_message("we_req_activate",0x00B0003F,0f,"16390","every",0), delay(3);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+				condition* = party_member_within_node(0x73E41677,-1,-1,-1,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 1,0,1;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.88987,0.80125,0.722858,0x9bfa978d;
+	}
+}
+[t:blocking_object,n:0x00b00354]
+{
+	[aspect]
+	{
+	  b does_block_path = false;
+	  f scale_multiplier = 2.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.16233,0.801244,-0.0748624,0x9bfa978d;
+	}
+}
+[t:trigger_generic,n:0x00b0034e]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD 0";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_01_rt_01a"), doc("back to normal");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+				condition* = party_member_within_node(0x73E41677,-1,-1,-1,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 1,0,1;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 1.36932,2.47955e-005,-0.183872,0xbc00e4bc;
+	}
+}
+[t:trigger_generic,n:0x00b00365]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD 1";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_01_rt_01_01"), doc("mood 1");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+				condition* = party_member_within_node(0x73E41677,-1,-1,-1,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 1.36782,-1.90735e-006,0.904689,0xbc00e4bc;
+	}
+}
+[t:trigger_generic,n:0x00b00383]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD 4";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_01_rt_01_04"), doc("mood 4");
+				action* = send_world_message("we_req_deactivate",0x00B003DA,0f,"default","every",0), doc("turn off wolf howl");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+				condition* = party_member_within_node(0x73E41677,-1,-1,-1,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.387016,9.72748e-005,-0.169196,0xbc00e4bc;
+	}
+}
+[t:trigger_generic,n:0x00b00384]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD 5";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_01_rt_01_05"), doc("mood 5");
+				action* = send_world_message("we_req_activate",0x00B003DA,0f,"default","every",0), delay(2), doc("start wolf howl");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+				condition* = party_member_within_node(0x73E41677,-1,-1,-1,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.364517,-1.90735e-006,0.907938,0xbc00e4bc;
+	}
+}
+[t:trigger_generic,n:0x00b003b1]
+{
+	[common]
+	{
+		dev_instance_text = "FAIRY MOVE";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00B00367,0f,"default","every",0), doc("move fairy to initial patrol");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_entered_world",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00B00369,0f,"default","every",0), doc("move fairy to second patrol");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,0.500000,18.000000,"on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -1.67135,5.72205e-006,-1.05417,0xdcca2b5a;
+	}
+}
+[t:trigger_generic,n:0x00b00045]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD - RUINS";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_01_rt_01"), doc("initial mood");
+				action* = set_player_world_location("yesterhaven_ruins");
+				action* = fade_nodes(0x73E41676,1,-1,-1,"out:black"), doc("tr_r2 out");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(5.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 1,0.2,0.2;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.550179,-1.90735e-006,0.941557,0x7486bd6b;
+	}
+}
+[t:interface_fade,n:0x00b001cf]
+{
+	[interface_fade]
+	{
+	  f duration = 7;
+		interface = "yesterhaven_chapter_1";
+	}
+	[placement]
+	{
+	  p position = -1.38391,0,-1.25323,0x7486bd6b;
+	}
+}
+[t:blocking_object,n:0x00b00366]
+{
+	[aspect]
+	{
+	  b does_block_path = false;
+	  f scale_multiplier = 1.5;
+	}
+	[placement]
+	{
+	  p position = 0.217834,1.90735e-006,-0.00406504,0x7486bd6b;
+	}
+}
+[t:trigger_generic,n:0x00b003ce]
+{
+	[common]
+	{
+		dev_instance_text = "START NODE VATOR ACTIONS";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00B00366,0f,"default","every",0), doc("turn on start node blocking object");
+				action* = send_world_message("we_req_activate",0x00B00014,0f,"default","every",0), delay(5), doc("change start node texture");
+				action* = send_world_message("we_req_activate",0x00B00011,0f,"default","every",0), delay(5), doc("fire start node elevator");
+				action* = send_world_message("we_trigger_deactivate",0x00B00045,0f,"default","every",0), doc("turn off ruins mood trigger/player location");
+				action* = send_world_message("we_trigger_activate",0x00B003CF,0f,"default","every",0), delay(11), doc("turn on snow town mood/player location");
+				action* = send_world_message("we_trigger_activate",0x00B003D2,0f,"default","every",0), doc("turn on transition mood/player location");
+				action* = send_world_message("we_trigger_deactivate",0x00B003D2,0f,"default","every",0), delay(5), doc("turn off transition mood/player location");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.807426,0,2.24836,0x7486bd6b;
+	}
+}
+[t:trigger_generic,n:0x00b003cf]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD - SNOW TOWN";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = set_player_world_location("yesterhaven");
+				action* = mood_change("gpg_world_3_tr_02_st_01"), doc("snow town");
+				action* = fade_nodes(0x73E41676,1,-1,-1,"in"), doc("tr_r2 in");
+				action* = fade_nodes(0x73E41677,1,-1,-1,"out:black"), doc("tr_r1 out");
+				action* = send_world_message("we_req_activate",0x00B001CF,0f,"0x4006","every",0), delay(3), doc("chapter title");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(5.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = false;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 1,0.2,0.2;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.543655,0.584251,0.907033,0x7486bd6b;
+	}
+}
+[t:trigger_generic,n:0x00b003d2]
+{
+	[common]
+	{
+		dev_instance_text = "MOOD - TRANSITION";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("gpg_world_3_tr_01_rt_02_01"), doc("whiteout mood");
+				action* = set_player_world_location("yesterhaven_ruins");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(5.200000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = false;
+			}
+		}
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 1,0.2,0.2;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.480545,1.1742,0.889237,0x7486bd6b;
+	}
+}
+[t:trigger_generic,n:0x00b003b7]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00B0036C,0f,"default","every",0), doc("move fairy to third patrol");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(13.000000,0.500000,1.000000,"on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.843296,0,-1.87469,0x8c0f9c4c;
+	}
+}
+[t:trigger_generic,n:0x00b003ba]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00B0038B,0f,"default","every",0), doc("move fairy to obelisk");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,3.000000,40.000000,"on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 1.46486,-9.53674e-006,-1.3139,0xff3e02a8;
+	}
+}

@@ -1,0 +1,25 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x73E41675;
+	source_region_name = ll_06_uc;
+	[t:stitch_editor,n:ll_05_uc]
+	{
+		dest_region = ll_05_uc;
+		[node_ids]
+		{
+			0xc0000500 = 0xDB44AA2A,1;
+			0xc0000501 = 0xCAF2A435,1;
+			0xc0000502 = 0x722203B2,1;
+		}
+	}
+	[t:stitch_editor,n:tr_04_des]
+	{
+		dest_region = tr_04_des;
+		[node_ids]
+		{
+			0xd0000111 = 0x2E04A4C0,4;
+			0xd0000112 = 0x2E04A4C0,5;
+			0xd0000113 = 0x2E04A4C0,6;
+		}
+	}
+}

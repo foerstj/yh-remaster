@@ -1,0 +1,10 @@
+[t:region,n:region]
+{
+	created = administrator,rick;
+	description = "none";
+  x guid = 0x714EAF25;
+	lastmodified = ejohnson,ERIKJ;
+	notes = "none";
+	scid_range = 0x0000002c;
+	se_version = Version - 1.0.0.306;
+}

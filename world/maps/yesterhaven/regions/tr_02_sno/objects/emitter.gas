@@ -1,0 +1,52 @@
+[t:emt_glow,n:0x00c00072]
+{
+	[glow_emitter]
+	{
+	  f blue = 0.4;
+	}
+	[placement]
+	{
+	  p position = 1.1319,-2.11553,-3.30398,0x0bd4152d;
+	}
+}
+[t:emt_glow,n:0x00c00094]
+{
+	[glow_emitter]
+	{
+	  f blue = 0.4;
+	}
+	[placement]
+	{
+	  p position = 3.49867,-2.11553,0.792305,0x0bd4152d;
+	}
+}
+[t:emt_glow,n:0x00c00095]
+{
+	[glow_emitter]
+	{
+	  f blue = 0.5;
+	  f green = 0;
+	  f red = 0.1;
+	  b sparkle = true;
+	  b use_star = true;
+	}
+	[placement]
+	{
+	  p position = 2.80857,-2.11553,-0.460565,0x0bd4152d;
+	}
+}
+[t:emt_glow,n:0x00c00097]
+{
+	[glow_emitter]
+	{
+	  f blue = 0.5;
+	  f green = 0;
+	  f red = 0.1;
+	  b sparkle = true;
+	  b use_star = true;
+	}
+	[placement]
+	{
+	  p position = 1.84894,-2.11553,-1.98531,0x0bd4152d;
+	}
+}

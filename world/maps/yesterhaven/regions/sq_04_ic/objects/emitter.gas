@@ -1,0 +1,32 @@
+[t:emt_light_ray,n:0x0490006b]
+{
+	[placement]
+	{
+	  q orientation = 0.15036,0.604351,-0.117474,0.773532;
+	  p position = 0.694656,1.34938,0.509683,0xeffb9b6a;
+	}
+}
+[t:emt_light_ray,n:0x04900064]
+{
+	[placement]
+	{
+	  q orientation = -0.0910463,0.86267,-0.167686,-0.468392;
+	  p position = 3.63531,2.82301,-0.931053,0xca81dd38;
+	}
+}
+[t:emt_light_ray,n:0x04900068]
+{
+	[placement]
+	{
+	  q orientation = 0.166072,-0.483376,0.0939588,0.854365;
+	  p position = -2.49454,-2.75587,1.62636,0x7e9532bd;
+	}
+}
+[t:emt_light_ray,n:0x04900066]
+{
+	[placement]
+	{
+	  q orientation = 0.183869,0.262329,-0.0509917,0.945926;
+	  p position = -0.389221,4.66966,1.62681,0xc6162491;
+	}
+}

@@ -1,0 +1,110 @@
+[conversation_mayor]
+{
+	[text*]
+	{
+		Order = 0;
+		choice = more;
+		screen_text = "Welcome to Yesterhaven, stranger. I'm the Mayor of this town, Gilwin's the name.\n\nIf you came expecting a summer holiday, you are probably as surprised as we are. The Snow Queen sent this storm our way, we don't know why. If it doesn't let up soon, we're all done for.\n\nBut you... maybe you can help us.";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		screen_text = "This is the Snow Queen's work, no doubt, but in all my days she never sent us a blizzard, especially in the middle of Summer.\n\nWe sent our best men up Wintershroud Mountain to see what went wrong, but we haven't heard from them in days. I can't spare any more townsfolk, but now that you're here, I guess you've got two choices: stay here and starve with us, or head north and find Captain Kellan and his men.\n\nIf he's still alive, I think we can find a way out of this.";
+	  f scroll_rate = 6.500000;
+	  activate_quest* = quest_captain;
+		quest_dialog = true;
+	}
+}
+[conversation_redric]
+{
+	[text*]
+	{	
+		order = 0;
+		choice = more;
+		screen_text = "Well now. First a terrible commotion up on Wintershroud, then this blasted storm, and now you.\n\nNot many visitors to Yesterhaven lately. But hey! What can I do for you? Did you come to buy a tome? Or did someone tell you I was the historian?";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{	
+		order = 1;
+		choice = more;
+		screen_text = "Oh, want to know a little more about our peculiar town, eh? Well there's plenty of history here, to be sure.\n\nYesterhaven is about as old as these hills, but older still are our neighbors to the north and south. The Snow Queen lives in her crystal towers up on Wintershroud Peak to the north, where she brings us winter and rain. To the south, past the canyons, lies the volcano Underforge, where the Fire King reigns over the summer and warmth from his Citadel of Ash. And between 'em, east of here, is the Valley of the Dead, but we don't talk about that much. Nothing living can go there.\n\nAm I boring you, or should I go on?";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{	
+		order = 2;
+		choice = more;
+		screen_text = "You have come at an interesting time. For as long as anyone can remember, the King and Queen have given us gentle seasons here in Yesterhaven; that is, until now.\n\nA couple days ago, there was a terrific racket up the mountain--that'd be Wintershroud. Sounded like all hell broke loose up there. Then it went quiet, and all of a sudden, we were hit with this storm. Never seen anything like it. Everything froze, cows scattered, and crops died; we were totally unprepared.\n\nCaptain Kellan took his best men to see the Snow Queen, but we haven't heard from him since.";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{	
+		choice = shop;
+		screen_text = "If you're really curious about this whole mess, you should talk to the Mayor. If you can find Captain Kellan, we'll probably be a lot closer to finding out what happened to the Snow Queen.\n\nLooks like this is my chance to write a chapter in our history. Let's just hope it's not the last one!";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_rho]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Welcome to Kellan and Kellan.\n\nI've got some nice warm armor to sell if yer interested, but I don't have much in the way of weapons. Normally my brother handles that, but his men packed everything we had up the mountain earlier this week to talk some sense into the Queen.\n\nI don't know when they're getting back, but I hope it's soon. Everyone here is starting to get worried about 'em, and the Mayor is fit to be tied.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_undertaker]
+{
+	[text*]
+	{
+		order = 0;
+		choice = more;
+		screen_text = "Hey now, not that way, friend. Dead roots and dead bones, old graves and dusty stones that way.\n\nNone living may walk the Valley of the Dead save the Undertaker of Yesterhaven; the wards forbid it, and so must I.\n\nToo many tasks lately for these weary bones to be watching for graverobbers and sightseers. If you are looking to jabber, go talk to the Mayor; he always has something longwinded to say.";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		screen_text = "Say, before you go... I don't suppose you stumbled into the potion mistress yet? Did she, ah... say anything about me?\n\nBah! What am I saying? You are a stranger here; begone and leave me be!";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_gwendolyn]
+{
+	[text*]
+	{
+		order = 0;
+		choice = more;
+		screen_text = "Well hello stranger, come in, come in. Have you ever felt such a chill?\n\nI do hope our Captain can talk some sense into whoever's responsible, may the Lady of Winter protect us. But where are my manners? I've some potions to warm you and keep your head clear if you're interested.";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "This may seem strange, but... I found the most beautiful necklace laying in my shop today. Nobody is claiming it, and even though I adore it, it must belong to someone!\n\nIf you happen to hear whom it belongs to, will you let me know? Thanks!";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_assistant]
+{
+	[text*]
+	{
+		screen_text = "You best go no further stranger. Only the Undertaker himself can travel into the woods to the Valley beyond. I've got plenty of work to do these days, no need to add you to my list.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_trini]
+{
+	[text*]
+	{
+		order = 0;
+		choice = more;
+		screen_text = "Where did you come from? Through the snows? I didn't see you a second ago.\n\nCurse this endless blizzard, I must be going blind from it.";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		screen_text = "Say, you didn't see any cattle on your way here, did you? My poor old cows were scattered to the winds when this storm started. Lost them all, out in the snow. Gaah! Curse this cold!";
+	  f scroll_rate = 6.500000;
+	}
+}

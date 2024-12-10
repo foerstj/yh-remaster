@@ -1,0 +1,236 @@
+[t:generator_generic,n:0x15000249]
+{
+	[generator_basic]
+	{
+		child_template_name = "tortured_corpse";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.50666,0,-0.325224,0x124fc643;
+	}
+}
+[t:generator_generic,n:0x1500024b]
+{
+	[generator_basic]
+	{
+		child_template_name = "walking_corpse";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -3.4975,0,1.435,0x124fc643;
+	}
+}
+[t:generator_generic,n:0x1500024d]
+{
+	[generator_basic]
+	{
+		child_template_name = "walking_corpse";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -3.78523,0,-1.82939,0x124fc643;
+	}
+}
+[t:generator_generic,n:0x15000241]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = 5.13575,-2,-0.345904,0x43bfea86;
+	}
+}
+[t:generator_generic,n:0x15000242]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = 1.11644,-2,3.71896,0x43bfea86;
+	}
+}
+[t:generator_generic,n:0x15000239]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,1.60478e-007,0,1;
+	  p position = 1.30681,-2,0.702201,0xf9c9591c;
+	}
+}
+[t:generator_generic,n:0x15000243]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_small";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.492047,-2,0.5131,0xf9c9591c;
+	}
+}
+[t:generator_generic,n:0x15000244]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  q orientation = 0,5.50675e-008,0,1;
+	  p position = 4.90474,-2,0.779547,0xf9c9591c;
+	}
+}
+[t:generator_generic,n:0x15000245]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa";
+	}
+	[placement]
+	{
+	  p position = 2.99677,0,0.0219018,0xb6c97153;
+	}
+}
+[t:generator_generic,n:0x15000246]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.54482,0.55,1.79253,0xdf10668a;
+	}
+}
+[t:generator_generic,n:0x15000247]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = -0.0859535,0,-1.64,0xf6a32d2b;
+	}
+}
+[t:generator_generic,n:0x15000248]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_large";
+	}
+	[placement]
+	{
+	  p position = -1.13274,0,0.0325933,0xf6a32d2b;
+	}
+}
+[t:generator_generic,n:0x15000255]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  q orientation = 0,1.60478e-007,0,1;
+	  p position = 6.28929,-2,4.53141,0x66935ca2;
+	}
+}
+[t:generator_generic,n:0x15000258]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  q orientation = 0,1.60478e-007,0,1;
+	  p position = 6.15313,-2,5.90762,0x66935ca2;
+	}
+}
+[t:generator_generic,n:0x15000253]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  p position = 1.62561,-0.45,-1.23391,0xf4c601a1;
+	}
+}
+[t:generator_generic,n:0x15000259]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  p position = -1.39497,-0.45,-1.27294,0x0fb38a60;
+	}
+}
+[t:generator_generic,n:0x15000252]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_large";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.340179,0.55,0.697804,0xfe40a0f1;
+	}
+}
+[t:generator_generic,n:0x15000254]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = 1.36611,-0.45,-1.16626,0x0d435934;
+	}
+}
+[t:generator_generic,n:0x15000256]
+{
+	[generator_basic]
+	{
+		child_template_name = "skeleton_archer";
+	}
+	[placement]
+	{
+	  q orientation = 0,-8.9407e-008,0,1;
+	  p position = 0.434829,-0.45,-1.67639,0xc256895c;
+	}
+}
+[t:generator_generic,n:0x15000251]
+{
+	[generator_basic]
+	{
+		child_template_name = "mucosa_large";
+	}
+	[placement]
+	{
+	  q orientation = 0,5.50675e-008,0,1;
+	  p position = -1.70874,-0.45,-1.77746,0xfc768fc0;
+	}
+}

@@ -1,0 +1,138 @@
+[t:emt_generic,n:0x03d00017]
+{
+	[generic_emitter]
+	{
+	  b geyser_red = true;
+	  f rep_freq_max = 12;
+	  f rep_freq_min = 4;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.857167,0,0.515038;
+	  p position = 0.0522461,0.0443573,0.259373,0x2066875c;
+	}
+}
+[t:emt_generic,n:0x03d0001c]
+{
+	[generic_emitter]
+	{
+	  b geyser_red = true;
+	  f rep_freq_max = 12;
+	  f rep_freq_min = 4;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.241922,0,0.970296;
+	  p position = -0.0915489,-1.68436,0.274887,0x5f58a058;
+	}
+}
+[t:emt_sound,n:0x03d0002c]
+{
+	[placement]
+	{
+	  p position = -7.14999,0.439865,-4.61942,0x465055f0;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_blast_furnace";
+	}
+}
+[t:emt_sound,n:0x03d0001f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 2.64479,4.27825,5.56707,0x67375900;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_lava_falls";
+	}
+}
+[t:emt_sound,n:0x03d00022]
+{
+	[placement]
+	{
+	  p position = -0.0507584,4.91442,-0.452011,0xb84d6715;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_lava_falls";
+	}
+}
+[t:emt_sound,n:0x03d00023]
+{
+	[placement]
+	{
+	  p position = 0.135115,-2.5456,-6.1194,0x9e55b37c;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_lava_falls";
+	}
+}
+[t:emt_sound,n:0x03d0001d]
+{
+	[placement]
+	{
+	  p position = 0.0653076,2.52471,4.54667,0x60ff0160;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_lava_falls";
+	}
+}
+[t:emt_sound,n:0x03d00027]
+{
+	[placement]
+	{
+	  p position = 0.939709,-0.834064,-3.38867,0xdc6620ce;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_blast_furnace";
+	}
+}
+[t:emt_generic,n:0x03d00011]
+{
+	[generic_emitter]
+	{
+	  b geyser_red = true;
+	  f rep_freq_max = 12;
+	  f rep_freq_min = 4;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.515038,0,-0.857167;
+	  p position = -0.214855,0,0.00972366,0x35938e5f;
+	}
+}
+[t:emt_sound,n:0x03d0001e]
+{
+	[placement]
+	{
+	  p position = -0.181181,2.80002,4.63759,0x8326d731;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_lava_falls";
+	}
+}
+[t:emt_sound,n:0x03d00026]
+{
+	[placement]
+	{
+	  p position = -3.23184,-2,-3.14465,0xe5f64a54;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_blast_furnace";
+	}
+}

@@ -1,0 +1,13 @@
+[t:fire_poker,n:0x04500388]
+{
+	[aspect]
+	{
+	  b draw_selection_indicator = false;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = -0.331589,-0.598828,-0.298564,0.665066;
+	  p position = -0.0578461,0.608585,-1.51216,0x0e1d8bdf;
+	}
+}

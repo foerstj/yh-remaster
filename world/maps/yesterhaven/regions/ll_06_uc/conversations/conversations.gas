@@ -1,0 +1,24 @@
+[conversation_lich_spirit]
+{
+	[text*]
+	{
+		order = 0;
+	  	choice = more;
+		screen_text = "You may have defeated my body but not my spirit, outlander. For I am the lord of this sanctuary of the dead. I have lain here at rest for untold centuries until one so vile as to break the sanctity of my chambers stole away with the one artifact that protects us from the outside world.";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		order = 1;
+	  	choice = more;
+		screen_text = "The Chalice of Mourning with which I was entombed can only afford us protection if it is within these walls, and only the blood of those I entrusted in life will be granted eternal passage. In its absence, the dead grow restless and seek out vengeance on the living. No barriers exist for them, and I cannot be responsible for their outrage.";
+	  f scroll_rate = 6.500000;
+	}
+	[text*]
+	{
+		screen_text = "In life I was an Archmage of unfathomable power. In death I bear the power to rend the very ground until I am appeased. I see now that you do not bear the Chalice. I ask you to withdraw from these hallowed chambers and leave us to our reckoning.\n\nIf you wish to bring peace to this land, bring me the Chalice of Mourning, and my family and servants will rest eternal once more.";
+	  activate_quest* = quest_cup;
+		quest_dialog = true;
+	  f scroll_rate = 6.500000;
+	}
+}

@@ -1,0 +1,51 @@
+[t:elevator_2s_1c_2n,n:0x00d001b9]
+{
+	[elevator_2s_1c_2n]
+	{
+	  i connect_door_level1 = 4;
+	  i connect_door_level2 = 4;
+	  x connect_node_level1 = 0xDE93719B;
+	  x connect_node_level2 = 0xC80535C7;
+	  f duration = 5;
+	  i elevator_door_level1 = 1;
+	  i elevator_door_level2 = 1;
+	  x elevator_node = 0xF0D53E44;
+		moving1_actioninfo = "0x73E41678,3,-1,-1,in,1;0x73E41679,1,-1,-1,in,1;gpg_world_3_tr_04_des_01,1.5";
+	  x moving1_scid = 0x00D005DD;
+		moving2_actioninfo = "0x73E41678,1,-1,-1,in,1;gpg_world_3_tr_03_swp_01,1.5";
+	  x moving2_scid = 0x00D005DC;
+	}
+	[placement]
+	{
+	  p position = 0.0882111,-13.1455,0.00393486,0xf0d53e44;
+	}
+}
+[t:elevator_2s_1c_2n,n:0x00d00563]
+{
+	[elevator_2s_1c_2n]
+	{
+	  i connect_door_level1 = 9;
+	  i connect_door_level2 = 7;
+	  x connect_node_level1 = 0xD04D02B3;
+	  x connect_node_level2 = 0xFB324656;
+	  f duration = 5;
+	  i elevator_door_level1 = 1;
+	  i elevator_door_level2 = 1;
+	  x elevator_node = 0xFE50FDD5;
+		level1_message = we_req_deactivate;
+	  f level1_message_delay = 0;
+	  x level1_scid = 0x00D005A5;
+		level2_message = we_req_deactivate;
+	  f level2_message_delay = 0;
+	  x level2_scid = 0x00D005A5;
+		material = "dc_pulley";
+	  f moving1_message_delay = 0;
+	  x moving1_scid = 0x00D005A5;
+	  f moving2_message_delay = 0;
+	  x moving2_scid = 0x00D005A5;
+	}
+	[placement]
+	{
+	  p position = -0.922743,0.150001,-0.125714,0xfe50fdd5;
+	}
+}

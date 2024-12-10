@@ -1,0 +1,15 @@
+[t:lever_cav_stone_01,n:0x5040005f]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x5040005B;
+	  x on_scid = 0x5040005B;
+	}
+	[placement]
+	{
+	  q orientation = -0.5,0.5,0.5,0.5;
+	  p position = -1.11652,-0.6,-1.69298,0x19be8cd1;
+		use_point_scids = 0x50400063,0x50400064;
+	}
+}

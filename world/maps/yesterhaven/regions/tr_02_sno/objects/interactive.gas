@@ -1,0 +1,309 @@
+[t:door_ice_peasant_left,n:0x00c00011]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00C000B6;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.965926,0,-0.258819;
+	  p position = -1.33075,-3.5,-2.7468,0x0bd4152d;
+	}
+}
+[t:sign_ice_magicshop_02,n:0x00c000b3]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[common]
+	{
+		screen_name = "Redric's Tomes";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.224951,0,0.97437;
+	  p position = -5.27405,-4.32992,-2.51222,0x0bd4152d;
+	}
+}
+[t:door_ice_peasant_right,n:0x00c00013]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00C00050;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.968148,0,0.25038;
+	  p position = -2.57088,-3.5,-2.05205,0xdee90f5a;
+	}
+}
+[t:gpg_gate_ice_fence_iron_right_use_toggle,n:0x00c004c5]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00C004C6;
+	}
+	[placement]
+	{
+	  q orientation = 0,1.47737e-007,0,1;
+	  p position = -0.215463,0.349999,0.0805664,0x5cc06a3b;
+		use_point_scids = 0x00c00440,0x00c00442;
+	}
+}
+[t:gpg_gate_ice_fence_iron_left_use_toggle,n:0x00c004c6]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00C004C5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.19209e-007;
+	  p position = -0.202736,0.349999,-0.0511627,0x6f5225a4;
+		use_point_scids = 0x00c00440,0x00c00442;
+	}
+}
+[t:door_ice_peasant_left,n:0x00c0002b]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00C000B0;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.984808,0,0.173648;
+	  p position = 1.52375,-2.95,-0.709965,0x3843693c;
+	}
+}
+[t:door_ice_peasant_left,n:0x00c0002c]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00C000A6;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.984808,0,0.173648;
+	  p position = 1.51436,-2.95,-0.711765,0x58556c78;
+	}
+}
+[t:sign_ice_magicshop_02,n:0x00c00430]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[common]
+	{
+		screen_name = "Gwendolyn's Tonics";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.165048,0,0.986286;
+	  p position = 3.17154,-4.7586,-3.83541,0x58556c78;
+	}
+}
+[t:sign_ice_01,n:0x00c004f4]
+{
+	[common]
+	{
+		screen_name = "Mt. Wintershroud";
+	}
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = -3.80068,0,-3.69711,0x8ff1ab3a;
+	}
+}
+[t:sign_ice_01,n:0x00c004f5]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -3.82973,-0.580676,-3.94394,0x8ff1ab3a;
+	}
+}
+[t:sign_ice_01,n:0x00c004f6]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.79978,-0.271168,-1.5909,0xff8da35d;
+	}
+}
+[t:door_ice_peasant_right,n:0x00c00020]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00C000BF;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.968148,0,0.25038;
+	  p position = -2.57197,-3.5,-2.05205,0xf49ec8b4;
+	}
+}
+[t:sign_ice_blacksmith_01,n:0x00c000b2]
+{
+	[common]
+	{
+		screen_name = "Kellan & Kellan Steel";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -0.513284,-4.43844,-5.16262,0xf49ec8b4;
+	}
+}
+[t:gpg_gate_ice_fence_iron_right_use_toggle,n:0x00c00441]
+{
+	[placement]
+	{
+	  p position = -0.178249,0.349994,-0.0369482,0xb139221d;
+		use_point_scids = 0x00c004b3,0x00c004b4;
+	}
+}
+[t:gpg_gate_ice_fence_iron_right_use_toggle,n:0x00c0043d]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00C0048E;
+	}
+	[placement]
+	{
+	  p position = -0.206185,0.35,-0.0518875,0xe442246b;
+		use_point_scids = 0x00c004b5,0x00c004b6;
+	}
+}
+[t:gpg_gate_ice_fence_iron_left_use_toggle,n:0x00c0048e]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00C0043D;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = -0.196977,0.35,0.0796814,0x02d150b9;
+		use_point_scids = 0x00c004b5,0x00c004b6;
+	}
+}
+[t:door_csl_right_02,n:0x00c0046c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1;
+	}
+	[door_basic]
+	{
+	  b can_use = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = -0.0155716,-2,-4.71489,0xaf47a0da;
+	}
+}
+[t:door_csl_02,n:0x00c004a9]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.1;
+	}
+	[door_basic]
+	{
+	  b can_use = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = -0.0125275,-2,-4.66848,0xaf47a0da;
+	}
+}
+[t:gpg_gate_ice_fence_iron_right_use_toggle,n:0x00c0043e]
+{
+	[placement]
+	{
+	  p position = -0.189112,0.349998,-0.0174294,0xb0ad7b45;
+		use_point_scids = 0x00c004f0,0x00c004f3;
+	}
+}
+[t:gpg_gate_ice_fence_iron_left_use_toggle,n:0x00c0043f]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.218517,0.349999,0.053318,0xf5fac022;
+		use_point_scids = 0x00c004f0,0x00c004f3;
+	}
+}
+[t:gpg_gate_ice_fence_iron_left_use_toggle,n:0x00c0043c]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00C00441;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.19209e-007;
+	  p position = -0.22453,0.349998,0.072773,0x69564ca8;
+		use_point_scids = 0x00c004b3,0x00c004b4;
+	}
+}
+[t:lever_cav_stone_01,n:0x00c00432]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x00C004BA;
+	  x on_scid = 0x00C004BA;
+	  f reset_time = 10;
+	  f reset_time_2 = 10;
+	}
+	[placement]
+	{
+	  q orientation = -0.707107,0,0,0.707107;
+	  p position = 2.18919,-2.5,-0.0168762,0x8991bd09;
+	}
+}
+[t:gpg_gate_ice_fence_iron_right,n:0x00c0043b]
+{
+	[door_basic]
+	{
+	  b initially_open = true;
+	  x second_door = 0x00C00437;
+	}
+	[placement]
+	{
+	  p position = -0.207039,0.349999,-0.0414772,0x52d08894;
+		use_point_scids = 0x00c004b8,0x00c004b9;
+	}
+}
+[t:gpg_gate_ice_fence_iron_left,n:0x00c00437]
+{
+	[door_basic]
+	{
+	  b initially_open = true;
+	  x second_door = 0x00C0043B;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.204224,0.349999,0.0829849,0x64bdc498;
+		use_point_scids = 0x00c004b8,0x00c004b9;
+	}
+}

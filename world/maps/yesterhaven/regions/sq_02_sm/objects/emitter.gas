@@ -1,0 +1,13 @@
+[t:emt_sound,n:0x015005d5]
+{
+	[placement]
+	{
+	  p position = -1.72812,3.9864,0.979267,0xa4c9cc2e;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_wolf_howl";
+	  f max_repeat_rate = 100;
+	  f repeat_rate = 50;
+	}
+}

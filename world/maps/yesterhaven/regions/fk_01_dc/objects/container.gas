@@ -1,0 +1,241 @@
+[t:crate_cav_01_fk_01_dc,n:0x037004db]
+{
+	[placement]
+	{
+	  q orientation = 0,0.771624,0,-0.636078;
+	  p position = -3.92342,-2,-3.67083,0x64d0aa0b;
+	}
+}
+[t:crate_cav_01_fk_01_dc,n:0x037004dc]
+{
+	[placement]
+	{
+	  q orientation = 0,0.894934,0,-0.446198;
+	  p position = -3.45595,-2,-4.54764,0x64d0aa0b;
+	}
+}
+[t:barrel_glb_fk_01_dc,n:0x037004dd]
+{
+	[placement]
+	{
+	  q orientation = 0,0.968148,0,-0.25038;
+	  p position = 1.20938,0.0178318,-11.3818,0xbf90f43d;
+	}
+}
+[t:barrel_glb_fk_01_dc,n:0x03700475]
+{
+	[placement]
+	{
+	  p position = 0.367069,0,0.367722,0xf58220e4;
+	}
+}
+[t:barrel_glb_fk_01_dc,n:0x03700476]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.292371,0,0.956305;
+	  p position = 0.624817,0,-0.393005,0xf58220e4;
+	}
+}
+[t:crate_cav_01_fk_01_dc,n:0x03700477]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.608762,0,0.793353;
+	  p position = 0.525303,0,-1.53432,0xf58220e4;
+	}
+}
+[t:barrel_cav_01_fk_01_dc,n:0x0370046d]
+{
+	[placement]
+	{
+	  p position = -1.40553,0,-0.425983,0x1e821520;
+	}
+}
+[t:barrel_cav_02_fk_01_dc,n:0x0370046e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.48105,0,-1.48754,0x1e821520;
+	}
+}
+[t:barrel_cav_01_fk_01_dc,n:0x0370046f]
+{
+	[placement]
+	{
+	  p position = -0.686638,0,-0.677494,0x1e821520;
+	}
+}
+[t:barrel_cav_01_fk_01_dc,n:0x03700470]
+{
+	[placement]
+	{
+	  p position = -1.62319,0.0753616,-0.644043,0x78d358d8;
+	}
+}
+[t:crate_cav_01_fk_01_dc,n:0x03700471]
+{
+	[placement]
+	{
+	  p position = -3.55163,0,3.49403,0x86f7e15a;
+	}
+}
+[t:crate_cav_01_fk_01_dc,n:0x03700472]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.748955,0,0.66262;
+	  p position = -3.58231,0,2.65386,0x86f7e15a;
+	}
+}
+[t:crate_cav_02_fk_01_dc,n:0x03700473]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.793354,0,0.608761;
+	  p position = -2.50553,0,3.49751,0x86f7e15a;
+	}
+}
+[t:barrel_glb_fk_01_dc,n:0x037004d9]
+{
+	[placement]
+	{
+	  q orientation = 0,0.995396,0,-0.0958459;
+	  p position = 1.13633,0.0863667,-1.12335,0x64241f2f;
+	}
+}
+[t:barrel_glb_fk_01_dc,n:0x037004da]
+{
+	[placement]
+	{
+	  q orientation = 0,0.994522,0,-0.104529;
+	  p position = -1.94607,0,0.58337,0x11b28510;
+	}
+}
+[t:barrel_glb_fk_01_dc,n:0x03700486]
+{
+	[placement]
+	{
+	  p position = 1.76813,9.53674e-007,-0.714737,0x96d354ad;
+	}
+}
+[t:barrel_glb_fk_01_dc,n:0x03700487]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 1.18731,0,-1.5685,0x96d354ad;
+	}
+}
+[t:crate_cav_01_fk_01_dc,n:0x03700482]
+{
+	[placement]
+	{
+	  p position = 15.3693,5.68141,-24.3495,0xa3df561d;
+	}
+}
+[t:crate_cav_01_fk_01_dc,n:0x03700483]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 14.4894,5.43867,-23.9028,0xa3df561d;
+	}
+}
+[t:barrel_cav_01_fk_01_dc,n:0x03700431]
+{
+	[placement]
+	{
+	  p position = -0.462616,-1.93547,-1.67737,0x58d91328;
+	}
+}
+[t:barrel_cav_01_fk_01_dc,n:0x03700447]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.319015,-2,-1.43938,0x58d91328;
+	}
+}
+[t:barrel_cav_02_fk_01_dc,n:0x0370045f]
+{
+	[placement]
+	{
+	  p position = 2.46486,0,-1.58034,0x3b943ff4;
+	}
+}
+[t:barrel_cav_01_fk_01_dc,n:0x03700461]
+{
+	[placement]
+	{
+	  p position = -3.61758,0,-1.44477,0x7e585532;
+	}
+}
+[t:barrel_cav_01_fk_01_dc,n:0x03700465]
+{
+	[placement]
+	{
+	  p position = -3.63579,0,-0.694076,0x7e585532;
+	}
+}
+[t:barrel_cav_01_fk_01_dc,n:0x03700460]
+{
+	[placement]
+	{
+	  p position = -3.65567,0,0.34623,0xa41ba09a;
+	}
+}
+[t:barrel_cav_02_fk_01_dc,n:0x03700462]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -3.54321,0,1.5113,0xa41ba09a;
+	}
+}
+[t:barrel_cav_01_fk_01_dc,n:0x03700464]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.6161,0,1.61906,0xa41ba09a;
+	}
+}
+[t:chest_cav_01_fk_01_dc,n:0x0370046b]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999048,0,0.0436193;
+	  p position = -16.1094,-12,-19.1678,0x40514031;
+		use_point_scids = 0x0370046c;
+	}
+}
+[t:crate_cav_01_fk_01_dc,n:0x03700468]
+{
+	[placement]
+	{
+	  q orientation = 0,0.052336,0,0.99863;
+	  p position = 2.4967,-1.2,-2.47026,0x1eb0d2d3;
+	}
+}
+[t:crate_cav_01_fk_01_dc,n:0x03700469]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.5022,-1.2,-2.41244,0x1eb0d2d3;
+	}
+}
+[t:crate_cav_01_fk_01_dc,n:0x0370046a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.0871554,0,0.996195;
+	  p position = 1.53006,-1.2,-3.50287,0x1eb0d2d3;
+	}
+}

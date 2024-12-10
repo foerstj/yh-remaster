@@ -1,0 +1,10 @@
+[t:region,n:region]
+{
+	created = administrator,rick;
+	description = "none";
+  x guid = 0x7B2E0A38;
+	lastmodified = gromaszka,GREGR;
+	notes = "none";
+	scid_range = 0x00001502;
+	se_version = Version - 1.0.0.306;
+}

@@ -1,0 +1,47 @@
+[conversation_dante]
+{
+	[text*]
+	{
+		activate_quest* = quest_cup;
+		quest_dialog = true;
+		screen_text = "Well done, outlander! The bravado of these ancient guardians is at long last quieted. I stand ready to return the Chalice to its rightful place, and lift the circle of curses that have befallen the people of Yesterhaven.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_dante_cup]
+{
+	[text*]
+	{
+		activate_quest* = quest_cup;
+		button_1_text = "Give Chalice";
+		button_1_value = c_0x041001b0;
+		quest_dialog = true;
+		screen_text = "Well done, outlander! The bravado of these ancient guardians is at long last quieted. I stand ready to return the Chalice to its rightful place, and lift the circle of curses that have befallen the people of Yesterhaven.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_dante_complete]
+{
+	[text*]
+	{
+		complete_quest* = quest_cup;
+		screen_text = "The eternal burdens these guardians of fire and ice have borne is too great to ask of a mortal. When the bloodline of my decendants passes with the Undertaker of Yesterhaven, so also will their millenium of servitude to my master. With it, the Valley of the Dead will be forever sealed, and the Archmage's mourning will be complete. So it is written.\n\nFarewell, outlander. You have the eternal thanks of the wardens of the Archmage. Go now and join with the living. The good people of Yesterhaven will be anxious to hear of their newfound freedoms.";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_king]
+{
+	[text*]
+	{
+		screen_text = "Why did I ever accept this accursed blessing of eternal life, when it has become a millenium of servitude to a dead man's tomb? I don't know how my kinswoman across the valley has retained her composure after all these centuries.\n\nI am a failure. I have failed to unlock the mysteries of my master's chalice. I have failed to bring an end to my eternal damnation, and now in desperation, I have even failed my oath to shelter the valley of his heirs... What have I done? What have I done...";
+	  f scroll_rate = 6.500000;
+	}
+}
+[conversation_king_saved]
+{
+	[text*]
+	{
+		screen_text = "After a millenium of servitude, I should have known my ancient master would have planned for my release. You have freed me stranger. I cannot ever hope to repay you.\n\nI pledge to undo what I have done, and uphold my stewardship of Yesterhaven with renewed vigor until the natural end of my days.";
+	  f scroll_rate = 6.500000;
+	}
+}

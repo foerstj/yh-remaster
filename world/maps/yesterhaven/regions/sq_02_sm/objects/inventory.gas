@@ -1,0 +1,18 @@
+[t:torch_small,n:0x01500654]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707106;
+	  p position = 0.262787,0.0856931,-0.120163,0x9765fd9f;
+		use_point_scids = 0x01500661;
+	}
+}
+[t:torch_small,n:0x01500656]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 1.41099,0.00890446,0.588276,0x9765fd9f;
+		use_point_scids = 0x01500661;
+	}
+}

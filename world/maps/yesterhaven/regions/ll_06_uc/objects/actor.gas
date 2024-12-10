@@ -1,0 +1,314 @@
+[t:gpg_king_lich,n:0x1500009c]
+{
+	[body]
+	{
+		terrain_movement_permissions = lf_dirt | lf_boss | lf_size1_mover | lf_size2_mover | lf_size3_mover | lf_size4_mover;
+	}
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("quest_lich","completed",0);
+				action* = send_world_message("we_req_activate",0x00D005C7,0f,"default","every",0), doc("sends to tr_03 trigger to open gates");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[gpg_w3_death_swap]
+	{
+	  x swap_actor = 0x1500009D;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = 3.56089,-2,-0.239691,0x81c96cba;
+	}
+}
+[t:gpg_king_lich_spirit,n:0x1500009d]
+{
+	[body]
+	{
+	  f avg_move_velocity = 5;
+	}
+	[gpg_w3_skrev_ll_spirit]
+	{
+	  x lich_spirit_sarco = 0x15000097;
+	}
+	[placement]
+	{
+	  p position = 3.3311,-2,-1.17086,0x81c96cba;
+	}
+}
+[t:gpg_king_lich_spirit,n:0x15000097]
+{
+	[body]
+	{
+	  f avg_move_velocity = 5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.0512978,0,1.52596,0xe22d0220;
+	}
+}
+[t:gpg_sarcophagus_cav_talk_01,n:0x150001f0]
+{
+	[common]
+	{
+		screen_name = "Tomb of the Archmage";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x15000096,0f,"default","every",0), doc("open doors");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_talk_end",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_lich_spirit;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.0249681,0,0.0183678,0xe22d0220;
+		use_point_scids = 0x150001f1;
+	}
+}
+[t:mucosa_large,n:0x1500018b]
+{
+	[placement]
+	{
+	  p position = 5.1535,-2,3.16724,0x3785a620;
+	}
+}
+[t:mucosa,n:0x15000189]
+{
+	[placement]
+	{
+	  p position = -3.50279,0,0.978139,0xaa750984;
+	}
+}
+[t:walking_corpse,n:0x150001d2]
+{
+	[placement]
+	{
+	  p position = -4.87241,-1.5,-0.615484,0x2548ba79;
+	}
+}
+[t:walking_corpse,n:0x150001d4]
+{
+	[placement]
+	{
+	  p position = -3.25128,-1.5,-0.528733,0x2548ba79;
+	}
+}
+[t:walking_corpse,n:0x150001d3]
+{
+	[placement]
+	{
+	  p position = 2.24975,0,0.0447699,0x099ea5eb;
+	}
+}
+[t:walking_corpse,n:0x150001d1]
+{
+	[placement]
+	{
+	  p position = -2.09642,0,-1.39816,0xadd6cfbb;
+	}
+}
+[t:mucosa_large,n:0x1500005b]
+{
+	[placement]
+	{
+	  p position = -0.447083,1.90735e-006,0.94524,0x93c4c3a4;
+	}
+}
+[t:mucosa_small,n:0x15000202]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.33789,0,-0.61469,0x93c4c3a4;
+	}
+}
+[t:mucosa_small,n:0x15000049]
+{
+	[placement]
+	{
+	  p position = -0.441033,0,-0.819336,0xd242f5ed;
+	}
+}
+[t:mucosa,n:0x150001ce]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.607658,0,0.92508,0xd242f5ed;
+	}
+}
+[t:mucosa_small,n:0x15000212]
+{
+	[placement]
+	{
+	  p position = -2.0157,0,-0.286391,0xd242f5ed;
+	}
+}
+[t:mucosa_small,n:0x1500004a]
+{
+	[placement]
+	{
+	  p position = 0.632797,12,1.21349,0xf42cf530;
+	}
+}
+[t:mucosa_small,n:0x1500004b]
+{
+	[placement]
+	{
+	  p position = -2.1651,11.9993,1.9859,0xf42cf530;
+	}
+}
+[t:mucosa_small,n:0x15000045]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.632423,0,1.82819,0x40b0f4a4;
+	}
+}
+[t:mucosa_small,n:0x15000047]
+{
+	[placement]
+	{
+	  p position = -1.5913,0,-0.272446,0x40b0f4a4;
+	}
+}
+[t:mucosa,n:0x150001cf]
+{
+	[placement]
+	{
+	  p position = 2.27389,0,-1.41991,0x40b0f4a4;
+	}
+}
+[t:mucosa,n:0x150001d0]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.663652,0,-3.18126,0x40b0f4a4;
+	}
+}
+[t:mucosa_large,n:0x15000044]
+{
+	[placement]
+	{
+	  p position = -1.24791,0,-0.387477,0x68ab921d;
+	}
+}
+[t:mucosa_small,n:0x15000048]
+{
+	[placement]
+	{
+	  p position = 0.729325,0,-1.80188,0x68ab921d;
+	}
+}
+[t:mucosa_small,n:0x150000e4]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.60849,0,-0.0109566,0xe9fa5bca;
+	}
+}
+[t:mucosa,n:0x150001cd]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -3.91552,0,-0.467333,0xe9fa5bca;
+	}
+}
+[t:mucosa_small,n:0x15000211]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 1.98174,0,0.233992,0x55b7928e;
+	}
+}
+[t:mucosa,n:0x1500018a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.18556,-2,1.60283,0xf8ea1823;
+	}
+}
+[t:mucosa,n:0x15000141]
+{
+	[placement]
+	{
+	  p position = -1.05428,-0.45,0.917304,0x61f9c11d;
+	}
+}
+[t:skeleton_archer,n:0x150001da]
+{
+	[placement]
+	{
+	  p position = 2.43195,9.53674e-007,-1.11444,0x241ec12c;
+	}
+}
+[t:skeleton_archer,n:0x150001db]
+{
+	[placement]
+	{
+	  p position = 2.66523,0,-0.177515,0x241ec12c;
+	}
+}
+[t:skeleton_archer,n:0x150001dc]
+{
+	[placement]
+	{
+	  p position = 2.32677,0,1.67016,0x241ec12c;
+	}
+}
+[t:skeleton_archer,n:0x150001d8]
+{
+	[placement]
+	{
+	  p position = -1.27776,0,0.454043,0x242bb899;
+	}
+}
+[t:skeleton_archer,n:0x150001d9]
+{
+	[placement]
+	{
+	  p position = -5.83244,0.55,1.88941,0x1fb25835;
+	}
+}

@@ -1,0 +1,39 @@
+[t:emt_sound_act,n:0x00b0034d]
+{
+	[placement]
+	{
+	  p position = 0.0294876,17.2522,-0.129001,0xf2df21d4;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "secret_nearby";
+	  f repeat_rate = 25;
+	}
+}
+[t:emt_generic_act,n:0x00b003cd]
+{
+	[generic_emitter_act]
+	{
+		other_effect = "light_rays";
+	  b start_on_creation = true;
+	}
+	[placement]
+	{
+	  q orientation = -0.707107,0,0,0.707107;
+	  p position = -0.0216484,16.7141,-0.0696495,0xf2df21d4;
+	}
+}
+[t:emt_sound_act,n:0x00b003da]
+{
+	[placement]
+	{
+	  p position = -1.64907,2.00001,-1.38836,0x931eac9a;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "env_wolf_howl";
+	  f max_repeat_rate = 12;
+	  f repeat_rate = 7;
+	  b start_on_creation = false;
+	}
+}

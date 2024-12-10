@@ -1,0 +1,56 @@
+[t:gpg_w3_skrev_fk_04_df_fire_king,n:0x0410022a]
+{
+	[gpg_w3_skrev_fk_04_df_fire_king]
+	{
+	  x blocking_object = 0x041001B6;
+	  x cup = 0x041001AF;
+	  x fire_king = 0x041001A7;
+	  x start_mood = 0x0410022D;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707106,0,0.707107;
+	  p position = 1.99412,0,1.9188,0xbdfce39d;
+	}
+}
+[t:camera_quake,n:0x0410020b]
+{
+	[camera_quake]
+	{
+	  f duration = 2;
+	  f magnitude_x = 0.4;
+	  f magnitude_y = 0.5;
+	  f magnitude_z = 0.6;
+	}
+	[placement]
+	{
+	  p position = 1.45795,9.53674e-007,-1.71848,0x4d47f6d1;
+	}
+}
+[t:cmd_animation_command,n:0x04100055]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1718776932;
+	  x client_scid = 0x041001B0;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = -0.415642,0,1.1132,0x2054b635;
+	}
+}
+[t:cmd_alignment_changer,n:0x0410020d]
+{
+	[cmd_dumb_guy]
+	{
+	  b change_alignment = false;
+	  b change_visibility = true;
+	  i start_state = 1;
+	  x target_actor = 0x041001B0;
+	}
+	[placement]
+	{
+	  p position = -1.64748,9.53674e-007,1.69778,0x2054b635;
+	}
+}

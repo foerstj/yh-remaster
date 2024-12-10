@@ -1,0 +1,41 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x73E41679;
+	source_region_name = tr_04_des;
+	[t:stitch_editor,n:fk_01_dc]
+	{
+		dest_region = fk_01_dc;
+		[node_ids]
+		{
+			0xd0000100 = 0x4B2AE5AB,6;
+			0xd0000101 = 0x42A8819E,3;
+			0xd0000102 = 0x0B960AE8,4;
+			0xd0000103 = 0x0B960AE8,5;
+			0xd0000104 = 0x9B782B47,4;
+			0xd0000105 = 0x9B782B47,5;
+			0xd0000106 = 0xBEFFC065,4;
+			0xd0000107 = 0xBEFFC065,5;
+			0xd0000108 = 0x3F683F42,4;
+			0xd0000109 = 0x3F683F42,5;
+			0xd0000110 = 0x97D0167D,3;
+		}
+	}
+	[t:stitch_editor,n:ll_06_uc]
+	{
+		dest_region = ll_06_uc;
+		[node_ids]
+		{
+			0xd0000111 = 0xA9083668,8;
+			0xd0000112 = 0xA9083668,7;
+			0xd0000113 = 0xA9083668,6;
+		}
+	}
+	[t:stitch_editor,n:tr_03_swp]
+	{
+		dest_region = tr_03_swp;
+		[node_ids]
+		{
+			0x0000aa50 = 0x43FEE2E8,4;
+		}
+	}
+}

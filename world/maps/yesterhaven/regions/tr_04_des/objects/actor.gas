@@ -1,0 +1,155 @@
+[t:gpg_mayor_gilwin,n:0x00e00578]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_mayor;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = 2.82227,-9.53674e-007,-1.59472,0x734eeae4;
+		use_point_scids = 0x00e005a5;
+	}
+}
+[t:gpg_scribe_redric_fire,n:0x00e00579]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_scribe;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -3.09582,9.53674e-007,1.06646,0x90ac371a;
+		use_point_scids = 0x00e005a3;
+	}
+}
+[t:gpg_captain_kellan_fire,n:0x00e0057c]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_captain;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -3.14057,0,-1.03121,0x90ac371a;
+		use_point_scids = 0x00e005a4;
+	}
+}
+[t:gpg_defeated_queen_snow,n:0x00e005a0]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_queen;
+		}
+	}
+	[mind]
+	{
+	  b actor_auto_fidgets = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.642788,0,0.766045;
+	  p position = -0.603554,-9.53674e-007,-0.661511,0x90ac371a;
+	}
+}
+[t:gpg_rho_kellan_fire,n:0x00e0057a]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_rho;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.991445,0,-0.130526;
+	  p position = 3.82718,-9.53674e-007,-1.19842,0x95de8a21;
+		use_point_scids = 0x00e005a3;
+	}
+}
+[t:gpg_maid_gwendolyn_fire,n:0x00e0057b]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_gwendolyn;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 1.0874,-1.43051e-006,-1.69571,0x95de8a21;
+		use_point_scids = 0x00e0059f;
+	}
+}
+[t:gpg_undertaker,n:0x00e00577]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_undertaker;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -0.749542,-1.81794e-006,-0.506805,0x56e25402;
+		use_point_scids = 0x00e0059e;
+	}
+}
+[t:gpg_shepherd_trini,n:0x00e000ff]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_trini;
+			* = conversation_trini_well;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.5,0,0.866026;
+	  p position = -1.20059,4.76837e-007,1.44374,0xb6a2fe52;
+		use_point_scids = 0x00e00100;
+	}
+}
+[t:gpg_plaque_grs_obelisk_01,n:0x00e00596]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_obelisk;
+		}
+	}
+	[placement]
+	{
+	  p position = -0.0441408,-0.0851525,18.0231,0xcf208ee1;
+		use_point_scids = 0x00e005ec,0x00e005ed,0x00e005ef,0x00e005ee;
+	}
+}
+[t:giant_rat,n:0x00e000e3]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.07728,0,-2.53144,0x2a222b82;
+	}
+}

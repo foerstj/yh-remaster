@@ -1,0 +1,40 @@
+[t:emt_sound,n:0x045003c4]
+{
+	[placement]
+	{
+	  p position = 3.197,4,0.289406,0x5a5ed416;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_wolf_howl";
+	  f max_repeat_rate = 55;
+	  f repeat_rate = 25;
+	}
+}
+[t:emt_sound,n:0x045003c5]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.353424,-21.3297,0.176544,0x6f2ee37e;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "amb_wind_01b";
+	}
+}
+[t:emt_sound,n:0x045004da]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 2.49708,14,2.50076,0x225aa540;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_wolf_howl";
+	  f max_repeat_rate = 65;
+	  f repeat_rate = 35;
+	}
+}

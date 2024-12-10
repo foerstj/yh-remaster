@@ -1,0 +1,14 @@
+[t:cmd_alignment_changer,n:0x5010007a]
+{
+	[cmd_dumb_guy]
+	{
+	  b change_selection = false;
+		life_state_spawn = ls_alive_conscious;
+	  i start_state = 1;
+	  x target_actor = 0x50100079;
+	}
+	[placement]
+	{
+	  p position = -1.49373,-0.400001,-3.8982,0x8e63bb91;
+	}
+}

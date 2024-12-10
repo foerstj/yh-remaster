@@ -1,0 +1,36 @@
+[t:respawn_statue,n:0x03d001ab]
+{
+	[placement]
+	{
+	  q orientation = 0,0.833886,0,0.551937;
+	  p position = 3.7695,-1.95061,-3.07957,0x7bec87a3;
+		use_point_scids = 0x03d001aa;
+	}
+}
+[t:respawn_statue,n:0x03d001ac]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = 2.64354,0,-0.0115356,0x41c74d1d;
+		use_point_scids = 0x03d001ad;
+	}
+}
+[t:respawn_statue,n:0x03d001a6]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.0436194,0,-0.999048;
+	  p position = -0.266357,-0.6,-1.26217,0xe69a08af;
+		use_point_scids = 0x03d001a7;
+	}
+}
+[t:respawn_statue,n:0x03d001a8]
+{
+	[placement]
+	{
+	  q orientation = 0,0.622515,0,0.782608;
+	  p position = 0.26902,-3.93854,-5.49297,0x4d01496a;
+		use_point_scids = 0x03d001a9;
+	}
+}

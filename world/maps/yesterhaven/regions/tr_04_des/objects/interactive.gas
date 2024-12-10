@@ -1,0 +1,308 @@
+[t:sign_glb_blacksmith_03,n:0x00e000b2]
+{
+	[common]
+	{
+		screen_name = "Kellan & Kellan Steel";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 2.88862,-4.43844,-5.52167,0x854e41c4;
+	}
+}
+[t:door_grs_peasant_right,n:0x00e005a6]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00E000BF;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.986286,0,-0.165047;
+	  p position = 0.0124462,-3.65,-2.94767,0x854e41c4;
+		use_point_scids = 0x00e005a7,0x00e005a8;
+	}
+}
+[t:gpg_gate_des_fence_iron_right_use_toggle,n:0x00e0054a]
+{
+	[placement]
+	{
+	  p position = -0.1934,0.35,0.0469856,0xf9bce2d0;
+		use_point_scids = 0x00e000e2;
+	}
+}
+[t:gpg_gate_des_fence_iron_left_use_toggle,n:0x00e00549]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,1.78814e-007;
+	  p position = -0.209301,0.349999,-0.0247231,0xae440426;
+		use_point_scids = 0x00e000e2;
+	}
+}
+[t:gpg_w3_door_glb_gendungeon_03_use_toggle,n:0x00e005b6]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	  b is_usable = false;
+	}
+	[door_basic]
+	{
+	  b can_use = false;
+	  x msg_scid_close = 0x00E005BD;
+	  x msg_scid_open = 0x00E005B9;
+	  b usable_on_open = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-5.96046e-008,0,1;
+	  p position = 0.0141869,-2.69415,-4.68586,0x7f5eb96e;
+	}
+}
+[t:gpg_gate_des_fence_iron_right,n:0x00e0054e]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00E0054D;
+	}
+	[placement]
+	{
+	  p position = -0.240159,0.35,-0.00659561,0xb74aab16;
+		use_point_scids = 0x00e00586,0x00e00587;
+	}
+}
+[t:sign_glb_magicshop_01,n:0x00e000b3]
+{
+	[common]
+	{
+		screen_name = "Rodric's Tomes";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.986286,0,-0.165048;
+	  p position = -3.76608,-4.47991,-3.96189,0xc5e04916;
+	}
+}
+[t:door_grs_peasant_left,n:0x00e005b3]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00E000B6;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.981627,0,-0.190809;
+	  p position = 1.33003,-3.65,-3.41362,0xc5e04916;
+		use_point_scids = 0x00e005b4,0x00e005b5;
+	}
+}
+[t:sign_glb_magicshop_01,n:0x00e00548]
+{
+	[common]
+	{
+		screen_name = "Gwendolyn's Tonics";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.990268,0,0.139173;
+	  p position = -1.03046,-4.47991,-6.98218,0xd6dcaee4;
+	}
+}
+[t:door_grs_peasant_left,n:0x00e005b0]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00E000A6;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.991445,0,0.130526;
+	  p position = 0.934412,-3,-3.01593,0xd6dcaee4;
+		use_point_scids = 0x00e005b1,0x00e005b2;
+	}
+}
+[t:door_grs_peasant_right,n:0x00e005ad]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00E00050;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.991445,0,0.130526;
+	  p position = -0.0036087,-3.65,-2.97991,0xd1c4593e;
+		use_point_scids = 0x00e005ae,0x00e005af;
+	}
+}
+[t:gpg_gate_des_fence_iron_right_use_toggle,n:0x00e00552]
+{
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = -0.280342,0.349999,-0.0108414,0xea723e3a;
+		use_point_scids = 0x00e000e1;
+	}
+}
+[t:gpg_gate_des_fence_iron_left_use_toggle,n:0x00e00551]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.144966,0.349998,0.0545654,0x2f6af6b8;
+		use_point_scids = 0x00e000e1;
+	}
+}
+[t:sign_glb_01,n:0x00e005e9]
+{
+	[common]
+	{
+		screen_name = "Mount Underforge";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.14962,-0.257515,-1.88732,0x337610d4;
+	}
+}
+[t:door_grs_peasant_right,n:0x00e005a9]
+{
+	[door_basic]
+	{
+	  x msg_scid_opening = 0x00E000B0;
+		msg_type_opening = we_trigger_activate;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.991445,0,-0.130527;
+	  p position = -0.444298,-3,-3.30389,0x32ec7b06;
+		use_point_scids = 0x00e005ab,0x00e005aa;
+	}
+}
+[t:gpg_gate_des_fence_iron_right,n:0x00e0054f]
+{
+	[door_basic]
+	{
+	  b can_use = false;
+	  b initially_open = true;
+	  b non_blocking = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,5.96046e-007,0,1;
+	  p position = -0.236383,0.35,-0.00850105,0xeea43214;
+		use_point_scids = 0x00e0054b,0x00e00582;
+	}
+}
+[t:sign_glb_01,n:0x00e005e8]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.76243,7.15256e-007,-1.92592,0x757e649c;
+	}
+}
+[t:sign_glb_01,n:0x00e005ea]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  p position = 1.49819,-0.488995,-1.7676,0x757e649c;
+	}
+}
+[t:gpg_gate_des_fence_iron_left,n:0x00e00550]
+{
+	[door_basic]
+	{
+	  b can_use = false;
+	  b initially_open = true;
+	  b non_blocking = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,2.38419e-007;
+	  p position = -0.208738,0.35,0.0504799,0xc9568bc6;
+		use_point_scids = 0x00e0054b,0x00e00582;
+	}
+}
+[t:lever_des_01,n:0x00e0006a]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x00E00024;
+	  x on_scid = 0x00E00024;
+	  f reset_time = 10;
+	  f reset_time_2 = 10;
+	}
+	[placement]
+	{
+	  p position = 0.632492,15.85,0.688244,0x8c973ccf;
+		use_point_scids = 0x00e000aa,0x00e000af;
+	}
+}
+[t:lever_des_01,n:0x00e0009e]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x00E00024;
+	  x on_scid = 0x00E00024;
+	  f reset_time = 10;
+	  f reset_time_2 = 10;
+	}
+	[placement]
+	{
+	  p position = -3.3432,0,3.82159,0xc7262cd4;
+		use_point_scids = 0x00e000aa,0x00e000ab;
+	}
+}
+[t:gpg_gate_des_fence_iron_left_use_toggle,n:0x00e005bb]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00E005BA;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-8.9407e-008;
+	  p position = -0.253842,0.35,-0.120476,0x4706a0f2;
+		use_point_scids = 0x00e00590,0x00e005bc;
+	}
+}
+[t:gpg_gate_des_fence_iron_right_use_toggle,n:0x00e005ba]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00E005BB;
+	}
+	[placement]
+	{
+	  p position = -0.366597,0.349999,0.0899734,0x459e88ae;
+		use_point_scids = 0x00e00590,0x00e005bc;
+	}
+}
+[t:gpg_gate_des_fence_iron_left,n:0x00e0054d]
+{
+	[door_basic]
+	{
+	  x second_door = 0x00E0054E;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = -0.175612,0.35,0.0370197,0x80dc01b8;
+		use_point_scids = 0x00e00586,0x00e00587;
+	}
+}

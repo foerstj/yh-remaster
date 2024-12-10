@@ -1,0 +1,75 @@
+[decals]
+{
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.958798,0.257172,0.120701,0.000000,0.424870,-0.905255,-0.284088,0.867956,0.407364;
+		decal_origin = -0.455420,-0.496319,-2.083343,0x1F443628;
+	  f far_plane = 1.100000;
+	  x guid = 0x3383FC5A;
+	  f horizontal_meters = 3.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_sand-desert.%img%;
+	  f vertical_meters = 3.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.997926,0.062577,0.015042,-0.000000,0.233713,-0.972306,-0.064360,0.970289,0.233228;
+		decal_origin = -1.064209,-1.194683,-3.857132,0x1F443628;
+	  f far_plane = 1.100000;
+	  x guid = 0xDE5B80B9;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_sand-desert.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 0.697378,-1.000000,-3.201462,0x1F443628;
+	  f far_plane = 1.100000;
+	  x guid = 0x87713F86;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_sand-desert.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.974097,0.192687,0.118348,0.000000,0.523365,-0.852109,-0.226130,0.830037,0.509809;
+		decal_origin = 3.497602,2.382660,2.409073,0x2A4C2CD9;
+	  f far_plane = 1.100000;
+	  x guid = 0xC5102FB4;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_sand-desert.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = -1.000000,0.000000,0.000000,0.000000,0.000000,-1.000000,0.000000,-1.000000,0.000000;
+		decal_origin = 0.944305,1.000000,0.949600,0x8E5E04F5;
+	  f far_plane = 1.100000;
+	  x guid = 0x9B45193F;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_sand-desert.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = -1.000000,0.000000,0.000000,0.000000,0.000000,-1.000000,0.000000,-1.000000,0.000000;
+		decal_origin = -0.527924,1.000000,1.355309,0x8E5E04F5;
+	  f far_plane = 1.100000;
+	  x guid = 0x9E7DC228;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_sand-desert.%img%;
+	  f vertical_meters = 4.000000;
+	}
+}

@@ -1,0 +1,140 @@
+[t:fairy,n:0x00f0091b]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.622514,0,0.782609;
+	  p position = -1.35144,2.6226e-006,1.76615,0xa93a7d9a;
+	}
+}
+[t:pixie,n:0x00f0091a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.522498,0,0.85264;
+	  p position = 2.53728,1.7,3.5263,0x8d02a98e;
+	}
+}
+[t:gpg_plaque_grs_obelisk_01,n:0x00f001a6]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00F003B3,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x00F003AF,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x00F003B2,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x00F003B0,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x00F003B6,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x00F003B8,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x00F003B4,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x00F003B5,0f,"default","every",0);
+				action* = send_world_message("we_req_deactivate",0x00F003E7,0f,"default","every",0);
+				action* = send_world_message("we_req_deactivate",0x00F003E8,0f,"default","every",0);
+				action* = send_world_message("we_req_deactivate",0x00F003E9,0f,"default","every",0);
+				action* = send_world_message("we_req_deactivate",0x00F003E2,0f,"default","every",0);
+				action* = send_world_message("we_req_deactivate",0x00F003E6,0f,"default","every",0);
+				action* = send_world_message("we_req_deactivate",0x00F003E5,0f,"default","every",0);
+				action* = send_world_message("we_req_deactivate",0x00F003E3,0f,"default","every",0);
+				action* = send_world_message("we_req_deactivate",0x00F003E4,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_talk_end",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00F003EC,0f,"all_conditions","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_talk_end",0,"on_every_message");
+				condition* = party_member_within_sphere(6.000000,"on_unique_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_obelisk;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,3.49686e-008,0,1;
+	  p position = -0.0098877,14.9588,-0.00774026,0x2cb4a7cc;
+		use_point_scids = 0x00f00405,0x00f003f0,0x00f003f4,0x00f003f9;
+	}
+}
+[t:fairy,n:0x00f00921]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.981628,0,-0.190809;
+	  p position = -1.80056,-0.0266037,-1.56641,0x49925bd0;
+	}
+}
+[t:pixie,n:0x00f00922]
+{
+	[placement]
+	{
+	  q orientation = 0,0.649448,0,-0.760407;
+	  p position = 0.178756,-0.064975,-0.783417,0x2ff27ef6;
+	}
+}
+[t:pixie,n:0x00f0091f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.996918,0,-0.0784594;
+	  p position = -3.39898,0.952105,0.759295,0x7e3214ce;
+	}
+}
+[t:fairy,n:0x00f00920]
+{
+	[placement]
+	{
+	  q orientation = 0,0.522499,0,0.85264;
+	  p position = -0.901134,-0.991837,-3.91894,0x46100136;
+	}
+}
+[t:pixie,n:0x00f0091d]
+{
+	[placement]
+	{
+	  q orientation = 0,0.965926,0,0.258819;
+	  p position = 1.36588,3.8147e-006,-0.194347,0xd19a871e;
+	}
+}
+[t:pixie,n:0x00f0091e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.398749,0,0.91706;
+	  p position = -1.967,-0.600002,0.20554,0xd3c8565a;
+	}
+}
+[t:fairy,n:0x00f0091c]
+{
+	[placement]
+	{
+	  q orientation = 0,0.580703,0,0.814115;
+	  p position = -1.33419,-1.90735e-006,-1.79865,0xae96791e;
+	}
+}

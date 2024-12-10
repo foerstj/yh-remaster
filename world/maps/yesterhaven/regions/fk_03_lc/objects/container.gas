@@ -1,0 +1,235 @@
+[t:barrel_cav_01_fk_03_lc,n:0x03d0016c]
+{
+	[placement]
+	{
+	  p position = -0.334776,-5.96478,-5.65481,0xe03b4f1c;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00169]
+{
+	[placement]
+	{
+	  p position = 3.37894,0,3.32203,0x34eb2d69;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d0016a]
+{
+	[placement]
+	{
+	  p position = 2.61782,0,3.58783,0x34eb2d69;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d0016b]
+{
+	[placement]
+	{
+	  p position = 1.62116,0,3.31058,0x34eb2d69;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d0017a]
+{
+	[placement]
+	{
+	  p position = 2.471,-0.3,3.55092,0xdf8b9754;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d0017b]
+{
+	[placement]
+	{
+	  p position = 2.64448,-0.3,2.67043,0xdf8b9754;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d0017c]
+{
+	[placement]
+	{
+	  p position = 3.31701,-0.3,3.28804,0xdf8b9754;
+	}
+}
+[t:cage_grs_01,n:0x03d0007a]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	  b rollover_highlight = false;
+	}
+	[placement]
+	{
+	  q orientation = 1.18305e-007,0.968148,-1.96627e-007,0.25038;
+	  p position = -0.46946,-0.999999,-2.77319,0xc9ad7d9e;
+	}
+}
+[t:cage_grs_01,n:0x03d00061]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	  b rollover_highlight = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.857167,0,0.515038;
+	  p position = -2.35282,2.00001,0.140121,0xab3d0adf;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00176]
+{
+	[placement]
+	{
+	  p position = 3.58465,-0.560527,1.57893,0xd5d1a14c;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00174]
+{
+	[placement]
+	{
+	  p position = 1.36715,-1.2,-1.61449,0x67eb6efd;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00175]
+{
+	[placement]
+	{
+	  p position = 0.557671,-1.2,-1.52466,0x67eb6efd;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00177]
+{
+	[placement]
+	{
+	  p position = -0.599014,2,3.34132,0xe92a61a7;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d0016f]
+{
+	[placement]
+	{
+	  p position = 1.3512,2,0.330719,0x6ad850d4;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00170]
+{
+	[placement]
+	{
+	  p position = 0.671646,2,-0.321484,0x6ad850d4;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00171]
+{
+	[placement]
+	{
+	  p position = 1.35737,2,-0.462608,0x6ad850d4;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00172]
+{
+	[placement]
+	{
+	  p position = 0.338715,2,0.348774,0x6ad850d4;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00173]
+{
+	[placement]
+	{
+	  p position = -0.311142,2,0.610424,0x6ad850d4;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00181]
+{
+	[placement]
+	{
+	  p position = -2.37131,0,-1.48698,0x1203563f;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00182]
+{
+	[placement]
+	{
+	  p position = -2.6176,0,-0.66832,0x1203563f;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00183]
+{
+	[placement]
+	{
+	  p position = -3.34565,0,-1.3168,0x1203563f;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d0017d]
+{
+	[placement]
+	{
+	  p position = 2.60259,0.55,-1.63747,0x119b3ddd;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d0017e]
+{
+	[placement]
+	{
+	  p position = 2.63292,0.55,-2.32397,0x119b3ddd;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d0017f]
+{
+	[placement]
+	{
+	  p position = 3.29345,0.55,-2.3479,0x119b3ddd;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00180]
+{
+	[placement]
+	{
+	  p position = 3.65804,0.55,-1.33556,0x119b3ddd;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00167]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 3.66969,-4,1.55663,0xb44cdf02;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00168]
+{
+	[placement]
+	{
+	  p position = 2.57316,-3.69256,0.436057,0xb44cdf02;
+	}
+}
+[t:barrel_cav_01_fk_03_lc,n:0x03d00166]
+{
+	[placement]
+	{
+	  p position = -3.45614,0,-1.50382,0x82876c08;
+	}
+}
+[t:chest_cav_01_fk_03_lc,n:0x03d00178]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.909683,0,0.14481,0x286fee67;
+		use_point_scids = 0x03d00179;
+	}
+}
+[t:chest_cav_01_fk_03_lc,n:0x03d0016d]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.901924,0.134274,-0.295048,0x617a65cf;
+		use_point_scids = 0x03d0016e;
+	}
+}

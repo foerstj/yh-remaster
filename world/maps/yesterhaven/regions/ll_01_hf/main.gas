@@ -1,0 +1,10 @@
+[t:region,n:region]
+{
+	created = david tomandl,dtomandl;
+	description = "Big spooky haunted forest";
+  x guid = 0x3A73D654;
+	lastmodified = Sarah Boulian,SARAHB;
+	notes = "none";
+	scid_range = 0x00000005;
+	se_version = Version - 1.0.0.306;
+}

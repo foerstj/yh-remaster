@@ -1,0 +1,9 @@
+[conversation_dante]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Whoa! Hold your fire, friend, it's just me. I swear; you come to the oddest places to shop. Good thing I'm not particular about my customers.\n\nQuite a lot of busy folk around here today. Everybody wants a shovel, and more than a few are looking for a chalice of some sort. They say some fleshy fellow took it. That wouldn't be you, would it stranger? No? I'll pay good money for it.\n\nWhy do you keep looking at me like that? Well, it's a hopping market here today. A regular madhouse. Plenty to sell. More to buy. Don't be shy. Step right up.";
+	  f scroll_rate = 6.500000;
+	}
+}

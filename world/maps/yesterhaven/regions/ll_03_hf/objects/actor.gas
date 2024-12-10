@@ -1,0 +1,15 @@
+[t:gpg_maid_gwendolyn_haunted,n:0x50200151]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_gwendolyn;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.923879,0,0.382684;
+	  p position = 3.27283,0,0.647281,0x5c24c4b6;
+	}
+}
