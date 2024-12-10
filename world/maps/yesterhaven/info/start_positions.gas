@@ -859,9 +859,6 @@
 				position = 0.327118,0.000000,1.888162,0x1F646282;
 			}
 		}
-		[world_levels]
-		{
-		}
 	}
 	[t:start_group,n:group_3]
 	{
@@ -972,9 +969,6 @@
 			  f orbit = 0.000000;
 				position = -3.825984,0.001250,25.769814,0xAEF93963;
 			}
-		}
-		[world_levels]
-		{
 		}
 	}
 }

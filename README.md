@@ -4,7 +4,10 @@ The original Yesterhaven map, remastered.
 
 ## How to build
 
-- Provide environment variables %DungeonSiege% (path to DS installation) and %TankCreator% (path to TC installation)
+- Provide environment variables:
+  - %DungeonSiege% - path to DS installation
+  - %TankCreator% - path to TC installation
+  - %GasPy% - path to GasPy repo
 - Run the build.bat in the repo root
 
 ## Attribution
