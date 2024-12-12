@@ -9,6 +9,8 @@
 	screen_name = "Yesterhaven (remastered)";
 	timeofday			 = 5h00m;
 	multiplayer_only = true;
+  b dev_only = false;
+  b use_player_journal = false;
 
 	[camera]
 	{
