@@ -11,6 +11,7 @@
 	multiplayer_only = true;
   b dev_only = false;
   b use_player_journal = false;
+  b use_node_mesh_index = true;
 
 	[camera]
 	{
