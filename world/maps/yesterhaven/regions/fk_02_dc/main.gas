@@ -4,7 +4,7 @@
 	description = "desert canyon to volcano entrance";
   x guid = 0x95FEC008;
 	lastmodified = FLUPSNPUPS,flups;
-  x mesh_range = 0x00000000;
+  x mesh_range = 0x00000025;
 	notes = "none";
   x scid_range = 0x00000025;
 	se_version = 1.70.0.4;

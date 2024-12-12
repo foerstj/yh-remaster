@@ -4,7 +4,7 @@
 	description = "ice cave, region 1";
   x guid = 0x65D5ED9B;
 	lastmodified = FLUPSNPUPS,flups;
-  x mesh_range = 0x00000000;
+  x mesh_range = 0x00000049;
 	notes = "none";
   x scid_range = 0x00000049;
 	se_version = 1.70.0.4;
