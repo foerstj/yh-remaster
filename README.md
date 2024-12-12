@@ -5,6 +5,7 @@ The original Yesterhaven map, remastered.
 ## What I did
 
 This map is re-buildable and editable. I opened & saved every region in Siege Editor v1.7. The dsmap & dsres files can be rebuilt using the batch scripts, provided you have installations of Dungeon Siege, TankCreator and GasPy.
+- Converted the map to use node mesh index
 - SE saves the "required_level" attributes for multiplayer start positions with an "i" in front, which however breaks the level requirement.\
   This is fixed during build by a gaspy script.
 - Renamed the ingame name of the map to *Yesterhaven (remastered)*.
