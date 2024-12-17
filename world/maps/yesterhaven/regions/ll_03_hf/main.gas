@@ -4,8 +4,8 @@
 	description = "none";
   x guid = 0x7B2E0A38;
 	lastmodified = FLUPSNPUPS,flups;
-  x mesh_range = 0x00000000;
+  x mesh_range = 0x00000502;
 	notes = "none";
-  x scid_range = 0x00001502;
+  x scid_range = 0x00000502;
 	se_version = 1.70.0.4;
 }
