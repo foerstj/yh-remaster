@@ -11,6 +11,11 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
   This is fixed during build by a gaspy script.
 - Renamed the ingame name of the map to *Yesterhaven (remastered)*.
 
+## What I did (revisit)
+
+The "revisited" map variant is based on the remaster, with these changes applied:
+- Renamed map ingame to *Yesterhaven (revisited)*.
+
 ## How to build
 
 - Provide environment variables:
