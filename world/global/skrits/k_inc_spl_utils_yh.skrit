@@ -1,0 +1,24 @@
+// DS LoA introduced a breaking change by adding a second parameter to PackLightning$.
+// Yesterhaven originally uses the vanilla PackLightning$ in spell_turret.skrit for gpg_spell_lich_king_gas_pillar.
+// In order to guarantee compatibility with both vanilla and LoA, I made an own copy of the code for Yesterhaven Revisited.
+
+void PackLightningYh$( float dur$, Goid caster$ )
+{
+	params$ = "";
+		
+	// TAT 8/14/2003 - so we want to make sure that we apply all good bufs and stuff
+	float dam_min$ = 0;
+	float dam_max$ = 0;
+	#only(game)
+	[[
+	dam_min$ = Rules.GetDamageMin( caster$, owner.goid );
+	dam_max$ = Rules.GetDamageMax( caster$, owner.goid );
+	]]
+	
+	//float dam_min$ = owner.Go.Attack.DamageMin;
+	//float dam_max$ = owner.Go.Attack.DamageMax;
+	
+	//Report.GenericF("Lightning dam_min = %f, dam_max = %f\n", dam_min$, dam_max$);
+
+	StringTool.AppendF( params$, "[damage(%g,%g,0)][dur(%g)]", dam_min$, dam_max$, dur$ );	
+}

@@ -428,7 +428,7 @@
 		usage_context_flags = uc_offensive;
 		cast_sub_animation = 0;
 	}
-	[spell_turret]
+	[spell_turret_yh]
 	{
 		initial_delay = 0.2;
 		shot_rate = 0.2;

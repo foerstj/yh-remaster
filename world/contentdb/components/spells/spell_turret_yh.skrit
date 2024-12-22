@@ -29,6 +29,7 @@ property float	fire_duration$	= 1.0	doc = "Duration of fire, use with particle_f
 
 owner = GoSkritComponent;
 #include "k_inc_spl_utils"
+#include "k_inc_spl_utils_yh"
 
 Goid target$;
 Goid caster$;
@@ -133,7 +134,7 @@ startup state CastBegin$
                 }
                 else if( lightning_dur$ > 0 ) // If we are attacking with lightning pack the damage into the params to send to the script;
                 {
-                    PackLightning$( lightning_dur$ );
+                    PackLightningYh$( lightning_dur$, caster$ );
                 }
 				
 				if( charge_effect$ != "" )
