@@ -34,6 +34,9 @@ robocopy "%bits%\world\global" "%tmp%\Bits\world\global" /E
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
 if %errorlevel% neq 0 pause
 
+set copyright=CC-BY-SA 2024
+set author=Johannes Förstner
+
 :: Compile German language resource file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\language" "%tmp%\Bits\language" *.de.gas /E
