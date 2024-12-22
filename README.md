@@ -15,6 +15,7 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 
 The "revisited" map variant is based on the remaster, with these changes applied:
 - Renamed map ingame to *Yesterhaven (revisited)*.
+- Fixed order of multiplayer start positions.
 
 ## How to build
 

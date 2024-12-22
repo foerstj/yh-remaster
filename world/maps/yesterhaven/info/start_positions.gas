@@ -647,7 +647,7 @@
 	  b default = true;
 		description = "Yesterhaven";
 	  b dev_only = false;
-	  i id = 1242552;
+	  i id = 1;
 		screen_name = "Chapter 1";
 		[start_position]
 		{
@@ -754,7 +754,7 @@
 	  b default = false;
 		description = "Yesterhaven";
 	  b dev_only = false;
-	  i id = 1241248;
+	  i id = 2;
 		screen_name = "Chapter 2";
 		[start_position]
 		{
@@ -865,7 +865,7 @@
 	  b default = false;
 		description = "Yesterhaven";
 	  b dev_only = false;
-	  i id = 1241248;
+	  i id = 3;
 		screen_name = "Chapter 3";
 		[start_position]
 		{
