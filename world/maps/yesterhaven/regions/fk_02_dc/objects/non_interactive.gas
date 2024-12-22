@@ -990,6 +990,10 @@
 }
 [t:tree_des_dead_03,n:0x0250004f]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.98752;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.83867,0,-0.544639;
@@ -1004,6 +1008,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.301121,0,0.953586;
 	  p position = 0.59066,1.95625,2.27252,0x3b748af7;
 	}
 }
@@ -2101,6 +2106,10 @@
 }
 [t:tree_des_dead_03,n:0x025000fb]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.86915;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.984808,0,-0.173648;
@@ -2109,6 +2118,10 @@
 }
 [t:tree_des_dead_03,n:0x025000f9]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.95389;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.601815,0,-0.798636;
@@ -2117,6 +2130,10 @@
 }
 [t:tree_des_dead_03,n:0x025000f6]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.95365;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.104528,0,-0.994522;
@@ -2125,6 +2142,10 @@
 }
 [t:tree_des_dead_03,n:0x025000be]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.13878;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.923879,0,-0.382684;
@@ -2133,6 +2154,10 @@
 }
 [t:tree_des_dead_03,n:0x025000fc]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.07055;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.909961,0,-0.414693;
@@ -2141,6 +2166,10 @@
 }
 [t:tree_des_dead_03,n:0x025000fa]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.11073;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0871554,0,-0.996195;
@@ -2149,6 +2178,10 @@
 }
 [t:tree_des_dead_03,n:0x0250009a]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.98979;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0697565,0,0.997564;
@@ -2157,6 +2190,10 @@
 }
 [t:tree_des_dead_03,n:0x02500064]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.87906;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.325568,0,-0.945519;
@@ -2165,6 +2202,10 @@
 }
 [t:tree_des_dead_03,n:0x025000bd]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.80469;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.857167,0,0.515038;
@@ -2173,6 +2214,10 @@
 }
 [t:tree_des_dead_03,n:0x02500063]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.03919;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.782608,0,0.622515;
@@ -2181,6 +2226,10 @@
 }
 [t:tree_des_dead_03,n:0x0250009b]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.06887;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.190809,0,-0.981627;
@@ -2711,6 +2760,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.372707,0,-0.927949;
 	  p position = -1.1959,0,0.457725,0xf275c72b;
 	}
 }

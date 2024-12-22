@@ -504,6 +504,10 @@
 }
 [t:gpg_tree_glb_pine_dead_01,n:0x5010007d]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.92265;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0958458,0,0.995396;
@@ -1088,6 +1092,10 @@
 }
 [t:cress_swp_water_03,n:0x50100027]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.00824;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -1120,13 +1128,22 @@
 }
 [t:cress_swp_water_03,n:0x50100025]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.12911;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.454233,0,-0.890883;
 	  p position = -3.98055,0.500001,0.0531569,0x40265d39;
 	}
 }
 [t:cress_swp_water_03,n:0x50100026]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.09343;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.382684,0,0.92388;
@@ -1357,6 +1374,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.157641,0,0.987496;
 	  p position = -1.17533,0,-0.161877,0xdef263cb;
 	}
 }
@@ -2028,6 +2046,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.684617,0,0.728903;
 	  p position = -1.83562,1,3.49924,0x30dbe1c4;
 	}
 }
@@ -8523,6 +8542,10 @@
 }
 [t:bush_swp_06,n:0x50100105]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.83347;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.995396,0,-0.095846;
@@ -8531,6 +8554,10 @@
 }
 [t:bush_swp_06,n:0x50100106]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.92343;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.156435,0,0.987688;
@@ -8767,6 +8794,10 @@
 }
 [t:bush_swp_06,n:0x50100107]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.98125;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.748956,0,0.66262;

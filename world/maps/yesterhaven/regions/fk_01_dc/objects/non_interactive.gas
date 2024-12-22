@@ -1551,6 +1551,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.992575,0,-0.121633;
 	  p position = -10.2261,7.44125,-47.5398,0xe060652a;
 	}
 }
@@ -2030,6 +2031,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.427552,0,-0.903991;
 	  p position = 0.367497,12,1.31148,0x862e149e;
 	}
 }
@@ -2107,6 +2109,10 @@
 }
 [t:tree_des_dead_03,n:0x03700014]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8729;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0958458,0,0.995396;
@@ -3193,6 +3199,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.313285,0,-0.949659;
 	  p position = 2.19234,-1.2,-3.99213,0x09c77b43;
 	}
 }
@@ -6236,6 +6243,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.694071,0,0.719907;
 	  p position = 1.30423,16,-0.216341,0xea34a28e;
 	}
 }
@@ -6283,6 +6291,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.108281,0,0.99412;
 	  p position = 3.88666,-3.8147e-006,-1.73372,0xbc509002;
 	}
 }
@@ -7805,6 +7814,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.466473,0,0.884535;
 	  p position = -3.21908,-6,-0.951035,0xc5e2e5d7;
 	}
 }
