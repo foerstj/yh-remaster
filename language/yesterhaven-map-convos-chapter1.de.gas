@@ -1,0 +1,121 @@
+[t:0x0407,n:text]
+{
+    // Initial obelisk inscription
+	[0x0000]
+	{
+		from = "Once a town, never sleeping\nThrice cursed, ever weeping\nFrozen time, still as death\nBurning mind, laid to rest\nValleys rise, mountains fall\nWith none to heed the heroes' call";
+		to = "Einst eine Stadt, die niemals schlief\nDreifach verflucht, ewig weinend\nZeit gefroren, still wie der Tod\nBrennender Geist, zur Ruhe gelegt\nTäler wachsen, Berge fallen\nUnd niemand, der dem Ruf nach Helden folgt";
+	}
+
+    // Obelisk inscription back in time
+	[0x0000]
+	{
+		from = "~ The Town of Yesterhaven ~";
+		to = "~ Die Stadt Yesterhaven ~";
+	}
+
+    // Yesterhaven conversations
+    // Mayor
+	[0x0000]
+	{
+		from = "Welcome to Yesterhaven, stranger. I'm the Mayor of this town, Gilwin's the name.\n\nIf you came expecting a summer holiday, you are probably as surprised as we are. The Snow Queen sent this storm our way, we don't know why. If it doesn't let up soon, we're all done for.\n\nBut you... maybe you can help us.";
+		to = "Willkommen in Yesterhaven, Fremder. Ich bin der Bürgermeister dieser Stadt, Gilwin ist der Name.\n\nFalls Ihr zum Sommerurlaub hergekommen seid, seid Ihr vermutlich genauso überrascht wie wir. Die Schneekönigin hat uns diesen Sturm geschickt, wir wissen nicht, warum. Wenn das nicht bald aufhört, sind wir alle erledigt.\n\nDoch Ihr... Ihr könnt uns vielleicht helfen.";
+	}
+	[0x0000]
+	{
+		from = "This is the Snow Queen's work, no doubt, but in all my days she never sent us a blizzard, especially in the middle of Summer.\n\nWe sent our best men up Wintershroud Mountain to see what went wrong, but we haven't heard from them in days. I can't spare any more townsfolk, but now that you're here, I guess you've got two choices: stay here and starve with us, or head north and find Captain Kellan and his men.\n\nIf he's still alive, I think we can find a way out of this.";
+		to = "Dies ist das Werk der Schneekönigin, ohne Zweifel, aber noch nie in meinem Leben hat sie uns so einen Sturm geschickt, noch dazu mitten im Sommer.\n\nWir haben unsere besten Männer auf den Berg Winterdecke geschickt um nachzusehen was los ist, doch wir haben seit Tagen nicht mehr von ihnen gehört. Ich kann nicht noch mehr Einwohner entbehren, aber jetzt, da Ihr da seid, schätze ich, Ihr habt die Wahl: bleibt hier und verhungert mit uns, oder geht nach Norden und findet Hauptmann Kellan und seine Männer.\n\nWenn er noch lebt, finden wir vielleicht einen Ausweg.";
+	}
+    // Redric
+	[0x0000]
+	{
+		from = "Well now. First a terrible commotion up on Wintershroud, then this blasted storm, and now you.\n\nNot many visitors to Yesterhaven lately. But hey! What can I do for you? Did you come to buy a tome? Or did someone tell you I was the historian?";
+		to = "Nun denn. Erst ein furchtbarer Tumult oben auf Winterdecke, dann dieser vermaledeite Sturm, und jetzt auch noch Ihr.\n\nNicht viele Besucher hier in Yesterhaven zur Zeit. Aber gut! Was kann ich für Euch tun? Seid Ihr gekommen um einen meiner alten Wälzer zu kaufen? Oder hat Euch jemand erzählt ich wäre der Historiker?";
+	}
+	[0x0000]
+	{
+		from = "Oh, want to know a little more about our peculiar town, eh? Well there's plenty of history here, to be sure.\n\nYesterhaven is about as old as these hills, but older still are our neighbors to the north and south. The Snow Queen lives in her crystal towers up on Wintershroud Peak to the north, where she brings us winter and rain. To the south, past the canyons, lies the volcano Underforge, where the Fire King reigns over the summer and warmth from his Citadel of Ash. And between 'em, east of here, is the Valley of the Dead, but we don't talk about that much. Nothing living can go there.\n\nAm I boring you, or should I go on?";
+		to = "Oh, Ihr wollt etwas mehr über unser seltsames Städtchen erfahren, was? Also hier gibt es einen Haufen Geschichte, soviel steht fest.\n\nYesterhaven ist ungefähr so alt wie diese Hügel, doch noch älter sind unsere Nachbarn im Norden und Süden. die Schneekönigin lebt in ihren Kristalltürmen oben auf dem Winterdecke-Gipfel im Norden, von wo aus sie uns Winter und Regen schickt. Im Süden, hinter den Schluchten, liegt der Vulkan Unterschmiede, wo der Feuerkönig in der Aschenzitadelle über den Sommer und die Wärme herrscht. Und zwischen ihnen, östlich von hier, liegt das Tal der Toten, aber darüber reden wir nicht so viel. Nichts lebendes kann dorthin gelangen.\n\nLangweile ich Euch, oder soll ich weitererzählen?";
+	}
+	[0x0000]
+	{
+		from = "You have come at an interesting time. For as long as anyone can remember, the King and Queen have given us gentle seasons here in Yesterhaven; that is, until now.\n\nA couple days ago, there was a terrific racket up the mountain--that'd be Wintershroud. Sounded like all hell broke loose up there. Then it went quiet, and all of a sudden, we were hit with this storm. Never seen anything like it. Everything froze, cows scattered, and crops died; we were totally unprepared.\n\nCaptain Kellan took his best men to see the Snow Queen, but we haven't heard from him since.";
+		to = "Ihr kommt zu einer interessanten Zeit. Seit Menschengedenken haben der König und die Königin uns hier in Yesterhaven milde Jahreszeiten beschert; das heißt, bis jetzt.\n\nVor ein paar Tagen gab es einen fürchterlichen Rabatz auf dem Berg--also Winterdecke. Klang, als wäre da oben die Hölle los gewesen. Dann war Stille, und urplötzlich werden wir von diesem Sturm getroffen. So etwas habe ich noch nie gesehen. Alles gefroren, Kühe verstreut, Ernte ging ein; wir waren total unvorbereitet.\n\nHauptmann Kellan nahm seine besten Männer mit um die Schneekönigin zu besuchen, aber seitdem haben wir nicht mehr von ihnen gehört.";
+	}
+	[0x0000]
+	{
+		from = "If you're really curious about this whole mess, you should talk to the Mayor. If you can find Captain Kellan, we'll probably be a lot closer to finding out what happened to the Snow Queen.\n\nLooks like this is my chance to write a chapter in our history. Let's just hope it's not the last one!";
+		to = "Wenn Euch der ganze Schlamassel wirklich interessiert, solltet Ihr mit dem Bürgermeister reden. Wenn Ihr Hauptmann Kellan finden könnt, sind wir wahrscheinlich schon ein Schritt weiter dabei, herauszufinden, was mit der Schneekönigin los ist.\n\nScheint, als wäre dies meine Gelegenheit, ein neues Kapitel in unserer Geschichte zu schreiben. Ich hoffe nur, es ist nicht das letzte!";
+	}
+    // Rho
+	[0x0000]
+	{
+		from = "Welcome to Kellan and Kellan.\n\nI've got some nice warm armor to sell if yer interested, but I don't have much in the way of weapons. Normally my brother handles that, but his men packed everything we had up the mountain earlier this week to talk some sense into the Queen.\n\nI don't know when they're getting back, but I hope it's soon. Everyone here is starting to get worried about 'em, and the Mayor is fit to be tied.";
+		to = "Willkommen bei Kellan und Kellan.\n\nIch hab warme Ausrüstung zu verkaufen, wenn Ihr mögt, aber an Waffen habe ich nicht viel da. Das macht normalerweise mein Bruder, doch seine Männer haben vor ein paar Tagen alles was wir hatten auf den Berg mitgenommen, um mit der Schneekönigin ein Wörtchen zu reden.\n\nIch weiß nicht wann sie zurück kommen, aber ich hoffe, es ist bald. Alle hier machen sich langsam Sorgen um sie, und der Bürgermeister flippt bald aus.";
+	}
+    // Undertaker
+	[0x0000]
+	{
+		from = "Hey now, not that way, friend. Dead roots and dead bones, old graves and dusty stones that way.\n\nNone living may walk the Valley of the Dead save the Undertaker of Yesterhaven; the wards forbid it, and so must I.\n\nToo many tasks lately for these weary bones to be watching for graverobbers and sightseers. If you are looking to jabber, go talk to the Mayor; he always has something longwinded to say.";
+		to = "He, wartet, hier geht's nicht lang, mein Freund. Hier entlang gibt's nur tote Wurzeln und tote Knochen, alte Gräber und staubige Steine.\n\nNiemand lebendes darf das Tal der Toten betreten, bis auf den Bestatter von Yesterhaven; die Wächter verbieten es, und so muss auch ich es Euch verbieten.\n\nZu viel Arbeit letztens für diese müden Knochen, um auch noch auf Grabräuber und Touristen aufzupassen. Wenn Ihr plaudern wollt, geht den Bürgermeister besuchen; der hat immer etwas langatmiges zu sagen.";
+	}
+	[0x0000]
+	{
+		from = "Say, before you go... I don't suppose you stumbled into the potion mistress yet? Did she, ah... say anything about me?\n\nBah! What am I saying? You are a stranger here; begone and leave me be!";
+		to = "Sagt, bevor Ihr geht... Ich nehme an, Ihr seid der Tränkebrauerin noch nicht begegnet? Hat sie, äh... etwas über mich gesagt?\n\nBah! Was erzähle ich? Ihr seid ein Fremdling hier; verschwindet und lasst mich in Ruhe!";
+	}
+    // Gwendolyn
+	[0x0000]
+	{
+		from = "Well hello stranger, come in, come in. Have you ever felt such a chill?\n\nI do hope our Captain can talk some sense into whoever's responsible, may the Lady of Winter protect us. But where are my manners? I've some potions to warm you and keep your head clear if you're interested.";
+		to = "Na hallo Fremder, kommt herein, kommt herein. Habt Ihr je so gefroren?\n\nIch hoffe wirklich, unser Hauptmann kann wem auch immer dafür verantwortlich ist ins Gewissen reden, möge die Dame des Winters uns beschützen. Aber wo sind meine Manieren? Ich habe Tränke die Euch wärmen und dabei den Kopf klar halten, wenn Ihr mögt.";
+	}
+	[0x0000]
+	{
+		from = "This may seem strange, but... I found the most beautiful necklace laying in my shop today. Nobody is claiming it, and even though I adore it, it must belong to someone!\n\nIf you happen to hear whom it belongs to, will you let me know? Thanks!";
+		to = "Das klingt vielleicht komisch, aber... Ich habe heute eine wunderschöne Halskette in meinem Laden gefunden. Niemand beansprucht sie zurück, und obwohl sie mir sehr gefällt, muss sie doch jemandem gehören!\n\nFalls Ihr zufällig mitkriegt wem sie gehört, lasst Ihr es mich wissen? Danke!";
+	}
+    // Assistant
+	[0x0000]
+	{
+		from = "You best go no further stranger. Only the Undertaker himself can travel into the woods to the Valley beyond. I've got plenty of work to do these days, no need to add you to my list.";
+		to = "Ihr geht besser nicht weiter, Fremder. Nur der Bestatter selbst kann in die Wälder und das jenseitige Tag reisen. Ich habe viel zu tun dieser Tage, da brauche ich Euch nicht auch noch auf meiner Liste.";
+	}
+    // Trini
+	[0x0000]
+	{
+		from = "Where did you come from? Through the snows? I didn't see you a second ago.\n\nCurse this endless blizzard, I must be going blind from it.";
+		to = "Wo seid Ihr hergekommen? Aus dem Schnee? Vor einer Sekunde habe ich Euch noch nicht gesehen.\n\nVerflucht sei dieser endlose Schneesturm, er macht mich wohl langsam blind.";
+	}
+	[0x0000]
+	{
+		from = "Say, you didn't see any cattle on your way here, did you? My poor old cows were scattered to the winds when this storm started. Lost them all, out in the snow. Gaah! Curse this cold!";
+		to = "Sagt, habt Ihr vielleicht auf dem Weg ein paar Kühe gesehen? Meine armen alten Viecher wurden in alle Winde verstreut als dieser Sturm losging. Hab' sie alle verloren, draußen im Schnee. Gaah! Verdammte Kälte!";
+	}
+
+    // Rescued Guard Captain up Mount Wintershroud
+	[0x0000]
+	{
+		from = "Well done, friend! I don't know who you are, but I am in your debt. These Krug are minions of the Snow Queen, and they killed my men in cold blood. By the sound of it, they will do the same to the people of Yesterhaven if they get the chance.";
+		to = "Gut gemacht, Freund! Ich weiß nicht, wer Ihr seid, aber ich stehe in Eurer Schuld. Diese Krugs sind die Knechte der Schneekönigin, und sie töteten meine Männer kaltblütig. So wie sie klangen, werden sie dasselbe mit den Leuten von Yesterhaven machen, wenn sie die Gelegenheit bekommen.";
+	}
+	[0x0000]
+	{
+		from = "I don't know what set the Snow Queen off after all these years, but we stand accused of aiding the Fire King. She is going to need someone like you to stand up to her now that all my men are dead.\n\nIf you have come this far, you can't turn back until you confront her to find out what's gone wrong. I should be able to make it back to town to warn them and ready them to defend Yesterhaven in case you fail.";
+		to = "Ich weiß nicht, was nach all den Jahren in die Schneekönigin gefahren ist, doch wir werden beschuldigt, dem Feuerkönig zu helfen. Es wird jemanden wie Euch brauchen, der sich ihr entgegenstellt, jetzt da all meine Männer tot sind.\n\nWenn Ihr so weit gekommen seid, könnt Ihr nicht umkehren bevor Ihr ihr entegegentretet um herauszufinden was los ist. Ich sollte es zurück zur Stadt schaffen, um sie zu warnen und vorzubereiten, Yesterhaven zu verteidigen, falls Ihr es nicht schafft.";
+	}
+
+    // Dante (1)
+	[0x0000]
+	{
+		from = "Well, fancy meeting you up here so far from town. Are you out for a stroll? Going to do some yodeling, I bet. I think I have some yodeling knickknacks here somewhere; would you like to buy them?\n\nWhat are you looking at? Oh I am sorry, I must look a fright. I have been fighting a terrible cold this last week, and it has gotten the better of me.\n\nSo what was it you were looking for again? Oh yes, you were going to sell me a chalice or something. I've got plenty of coin to part with for that, to be sure. Plenty to sell. More to buy. Don't be shy. Step right up.";
+		to = "Na so ein Zufall, Euch hier oben so fern von der Stadt anzutreffen. Seid Ihr auf einem Spaziergang? Wollt ein bisschen Jodeln gehen, nehm' ich an. Ich glaube ich habe hier etwas Jodelausrüstung, wollt Ihr sie kaufen?\n\nWas schaut Ihr denn so? Oh, tut mir leid, ich muss schrecklich aussehen. Ich habe mir letzte Woche eine fürchterliche Erkältung eingefangen, und sie hat mich überwältigt.\n\nAlso was wolltet Ihr nochmal? Ah ja, Ihr wolltet mir einen Kelch oder sowas verkaufen. Ich habe einen Haufen Münzen von denen ich mich dafür trennen könnte, soviel steht fest. Viel zu verkaufen. Noch mehr zu kaufen. Seid nicht schüchtern! Kommt nur heran.";
+	}
+
+    // Snow Queen defeated
+	[0x0000]
+	{
+		from = "After all these years of my benevolence, this is how you people reward me? By siding with the Fire King to break our centuries of peace? I spent every ounce of my strength to fend him off, but with your people just letting him march right through your town to attack me, how could I hope to hold him off forever? Mark my words. You will see him for what he really is now.\n\nTake my lift back to your people, and leave me to pass in peace. There is nothing I can do to help you now.";
+		to = "Nach all den Jahren meiner Güte dankt ihr Leute es mir so? Indem ihr euch mit dem Feuerkönig verbündet, um Jahrhunderte des Friedens zu brechen? Ich habe all meine Kraft aufgeboten, um ihn abzuwehren, doch wenn ihr Leute ihn einfach durch eure Stadt marschieren lasst, um mich anzugreifen, wie sollte ich ihn da für immer zurückhalten? Lasst euch das gesagt sein. Ihr werdet bald sehen, wie er wirklich ist.\n\nNehmt meinen Lift zurück zu Euren Leuten, und lasst mich in Frieden gehen. Ich kann jetzt nichts tun, um Euch zu helfen.";
+	}
+}

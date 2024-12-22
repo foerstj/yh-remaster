@@ -1,0 +1,114 @@
+[t:0x0407,n:text]
+{
+    // Slightly inconsistent obelisk inscription in chapter 2 & 3
+	[0x0000]
+	{
+		from = "~The Town of Yesterhaven~";
+		to = "~Die Stadt Yesterhaven~";
+	}
+
+    // Yesterhaven conversations
+    // Assistant
+	[0x0000]
+	{
+		from = "So much work to do, so many of my brothers still to free. Soon we will all be free, free to bring the living into the land of the dead. Come join us, stranger; join us in death!";
+		to = "So viel Arbeit zu tun, so viele meiner Brüder noch zu befreien. Bald werden wir alle frei sein, frei, die Lebenden in das Land der Toten zu bringen. Kommt, schließt Euch uns an, Fremder; schließt Euch den Toten an!";
+	}
+    // Captain
+	[0x0000]
+	{
+		from = "Glad to see you again, friend. It looks like you made it just in time.\n\nWe've been fighting wave after wave of undead and spiders all night. I don't know how much longer I can keep this up.\n\nHere comes another wave now!";
+		to = "Freut mich Euch wiederzusehen, Freund. Ihr scheint gerade rechtzeitig zu kommen.\n\nWir haben die ganze Nacht hindurch gegen Welle auf Welle von Untoten und Spinnen gekämpft. Ich weiß nicht, wie viel länger ich das durchhalte.\n\nDa kommt schon die nächste Welle!";
+	}
+	[0x0000]
+	{
+		from = "Well fought! I have the rest of the town holed up in here to keep them safe. We already lost Gwendolyn and the Undertaker last night. We think they dragged them off into the woods, but nobody knows that area except the Undertaker and his apprentice.\n\nThe Mayor was hoping you would show up to help look for them. I can supply you with some extra weapons we have left over, or you can head on inside if you need anything else, I need to keep an eye out from here.";
+		to = "Gut gekämpft! Ich habe den Rest der Stadt hier eingeschlossen, um sie zu beschützen. Letzte Nacht haben wir bereits Gwendolyn und den Bestatter verloren. Wir glauben, sie haben sie in den Wald hinaus gezerrt, doch niemand hier kennt die Gegend bis auf den Bestatter und seinen Assistenten.\n\nDer Bürgermeister hoffte, Ihr würde wiederkehren, um bei der Suche nach ihnen zu helfen. Ich kann Euch mit ein paar übrigen Waffen versorgen, oder Ihr könnt ins Haus hinein schauen, falls Ihr etwas anderes braucht, ich muss hier draußen bleiben und ein Auge offen halten.";
+	}
+    // Mayor
+	[0x0000]
+	{
+		from = "Oh thank heavens you have survived!\n\nWe knew you had talked some sense into the Snow Queen when everything started to melt, but now what has got the dead all turned up? They took dear Gwendolyn in the night, and I think the Undertaker is missing too.\n\nIf the Kellan brothers can't keep them at bay we may all perish and join them in the grave. Oh what have we done to deserve these curses?";
+		to = "Oh, den Himmeln sei Dank, Ihr habt überlebt!\n\nWir wussten, Ihr hattet es geschafft, die Schneekönigin zur Vernunft zu bringen, als alles anfing zu tauen, aber wo kommen jetzt die ganzen Toten her? Sie haben die arme Gwendolyn in der Nacht geschnappt, und ich glaube, der Bestatter wird ebenfalls vermisst.\n\nWenn die Gebrüder Kellan sie nicht in Schach halten können, werden wir alle sterben und ihnen ins Grab folgen. Oh, was haben wir getan, diese Flüche zu verdienen?";
+	}
+    // Rho
+	[0x0000]
+	{
+		from = "My brother tells me you rescued him from the clutches of the Krug. I can't help but think that the whole detachment would have come back alive if I had gone with them, but I won't forget your kindness all the same.\n\nI've got some special armor here that won't be seeing much use from now on. If it helps you against these undead, you are welcome to have it for what it took me to make it.";
+		to = "Mein Bruder hat mir erzählt, wie Ihr ihn aus den Fängen der Krug befreit habt. Ich kann nicht aufhören zu denken, dass der gesamte Stoßtrupp lebendig zurückgekehrt wäre, wenn ich mit ihnen gegangen wäre, aber ich werde Eure Güte trotzdem nicht vergessen.\n\nIch habe ein paar spezielle Rüstungen hier, für die ich nicht mehr viel Gebrauch habe. Wenn sie Euch gegen die Untoten helfen, könnt Ihr sie gerne zum Selbstkostenpreis haben.";
+	}
+    // Scribe
+	[0x0000]
+	{
+		from = "Well, I told you this was a peculiar town; I guess this just proves my point.\n\nLooks like my old bones are not the only ones that are up and about now that the snow is gone, eh?\n\nWe don't talk about the Valley of the Dead much around here, but since the dead won't let us sleep, I've been reading up a bit. Care to hear a little more, or would you like to look at some of the potions I was able to secure from Gwendolyn's stash?";
+		to = "Nun, ich hatte Euch ja gesagt dass das hier ein seltsames Städtchen ist; ich schätze, der Punkt ist jetzt bewiesen.\n\nScheint, als wären meine alten Knochen nicht die einzigen, die wieder fröhlich herumlaufen, jetzt da der Schnee weg ist, was?\n\nWir reden hier nicht viel über das Tal der Toten, doch da die Toten uns ja doch nicht schlafen lassen, habe ich ein wenig darüber gelesen. Wollt Ihr ein wenig mehr erfahren, oder wollt Ihr lieber einen Blick auf die Tränke werfen, die ich aus Gwendolyns Vorrat gerettet habe?";
+	}
+	[0x0000]
+	{
+		from = "My Granddaddy used to talk about the royal catacombs beyond the cemetery, and how they just wind around forever. It makes me wonder just how many more dead there are back there to come after us.\n\nThe tombs are supposed to be the remnants of a burial chamber for an Archmage of the old Empire. The whole valley is warded against passage from the living save for one who knows its secrets, and that would currently be our Undertaker. As to why the undead are all up and about, and the spiders with them, I haven't got a clue, and without our Undertaker, we may never find out.";
+		to = "Mein Großpapa hat mir immer von den königlichen Katakomben hinter dem Friedhof erzählt, und davon, weitläufig sie sind. Ich frage mich, wie viele Tote noch dort drüben liegen und jetzt hinter uns her sind.\n\nDie Gräber sind angeblich die Reste einer Grabkammer für einen Erzmagier des alten Reiches. Das gesamte Tal ist davor geschützt, von Lebenden betreten zu werden, bis auf einen, der seine Geheimnisse kennt, und das wäre derzeit unser Bestatter. Warum die Untoten alle auf den Beinen sind, und die Spinnen mit ihnen, habe ich keinen Schimmer, und ohne unseren Bestatter werden wir es vielleicht auch nie herausfinden.";
+	}
+    // Undertaker
+	[0x0000]
+	{
+		from = "Aaaagh! I don't have it anymore, don't eat my brain!\n\nOh... it's you, stranger. You mustn't tell anyone that I am here. I don't want them to know what I have done.";
+		to = "Aaaagh! Ich habe es nicht mehr, bitte friss nicht mein Hirn!\n\nOh... Ihr seid es, Fremder. Ihr dürft niemandem erzählen, dass ich hier bin. Ich möchte nicht, dass sie erfahren, was ich getan habe.";
+	}
+	[0x0000]
+	{
+		from = "You have to understand. My father and forefathers have tended the Valley of the Dead since the ancient days of the Empire.\n\nMy lineage is descended from the royal retainers of the Archmage of the tombs. It is people of our bloodlines alone that are permitted entry to the catacombs... but I have no children to take my place, and when I die there will be noone left to tend the Valley of the Dead as my fathers before me did.";
+		to = "Ihr müsst verstehen. Mein Vater und meine Vorväter haben sich seit den alten Tagen des Reiches um das Tal der Toten gekümmert.\n\nMeine Abstammung geht zurück auf die königlichen Grabpfleger des Erzmagiers. Den Menschen meiner Blutlinie allein ist es gestattet, die Katakomben zu betreten... doch ich habe keine Kinder, die meinen Platz einnehmen könnten, und wenn ich sterbe, wird niemand mehr da sein, der sich um das Tal der Toten kümmern kann, wie es meine Vorväter vor mir getan haben.";
+	}
+	[0x0000]
+	{
+		from = "When the Fire King offered to smith me a charm to make Maid Gwendolyn love me, I couldn't refuse.\n\nThe Fire King only required a relic from the Imperial tomb to fashion the charm. I saw no harm in loaning it to him; I had no idea that he would use it to break the wards guarding the valley.\n\nI have forsaken my vow as the Warden of the Valley, and now the dead roam free, and the minions of the Fire King are given unlimited passage to the realm of the Snow Queen. What have I done? What have I done!";
+		to = "Als der Feuerkönig sich anbot, mir einen Zauber zu schmieden, mit dem Maid Gwendolyn sich in mich verlieben würde, konnte ich nicht ablehnen.\n\nDer Feuerkönig benötigte nur ein Relikt aus dem Reichsgrab, um den Zauber herzustellen. Ich sah kein Problem darin, ihn ihm zu leihen; ich hatte keine Ahnung, dass er es benutzen würde, um die Schutzzauber des Tales zu brechen.\n\nIch habe meinen Schwur als der Wächter des Tals gebrochen, und nun laufen die Toten frei herum, und die Knechte des Feuerkönigs kommen ungehindert ins Reich der Schneekönigin. Was habe ich getan? Was habe ich getan!";
+	}
+    // Trini
+	[0x0000]
+	{
+		from = "I have never been so scared in all my life. Why is all this happening to us?";
+		to = "Mein ganzes Leben hatte ich noch nie solche Angst. Warum passiert uns das alles?";
+	}
+
+    // Dante (2)
+	[0x0000]
+	{
+		from = "Whoa! Hold your fire, friend, it's just me. I swear; you come to the oddest places to shop. Good thing I'm not particular about my customers.\n\nQuite a lot of busy folk around here today. Everybody wants a shovel, and more than a few are looking for a chalice of some sort. They say some fleshy fellow took it. That wouldn't be you, would it stranger? No? I'll pay good money for it.\n\nWhy do you keep looking at me like that? Well, it's a hopping market here today. A regular madhouse. Plenty to sell. More to buy. Don't be shy. Step right up.";
+		to = "He! Nicht schießen, mein Freund, ich bin's nur. Ich schwöre, Ihr geht an den seltsamsten Orten einkaufen. Nur gut, dass ich bei meiner Kundschaft nicht wählerisch bin.\n\nEin Haufen geschäftiger Leute hier heute. Alle wollen eine Schaufel, und einige suchen nach einer Art Kelch. Sie sage, ein fleischlicher Typ hat ihn mitgenommen. Das seid nicht zufällig Ihr, Fremdling? Nein? Ich würde gutes Geld dafür zahlen.\n\nWarum schaut Ihr mich unentwegt so an? Nun, es ist ein verrückter Markttag. Ein richtiges Irrenhaus hier. Viel zu verkaufen. Noch mehr zu kaufen. Seid nicht schüchtern! Kommt nur heran.";
+	}
+
+    // Rescued Maid Gwendolyn
+	[0x0000]
+	{
+		from = "Oh my! Bless you for saving me from these hideous creatures, outlander. When I get my nerves back, I will make a break for town. I wish I had never seen that stupid amulet. No sooner had I placed it around my neck than horrid beasts began clawing at my windows.";
+		to = "Gute Güte! Danke, dass Ihr mich vor diesen grässlichen Kreaturen gerettet habt, Fremder. Wenn ich mich wieder gefasst habe, werde ich versuchen, zur Stadt zurückzukehren. Ich wünschte, ich hätte dieses dumme Amulett nie gesehen. Kaum hatte ich es mir um den Hals gelegt, kratzten auch schon die fürchterlichsten Bestien an meinen Fenstern.";
+	}
+	[0x0000]
+	{
+		from = "When I awoke, I found myself here, and nothing had changed except the amulet was missing. I don't know why they didn't kill me, but I have heard them muttering in the dark. Speaking of holding me for judgement before their dark master. They think I bear the mark of the 'Chalicebearer', whatever that means.\n\nI don't know who their master is, but I think he plans to destroy my town for his dark judgements.";
+		to = "Als ich erwachte, fand ich mich hier wieder, und nichts bis auf das Amulett fehlte mir. Ich weiß nicht, warum sie mich nicht getötet haben, aber ich habe sie im Dunkeln murmeln hören. Sprachen davon, mich dem Urteil ihres dunklen Meisters zu überlassen. Sie meinten, ich trage das Zeichen des 'Kelchträgers', was auch immer das bedeuten soll.\n\nIch weiß nicht, wer ihr Meister ist, doch ich fürchte, er plant meine Stadt für seine dunklen Urteile zu zerstören";
+	}
+	[0x0000]
+	{
+		from = "Bless you outlander. I am just getting up the nerve to head back to town. You have more important matters to tend to now.";
+		to = "Habt Dank, Fremder. Ich sammle mich nur, bevor ich mich auf den Weg zurück in die Stadt mache. Ihr habt jetzt wichtigere Dinge zu tun.";
+	}
+
+    // Lich Lord defeated
+	[0x0000]
+	{
+		from = "You may have defeated my body but not my spirit, outlander. For I am the lord of this sanctuary of the dead. I have lain here at rest for untold centuries until one so vile as to break the sanctity of my chambers stole away with the one artifact that protects us from the outside world.";
+		to = "Ihr mögt meinen Körper besiegt haben, aber nicht meinen Geist, Fremdling. Denn ich bin der Herr dieses Heiligtums der Toten. Ich lag hier unzählige Jahrhunderte in Ruhe, bis jemand so gemein war, den Frieden meiner Kammern zu brechen, und mit dem einen Artefakt verschwand, das uns vor der Außenwelt beschützt.";
+	}
+	[0x0000]
+	{
+		from = "The Chalice of Mourning with which I was entombed can only afford us protection if it is within these walls, and only the blood of those I entrusted in life will be granted eternal passage. In its absence, the dead grow restless and seek out vengeance on the living. No barriers exist for them, and I cannot be responsible for their outrage.";
+		to = "Der Kelch der Trauer, mit dem ich bestattet ward, kann uns nur beschützen, wenn er sich innerhalb dieser Wände befindet, und nur dem Blut derer, denen ich zu Lebzeiten vertraute, wird auf ewig der Durchgang gewährt. In seiner Abwesenheit werden die Toten ruhelos und suchen Rache an den Lebenden. Nichts hält sie mehr zurück, und ich kann ihrer Wut nicht Einhalt gebieten.";
+	}
+	[0x0000]
+	{
+		from = "In life I was an Archmage of unfathomable power. In death I bear the power to rend the very ground until I am appeased. I see now that you do not bear the Chalice. I ask you to withdraw from these hallowed chambers and leave us to our reckoning.\n\nIf you wish to bring peace to this land, bring me the Chalice of Mourning, and my family and servants will rest eternal once more.";
+		to = "Zu Lebzeiten war ich ein Erzmagier von unermesslicher Macht. Auch im Tode habe ich die Kraft, den Erdboden zu zerreißen, bis ich beschwichtigt bin. Ich sehe nun, dass Ihr den Kelch nicht tragt. Ich bitte Euch, diese geheiligten Kammern wieder zu verlassen und unserer Abrechnung nicht im Wege zu stehen.\n\nWenn Ihr diesem Land Frieden bringen wollt, so bringt mir den Kelch der Trauer, und meine Familie und Diener werden wieder auf ewig ruhen.";
+	}
+}

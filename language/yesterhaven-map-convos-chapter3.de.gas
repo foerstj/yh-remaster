@@ -1,0 +1,119 @@
+[t:0x0407,n:text]
+{
+    // Yesterhaven conversations
+    // Undertaker
+	[0x0000]
+	{
+		from = "The Lich lord sent you to seek the Chalice of Mourning, didn't he?\n\nThe Fire King seems to know you are coming if this blistering heat is any indication. I never dreamed it would come to this. I wish I had never spoken to the Fire King that lonely evening.";
+		to = "Der Leichenfürst hat Euch geschickt, um den Kelch der Trauer zu suchen, oder?\n\nDer Feuerkönig scheint zu wissen, dass Ihr auf dem Weg seid, dieser glühenden Hitze nach zu urteilen. Ich hätte mir nie träumen lassen, dass es so weit kommt. Ich wünschte, ich hätte nie mit dem Feuerkönig gesprochen an jenem einsamen Abend.";
+	}
+	[0x0000]
+	{
+		from = "He knew all too well that I alone could travel into the tombs. I should have known it was a trick. He said he could use it to make Gwendolyn love me. He forged the pendant from it for her to wear, but she never loved me; she just got taken away and nearly killed. She will never love me now.\n\nI don't know if you can undo what I have done, but if you do, I will be content to live out my days never meddling in the affairs of the gods again, and let the Imperial Tombs fall to dust at my passing. Perhaps this is written somehow.";
+		to = "Er wusste nur zu gut, dass ich allein zu den Gräbern reisen konnte. Ich hätte wissen müssen, dass es ein Trick war. Er sagte, er könnte ihn dafür nutzen, dass Gwendolyn mich liebt. Er schmiedete davon den Anhänger, damit sie ihn tragen sollte, doch sie verliebte sich nie in mich; sie wurde einfach davongetragen und fast getötet. Jetzt wird sie mich nie lieben.\n\nIch weiß nicht, ob Ihr wieder gut machen könnt, was ich getan habe, doch wenn Ihr es könnt, will ich mich den Rest meiner Tage nie wieder in die Angelegenheiten der Götter mischen, und die Gräber des Reiches nach meinem Dahinscheiden zu Staub zerfallen lassen. Vielleicht ist es irgendwie geschrieben.";
+	}
+    // Queen
+	[0x0000]
+	{
+		from = "I am sorry I misjudged you, outlander. I was too absorbed in my study to realize that the Fire King had been scheming against all of us. He has always been possessive, but we used to keep each other in balance. His power now grows unchecked with every passing moment.\n\nI will use what little power I have left to keep these good people alive, if you are brave enough to put the Fire King in his place before his greed spills over into the world around us.";
+		to = "Es tut mir leid, dass ich Euch verkannt habe, Fremder. Ich war zu vertieft in meine Studien um zu erkennen, dass der Feuerkönig gegen uns alle Ränke geschmiedet hat. Er war schon immer habgierig, doch wir haben uns immer in Balance gehalten. Jetzt wächst seine Macht mit jedem Moment weiter.\n\nIch werde meine wenige verbleibende Macht dazu nutzen, diese guten Leute am Leben zu erhalten, wenn Ihr mutig genug seid, den Feuerkönig auf seinen Platz zu verweisen, bevor seine Gier noch in die Außenwelt überschwappt.";
+	}
+    // Captain
+	[0x0000]
+	{
+		from = "We're in a bad way now friend.\n\nBy the looks of it, the Fire King aims to take this whole valley by force, and without my men, I frankly don't think we stand a chance. They don't want to negotiate, and if the weapons they bear are any indication of what is yet to come, our days are numbered.\n\nLucky for you we looted some pretty good gear off the last few waves of Krug that came through. If you are of the mind to go talk to the King, you are going to need them worse than us.";
+		to = "Wir sitzen richtig in der Tinte, Freund.\n\nSo wie es aussieht, plant der Feuerkönig, dieses ganze Tal mit Gewalt einzunehmen, und ohne meine Männer haben wir ehrlich gesagt keine Chance. Sie wollen nicht verhandeln, und wenn man sieht, was sie für Waffen tragen, sind unsere Tage gezählt.\n\nZu Eurem Glück haben wir den letzten paar Wellen an Krug einige gute Ausrüstung abgenommen. Wenn Ihr beabsichtigt, mit dem König sprechen zu gehen, werdet Ihr sie eher brauchen als wir.";
+	}
+    // Gwendolyn
+	[0x0000]
+	{
+		from = "I made it back alive, thanks to you, and not a moment too soon either. I just hope we can settle things with the Fire King before I run out of potions.\n\nSo much greed in the valley these days... I was as much a victim of my own greed as the Undertaker was of his, I can't blame him for that.\n\nMayor Gilwin said you are the only one who can help us now. I saved my biggest vials for you if you need them, it is the least I could do for our savior.";
+		to = "Ich habe es lebendig zurückgeschafft, dank Euch, und keinen Augenblick zu früh. Ich hoffe nur, wir können den Konflikt mit dem Feuerkönig beilegen, bevor mir die Tränke ausgehen.\n\nSo viel Gier in diesem Tal heutzutage... Ich war genauso Opfer meiner Gier wie der Bestatter ein Opfer der seinen war, dafür kann ich ihm keine Vorwürfe machen.\n\nBürgermeister Gilwin sagte, Ihr seid der einzige, der uns jetzt helfen kann. Ich habe meine größten Fläschchen für Euch aufgehoben falls Ihr sie braucht, es ist das Mindeste, was ich für unseren Retter tun konnte.";
+	}
+    // Rho
+	[0x0000]
+	{
+		from = "Having the well filled means we aren't going to die of thirst, but with the forges of the Fire King blasting night and day, it won't be long before the Krug come calling in numbers we can't hope to stand against.\n\nUnless you've got it in you to march up Mount Underforge and talk some sense into the Fire King, you may as well head back to wherever you came from and let us die in peace.";
+		to = "Jetzt da der Brunnen wieder gefüllt ist werden wir nicht an Durst sterben, doch die Schmieden des Feuerkönigs glühen Tag und Nacht, und es wird nicht lange dauern, bis die Krug hier in Massen aufmarschieren, denen wir nichts entgegenzusetzen haben.\n\nWenn Ihr Euch nicht getraut, den Berg Unterschmiede zu besteigen und den Feuerkönig zur Vernunft zu bringen, könnt Ihr genausogut zurückkehren wo Ihr herkamt und uns in Frieden sterben lassen.";
+	}
+    // Scribe
+	[0x0000]
+	{
+		from = "Our Undertaker came clean with us, friend. We are indeed in a bad place. If it weren't for you, we might have frozen in the snows only to have our bones baked in these sands. We seem to have made it, and so have you, so there is still hope.\n\nThe Undertaker let me take a look at an acolyte's journal mentioning this Chalice of Mourning you seek; would you like to hear what I have found?";
+		to = "Unser Bestatter hat uns alles gebeichtet, Freund. Wir sitzen wirklich in der Tinte. Wenn Ihr nicht gewesen wärt, wären wir vielleicht im Schnee erfroren, nur um unsere Knochen danach im Sand backen zu lassen. Bis hierher haben wir überlebt, und Ihr ebenso, also ist noch Hoffnung.\n\nDer Bestatter hat mich einen Blick in das Tagebuch eines Akolyten werfen lassen, der diesen Kelch der Trauer erwähnt, den Ihr sucht; wollt Ihr hören, was ich herausgefunden habe?";
+	}
+	[0x0000]
+	{
+		from = "It appears that the Chalice of Mourning was used during the ritual preparation of the Valley of the Dead. Anything placed within the Chalice and allowed to rest in the midday sun would be granted temporary binding to the Valley.\n\nThis was apparently used on just about everything there, including the inks of the protective runes, the ashes of his servants, and the perfumes to douse the chambers, but here's where it gets interesting...";
+		to = "Wie es scheint, wurde dieser Kelch der Trauer bei der rituellen Bereitung des Tals der Toten benutzt. Alles, was in den Kelch gelegt und in die Mittagssonne gestellt wurde, wurde für eine Zeit an das Tal gebunden.\n\nDas wurde anscheinend für so ziemlich alles dort benutzt, einschließlich der Tinte der schützenden Runen, der Asche seiner Diener, und den Duftwassern, mit denen die Kammern begossen wurden, aber hier wird's interessant...";
+	}
+	[0x0000]
+	{
+		from = "Once the glyphs had been set, the living could only enter the Valley by drinking water prepared in the Chalice. The Fire King must have figured all this out, and used the Chalice to grant passage to his armies to attack the Snow Queen.\n\nWhat the journal doesn't mention, and what I think the Fire King hasn't figured out, is that removing the Chalice from the Valley has somehow broken the enchantments, and allowed the dead to roam free of the Valley.";
+		to = "Als die Bildzeichen erst einmal eingesetzt waren, konnten die Lebenden das Tal nur noch betreten, wenn sie Wasser aus dem Kelch getrunken hatten. Der Feuerkönig muss das alles irgendwie herausgefunden haben, und benutzte den Kelch, um seine Armeen durch das Tal die Schneekönigin angreifen zu lassen.\n\nWas das Tagebuch nicht erwähnt, und was vermutlich auch der Feuerkönig nicht wusste, ist, dass das Entfernen des Kelchs aus dem Tal die Zauber gebrochen hat, und die Toten des Tals konnten frei herumlaufen.";
+	}
+	[0x0000]
+	{
+		from = "If the Fire King is still using it to enchant his armies, he must be bringing it to the surface to prepare the waters when the sun is high. I don't know if that helps you or not, but I found it interesting to say the least.\n\nI shouldn't keep you any more. If Yesterhaven is to survive to be more than a footnote in someone else's tome, you had better get moving. Our prayers are with you always, friend.";
+		to = "Wenn der Feuerkönig ihn immer noch benutzt, um seine Armeen zu verzaubern, muss er ihn an die Oberfläche bringen, um die Wasser in der Mittagssonne zuzubereiten. Ich weiß nicht, ob Euch das hilft, aber ich fand es auf jeden Fall interessant.\n\nIch sollte Euch nicht länger aufhalten. Wenn von Yesterhaven mehr als eine Fußnote in jemandes anderen Memoiren bleiben soll, solltet Ihr besser losziehen. Unsere Gebete sind immer mit Euch, Freund.";
+	}
+    // Mayor
+	[0x0000]
+	{
+		from = "You've saved us twice now, friend. I don't think there is anything we can do to repay that, but it looks like after all your hard work and bravery, we've only managed to tip the delicate balance of our land, and played into the hands of the Fire King.\n\nThe Snow Queen has realized the errors of her ways, but without your help, we have no hope of holding Yesterhaven against the armies of Underforge. Are you willing to fight for us once more, stranger? Perhaps the Fire King can be brought to his senses at the edge of your sword, much as the Snow Queen was.";
+		to = "Jetzt habt Ihr uns schon zweimal gerettet, Freund. Ich glaube nicht, dass wir Euch das irgendwie vergelten können, doch es scheint, nach all Eurer harten Arbeit und Mut haben wir es nur geschafft, die empfindliche Balance unseres Landes zu kippen, und dem Feuerkönig in die Hände zu spielen.\n\nDie Schneekönigin hat die Fehler ihres Handelns eingesehen, doch ohne Eure Hilfe haben wir keine Hoffnung, Yesterhaven gegen die Armeen von Unterschmiede zu halten. Seid Ihr gewillt, noch einmal für uns zu kämpfen, Fremder? Vielleicht kann auch der Feuerkönig durch Eures Schwertes Klinge zur Vernunft gebracht werden, so wie die Schneekönigin.";
+	}
+    // Trini
+	[0x0000]
+	{
+		from = "You made it out alive!\n\nWhatever you did, the Fire King must be terribly mad. It is becoming hotter and drier with every passing moment. The well has all but dried up already, and everyone is gathering to see what we should do. I hope you have good news for us, we could use it.";
+		to = "Ihr habt es lebend zurückgeschafft!\n\nWas auch immer Ihr getan habt, der Feuerkönig muss furchtbar wütend sein. Es wird von Minute zu Minute heißer und trockener. Der Brunnen ist schon fast ausgetrocknet, und alle haben sich versammelt um zu beraten was wir tun sollen. Ich hoffe, Ihr habt gute Neuigkeiten für uns, wir könnten welche gebrauchen.";
+	}
+	[0x0000]
+	{
+		from = "Perhaps now that we have water to drink, my livestock will return to me... if any of them lived through the blizzard and spiders, that is.";
+		to = "Vielleicht werden jetzt, wo wir wieder Wasser haben, meine Kühe zu mir zurückkommen... das heißt, wenn welche von ihnen den Schneesturm und die Spinnen überlebt haben.";
+	}
+
+    // Dante (3)
+	[0x0000]
+	{
+		from = "The citizens of Yesterhaven will do right by you yet, outlander. I had my doubts about whether you were suited to the tasks of my master, the Archmage, but you have made it farther than I had hoped.\n\nWhen you find the Chalice. I will return it to its rightful place, and bring final peace to the Valley of the Dead. I cannot yet bring peace to the living, however. That is between you and the Fire King.\n\nUntil then, I still have several items which would be better left for the living, if you need them.";
+		to = "Die Bürger Yesterhavens haben sich wohl doch nicht in Euch geirrt, Fremder. Ich hatte meine Zweifel, ob Ihr den Aufgaben meines Meisters, des Erzmagiers, gewachsen sein würdet, doch Ihr habt es weiter geschafft, als ich gehofft hatte.\n\nWenn Ihr den Kelch findet, werde ich ihn an seinen rechtmäßigen Platz zurückbringen, und dem Tal der Toten endlich Frieden bringen. Den Lebenden vermag ich jedoch noch keinen Frieden zu bringen. Das ist eine Sache zwischen Euch und dem Feuerkönig.\n\nBis dahin habe ich hier noch einige Dinge, die besser für die Lebenden geeignet sind, wenn Ihr welche braucht.";
+	}
+
+    // Fire King defeated
+	[0x0000]
+	{
+		from = "Why did I ever accept this accursed blessing of eternal life, when it has become a millenium of servitude to a dead man's tomb? I don't know how my kinswoman across the valley has retained her composure after all these centuries.\n\nI am a failure. I have failed to unlock the mysteries of my master's chalice. I have failed to bring an end to my eternal damnation, and now in desperation, I have even failed my oath to shelter the valley of his heirs... What have I done? What have I done...";
+		to = "Warum habe ich jemals diesen verfluchten Segen ewigen Lebens angenommen, wenn daraus nur ein Jahrtausend der Knechtschaft am Grab eines toten Mannes wurde? Ich weiß nicht, wie meine Verwandte auf der anderen Seite des Tals nach all den Jahrhunderten noch nicht ihren Verstand verloren hat.\n\nIch bin ein Versager. Ich habe versagt, die Geheimnisse des Kelches meines Meisters zu ergründen. Ich habe versagt, meiner ewigen Verdammnis ein Ende zu bereiten, und nun, in Verzweiflung, habe ich sogar versagt, meinen Schwur, das Tal seiner Erben zu beschützen, zu halten... Was habe ich getan? Was habe ich getan...";
+	}
+	[0x0000]
+	{
+		from = "After a millenium of servitude, I should have known my ancient master would have planned for my release. You have freed me stranger. I cannot ever hope to repay you.\n\nI pledge to undo what I have done, and uphold my stewardship of Yesterhaven with renewed vigor until the natural end of my days.";
+		to = "Nach einem Jahrtausend der Knechtschaft hätte ich wissen sollen, dass mein uralter Meister für meine Entlassung vorgesorgt hatte. Ihr habt mich befreit, Fremder. Ich kann nicht hoffen, das je wieder gutzumachen.\n\nIch gelobe, das zu beheben, was ich getan habe, und meiner Verantwortung für Yesterhaven mit neuem Elan gerecht zu werden bis ans natürliche Ende meiner Tage.";
+	}
+    // Dante (4)
+	[0x0000]
+	{
+		from = "Well done, outlander! The bravado of these ancient guardians is at long last quieted. I stand ready to return the Chalice to its rightful place, and lift the circle of curses that have befallen the people of Yesterhaven.";
+		to = "Gut gemacht, Fremder! Das Draufgängertum dieser uralten Wächter ist nun endlich verstummt. Ich stehe bereit, den Kelch der Trauer an seinen rechtmäßigen Platz zurückzubringen, und den Kreis der Flüche aufzuheben, der auf die Menschen von Yesterhaven gekommen ist.";
+	}
+	[0x0000]
+	{
+		from = "Give Chalice";
+		to = "Kelch Geben";
+	}
+	[0x0000]
+	{
+		from = "The eternal burdens these guardians of fire and ice have borne is too great to ask of a mortal. When the bloodline of my decendants passes with the Undertaker of Yesterhaven, so also will their millenium of servitude to my master. With it, the Valley of the Dead will be forever sealed, and the Archmage's mourning will be complete. So it is written.\n\nFarewell, outlander. You have the eternal thanks of the wardens of the Archmage. Go now and join with the living. The good people of Yesterhaven will be anxious to hear of their newfound freedoms.";
+		to = "Die ewigen Bürden, die diese Wächter von Feuer und Eis tragen mussten, sind für Sterbliche zu viel verlangt. Wenn die Blutlinie meiner Nachfahren mit dem Bestatter von Yesterhaven endet, endet auch das Jahrtausend ihrer Knechtschaft an meinem Meister. Damit wird das Tal der Toten für immer versiegelt werden, und die Trauer des Erzmagiers wird ein Ende finden. So steht es geschrieben.\n\nLebt wohl, Fremder. Habt den ewigen Dank der Grabpfleger des Erzmagiers. Kehrt nun zurück zu den Lebenden. Die guten Menschen von Yesterhaven warten darauf, von ihrer neuen Freiheit zu hören.";
+	}
+
+    // Happy end obelisk inscription
+	[0x0000]
+	{
+		from = "A blizzard howled and fell wolves bayed,\nThe Snow Queen's power at last was stayed;\nBroken wards bought death's release,\nAn Undead Lord at last found peace;\nMountains roared and ashes rolled,\nThe Fire King's forge has since grown cold.\n\nThankless deeds for heroes gone.\nSeen no more, recalled in song.\nWith hope restored, for this we plead\nOur gift of thanks would be received.\nAnd on some future brighter day,\nThat flowers bloom where treasure lay.";
+		to = "Ein Schneesturm heulte und grausame Wölfe bellten,\nDer Schneekönigin Macht ward endlich besiegt;\nGebrochene Wächter befreiten den Tod,\nEin untoter Fürst fand schließlich Fried;\nBerge grollten und Aschen rollten,\nDes Feuerkönigs Schmieden sind seither erkaltet.\n\nDanklose Taten für vergangene Helden.\nNicht mehr gesehen, in Liedern erinnert.\nMit neuer Hoffnung, denn dies erbitten wir\nUnser Geschenk des Dankes zu empfangen.\nUnd an einem fernen, helleren Tag,\nDass Blumen blühten, wo Schätze lagen.";
+	}
+}

@@ -1,0 +1,277 @@
+[t:0x0407,n:text]
+{
+    // Map name & description
+	[0x0000]
+	{
+		from = "Yesterhaven";
+		to = "Yesterhaven";
+	}
+	[0x0000]
+	{
+		from = "The Tale of Yesterhaven.";
+		to = "Die Geschichte von Yesterhaven.";
+	}
+
+    // Start positions
+	[0x0000]
+	{
+		from = "Chapter 1";
+		to = "Kapitel 1";
+	}
+	[0x0000]
+	{
+		from = "Chapter 2";
+		to = "Kapitel 2";
+	}
+	[0x0000]
+	{
+		from = "Chapter 3";
+		to = "Kapitel 3";
+	}
+
+    // World locations
+	[0x0000]
+	{
+		from = "Yesterhaven Ruins";
+		to = "Ruinen von Yesterhaven";
+	}
+	[0x0000]
+	{
+		from = "the Ancient Passage";
+		to = "die Alte Passage";
+	}
+	[0x0000]
+	{
+		from = "Wintershroud Foothills";
+		to = "Winterdecke-Ausläufer";
+	}
+	[0x0000]
+	{
+		from = "Wintershroud Slopes";
+		to = "Winterdecke-Berghänge";
+	}
+	[0x0000]
+	{
+		from = "the Halls of Winter";
+		to = "die Hallen des Winters";
+	}
+	[0x0000]
+	{
+		from = "Wintershroud Summit";
+		to = "Winterdecke-Gipfel";
+	}
+	[0x0000]
+	{
+		from = "the Crystal Towers";
+		to = "die Kristalltürme";
+	}
+	[0x0000]
+	{
+		from = "the Haunted Forest";
+		to = "den Spukwald";
+	}
+	[0x0000]
+	{
+		from = "the Valley of the Dead";
+		to = "das Tal der Toten";
+	}
+	[0x0000]
+	{
+		from = "the Broken Catacombs";
+		to = "die Verfallenen Katakomben";
+	}
+	[0x0000]
+	{
+		from = "the Halls of the Dead";
+		to = "die Hallen der Toten";
+	}
+	[0x0000]
+	{
+		from = "the Tomb of Mourning";
+		to = "das Grab der Trauer";
+	}
+	[0x0000]
+	{
+		from = "the Blasted Gorge";
+		to = "die Verbrannte Schlucht";
+	}
+	[0x0000]
+	{
+		from = "the Underforge Steppes";
+		to = "die Unterschmiede-Steppen";
+	}
+	[0x0000]
+	{
+		from = "Mount Underforge";
+		to = "Berg Unterschmiede";
+	}
+	[0x0000]
+	{
+		from = "the Citadel of Ash";
+		to = "die Aschenzitadelle";
+	}
+
+    // Chapters & Quests
+	[0x0000]
+	{
+		from = "Chapter 1: Ice";
+		to = "Kapitel 1: Eis";
+	}
+	[0x0000]
+	{
+		from = "The story of Yesterhaven's liberation from the Curse of Ice.";
+		to = "Die Geschichte der Befreiung Yesterhavens vom Fluch des Eises.";
+	}
+	[0x0000]
+	{
+		from = "Chapter 2: Death";
+		to = "Kapitel 2: Tod";
+	}
+	[0x0000]
+	{
+		from = "The story of Yesterhaven's liberation from the Curse of Death.";
+		to = "Die Geschichte der Befreiung Yesterhavens vom Fluch des Todes.";
+	}
+	[0x0000]
+	{
+		from = "Chapter 3: Fire";
+		to = "Kapitel 3: Feuer";
+	}
+	[0x0000]
+	{
+		from = "The story of Yesterhaven's liberation from the Curse of Fire.";
+		to = "Die Geschichte der Befreiung Yesterhavens vom Fluch des Feuers.";
+	}
+	[0x0000]
+	{
+		from = "The Lost Detachment";
+		to = "Der Verlorene Stoßtrupp";
+	}
+	[0x0000]
+	{
+		from = "Search for the Guard Captain and the fighting men of Yesterhaven in the forests of Wintershroud to the north.";
+		to = "Sucht den Wachhauptmann und die Kämpfer von Yesterhaven in den Wäldern von Winterdecke im Norden.";
+	}
+	[0x0000]
+	{
+		from = "Free the Guard Captain of Yesterhaven from the Snow Krug's prison.";
+		to = "Befreit den Wachhauptmann von Yesterhaven aus dem Gefängnis der Schneekrugs.";
+	}
+	[0x0000]
+	{
+		from = "Confront the Snow Queen";
+		to = "Stellt Euch der Schneekönigin";
+	}
+	[0x0000]
+	{
+		from = "Confront the Snow Queen in her towers to prevent further attacks against Yesterhaven.";
+		to = "Stellt Euch der Schneekönigin in ihren Türmen, um weitere Angriffe auf Yesterhaven zu verhindern.";
+	}
+	[0x0000]
+	{
+		from = "Defend the Town";
+		to = "Beschützt die Stadt";
+	}
+	[0x0000]
+	{
+		from = "Destroy the undead and spiders overrunning the town.";
+		to = "Vernichtet die Untoten und Spinnen, die die Stadt überrennen.";
+	}
+	[0x0000]
+	{
+		from = "Rescue Maid Gwendolyn";
+		to = "Rettet Maid Gwendolyn";
+	}
+	[0x0000]
+	{
+		from = "Rescue Maid Gwendolyn from the Undead to the east.";
+		to = "Rettet Maid Gwendolyn vor den Untoten im Osten.";
+	}
+	[0x0000]
+	{
+		from = "Confront the Undead Master";
+		to = "Stellt Euch dem Anführer der Untoten";
+	}
+	[0x0000]
+	{
+		from = "Stop the Undead Master before he destroys the town of Yesterhaven.";
+		to = "Stoppt den Anführer der Untoten, bevor er die Stadt Yesterhaven zerstört.";
+	}
+	[0x0000]
+	{
+		from = "The Chalice of Mourning";
+		to = "Der Kelch der Trauer";
+	}
+	[0x0000]
+	{
+		from = "Locate the Chalice of Mourning within the Fire King's Domain.";
+		to = "Findet den Kelch der Trauer im Reich des Feuerkönigs.";
+	}
+	[0x0000]
+	{
+		from = "Return the Chalice of Mourning to Dante";
+		to = "Bringt Dante den Kelch der Trauer zurück";
+	}
+	[0x0000]
+	{
+		from = "Confront the Fire King";
+		to = "Stellt Euch dem Feuerkönig";
+	}
+	[0x0000]
+	{
+		from = "Destroy the Fire King before he can obliterate the town of Yesterhaven.";
+		to = "Vernichtet den Feuerkönig bevor er die Stadt Yesterhaven auslöschen kann.";
+	}
+
+    // Names & signs
+	[0x0000]
+	{
+		from = "Giant Worm";
+		to = "Riesenwurm";
+	}
+	[0x0000]
+	{
+		from = "Tomb of the Archmage";
+		to = "Grab des Erzmagiers";
+	}
+	[0x0000]
+	{
+		from = "Yesterhaven Guard Captain";
+		to = "Wachhauptmann von Yesterhaven";
+	}
+	[0x0000]
+	{
+		from = "You are enveloped by a shimmering mist.";
+		to = "Ihr seid umgeben von einem schimmernden Nebel.";
+	}
+	[0x0000]
+	{
+		from = "Redric's Tomes";
+		to = "Redrics Wälzer";
+	}
+	[0x0000]
+	{
+		from = "Gwendolyn's Tonics";
+		to = "Gwendolyns Tonika";
+	}
+	[0x0000]
+	{
+		from = "Mt. Wintershroud";
+		to = "Berg Winterdecke";
+	}
+	[0x0000]
+	{
+		from = "Kellan & Kellan Steel";
+		to = "Kellan & Kellan Stahl";
+	}
+	[0x0000]
+	{
+		from = "Valley of the Dead";
+		to = "Tal der Toten";
+	}
+	[0x0000]
+	{
+		from = "Rodric's Tomes";
+		to = "Rodrics Wälzer";
+	}
+}

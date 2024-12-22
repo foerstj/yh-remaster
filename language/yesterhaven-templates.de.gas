@@ -1,0 +1,254 @@
+[t:0x0407,n:text]
+{
+	[0x0000]
+	{
+		from = "Jar";
+		to = "Einmachglas";
+	}
+	[0x0000]
+	{
+		from = "Krug Chieftain";
+		to = "Krug-Häuptling";
+	}
+	[0x0000]
+	{
+		from = "Krug Hunter";
+		to = "Krug-Jäger";
+	}
+	[0x0000]
+	{
+		from = "Wolfmaster Urgud";
+		to = "Wolfmeister Urgud";
+	}
+	[0x0000]
+	{
+		from = "Krug Veteran";
+		to = "Krug-Veteran";
+	}
+	[0x0000]
+	{
+		from = "Krug Soldier";
+		to = "Krug-Soldat";
+	}
+	[0x0000]
+	{
+		from = "Krug Forager";
+		to = "Krug-Wildbeuter";
+	}
+	[0x0000]
+	{
+		from = "Braagdak the Growler";
+		to = "Braagdak der Knurrer";
+	}
+	[0x0000]
+	{
+		from = "Krug Tracker";
+		to = "Krug-Fährtenleser";
+	}
+	[0x0000]
+	{
+		from = "Gragba the Trapper";
+		to = "Gragba der Fallensteller";
+	}
+	[0x0000]
+	{
+		from = "Krug Flamespinner";
+		to = "Krug-Flammendreher";
+	}
+	[0x0000]
+	{
+		from = "Magutak the Hammer";
+		to = "Magutak der Hammer";
+	}
+	[0x0000]
+	{
+		from = "Krug Growler";
+		to = "Krug-Knurrer";
+	}
+	[0x0000]
+	{
+		from = "Krug Icepelter";
+		to = "Krug-Eiswerfer";
+	}
+	[0x0000]
+	{
+		from = "Alpine Phrak";
+		to = "Bergphrak";
+	}
+	[0x0000]
+	{
+		from = "Ice Phrak";
+		to = "Eisphrak";
+	}
+	[0x0000]
+	{
+		from = "Ice Phrak Terror";
+		to = "Eisphrak-Schrecken";
+	}
+	[0x0000]
+	{
+		from = "Ember Wraith";
+		to = "Glutgespenst";
+	}
+	[0x0000]
+	{
+		from = "Frost Guardian";
+		to = "Frostwächter";
+	}
+	[0x0000]
+	{
+		from = "Ice Guardian";
+		to = "Eiswächter";
+	}
+	[0x0000]
+	{
+		from = "Frostbound Guardian";
+		to = "Frostgebundener Wächter";
+	}
+	[0x0000]
+	{
+		from = "Flame Klaw";
+		to = "Flammenklaw";
+	}
+	[0x0000]
+	{
+		from = "Infernal Klaw";
+		to = "Infernalischer Klaw";
+	}
+	[0x0000]
+	{
+		from = "Inferno Beast";
+		to = "Infernobestie";
+	}
+	[0x0000]
+	{
+		from = "Char Hound";
+		to = "Kohlenhund";
+	}
+	[0x0000]
+	{
+		from = "Polar Bear";
+		to = "Eisbär";
+	}
+	[0x0000]
+	{
+		from = "Snow Queen";
+		to = "Schneekönigin";
+	}
+	[0x0000]
+	{
+		from = "Lich Lord";
+		to = "Leichenfürst";
+	}
+	[0x0000]
+	{
+		from = "Lich Lord Spirit";
+		to = "Geist des Leichenfürsten";
+	}
+	[0x0000]
+	{
+		from = "Fire King";
+		to = "Feuerkönig";
+	}
+	[0x0000]
+	{
+		from = "Mayor Gilwin";
+		to = "Bürgermeister Gilwin";
+	}
+	[0x0000]
+	{
+		from = "Undertaker";
+		to = "Bestatter";
+	}
+	[0x0000]
+	{
+		from = "Guard Captain Kellan";
+		to = "Wachhauptmann Kellan";
+	}
+	[0x0000]
+	{
+		from = "Maid Gwendolyn";
+		to = "Maid Gwendolyn";
+	}
+	[0x0000]
+	{
+		from = "Scribe Redric";
+		to = "Schreiber Redric";
+	}
+	[0x0000]
+	{
+		from = "Undertaker's Assistant";
+		to = "Bestatter-Assistent";
+	}
+	[0x0000]
+	{
+		from = "Shepherd Trini";
+		to = "Hirtin Trini";
+	}
+	[0x0000]
+	{
+		from = "Obelisk";
+		to = "Obelisk";
+	}
+	[0x0000]
+	{
+		from = "Chalice";
+		to = "Kelch";
+	}
+	[0x0000]
+	{
+		from = "Gate";
+		to = "Tor";
+	}
+	[0x0000]
+	{
+		from = "Snowball";
+		to = "Schneeball";
+	}
+
+	[0x0000]
+	{
+		from = "A chill is in the air.";
+		to = "Kühle liegt in der Luft.";
+	}
+	[0x0000]
+	{
+		from = "Light snow begins to fall.";
+		to = "Leichter Schnee beginnt zu fallen.";
+	}
+	[0x0000]
+	{
+		from = "The temperature drops.";
+		to = "Die Temperatur sinkt.";
+	}
+	[0x0000]
+	{
+		from = "The shadows deepen.";
+		to = "Die Schatten werden tiefer.";
+	}
+	[0x0000]
+	{
+		from = "A frigid wind blows.";
+		to = "Ein kalter Wind bläst.";
+	}
+	[0x0000]
+	{
+		from = "Whispers float on the wind.";
+		to = "Geflüster fliegt mit dem Wind.";
+	}
+	[0x0000]
+	{
+		from = "An icy mist descends.";
+		to = "Ein eisiger Nebel senkt sich.";
+	}
+	[0x0000]
+	{
+		from = "This gate is locked.";
+		to = "Dieses Tor ist verschlossen.";
+	}
+	[0x0000]
+	{
+		from = "This door is locked.";
+		to = "Diese Tür ist verschlossen.";
+	}
+}
