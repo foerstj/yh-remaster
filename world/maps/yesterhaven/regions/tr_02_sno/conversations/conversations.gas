@@ -11,35 +11,35 @@
 	{
 		screen_text = "This is the Snow Queen's work, no doubt, but in all my days she never sent us a blizzard, especially in the middle of Summer.\n\nWe sent our best men up Wintershroud Mountain to see what went wrong, but we haven't heard from them in days. I can't spare any more townsfolk, but now that you're here, I guess you've got two choices: stay here and starve with us, or head north and find Captain Kellan and his men.\n\nIf he's still alive, I think we can find a way out of this.";
 	  f scroll_rate = 6.500000;
-	  activate_quest* = quest_captain;
+		activate_quest* = quest_captain;
 		quest_dialog = true;
 	}
 }
 [conversation_redric]
 {
 	[text*]
-	{	
+	{
 		order = 0;
 		choice = more;
 		screen_text = "Well now. First a terrible commotion up on Wintershroud, then this blasted storm, and now you.\n\nNot many visitors to Yesterhaven lately. But hey! What can I do for you? Did you come to buy a tome? Or did someone tell you I was the historian?";
 	  f scroll_rate = 6.500000;
 	}
 	[text*]
-	{	
+	{
 		order = 1;
 		choice = more;
 		screen_text = "Oh, want to know a little more about our peculiar town, eh? Well there's plenty of history here, to be sure.\n\nYesterhaven is about as old as these hills, but older still are our neighbors to the north and south. The Snow Queen lives in her crystal towers up on Wintershroud Peak to the north, where she brings us winter and rain. To the south, past the canyons, lies the volcano Underforge, where the Fire King reigns over the summer and warmth from his Citadel of Ash. And between 'em, east of here, is the Valley of the Dead, but we don't talk about that much. Nothing living can go there.\n\nAm I boring you, or should I go on?";
 	  f scroll_rate = 6.500000;
 	}
 	[text*]
-	{	
+	{
 		order = 2;
 		choice = more;
 		screen_text = "You have come at an interesting time. For as long as anyone can remember, the King and Queen have given us gentle seasons here in Yesterhaven; that is, until now.\n\nA couple days ago, there was a terrific racket up the mountain--that'd be Wintershroud. Sounded like all hell broke loose up there. Then it went quiet, and all of a sudden, we were hit with this storm. Never seen anything like it. Everything froze, cows scattered, and crops died; we were totally unprepared.\n\nCaptain Kellan took his best men to see the Snow Queen, but we haven't heard from him since.";
 	  f scroll_rate = 6.500000;
 	}
 	[text*]
-	{	
+	{
 		choice = shop;
 		screen_text = "If you're really curious about this whole mess, you should talk to the Mayor. If you can find Captain Kellan, we'll probably be a lot closer to finding out what happened to the Snow Queen.\n\nLooks like this is my chance to write a chapter in our history. Let's just hope it's not the last one!";
 	  f scroll_rate = 6.500000;

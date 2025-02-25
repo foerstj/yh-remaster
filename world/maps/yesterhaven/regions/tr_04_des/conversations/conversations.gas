@@ -92,7 +92,7 @@
 	{
 		screen_text = "You've saved us twice now, friend. I don't think there is anything we can do to repay that, but it looks like after all your hard work and bravery, we've only managed to tip the delicate balance of our land, and played into the hands of the Fire King.\n\nThe Snow Queen has realized the errors of her ways, but without your help, we have no hope of holding Yesterhaven against the armies of Underforge. Are you willing to fight for us once more, stranger? Perhaps the Fire King can be brought to his senses at the edge of your sword, much as the Snow Queen was.";
 	  f scroll_rate = 6.500000;
-	  activate_quest* = quest_fire;
+		activate_quest* = quest_fire;
 		quest_dialog = true;
 	}
 }
