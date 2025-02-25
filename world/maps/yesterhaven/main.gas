@@ -8,7 +8,6 @@
 	notes = none;
 	screen_name = "Yesterhaven (revisited)";
 	timeofday			 = 5h00m;
-	multiplayer_only = true;
   b dev_only = false;
   b use_player_journal = false;
   b use_node_mesh_index = true;
@@ -36,6 +35,5 @@
 			description = "Players of all levels can play here.";
 			required_level = 0;
 		}
-
 	}
 }
