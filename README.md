@@ -19,7 +19,8 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - Fixed compatibility issue with LoA (Lich King Gas Pillar turret spell, second PackLightning$ parameter), works with both vanilla and LoA.
 - Brushed up plants that had default scale multiplier or orientation.
 - Added translation to German.
-- Added single-player mode.
+- Added single-player mode (making player-world-location triggers multi-player only).
+- Small fixes like making e.g. stalagmites not camera-blocking.
 
 ## How to build
 
