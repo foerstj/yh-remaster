@@ -13,6 +13,27 @@ set copyright=GPG 2002
 set author=Gas Powered Games
 set title=%map_cs%
 
+:: param
+set mode=%1
+echo %mode%
+
+:: pre-build checks
+setlocal EnableDelayedExpansion
+if not "%mode%"=="light" (
+  robocopy "%bits%\world\contentdb\gitignore" "%bits%\world\contentdb\templates\original" /S
+  pushd %gaspy%
+  set checks=standard
+  if "%mode%"=="release" (
+    set checks=all
+  )
+  venv\Scripts\python -m build.pre_build_checks %map% --check !checks! --bits "%bits%"
+  set pre_build_checks_errorlevel=!errorlevel!
+  rmdir /S /Q "%bits%\world\contentdb\templates\original"
+  if !pre_build_checks_errorlevel! neq 0 pause
+  popd
+)
+endlocal
+
 :: Compile map file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E
