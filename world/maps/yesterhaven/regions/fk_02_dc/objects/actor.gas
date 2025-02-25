@@ -100,9 +100,6 @@
 		[conversations]
 		{
 			* = conversation_dante;
-			* = conversation_dante_complete;
-			* = conversation_dante_cup;
-			* = conversation_dante_update;
 		}
 	}
 	[placement]
