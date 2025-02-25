@@ -106,7 +106,6 @@
 			[*]
 			{
 				action* = mood_change("gpg_world_3_ll_01_hf_03");
-				action* = set_player_world_location("forest");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.100000,15.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -116,6 +115,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("forest");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.100000,15.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -137,7 +151,6 @@
 			[*]
 			{
 				action* = mood_change("gpg_world_3_ll_02_hf_01");
-				action* = set_player_world_location("valley");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(0.500000,2.100000,15.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -147,6 +160,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("valley");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.100000,15.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}

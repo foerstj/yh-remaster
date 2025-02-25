@@ -17,7 +17,6 @@
 			{
 				action* = mood_change("gpg_world_3_ll_02_hf_02");
 				action* = fade_nodes(0x7B2E0A38,3,-1,-1,"in"), doc("ll_03 in (partial)");
-				action* = set_player_world_location("valley");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,2.100000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -27,6 +26,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("valley");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,2.100000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -82,7 +96,6 @@
 			{
 				action* = fade_nodes(0x7B2E0A37,1,-1,-1,"out:black"), doc("ll_02 out");
 				action* = fade_nodes(0x7B2E0A38,1,-1,-1,"in"), doc("ll_03 in");
-				action* = set_player_world_location("catacombs");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,2.100000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -92,6 +105,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("catacombs");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,2.100000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -114,7 +142,6 @@
 			{
 				action* = mood_change("gpg_world_3_ll_02_hf_02");
 				action* = fade_nodes(0x7B2E0A38,2,-1,-1,"in"), doc("ll_03 in (partial)");
-				action* = set_player_world_location("valley");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,2.100000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -124,6 +151,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("valley");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,2.100000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -220,7 +262,6 @@
 			[*]
 			{
 				action* = mood_change("gpg_world_3_ll_02_hf_02");
-				action* = set_player_world_location("valley");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,2.100000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -230,6 +271,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("valley");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,2.100000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -286,7 +342,6 @@
 				action* = mood_change("gpg_world_3_ll_05_uc_01");
 				action* = fade_nodes(0x7B2E0A37,1,-1,-1,"out:black"), doc("ll_02 out");
 				action* = fade_nodes(0x714EAF25,3,-1,-1,"in"), doc("ll_05 in");
-				action* = set_player_world_location("halls");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.200000,2.100000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -296,6 +351,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("halls");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.200000,2.100000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -351,7 +421,6 @@
 			{
 				action* = fade_nodes(0x7B2E0A37,1,-1,-1,"out:black"), doc("ll_02 out");
 				action* = fade_nodes(0x7B2E0A38,1,-1,-1,"in"), doc("ll_03 in");
-				action* = set_player_world_location("catacombs");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,2.100000,0.500000,"on_every_enter");
 			  f delay = 0.000000;
@@ -361,6 +430,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("catacombs");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,2.100000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}

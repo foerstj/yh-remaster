@@ -306,7 +306,6 @@
 			{
 				action* = mood_change("gpg_world_3_tr_02_st_03"), doc("transition to snow town");
 				action* = send_world_message("we_req_deactivate",0x00B00354,0f,"default","every",0), doc("turn off blocking object");
-				action* = set_player_world_location("yesterhaven");
 				action* = send_world_message("we_req_activate",0x00B0003F,0f,"16390","every",0), delay(3);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_req_activate",0,"on_first_message");
@@ -318,6 +317,22 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("yesterhaven");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+				condition* = party_member_within_node(0x73E41677,-1,-1,-1,"wait_for_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = true;
 			  b start_active = true;
 			}
@@ -527,7 +542,6 @@
 			[*]
 			{
 				action* = mood_change("gpg_world_3_tr_01_rt_01"), doc("initial mood");
-				action* = set_player_world_location("yesterhaven_ruins");
 				action* = fade_nodes(0x73E41676,1,-1,-1,"out:black"), doc("tr_r2 out");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(5.000000,"on_every_enter");
@@ -538,6 +552,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = set_player_world_location("yesterhaven_ruins");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(5.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -621,7 +650,6 @@
 		{
 			[*]
 			{
-				action* = set_player_world_location("yesterhaven");
 				action* = mood_change("gpg_world_3_tr_02_st_01"), doc("snow town");
 				action* = fade_nodes(0x73E41676,1,-1,-1,"in"), doc("tr_r2 in");
 				action* = fade_nodes(0x73E41677,1,-1,-1,"out:black"), doc("tr_r1 out");
@@ -635,6 +663,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = false;
+			}
+			[*]
+			{
+				action* = set_player_world_location("yesterhaven");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(5.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = false;
 			}
@@ -660,7 +703,6 @@
 			[*]
 			{
 				action* = mood_change("gpg_world_3_tr_01_rt_02_01"), doc("whiteout mood");
-				action* = set_player_world_location("yesterhaven_ruins");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(5.200000,"on_every_enter");
 			  f delay = 0.000000;
@@ -670,6 +712,21 @@
 				occupants_group = ;
 			  f reset_duration = 0.000000;
 			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = false;
+			}
+			[*]
+			{
+				action* = set_player_world_location("yesterhaven_ruins");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(5.200000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = false;
 			}
