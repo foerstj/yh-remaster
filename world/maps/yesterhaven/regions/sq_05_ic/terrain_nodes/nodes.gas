@@ -4,6 +4,7 @@
   f actor_ambient_intensity = 0.250000;
   x ambient_color = 0x00E8F5FF;
   f ambient_intensity = 0.040000;
+	environment_map = b_em_sphere;
   x object_ambient_color = 0x008CD7FF;
   f object_ambient_intensity = 0.200000;
   x targetnode = 0xE06C8352;
@@ -581,7 +582,7 @@
 	}
 	[t:snode,n:0x026135fe]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0x026135FE;
 	  x mesh_guid = 0x03800679;
@@ -8303,7 +8304,7 @@
 	}
 	[t:snode,n:0x212f2a1b]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0x212F2A1B;
 	  x mesh_guid = 0x03800678;
@@ -14209,7 +14210,7 @@
 	}
 	[t:snode,n:0x3881c109]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0x3881C109;
 	  x mesh_guid = 0x03800679;
@@ -14387,7 +14388,7 @@
 	}
 	[t:snode,n:0x3920a9d6]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0x3920A9D6;
 	  x mesh_guid = 0x0380067C;
@@ -26052,7 +26053,7 @@
 	}
 	[t:snode,n:0x645952f1]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0x645952F1;
 	  x mesh_guid = 0x03800679;
@@ -26495,7 +26496,7 @@
 	}
 	[t:snode,n:0x6642cdb4]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0x6642CDB4;
 	  x mesh_guid = 0x0380067B;
@@ -43429,7 +43430,7 @@
 	}
 	[t:snode,n:0xae24750b]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0xAE24750B;
 	  x mesh_guid = 0x03800678;
@@ -54207,7 +54208,7 @@
 	}
 	[t:snode,n:0xdb0bde1c]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0xDB0BDE1C;
 	  x mesh_guid = 0x03800678;
@@ -60011,7 +60012,7 @@
 	}
 	[t:snode,n:0xf2a82993]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0xF2A82993;
 	  x mesh_guid = 0x0380067C;
