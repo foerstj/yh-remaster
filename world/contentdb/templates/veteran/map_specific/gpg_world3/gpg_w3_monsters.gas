@@ -3975,6 +3975,9 @@
 		attack_range = 0.5;
 		damage_max = 257;
 		damage_min = 174;
+        // from 2W_dsx_spiked_dweller
+		damage_bonus_min_cmagic = 231;
+		damage_bonus_max_cmagic = 359;
 	}
 	[body]
 	{
@@ -4253,6 +4256,9 @@
 		attack_range = 0.5;
 		damage_max = 278;
 		damage_min = 193;
+        // from 2W_dsx_possessed_skull
+		damage_bonus_min_cmagic = 173;
+		damage_bonus_max_cmagic = 257;
 	}
 	[body]
 	{
@@ -4469,6 +4475,9 @@
 		attack_range = 0.5;
 		damage_max = 292;
 		damage_min = 193;
+        // from 2W_dsx_golem_cobbleman
+		damage_bonus_min_cmagic = 248;
+		damage_bonus_max_cmagic = 358;
 	}
 	[body]
 	{
