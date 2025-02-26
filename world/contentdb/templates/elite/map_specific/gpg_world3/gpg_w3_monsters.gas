@@ -3947,20 +3947,20 @@
 	{
 		[skills]
 		{
-			strength =  9, 0;
-			intelligence =  12, 0;
-			dexterity =  10, 0;
-			melee =  3,  0;
-            combat_magic = 6, 0;
+			strength = 32, 0;
+			intelligence = 18, 0;
+			dexterity = 22, 0;
+			melee = 78,  0;
+			combat_magic = 77, 0;
 		}
 	}
 	[aspect]
 	{
-		life = 150;
-		max_life = 150;
-		mana = 120;
-		max_mana = 120;
-        experience_value = 200;
+		life = 1532;
+		max_life = 1570;
+		mana = 772;
+		max_mana = 776;
+		experience_value = 1139216;
 		model=m_c_gah_fg_pos_a7;
 		textures:0 = b_c_gah_fg_skin_26;
         textures:1 = b_c_pos_a7_051;
@@ -3973,8 +3973,8 @@
 	[attack]
 	{
 		attack_range = 0.5;
-		damage_max = 25;
-		damage_min = 25;
+		damage_max = 408;
+		damage_min = 275;
 	}
 	[body]
 	{
@@ -4048,7 +4048,7 @@
 			}
 		}
 	}
-    [defend] { defense=100; }
+    [defend] { defense=965; }
 	[gpg_w3_death_swap] 
 	{
 		swap_msg = WE_EXPLODED;
@@ -4074,20 +4074,20 @@
 			{
 				[gold*]
 				{
-					max = 321;
-					min = 284;
+					max = 257892;
+					min = 158692;
 					min_pile = 10;
 					piles = 4 - 6;
 				}
 				[all*]
 				{
-					il_main = #weapon/14-16;
-					il_main = #body/29-35;
-				    il_main = #body,ro/29-35;
-					  max = 4;
-					  min = 2;
+					il_main = #weapon/203-205;
+					il_main = #body/375-386;
+					il_main = #body,ro/375-386;
+					max = 4;
+					min = 2;
 				}
-             }
+			}
 		}
 	}
 	[mind]
@@ -4122,67 +4122,6 @@
 	{
 		break_effect = snow_queen_explosion;
 	}
-}
-[t:template,n:3W_gpg_queen_snow_effect]
-{
-	category_name = "3W_evil_b";
-	doc = "3W_snow_queen_skrev";
-	extra_doc = "non-actor snow queen used for a skrev";
-	specializes = prop;
-	[actor]
-	{
-		alignment = aa_good;
-		can_show_health = false;
-	}
-	[aspect]
-	{
-		model=m_c_gah_fg_pos_a7;
-		textures:0 = b_c_gah_fg_skin_26;
-        textures:1 = b_c_pos_a7_051;
-        scale_base = 1.5;
-		is_visible = false;
-        is_invincible = true;
-        life_state = ls_alive_conscious;
-		is_collidable = TRUE;
-		life = 1;
-		max_life = 1;
-	}
-	[body]
-	{
-		[chore_dictionary]
-		{
-			[chore_open]
-			{
-				skrit = transition_to_loop;
-				[anim_files]
-				{
-					00=a_c_ebb_sq_fs0_mg-02;
-					01=a_c_ebb_sq_fs0_mg-03;
-				}
-			}
-		}
-	}
-	[inventory]
-	{
-		custom_head = m_c_gah_fg_hlmt_head-04;
-	}
-	[common]
-	{
-		screen_name="Snow Queen";
-	}
-	[attack] {}
-	[defend] {}
-	[mind]
-	{
-		actor_weapon_preference 		= wp_melee;
-		actor_auto_switches_to_melee    = true;
-		personal_space_range 			= 1.5;
-		sight_range 					= 1.5;
-		actor_may_attack				= false;
-		actor_may_be_attacked			= false;
-	}
-	[physics]
-	{}
 }
 [t:template,n:3W_gpg_defeated_queen_snow]
 {
@@ -4291,20 +4230,20 @@
 	{
 		[skills]
 		{
-			strength =  19, 0;
-			intelligence =  9, 0;
-			dexterity =  12, 0;
-			melee =  12,  0;
-            combat_magic = 15, 0;
+			strength = 54, 0;
+			intelligence = 13, 0;
+			dexterity = 26, 0;
+			melee = 86,  0;
+			combat_magic = 86, 0;
 		}
 	}
 	[aspect]
 	{
-		life = 210;
-		max_life = 210;
-		mana = 300;
-		max_mana = 300;
-        experience_value = 250;
+		life = 1610;
+		max_life = 1648;
+		mana = 1650;
+		max_mana = 1654;
+		experience_value = 1143520;
 		model = m_c_ecm_sk_pos_2;
 		textures:0 = b_c_ecm_skg-03;
 		scale_base = 1.5;
@@ -4312,8 +4251,8 @@
 	[attack]
 	{
 		attack_range = 0.5;
-		damage_max = 40;
-		damage_min = 40;
+		damage_max = 434;
+		damage_min = 300;
 	}
 	[body]
 	{
@@ -4385,7 +4324,7 @@
 			}
 		}
 	}
-    [defend] { defense=90; }
+    [defend] { defense=950; }
     [gpg_w3_death_swap] {}
 //  [guts_manager]
 //	{
@@ -4404,22 +4343,22 @@
 			{
 				[oneof*]
 				{
-					il_main = #body/60-70;
-	                il_main = #weapon/23-25;
+					il_main = #body/430-448;
+					il_main = #weapon/212-215;
 					max = 3;
 					min = 2;
 				}
 				[oneof*]
 				{
-	                   il_main = #weapon/-rare(1)/32-36;
-	                   il_main = #armor/-rare(1)/75-88;
-                       il_main = #*/-rare(1)/32-36;
-                }
+					il_main = #weapon/-rare(1)/222-226;
+					il_main = #armor/-rare(1)/456-479;
+					il_main = #*/-rare(1)/219-224;
+				}
 				[gold*]
 				{
-					max = 888;
-					min = 620;
-                    piles = 4 - 5;
+					max = 260175;
+					min = 162351;
+					piles = 4 - 5;
 				}
 			}
 		}
@@ -4507,20 +4446,20 @@
 	{
 		[skills]
 		{
-			strength =  22, 0;
-			intelligence =  9, 0;
-			dexterity =  10, 0;
-			melee =  19,  0;
-            combat_magic = 14, 0;
+			strength = 61, 0;
+			intelligence = 13, 0;
+			dexterity = 22, 0;
+			melee = 92,  0;
+			combat_magic = 85, 0;
 		}
 	}
 	[aspect]
 	{
-		life = 740;
-		max_life = 740;
-		mana = 510;
-		max_mana = 510;
-		experience_value = 470;
+		life = 2303;
+		max_life = 2339;
+		mana = 2675;
+		max_mana = 2679;
+		experience_value = 1162457;
 		model = m_c_ebb_fk_pos_1;
 		textures:0 = b_c_ebb_fk;
 		scale_base = 1.1;
@@ -4528,8 +4467,8 @@
 	[attack]
 	{
 		attack_range = 0.5;
-		damage_max = 50;
-		damage_min = 40;
+		damage_max = 451;
+		damage_min = 300;
 	}
 	[body]
 	{
@@ -4610,7 +4549,7 @@
 			}
 		}
 	}
-	[defend] { defense=180; }
+	[defend] { defense=1086; }
 	[gpg_w3_death_swap] 
 	{
 		swap_msg = WE_EXPLODED;
@@ -4633,27 +4572,27 @@
 			{
 				[oneof*]
 				{
-					il_main = #armor,f/125-135;
-	                il_main = #weapon/35-39;
+					il_main = #armor,f/545-562;
+					il_main = #weapon/225-229;
 					max = 4;
 					min = 4;
 				}
 				[oneof*]
 				{
-	                il_main = #weapon/-rare(1)/38-45;
-	                il_main = #armor/-rare(1)/130-145;
-                    il_main = #*/-rare(1)/38-45;
-                }
+					il_main = #weapon/-rare(1)/228-236;
+					il_main = #armor/-rare(1)/554-580;
+					il_main = #*/-rare(1)/226-233;
+				}
 				[oneof*]
 				{
-	                il_main = #weapon/-unique(2)/38-45;
-	                il_main = #armor/-unique(2)/130-145;
-                    il_main = #*/-unique(2)/38-45;
-	            }
+					il_main = #weapon/-unique(2)/228-236;
+					il_main = #armor/-unique(2)/554-580;
+					il_main = #*/-unique(2)/226-233;
+				}
 				[gold*]
 				{
-					max = 1100;
-					min = 900;
+					max = 261029;
+					min = 165401;
 					piles = 2 - 4;
 				}
 			}
@@ -4786,63 +4725,4 @@
 		actor_may_attack = false;
 		actor_may_be_attacked = false;
 	}
-}
-[t:template,n:3W_gpg_king_fire_effect]
-{
-	category_name = "3W_evil_b";
-	doc = "3W_fire_king_skrev";
-	extra_doc = "non-actor fire king used for a skrev";
-	specializes = prop;
-	[actor]
-	{
-		alignment = aa_good;
-		can_show_health = false;
-	}
-	[aspect]
-	{
-		model = m_c_ebb_fk_pos_1;
-		textures:0 = b_c_ebb_fk;
-		scale_base = 1.1;
-		is_visible = false;
-        is_invincible = true;
-        life_state = ls_alive_conscious;
-		is_collidable = TRUE;
-		life = 1;
-		max_life = 1;
-	}
-	[body]
-	{
-		[chore_dictionary]
-		{
-			[chore_open]
-			{
-				skrit = transition_to_loop;
-				[anim_files]
-				{
-					00=a_c_ebb_fk_fs3_mg-02;
-					01=a_c_ebb_fk_fs3_mg-03;
-				}
-			}
-		}
-	}
-	[inventory]
-	{
-	}
-	[common]
-	{
-		screen_name="Fire King";
-	}
-	[attack] {}
-	[defend] {}
-	[mind]
-	{
-		actor_weapon_preference 		= wp_melee;
-		actor_auto_switches_to_melee    = true;
-		personal_space_range 			= 1.5;
-		sight_range 					= 1.5;
-		actor_may_attack				= false;
-		actor_may_be_attacked			= false;
-	}
-	[physics]
-	{}
 }
