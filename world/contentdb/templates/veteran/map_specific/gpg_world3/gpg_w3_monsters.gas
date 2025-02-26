@@ -4068,7 +4068,7 @@
 		[other]
 		{
 			il_active_primary_spell=gpg_spell_snow_queen_frost_stream;
-			il_spell_2 = gpg_spell_snow_queen_summon;
+			il_spell_2 = 2W_gpg_spell_snow_queen_summon;
 			il_spell_3 = gpg_spell_snow_queen_frost_beam;
 		}
 		[pcontent]
@@ -4100,8 +4100,8 @@
 		jat_cast 						= world\ai\jobs\common\job_cast.skrit
 			?rand_spell					= true
 			&use_base_duration			= false
-			&spell_chances				= "0.3,                               0.4,                         0.3"
-			&spells						= "gpg_spell_snow_queen_frost_stream, gpg_spell_snow_queen_summon, gpg_spell_snow_queen_frost_beam;
+			&spell_chances				= "0.3,                               0.4,                            0.3"
+			&spells						= "gpg_spell_snow_queen_frost_stream, 2W_gpg_spell_snow_queen_summon, gpg_spell_snow_queen_frost_beam;
 
 		jat_die 						= world\ai\jobs\actors\evil\job_die_explode.skrit;
 		
