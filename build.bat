@@ -40,6 +40,15 @@ robocopy "%bits%\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E
 pushd %gaspy%
 venv\Scripts\python -m build.fix_start_positions_required_levels %map% --bits "%tmp%\Bits"
 if %errorlevel% neq 0 pause
+setlocal EnableDelayedExpansion
+if "%mode%"=="release" (
+  robocopy "%bits%\world\contentdb\gitignore" "%bits%\world\contentdb\templates\original" /S
+  venv\Scripts\python -m build.add_world_levels %map% --bits "%tmp%\Bits" --template-bits "%bits%" --template-base original
+  set add_world_levels_errorlevel=!errorlevel!
+  rmdir /S /Q "%bits%\world\contentdb\templates\original"
+  if !add_world_levels_errorlevel! neq 0 pause
+)
+endlocal
 popd
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Maps\%map_cs%.dsmap" -copyright "%copyright%" -title "%title%" -author "%author%"
 if %errorlevel% neq 0 pause
