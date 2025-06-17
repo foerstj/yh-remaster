@@ -8,3 +8,4 @@ set ds=%DungeonSiege%
 del "%ds%\Maps\%map_cs%.dsmap"
 del "%ds%\Resources\%map_cs%.dsres"
 del "%ds%\Resources\%map_cs%.*.dsres"
+del "%ds%\Maps\%map_cs% Test.dsmap"
