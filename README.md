@@ -23,6 +23,12 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - Added Veteran & Elite world levels.
 - Small fixes like making e.g. stalagmites not camera-blocking.
 
+## Installation
+
+Put the dsmap file into Maps and the dsres file into Resources.
+
+Compatibility: Works with both vanilla and LoA.
+
 ## How to build
 
 - Provide environment variables:
