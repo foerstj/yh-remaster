@@ -1,0 +1,42 @@
+[t:krug_grouse,n:0x00100006]
+{
+	[aspect]
+	{
+	  f life = 10000;
+	  f max_life = 10000;
+	}
+	[defend]
+	{
+	  f defense = 100;
+	}
+	[mind]
+	{
+		movement_orders = mo_hold;
+	}
+	[placement]
+	{
+	  p position = 0.0164144,0,0.30093,0x5863b7d2;
+	}
+}
+[t:gpg_king_lich,n:0x00100008]
+{
+	[mind]
+	{
+		movement_orders = mo_hold;
+	}
+	[placement]
+	{
+	  p position = 2.09615,0,-1.92209,0x44447727;
+	}
+}
+[t:gom_super,n:0x00100007]
+{
+	[mind]
+	{
+		movement_orders = mo_hold;
+	}
+	[placement]
+	{
+	  p position = 2.13457,0,2.08712,0xae2d99d2;
+	}
+}
