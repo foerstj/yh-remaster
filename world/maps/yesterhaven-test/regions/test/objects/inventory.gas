@@ -1,0 +1,47 @@
+[t:spell_gom_turret_fire,n:0x00100001]
+{
+	[aspect]
+	{
+	  b is_visible = true;
+	}
+	[placement]
+	{
+	  p position = -0.528095,9.53674e-007,2.36786,0x496f5cdc;
+	}
+}
+[t:spell_gom_turret_lightning,n:0x00100002]
+{
+	[aspect]
+	{
+	  b is_visible = true;
+	}
+	[placement]
+	{
+	  p position = -0.198119,0,3.02076,0x496f5cdc;
+	}
+}
+[t:spell_lightning_bolt,n:0x00100003]
+{
+	[placement]
+	{
+	  p position = 0.803574,0,2.09687,0x496f5cdc;
+	}
+}
+[t:spell_storm,n:0x00100004]
+{
+	[placement]
+	{
+	  p position = 2.17956,0,2.07974,0x496f5cdc;
+	}
+}
+[t:gpg_spell_lich_king_gas_pillar,n:0x00100005]
+{
+	[aspect]
+	{
+	  b is_visible = true;
+	}
+	[placement]
+	{
+	  p position = -1.98644,0,-1.2542,0x496f5cdc;
+	}
+}
