@@ -9,7 +9,10 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 - Assigned sensible mesh ranges & scid ranges
 - SE saves the "required_level" attributes for multiplayer start positions with an "i" in front, which however breaks the level requirement.\
   This is fixed during build by a gaspy script.
-- Renamed the ingame name of the map to *Yesterhaven (remastered)*.
+- Renamed the map so there are no conflicts with the original map.\
+  The internal name is *world/maps/yesterhaven-re*.\
+  The generated file name is *Dungeon Siege/Maps/Yesterhaven Remaster.dsmap*.\
+  The ingame name is *Yesterhaven (remastered)*.
 
 ## What I did (revisit)
 
