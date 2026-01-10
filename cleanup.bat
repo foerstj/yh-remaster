@@ -1,5 +1,5 @@
 :: name of map, case-sensitive
-set map_cs=Yesterhaven
+set map_cs=Yesterhaven Revisited
 
 :: path of DS installation
 set ds=%DungeonSiege%

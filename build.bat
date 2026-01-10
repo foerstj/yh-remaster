@@ -1,7 +1,7 @@
 :: name of map
 set map=yesterhaven
 :: name of map, case-sensitive
-set map_cs=Yesterhaven
+set map_cs=Yesterhaven Revisited
 :: path of Bits dir
 set bits=%~dp0.
 :: path of DS installation
