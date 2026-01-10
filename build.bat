@@ -1,5 +1,5 @@
 :: name of map
-set map=yesterhaven
+set map=yesterhaven-re
 :: name of map, case-sensitive
 set map_cs=Yesterhaven
 :: path of Bits dir

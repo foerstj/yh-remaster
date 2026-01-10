@@ -1,5 +1,5 @@
 :: name of map
-set map=yesterhaven
+set map=yesterhaven-re
 :: path of Bits dir
 set bits=%~dp0.
 :: path of DS installation
