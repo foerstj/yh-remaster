@@ -17,7 +17,7 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 ## What I did (revisit)
 
 The "revisited" map variant is based on the remaster, with these changes applied:
-- Renamed map ingame to *Yesterhaven (revisited)*.
+- Renamed map ingame to *Yesterhaven (revisited)*, generated file names to *Yesterhaven Revisited.dsmap*.
 - Fixed order of multiplayer start positions.
 - Fixed compatibility issue with LoA (Lich King Gas Pillar turret spell, second PackLightning$ parameter), works with both vanilla and LoA.
 - Brushed up plants that had default scale multiplier or orientation.
