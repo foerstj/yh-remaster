@@ -747,6 +747,10 @@
 		}
 		[world_levels]
 		{
+			[elite]
+			{
+			  i required_level = 83;
+			}
 			[regular]
 			{
 			  i required_level = 0;
@@ -754,10 +758,6 @@
 			[veteran]
 			{
 			  i required_level = 54;
-			}
-			[elite]
-			{
-			  i required_level = 83;
 			}
 		}
 	}
@@ -866,6 +866,10 @@
 		}
 		[world_levels]
 		{
+			[elite]
+			{
+			  i required_level = 84;
+			}
 			[regular]
 			{
 			  i required_level = 3;
@@ -873,10 +877,6 @@
 			[veteran]
 			{
 			  i required_level = 56;
-			}
-			[elite]
-			{
-			  i required_level = 84;
 			}
 		}
 	}
@@ -985,6 +985,10 @@
 		}
 		[world_levels]
 		{
+			[elite]
+			{
+			  i required_level = 85;
+			}
 			[regular]
 			{
 			  i required_level = 6;
@@ -992,10 +996,6 @@
 			[veteran]
 			{
 			  i required_level = 58;
-			}
-			[elite]
-			{
-			  i required_level = 85;
 			}
 		}
 	}
