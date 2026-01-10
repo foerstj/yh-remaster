@@ -36,6 +36,8 @@ Put the dsmap file into Maps and the dsres file into Resources.
 
 ### Compatibility
 Works with both vanilla and LoA.\
+Has compatibility issue with DSMod though.
+
 Supports Thrillvilled's voices mod.
 
 ## How to build
