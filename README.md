@@ -27,6 +27,7 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - Small fixes like making e.g. stalagmites not camera-blocking.
 - Fixed player-world-location trigger at entrance of Ancient Passage
 - Added support for Thrillvilled's voices mod
+- Fixed invisible attacker when starting multiplayer in Chapter 2
 
 ## Installation
 

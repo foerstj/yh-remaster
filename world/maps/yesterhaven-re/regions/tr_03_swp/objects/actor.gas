@@ -143,8 +143,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 2.13528,0,-1.90798,0x59427614;
+	  q orientation = 0,1,0,5.96046e-008;
+	  p position = 2.23813,-0.3,-0.62853,0xfad80b5c;
 	}
 }
 [t:spider_adolescent_yellow,n:0x00d005b4]
