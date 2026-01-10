@@ -128,13 +128,13 @@ startup state CastBegin$
 			} else {
 			
 				if( particle_fit$ > 0 )
-                {
-                    PackFire$( particle_fit$, false, fire_duration$, -1.0, false, caster$, target$);
-                }
-                else if( lightning_dur$ > 0 ) // If we are attacking with lightning pack the damage into the params to send to the script;
-                {
-                    PackLightning$( lightning_dur$ );
-                }
+				{
+					PackFire$( particle_fit$, false, fire_duration$, -1.0, false, caster$, target$);
+				}
+				else if( lightning_dur$ > 0 ) // If we are attacking with lightning pack the damage into the params to send to the script;
+				{
+					PackLightning$( lightning_dur$ );
+				}
 				
 				if( charge_effect$ != "" )
 				{
