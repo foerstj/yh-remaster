@@ -22,12 +22,16 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - Added single-player mode (making player-world-location triggers multi-player only).
 - Added Veteran & Elite world levels.
 - Small fixes like making e.g. stalagmites not camera-blocking.
+- Fixed player-world-location trigger at entrance of Ancient Passage
+- Added support for Thrillvilled's voices mod
 
 ## Installation
 
 Put the dsmap file into Maps and the dsres file into Resources.
 
-Compatibility: Works with both vanilla and LoA.
+### Compatibility
+Works with both vanilla and LoA.\
+Supports Thrillvilled's voices mod.
 
 ## How to build
 
