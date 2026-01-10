@@ -28,6 +28,7 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - Fixed player-world-location trigger at entrance of Ancient Passage
 - Added support for Thrillvilled's voices mod
 - Fixed invisible attacker when starting multiplayer in Chapter 2
+- Fixed Qwendolyn quest not completable when started in wrong order
 
 ## Installation
 
