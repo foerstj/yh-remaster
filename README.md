@@ -48,6 +48,8 @@ Supports Thrillvilled's voices mod.
   - %GasPy% - path to GasPy repo
 - Run the build.bat in the repo root
 
+GasPy repo: https://github.com/foerstj/gaspy
+
 ## Attribution
 
 This map was created by Gas-Powered Games, not me. I'm just doing minor changes here.
