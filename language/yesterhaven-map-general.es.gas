@@ -1,0 +1,277 @@
+[t:0x0c0a,n:text]
+{
+    // Map name & description
+	[0x0000]
+	{
+		from = "Yesterhaven";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The Tale of Yesterhaven.";
+		to = "";
+	}
+
+    // Start positions
+	[0x0000]
+	{
+		from = "Chapter 1";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Chapter 2";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Chapter 3";
+		to = "";
+	}
+
+    // World locations
+	[0x0000]
+	{
+		from = "Yesterhaven Ruins";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "the Ancient Passage";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Wintershroud Foothills";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Wintershroud Slopes";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "the Halls of Winter";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Wintershroud Summit";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "the Crystal Towers";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "the Haunted Forest";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "the Valley of the Dead";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "the Broken Catacombs";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "the Halls of the Dead";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "the Tomb of Mourning";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "the Blasted Gorge";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "the Underforge Steppes";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Mount Underforge";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "the Citadel of Ash";
+		to = "";
+	}
+
+    // Chapters & Quests
+	[0x0000]
+	{
+		from = "Chapter 1: Ice";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The story of Yesterhaven's liberation from the Curse of Ice.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Chapter 2: Death";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The story of Yesterhaven's liberation from the Curse of Death.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Chapter 3: Fire";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The story of Yesterhaven's liberation from the Curse of Fire.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The Lost Detachment";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Search for the Guard Captain and the fighting men of Yesterhaven in the forests of Wintershroud to the north.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Free the Guard Captain of Yesterhaven from the Snow Krug's prison.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Confront the Snow Queen";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Confront the Snow Queen in her towers to prevent further attacks against Yesterhaven.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Defend the Town";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Destroy the undead and spiders overrunning the town.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Rescue Maid Gwendolyn";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Rescue Maid Gwendolyn from the Undead to the east.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Confront the Undead Master";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Stop the Undead Master before he destroys the town of Yesterhaven.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The Chalice of Mourning";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Locate the Chalice of Mourning within the Fire King's Domain.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Return the Chalice of Mourning to Dante";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Confront the Fire King";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Destroy the Fire King before he can obliterate the town of Yesterhaven.";
+		to = "";
+	}
+
+    // Names & signs
+	[0x0000]
+	{
+		from = "Giant Worm";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Tomb of the Archmage";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Yesterhaven Guard Captain";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "You are enveloped by a shimmering mist.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Redric's Tomes";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Gwendolyn's Tonics";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Mt. Wintershroud";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Kellan & Kellan Steel";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Valley of the Dead";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Rodric's Tomes";
+		to = "";
+	}
+}

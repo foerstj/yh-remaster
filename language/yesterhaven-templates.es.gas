@@ -1,0 +1,254 @@
+[t:0x0c0a,n:text]
+{
+	[0x0000]
+	{
+		from = "Jar";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Krug Chieftain";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Krug Hunter";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Wolfmaster Urgud";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Krug Veteran";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Krug Soldier";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Krug Forager";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Braagdak the Growler";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Krug Tracker";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Gragba the Trapper";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Krug Flamespinner";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Magutak the Hammer";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Krug Growler";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Krug Icepelter";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Alpine Phrak";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Ice Phrak";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Ice Phrak Terror";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Ember Wraith";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Frost Guardian";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Ice Guardian";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Frostbound Guardian";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Flame Klaw";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Infernal Klaw";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Inferno Beast";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Char Hound";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Polar Bear";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Snow Queen";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Lich Lord";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Lich Lord Spirit";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Fire King";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Mayor Gilwin";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Undertaker";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Guard Captain Kellan";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Maid Gwendolyn";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Scribe Redric";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Undertaker's Assistant";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Shepherd Trini";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Obelisk";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Chalice";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Gate";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Snowball";
+		to = "";
+	}
+
+	[0x0000]
+	{
+		from = "A chill is in the air.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Light snow begins to fall.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The temperature drops.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The shadows deepen.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "A frigid wind blows.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Whispers float on the wind.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "An icy mist descends.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "This gate is locked.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "This door is locked.";
+		to = "";
+	}
+}
