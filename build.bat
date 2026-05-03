@@ -67,16 +67,15 @@ if %errorlevel% neq 0 pause
 set copyright=CC-BY-SA 2026
 set author=Johannes Förstner
 
-:: Compile German language resource file
-rmdir /S /Q "%tmp%\Bits"
-robocopy "%bits%\language" "%tmp%\Bits\language" *.de.gas /E
-"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.de.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
-if %errorlevel% neq 0 pause
-:: Compile Spanish language resource file
-rmdir /S /Q "%tmp%\Bits"
-robocopy "%bits%\language" "%tmp%\Bits\language" *.es.gas /E
-"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.es.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
-if %errorlevel% neq 0 pause
+:: Compile language resource files
+setlocal enableDelayedExpansion
+for %%x in (de es) do (
+  rmdir /S /Q "%tmp%\Bits"
+  robocopy "%bits%\language" "%tmp%\Bits\language" *.%%x.gas /S
+  "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.%%x.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
+  if !errorlevel! neq 0 pause
+)
+endlocal
 
 :: Cleanup
 rmdir /S /Q "%tmp%\Bits"
