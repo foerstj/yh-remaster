@@ -72,6 +72,11 @@ rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\language" "%tmp%\Bits\language" *.de.gas /E
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.de.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
 if %errorlevel% neq 0 pause
+:: Compile Spanish language resource file
+rmdir /S /Q "%tmp%\Bits"
+robocopy "%bits%\language" "%tmp%\Bits\language" *.es.gas /E
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.es.dsres" -copyright "%copyright%" -title "%title%" -author "%author%"
+if %errorlevel% neq 0 pause
 
 :: Cleanup
 rmdir /S /Q "%tmp%\Bits"
