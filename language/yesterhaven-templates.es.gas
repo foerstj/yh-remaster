@@ -3,252 +3,252 @@
 	[0x0000]
 	{
 		from = "Jar";
-		to = "";
+		to = "Jar";
 	}
 	[0x0000]
 	{
 		from = "Krug Chieftain";
-		to = "";
+		to = "Cacique Krug";
 	}
 	[0x0000]
 	{
 		from = "Krug Hunter";
-		to = "";
+		to = "Cazador Krug";
 	}
 	[0x0000]
 	{
 		from = "Wolfmaster Urgud";
-		to = "";
+		to = "Maestro de Lobos Urgud";
 	}
 	[0x0000]
 	{
 		from = "Krug Veteran";
-		to = "";
+		to = "Veterano Krug";
 	}
 	[0x0000]
 	{
 		from = "Krug Soldier";
-		to = "";
+		to = "Soldado Krug";
 	}
 	[0x0000]
 	{
 		from = "Krug Forager";
-		to = "";
+		to = "Recolector Krug";
 	}
 	[0x0000]
 	{
 		from = "Braagdak the Growler";
-		to = "";
+		to = "Braagdak el Gruñón";
 	}
 	[0x0000]
 	{
 		from = "Krug Tracker";
-		to = "";
+		to = "Rastreador Krug";
 	}
 	[0x0000]
 	{
 		from = "Gragba the Trapper";
-		to = "";
+		to = "Gragba el Trampero";
 	}
 	[0x0000]
 	{
 		from = "Krug Flamespinner";
-		to = "";
+		to = "Krug Lanzador de Llamas";
 	}
 	[0x0000]
 	{
 		from = "Magutak the Hammer";
-		to = "";
+		to = "Magutak el Martillo";
 	}
 	[0x0000]
 	{
 		from = "Krug Growler";
-		to = "";
+		to = "Krug Gruñidor";
 	}
 	[0x0000]
 	{
 		from = "Krug Icepelter";
-		to = "";
+		to = "Krug Lanzador de Hielo";
 	}
 	[0x0000]
 	{
 		from = "Alpine Phrak";
-		to = "";
+		to = "Phrak Alpino";
 	}
 	[0x0000]
 	{
 		from = "Ice Phrak";
-		to = "";
+		to = "Phrak de Hielo";
 	}
 	[0x0000]
 	{
 		from = "Ice Phrak Terror";
-		to = "";
+		to = "Phrak de Hielo Terrible";
 	}
 	[0x0000]
 	{
 		from = "Ember Wraith";
-		to = "";
+		to = "Espectro de las Brasas";
 	}
 	[0x0000]
 	{
 		from = "Frost Guardian";
-		to = "";
+		to = "Guardián de la Escarcha";
 	}
 	[0x0000]
 	{
 		from = "Ice Guardian";
-		to = "";
+		to = "Guardián del Hielo";
 	}
 	[0x0000]
 	{
 		from = "Frostbound Guardian";
-		to = "";
+		to = "Guardián Helado";
 	}
 	[0x0000]
 	{
 		from = "Flame Klaw";
-		to = "";
+		to = "Klaw de las Llamas";
 	}
 	[0x0000]
 	{
 		from = "Infernal Klaw";
-		to = "";
+		to = "Klaw Infernal";
 	}
 	[0x0000]
 	{
 		from = "Inferno Beast";
-		to = "";
+		to = "Bestia infernal";
 	}
 	[0x0000]
 	{
 		from = "Char Hound";
-		to = "";
+		to = "Sabueso Carbonizado";
 	}
 	[0x0000]
 	{
 		from = "Polar Bear";
-		to = "";
+		to = "Oso Polar";
 	}
 	[0x0000]
 	{
 		from = "Snow Queen";
-		to = "";
+		to = "Reina de las Nieves";
 	}
 	[0x0000]
 	{
 		from = "Lich Lord";
-		to = "";
+		to = "Lord Lich";
 	}
 	[0x0000]
 	{
 		from = "Lich Lord Spirit";
-		to = "";
+		to = "Espíritu del Lord Lich";
 	}
 	[0x0000]
 	{
 		from = "Fire King";
-		to = "";
+		to = "Rey del Fuego";
 	}
 	[0x0000]
 	{
 		from = "Mayor Gilwin";
-		to = "";
+		to = "Alcalde Gilwin";
 	}
 	[0x0000]
 	{
 		from = "Undertaker";
-		to = "";
+		to = "Sepulturero";
 	}
 	[0x0000]
 	{
 		from = "Guard Captain Kellan";
-		to = "";
+		to = "Capitán de la Guardia Kellan";
 	}
 	[0x0000]
 	{
 		from = "Maid Gwendolyn";
-		to = "";
+		to = "La Criada Gwendolyn";
 	}
 	[0x0000]
 	{
 		from = "Scribe Redric";
-		to = "";
+		to = "Escriba Redric";
 	}
 	[0x0000]
 	{
 		from = "Undertaker's Assistant";
-		to = "";
+		to = "Asistente del Sepulturero";
 	}
 	[0x0000]
 	{
 		from = "Shepherd Trini";
-		to = "";
+		to = "Pastora Trini";
 	}
 	[0x0000]
 	{
 		from = "Obelisk";
-		to = "";
+		to = "Obelisco";
 	}
 	[0x0000]
 	{
 		from = "Chalice";
-		to = "";
+		to = "Cáliz";
 	}
 	[0x0000]
 	{
 		from = "Gate";
-		to = "";
+		to = "Puerta";
 	}
 	[0x0000]
 	{
 		from = "Snowball";
-		to = "";
+		to = "Bola de Nieve";
 	}
 
 	[0x0000]
 	{
 		from = "A chill is in the air.";
-		to = "";
+		to = "Se siente un frío en el aire.";
 	}
 	[0x0000]
 	{
 		from = "Light snow begins to fall.";
-		to = "";
+		to = "Comienza a caer una ligera nevada.";
 	}
 	[0x0000]
 	{
 		from = "The temperature drops.";
-		to = "";
+		to = "La temperatura baja.";
 	}
 	[0x0000]
 	{
 		from = "The shadows deepen.";
-		to = "";
+		to = "Las sombras se hacen más profundas.";
 	}
 	[0x0000]
 	{
 		from = "A frigid wind blows.";
-		to = "";
+		to = "Sopla un viento gélido.";
 	}
 	[0x0000]
 	{
 		from = "Whispers float on the wind.";
-		to = "";
+		to = "Los susurros flotan en el viento.";
 	}
 	[0x0000]
 	{
 		from = "An icy mist descends.";
-		to = "";
+		to = "Una niebla helada desciende.";
 	}
 	[0x0000]
 	{
 		from = "This gate is locked.";
-		to = "";
+		to = "Esta puerta está cerrada.";
 	}
 	[0x0000]
 	{
 		from = "This door is locked.";
-		to = "";
+		to = "Esta puerta está cerrada.";
 	}
 }

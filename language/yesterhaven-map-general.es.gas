@@ -4,274 +4,274 @@
 	[0x0000]
 	{
 		from = "Yesterhaven";
-		to = "";
+		to = "Yesterhaven";
 	}
 	[0x0000]
 	{
 		from = "The Tale of Yesterhaven.";
-		to = "";
+		to = "La historia de Yesterhaven.";
 	}
 
     // Start positions
 	[0x0000]
 	{
 		from = "Chapter 1";
-		to = "";
+		to = "Capítulo 1";
 	}
 	[0x0000]
 	{
 		from = "Chapter 2";
-		to = "";
+		to = "Capítulo 2";
 	}
 	[0x0000]
 	{
 		from = "Chapter 3";
-		to = "";
+		to = "Capítulo 3";
 	}
 
     // World locations
 	[0x0000]
 	{
 		from = "Yesterhaven Ruins";
-		to = "";
+		to = "Ruinas de Yesterhaven";
 	}
 	[0x0000]
 	{
 		from = "the Ancient Passage";
-		to = "";
+		to = "El Pasaje Antiguo";
 	}
 	[0x0000]
 	{
 		from = "Wintershroud Foothills";
-		to = "";
+		to = "Estribaciones de Niebla Invernal";
 	}
 	[0x0000]
 	{
 		from = "Wintershroud Slopes";
-		to = "";
+		to = "Laderas de Niebla Invernal";
 	}
 	[0x0000]
 	{
 		from = "the Halls of Winter";
-		to = "";
+		to = "Los Salones del Invierno";
 	}
 	[0x0000]
 	{
 		from = "Wintershroud Summit";
-		to = "";
+		to = "Cumbre de Niebla Invernal";
 	}
 	[0x0000]
 	{
 		from = "the Crystal Towers";
-		to = "";
+		to = "Las Torres de Cristal";
 	}
 	[0x0000]
 	{
 		from = "the Haunted Forest";
-		to = "";
+		to = "El Bosque Encantado";
 	}
 	[0x0000]
 	{
 		from = "the Valley of the Dead";
-		to = "";
+		to = "El Valle de los Muertos";
 	}
 	[0x0000]
 	{
 		from = "the Broken Catacombs";
-		to = "";
+		to = "Las Catacumbas Rotas";
 	}
 	[0x0000]
 	{
 		from = "the Halls of the Dead";
-		to = "";
+		to = "Las Salas de los Muertos";
 	}
 	[0x0000]
 	{
 		from = "the Tomb of Mourning";
-		to = "";
+		to = "La Tumba del Luto";
 	}
 	[0x0000]
 	{
 		from = "the Blasted Gorge";
-		to = "";
+		to = "El Desfiladero Devastado";
 	}
 	[0x0000]
 	{
 		from = "the Underforge Steppes";
-		to = "";
+		to = "Las Estepas de la Forja Subterránea";
 	}
 	[0x0000]
 	{
 		from = "Mount Underforge";
-		to = "";
+		to = "Monte de la Forja Subterránea";
 	}
 	[0x0000]
 	{
 		from = "the Citadel of Ash";
-		to = "";
+		to = "La Ciudadela de Ceniza";
 	}
 
     // Chapters & Quests
 	[0x0000]
 	{
 		from = "Chapter 1: Ice";
-		to = "";
+		to = "Capítulo 1: Hielo";
 	}
 	[0x0000]
 	{
 		from = "The story of Yesterhaven's liberation from the Curse of Ice.";
-		to = "";
+		to = "La historia de la liberación de Yesterhaven de la Maldición del Hielo.";
 	}
 	[0x0000]
 	{
 		from = "Chapter 2: Death";
-		to = "";
+		to = "Capítulo 2: Muerte";
 	}
 	[0x0000]
 	{
 		from = "The story of Yesterhaven's liberation from the Curse of Death.";
-		to = "";
+		to = "La historia de la liberación de Yesterhaven de la Maldición de la Muerte.";
 	}
 	[0x0000]
 	{
 		from = "Chapter 3: Fire";
-		to = "";
+		to = "Capítulo 3: Fuego";
 	}
 	[0x0000]
 	{
 		from = "The story of Yesterhaven's liberation from the Curse of Fire.";
-		to = "";
+		to = "La historia de la liberación de Yesterhaven de la Maldición del Fuego.";
 	}
 	[0x0000]
 	{
 		from = "The Lost Detachment";
-		to = "";
+		to = "El Destacamento Perdido";
 	}
 	[0x0000]
 	{
 		from = "Search for the Guard Captain and the fighting men of Yesterhaven in the forests of Wintershroud to the north.";
-		to = "";
+		to = "Busca al Capitán de la Guardia y a los combatientes de Yesterhaven en los bosques de Wintershroud al norte.";
 	}
 	[0x0000]
 	{
 		from = "Free the Guard Captain of Yesterhaven from the Snow Krug's prison.";
-		to = "";
+		to = "Libera al Capitán de la Guardia de Yesterhaven de la prisión de los Krugs de las Nieves.";
 	}
 	[0x0000]
 	{
 		from = "Confront the Snow Queen";
-		to = "";
+		to = "Enfréntate a la Reina de las Nieves";
 	}
 	[0x0000]
 	{
 		from = "Confront the Snow Queen in her towers to prevent further attacks against Yesterhaven.";
-		to = "";
+		to = "Enfréntate a la Reina de las Nieves en sus torres para evitar nuevos ataques contra Yesterhaven.";
 	}
 	[0x0000]
 	{
 		from = "Defend the Town";
-		to = "";
+		to = "Defiende la ciudad";
 	}
 	[0x0000]
 	{
 		from = "Destroy the undead and spiders overrunning the town.";
-		to = "";
+		to = "Destruye a los muertos vivientes y a las arañas que invaden la ciudad.";
 	}
 	[0x0000]
 	{
 		from = "Rescue Maid Gwendolyn";
-		to = "";
+		to = "Rescata a la Criada Gwendolyn.";
 	}
 	[0x0000]
 	{
 		from = "Rescue Maid Gwendolyn from the Undead to the east.";
-		to = "";
+		to = "Rescata a la Criada Gwendolyn de los no muertos que se encuentran al este.";
 	}
 	[0x0000]
 	{
 		from = "Confront the Undead Master";
-		to = "";
+		to = "Enfréntate al Maestro de los No Muertos";
 	}
 	[0x0000]
 	{
 		from = "Stop the Undead Master before he destroys the town of Yesterhaven.";
-		to = "";
+		to = "Detén al Maestro de los No Muertos antes de que destruya la ciudad de Yesterhaven.";
 	}
 	[0x0000]
 	{
 		from = "The Chalice of Mourning";
-		to = "";
+		to = "El Cáliz del Luto";
 	}
 	[0x0000]
 	{
 		from = "Locate the Chalice of Mourning within the Fire King's Domain.";
-		to = "";
+		to = "Localiza el Cáliz del Luto dentro del Dominio del Rey del Fuego.";
 	}
 	[0x0000]
 	{
 		from = "Return the Chalice of Mourning to Dante";
-		to = "";
+		to = "Devuélvele el Cáliz del Luto a Dante.";
 	}
 	[0x0000]
 	{
 		from = "Confront the Fire King";
-		to = "";
+		to = "Enfréntate al Rey del Fuego";
 	}
 	[0x0000]
 	{
 		from = "Destroy the Fire King before he can obliterate the town of Yesterhaven.";
-		to = "";
+		to = "Destruye al Rey del Fuego antes de que pueda arrasar la ciudad de Yesterhaven.";
 	}
 
     // Names & signs
 	[0x0000]
 	{
 		from = "Giant Worm";
-		to = "";
+		to = "Gusano Gigante";
 	}
 	[0x0000]
 	{
 		from = "Tomb of the Archmage";
-		to = "";
+		to = "Tumba del Archimago";
 	}
 	[0x0000]
 	{
 		from = "Yesterhaven Guard Captain";
-		to = "";
+		to = "Capitán de la Guardia de Yesterhaven";
 	}
 	[0x0000]
 	{
 		from = "You are enveloped by a shimmering mist.";
-		to = "";
+		to = "Eres envuelto por una niebla brillante.";
 	}
 	[0x0000]
 	{
 		from = "Redric's Tomes";
-		to = "";
+		to = "Los Tomos de Redric";
 	}
 	[0x0000]
 	{
 		from = "Gwendolyn's Tonics";
-		to = "";
+		to = "Los Tónicos de Gwendolyn";
 	}
 	[0x0000]
 	{
 		from = "Mt. Wintershroud";
-		to = "";
+		to = "Monte Niebla Invernal";
 	}
 	[0x0000]
 	{
 		from = "Kellan & Kellan Steel";
-		to = "";
+		to = "Acero de Kellan & Kellan";
 	}
 	[0x0000]
 	{
 		from = "Valley of the Dead";
-		to = "";
+		to = "El Valle de los Muertos";
 	}
 	[0x0000]
 	{
 		from = "Rodric's Tomes";
-		to = "";
+		to = "Los Tomos de Redric";
 	}
 }
