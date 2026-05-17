@@ -4,7 +4,7 @@
 	[0x0000]
 	{
 		from = "~The Town of Yesterhaven~";
-		to = "";
+		to = "~El pueblo de Yesterhaven~";
 	}
 
     // Yesterhaven conversations
@@ -12,103 +12,103 @@
 	[0x0000]
 	{
 		from = "So much work to do, so many of my brothers still to free. Soon we will all be free, free to bring the living into the land of the dead. Come join us, stranger; join us in death!";
-		to = "";
+		to = "Hay tanto trabajo por hacer, tantos hermanos míos aún por liberar. Pronto todos seremos libres, libres para traer a los vivos a la tierra de los muertos. ¡Únete a nosotros, forastero; únete a nosotros en la muerte!";
 	}
     // Captain
 	[0x0000]
 	{
 		from = "Glad to see you again, friend. It looks like you made it just in time.\n\nWe've been fighting wave after wave of undead and spiders all night. I don't know how much longer I can keep this up.\n\nHere comes another wave now!";
-		to = "";
+		to = "Me alegra verte de nuevo, amigo. Parece que llegaste justo a tiempo.\n\nHemos estado luchando contra oleada tras oleada de muertos vivientes y arañas toda la noche. No sé cuánto tiempo más podré aguantar.\n\n¡Aquí viene otra oleada!";
 	}
 	[0x0000]
 	{
 		from = "Well fought! I have the rest of the town holed up in here to keep them safe. We already lost Gwendolyn and the Undertaker last night. We think they dragged them off into the woods, but nobody knows that area except the Undertaker and his apprentice.\n\nThe Mayor was hoping you would show up to help look for them. I can supply you with some extra weapons we have left over, or you can head on inside if you need anything else, I need to keep an eye out from here.";
-		to = "";
+		to = "¡Bien luchados! Tengo al resto del pueblo resguardado aquí para protegerlos. Anoche perdimos a Gwendolyn y al Sepulturero. Creemos que se los llevaron al bosque, pero nadie conoce esa zona excepto el Sepulturero y su aprendiz.\n\nEl alcalde esperaba que vinieras a ayudar a buscarlos. Puedo darte algunas armas adicionales que nos sobran, o puedes pasar adentro si necesitas algo más, yo debo vigilar desde aquí.";
 	}
     // Mayor
 	[0x0000]
 	{
 		from = "Oh thank heavens you have survived!\n\nWe knew you had talked some sense into the Snow Queen when everything started to melt, but now what has got the dead all turned up? They took dear Gwendolyn in the night, and I think the Undertaker is missing too.\n\nIf the Kellan brothers can't keep them at bay we may all perish and join them in the grave. Oh what have we done to deserve these curses?";
-		to = "";
+		to = "¡Oh, gracias a los cielos que has sobrevivido!\n\nSabíamos que habías hecho entrar en razón a la Reina de las Nieves cuando todo empezó a derretirse, pero ¿qué ha provocado que aparezcan todos los muertos? Se llevaron a la querida Gwendolyn durante la noche, y creo que el Sepulturero también ha desaparecido.\n\nSi los hermanos Kellan no logran contenerlos, todos pereceremos y nos uniremos a ellos en la tumba. ¿Qué hemos hecho para merecer estas maldiciones?";
 	}
     // Rho
 	[0x0000]
 	{
 		from = "My brother tells me you rescued him from the clutches of the Krug. I can't help but think that the whole detachment would have come back alive if I had gone with them, but I won't forget your kindness all the same.\n\nI've got some special armor here that won't be seeing much use from now on. If it helps you against these undead, you are welcome to have it for what it took me to make it.";
-		to = "";
+		to = "Mi hermano me cuenta que lo rescataste de las garras de los Krug. No puedo evitar pensar que todo el destacamento habría regresado con vida si hubiera ido con ellos, pero aun así, nunca olvidaré tu amabilidad.\n\nAquí tengo unas armaduras especiales que no usaré mucho de ahora en adelante. Si te sirve contra estos muertos vivientes, puedes quedártela por lo que me costó fabricarla.";
 	}
     // Scribe
 	[0x0000]
 	{
 		from = "Well, I told you this was a peculiar town; I guess this just proves my point.\n\nLooks like my old bones are not the only ones that are up and about now that the snow is gone, eh?\n\nWe don't talk about the Valley of the Dead much around here, but since the dead won't let us sleep, I've been reading up a bit. Care to hear a little more, or would you like to look at some of the potions I was able to secure from Gwendolyn's stash?";
-		to = "";
+		to = "Bueno, ya le dije que este era un pueblo peculiar; supongo que esto no hace más que confirmar lo que decía.\n\nParece que mis viejos huesos no son los únicos que están activos ahora que la nieve se ha ido, ¿eh?\n\nNo solemos hablar mucho del Valle de los Muertos por aquí, pero como los muertos no nos dejan dormir, he estado investigando un poco. ¿Te gustaría saber más o prefieres ver algunas de las pociones que conseguí del alijo de Gwendolyn?";
 	}
 	[0x0000]
 	{
 		from = "My Granddaddy used to talk about the royal catacombs beyond the cemetery, and how they just wind around forever. It makes me wonder just how many more dead there are back there to come after us.\n\nThe tombs are supposed to be the remnants of a burial chamber for an Archmage of the old Empire. The whole valley is warded against passage from the living save for one who knows its secrets, and that would currently be our Undertaker. As to why the undead are all up and about, and the spiders with them, I haven't got a clue, and without our Undertaker, we may never find out.";
-		to = "";
+		to = "Mi abuelo solía hablar de las catacumbas reales que hay más allá del cementerio, y de cómo se extienden hasta el infinito. Me pregunto cuántos muertos más habrá ahí abajo, esperando a venir por nosotros.\n\nSe supone que las tumbas son los restos de una cámara funeraria de un Archimago del antiguo Imperio. Todo el Valle está protegido del paso de los vivos, salvo de aquel que conoce sus secretos, y ese sería nuestro Sepulturero. En cuanto a por qué hay tantos muertos vivientes, y arañas con ellos, no tengo ni idea, y sin nuestro Sepulturero, tal vez nunca lo descubramos.";
 	}
     // Undertaker
 	[0x0000]
 	{
 		from = "Aaaagh! I don't have it anymore, don't eat my brain!\n\nOh... it's you, stranger. You mustn't tell anyone that I am here. I don't want them to know what I have done.";
-		to = "";
+		to = "¡Aaaagh! ¡Ya no lo tengo, no te comas mi cerebro!\n\nOh... eres tú, forastero. No debes decirle a nadie que estoy aquí. No quiero que sepan lo que he hecho.";
 	}
 	[0x0000]
 	{
 		from = "You have to understand. My father and forefathers have tended the Valley of the Dead since the ancient days of the Empire.\n\nMy lineage is descended from the royal retainers of the Archmage of the tombs. It is people of our bloodlines alone that are permitted entry to the catacombs... but I have no children to take my place, and when I die there will be noone left to tend the Valley of the Dead as my fathers before me did.";
-		to = "";
+		to = "Debes entenderlo. Mi padre y mis antepasados ​​han cuidado el Valle de los Muertos desde los tiempos antiguos del Imperio.\n\nMi linaje desciende de los sirvientes reales del Archimago de las tumbas. Solo a las personas de nuestro linaje se les permite el acceso a las catacumbas... pero no tengo hijos que tomen mi lugar, y cuando muera no quedará nadie que cuide el Valle de los Muertos como lo hicieron mis antepasados.";
 	}
 	[0x0000]
 	{
 		from = "When the Fire King offered to smith me a charm to make Maid Gwendolyn love me, I couldn't refuse.\n\nThe Fire King only required a relic from the Imperial tomb to fashion the charm. I saw no harm in loaning it to him; I had no idea that he would use it to break the wards guarding the valley.\n\nI have forsaken my vow as the Warden of the Valley, and now the dead roam free, and the minions of the Fire King are given unlimited passage to the realm of the Snow Queen. What have I done? What have I done!";
-		to = "";
+		to = "Cuando el Rey del Fuego se ofreció a forjarme un amuleto para que la Criada Gwendolyn me amara, no pude negarme.\n\nEl Rey del Fuego solo necesitaba una reliquia de la tumba Imperial para forjar el amuleto. No vi ningún inconveniente en prestárselo, no tenía ni idea de que lo usaría para romper las protecciones que resguardaban el valle.\n\nHe roto mi juramento como Guardián del Valle, y ahora los muertos vagan libres, y los secuaces del Rey del Fuego tienen paso ilimitado al reino de la Reina de las Nieves. ¿Qué he hecho? ¡Qué he hecho!";
 	}
     // Trini
 	[0x0000]
 	{
 		from = "I have never been so scared in all my life. Why is all this happening to us?";
-		to = "";
+		to = "Nunca en mi vida había sentido tanto miedo. ¿Por qué nos está pasando todo esto?";
 	}
 
     // Dante (2)
 	[0x0000]
 	{
 		from = "Whoa! Hold your fire, friend, it's just me. I swear; you come to the oddest places to shop. Good thing I'm not particular about my customers.\n\nQuite a lot of busy folk around here today. Everybody wants a shovel, and more than a few are looking for a chalice of some sort. They say some fleshy fellow took it. That wouldn't be you, would it stranger? No? I'll pay good money for it.\n\nWhy do you keep looking at me like that? Well, it's a hopping market here today. A regular madhouse. Plenty to sell. More to buy. Don't be shy. Step right up.";
-		to = "";
+		to = "¡Oye! Tranquilo, amigo, soy yo. Te lo juro; vienes a los sitios más raros a comprar. Menos mal que no soy exigente con mis clientes.\n\nHoy hay mucha gente ocupada por aquí. Todos quieren una pala, y más de uno busca un cáliz. Dicen que algún tipo carnoso se lo llevó. No serás tú, ¿verdad, forastero? ¿No? Te pagaré bien por él.\n\n¿Por qué me miras así? Bueno, hoy el mercado está a tope. Un auténtico caos. Mucho que vender. Más que comprar. No seas tímido. ¡Acércate!";
 	}
 
     // Rescued Maid Gwendolyn
 	[0x0000]
 	{
 		from = "Oh my! Bless you for saving me from these hideous creatures, outlander. When I get my nerves back, I will make a break for town. I wish I had never seen that stupid amulet. No sooner had I placed it around my neck than horrid beasts began clawing at my windows.";
-		to = "";
+		to = "¡Ay, Dios mío! Gracias por salvarme de estas criaturas horribles, forastero. En cuanto recupere el valor, me escaparé a la ciudad. Ojalá nunca hubiera visto ese estúpido amuleto. Apenas me lo puse al cuello, unas bestias espantosas empezaron a arañar mis ventanas.";
 	}
 	[0x0000]
 	{
 		from = "When I awoke, I found myself here, and nothing had changed except the amulet was missing. I don't know why they didn't kill me, but I have heard them muttering in the dark. Speaking of holding me for judgement before their dark master. They think I bear the mark of the 'Chalicebearer', whatever that means.\n\nI don't know who their master is, but I think he plans to destroy my town for his dark judgements.";
-		to = "";
+		to = "Al despertar, me encontré aquí, y nada había cambiado salvo que el amuleto había desaparecido. No sé por qué no me mataron, pero los oí murmurar en la oscuridad. Hablaban de llevarme ante su oscuro amo para juzgarme. Creen que llevo la marca del 'Portador del Cáliz', sea lo que sea que eso signifique.\n\nNo sé quién es su amo, pero creo que planea destruir mi ciudad para cumplir sus oscuros designios.";
 	}
 	[0x0000]
 	{
 		from = "Bless you outlander. I am just getting up the nerve to head back to town. You have more important matters to tend to now.";
-		to = "";
+		to = "Que te bendigan, forastero. Apenas estoy reuniendo el valor para volver al pueblo. Tienes asuntos más importantes que atender ahora.";
 	}
 
     // Lich Lord defeated
 	[0x0000]
 	{
 		from = "You may have defeated my body but not my spirit, outlander. For I am the lord of this sanctuary of the dead. I have lain here at rest for untold centuries until one so vile as to break the sanctity of my chambers stole away with the one artifact that protects us from the outside world.";
-		to = "";
+		to = "Puede que hayas vencido mi cuerpo, pero no mi espíritu, forastero. Porque yo soy el señor de este santuario de los muertos. He reposado aquí durante incontables siglos hasta que alguien tan vil como para profanar la santidad de mis aposentos se llevó el único artefacto que nos protege del mundo exterior.";
 	}
 	[0x0000]
 	{
 		from = "The Chalice of Mourning with which I was entombed can only afford us protection if it is within these walls, and only the blood of those I entrusted in life will be granted eternal passage. In its absence, the dead grow restless and seek out vengeance on the living. No barriers exist for them, and I cannot be responsible for their outrage.";
-		to = "";
+		to = "El Cáliz del Luto con el que fui sepultado solo puede protegernos dentro de estos muros, y solo la sangre de aquellos a quienes confíe en la vida tendrán paso eterno. En su ausencia, los muertos se inquietan y buscan venganza contra los vivos. No existen barreras para ellos, y no puedo responsabilizarme de su furia.";
 	}
 	[0x0000]
 	{
 		from = "In life I was an Archmage of unfathomable power. In death I bear the power to rend the very ground until I am appeased. I see now that you do not bear the Chalice. I ask you to withdraw from these hallowed chambers and leave us to our reckoning.\n\nIf you wish to bring peace to this land, bring me the Chalice of Mourning, and my family and servants will rest eternal once more.";
-		to = "";
+		to = "En vida fui un Archimago de poder inimaginable. En la muerte, poseo el poder de desgarrar la tierra hasta aplacarme. Ahora veo que no llevas el Cáliz. Te pido que te retires de estas cámaras sagradas y nos dejes a nuestros asuntos.\n\nSi deseáis traer la paz a esta tierra, traedme el Cáliz del Luto, y mi familia y mis sirvientes descansarán eternamente una vez más.";
 	}
 }
