@@ -5,115 +5,115 @@
 	[0x0000]
 	{
 		from = "The Lich lord sent you to seek the Chalice of Mourning, didn't he?\n\nThe Fire King seems to know you are coming if this blistering heat is any indication. I never dreamed it would come to this. I wish I had never spoken to the Fire King that lonely evening.";
-		to = "";
+		to = "El Lich te envió a buscar el Cáliz del Luto, ¿no es así?\n\nParece que el Rey del Fuego sabe que vienes, a juzgar por este calor abrasador. Jamás imaginé que llegaría a esto. Ojalá nunca le hubiera hablado al Rey del Fuego aquella noche solitaria.";
 	}
 	[0x0000]
 	{
 		from = "He knew all too well that I alone could travel into the tombs. I should have known it was a trick. He said he could use it to make Gwendolyn love me. He forged the pendant from it for her to wear, but she never loved me; she just got taken away and nearly killed. She will never love me now.\n\nI don't know if you can undo what I have done, but if you do, I will be content to live out my days never meddling in the affairs of the gods again, and let the Imperial Tombs fall to dust at my passing. Perhaps this is written somehow.";
-		to = "";
+		to = "Sabía perfectamente que solo yo podía entrar en las tumbas. Debería haber sabido que era una trampa. Dijo que podía usarlo para que Gwendolyn me amara. Forjó el colgante para que ella lo llevara, pero nunca me amó; simplemente la secuestraron y casi la matan. Jamás me amará ahora.\n\nNo sé si podrás deshacer lo que he hecho, pero si lo haces, me conformaré con vivir el resto de mis días sin volver a inmiscuirme en los asuntos de los dioses, y dejaré que las Tumbas Imperiales se conviertan en polvo tras mi muerte. Quizás esto sea el destino de alguna manera.";
 	}
     // Queen
 	[0x0000]
 	{
 		from = "I am sorry I misjudged you, outlander. I was too absorbed in my study to realize that the Fire King had been scheming against all of us. He has always been possessive, but we used to keep each other in balance. His power now grows unchecked with every passing moment.\n\nI will use what little power I have left to keep these good people alive, if you are brave enough to put the Fire King in his place before his greed spills over into the world around us.";
-		to = "";
+		to = "Lamento haberte juzgado mal, forastero. Estaba tan absorta en mis estudios que no me di cuenta de que el Rey del Fuego había estado conspirando contra todos nosotros. Siempre ha sido posesivo, pero solíamos mantenernos en equilibrio. Ahora su poder crece sin control a cada instante.\n\nUsaré el poco poder que me queda para mantener con vida a esta buena gente, si eres lo suficientemente valiente como para poner al Rey del Fuego en su sitio antes de que su avaricia se extienda por el mundo que nos rodea.";
 	}
     // Captain
 	[0x0000]
 	{
 		from = "We're in a bad way now friend.\n\nBy the looks of it, the Fire King aims to take this whole valley by force, and without my men, I frankly don't think we stand a chance. They don't want to negotiate, and if the weapons they bear are any indication of what is yet to come, our days are numbered.\n\nLucky for you we looted some pretty good gear off the last few waves of Krug that came through. If you are of the mind to go talk to the King, you are going to need them worse than us.";
-		to = "";
+		to = "Estamos en una situación complicada, amigo.\n\nPor lo que parece, el Rey del Fuego pretende tomar todo este valle por la fuerza, y sin mis hombres, sinceramente, no creo que tengamos ninguna posibilidad. No quieren negociar, y si las armas que portan son un indicio de lo que está por venir, nuestros días están contados.\n\nPor suerte para ti, conseguimos un buen botín de las últimas oleadas de Krug. Si piensas hablar con el Rey, lo vas a necesitar más que nosotros.";
 	}
     // Gwendolyn
 	[0x0000]
 	{
 		from = "I made it back alive, thanks to you, and not a moment too soon either. I just hope we can settle things with the Fire King before I run out of potions.\n\nSo much greed in the valley these days... I was as much a victim of my own greed as the Undertaker was of his, I can't blame him for that.\n\nMayor Gilwin said you are the only one who can help us now. I saved my biggest vials for you if you need them, it is the least I could do for our savior.";
-		to = "";
+		to = "Regresé con vida gracias a ti, y justo a tiempo. Espero que podamos arreglar las cosas con el Rey del Fuego antes de que se me acaben las pociones.\n\nHay tanta avaricia en el valle estos días... Yo fui tan víctima de mi propia avaricia como el Sepulturero lo fue de la suya, no puedo culparlo por eso.\n\nEl Alcalde Gilwin dijo que tú eres el único que puede ayudarnos ahora. Guardé mis frascos más grandes para usted por si los necesita, es lo mínimo que puedo hacer por nuestro salvador.";
 	}
     // Rho
 	[0x0000]
 	{
 		from = "Having the well filled means we aren't going to die of thirst, but with the forges of the Fire King blasting night and day, it won't be long before the Krug come calling in numbers we can't hope to stand against.\n\nUnless you've got it in you to march up Mount Underforge and talk some sense into the Fire King, you may as well head back to wherever you came from and let us die in peace.";
-		to = "";
+		to = "Tener el pozo lleno significa que no vamos a morir de sed, pero con las forjas del Rey del Fuego funcionando día y noche, no pasará mucho tiempo antes de que los Krug lleguen en números a los que no podremos hacer frente.\n\nA menos que tengas el valor de subir al Monte de la Forja Subterránea y hacer entrar en razón al Rey del Fuego, mejor regresa de donde viniste y déjanos morir en paz.";
 	}
     // Scribe
 	[0x0000]
 	{
 		from = "Our Undertaker came clean with us, friend. We are indeed in a bad place. If it weren't for you, we might have frozen in the snows only to have our bones baked in these sands. We seem to have made it, and so have you, so there is still hope.\n\nThe Undertaker let me take a look at an acolyte's journal mentioning this Chalice of Mourning you seek; would you like to hear what I have found?";
-		to = "";
+		to = "Nuestro Sepulturero nos fue sincero, amigo. Estamos en una situación muy difícil. Si no fuera por ti, podríamos haber muerto congelados en la nieve solo para que nuestros huesos se quemen en estas arenas. Parece que lo hemos logrado, y tú también, así que aún hay esperanza.\n\nEl Sepulturero me permitió echar un vistazo al diario de un acólito que menciona este Cáliz del Luto que buscas; ¿te gustaría saber lo que he encontrado?";
 	}
 	[0x0000]
 	{
 		from = "It appears that the Chalice of Mourning was used during the ritual preparation of the Valley of the Dead. Anything placed within the Chalice and allowed to rest in the midday sun would be granted temporary binding to the Valley.\n\nThis was apparently used on just about everything there, including the inks of the protective runes, the ashes of his servants, and the perfumes to douse the chambers, but here's where it gets interesting...";
-		to = "";
+		to = "Al parecer, el Cáliz del Luto se utilizaba durante la preparación ritual del Valle de los Muertos. Cualquier objeto que se colocara dentro del Cáliz y se dejara reposar bajo el sol del mediodía quedaba temporalmente vinculado al Valle.\n\nAparentemente, esto se usaba en casi todo allí, incluyendo las tintas de las runas protectoras, las cenizas de sus sirvientes y los perfumes para perfumar las cámaras, pero aquí es donde la cosa se pone interesante...";
 	}
 	[0x0000]
 	{
 		from = "Once the glyphs had been set, the living could only enter the Valley by drinking water prepared in the Chalice. The Fire King must have figured all this out, and used the Chalice to grant passage to his armies to attack the Snow Queen.\n\nWhat the journal doesn't mention, and what I think the Fire King hasn't figured out, is that removing the Chalice from the Valley has somehow broken the enchantments, and allowed the dead to roam free of the Valley.";
-		to = "";
+		to = "Una vez colocados los glifos, los vivos solo podían entrar al Valle bebiendo agua preparada en el Cáliz. El Rey del Fuego debió de haberlo previsto y usó el Cáliz para permitir el paso a sus ejércitos y que atacaran a la Reina de las Nieves.\n\nLo que el diario no menciona, y lo que creo que el Rey del Fuego no ha comprendido, es que al retirar el Cáliz del Valle, de alguna manera, se han roto los encantamientos y se ha permitido que los muertos vaguen libremente por el Valle.";
 	}
 	[0x0000]
 	{
 		from = "If the Fire King is still using it to enchant his armies, he must be bringing it to the surface to prepare the waters when the sun is high. I don't know if that helps you or not, but I found it interesting to say the least.\n\nI shouldn't keep you any more. If Yesterhaven is to survive to be more than a footnote in someone else's tome, you had better get moving. Our prayers are with you always, friend.";
-		to = "";
+		to = "Si el Rey del Fuego aún lo usa para encantar a sus ejércitos, seguramente lo trae a la superficie para preparar las aguas cuando el sol está en lo alto. No sé si esto te sirva de algo, pero a mí me pareció, cuanto menos, interesante.\n\nNo debería retenerte más. Si Yesterhaven ha de sobrevivir y ser algo más que una nota a pie de página en la obra de otro, será mejor que te pongas en marcha. Nuestras oraciones están siempre contigo, amigo.";
 	}
     // Mayor
 	[0x0000]
 	{
 		from = "You've saved us twice now, friend. I don't think there is anything we can do to repay that, but it looks like after all your hard work and bravery, we've only managed to tip the delicate balance of our land, and played into the hands of the Fire King.\n\nThe Snow Queen has realized the errors of her ways, but without your help, we have no hope of holding Yesterhaven against the armies of Underforge. Are you willing to fight for us once more, stranger? Perhaps the Fire King can be brought to his senses at the edge of your sword, much as the Snow Queen was.";
-		to = "";
+		to = "Nos has salvado dos veces, amigo. No creo que podamos agradecértelo, pero parece que, después de todo tu esfuerzo y valentía, solo hemos conseguido desequilibrar la delicada balanza de nuestra tierra y caer en las redes del Rey del Fuego.\n\nLa Reina de las Nieves se ha dado cuenta de sus errores, pero sin tu ayuda, no tenemos ninguna esperanza de defender Yesterhaven contra los ejércitos del Monte de la Forja Subterránea. ¿Estás dispuesto a luchar por nosotros una vez más, forastero? Quizás el Rey del Fuego pueda entrar en razón a punta de espada, tal como le sucedió a la Reina de las Nieves.";
 	}
     // Trini
 	[0x0000]
 	{
 		from = "You made it out alive!\n\nWhatever you did, the Fire King must be terribly mad. It is becoming hotter and drier with every passing moment. The well has all but dried up already, and everyone is gathering to see what we should do. I hope you have good news for us, we could use it.";
-		to = "";
+		to = "¡Saliste con vida!\n\nSea lo que hayas hecho, el Rey del Fuego debe estar furioso. El calor y la sequedad aumentan a cada instante. El pozo casi se ha secado y todos se reúnen para ver qué debemos hacer. Espero que tengas buenas noticias para nosotros, nos vendrían muy bien.";
 	}
 	[0x0000]
 	{
 		from = "Perhaps now that we have water to drink, my livestock will return to me... if any of them lived through the blizzard and spiders, that is.";
-		to = "";
+		to = "Quizás ahora que tenemos agua para beber, mi ganado regrese... si es que alguno sobrevivió a la ventisca y a las arañas, claro.";
 	}
 
     // Dante (3)
 	[0x0000]
 	{
 		from = "The citizens of Yesterhaven will do right by you yet, outlander. I had my doubts about whether you were suited to the tasks of my master, the Archmage, but you have made it farther than I had hoped.\n\nWhen you find the Chalice. I will return it to its rightful place, and bring final peace to the Valley of the Dead. I cannot yet bring peace to the living, however. That is between you and the Fire King.\n\nUntil then, I still have several items which would be better left for the living, if you need them.";
-		to = "";
+		to = "Los ciudadanos de Yesterhaven te tratarán bien, forastero. Tenía mis dudas sobre si eras apto para las tareas de mi amo, el Archimago, pero has llegado más lejos de lo que esperaba.\n\nCuando encuentres el Cáliz, lo devolveré a su lugar legítimo y traeré la paz definitiva al Valle de los Muertos. Sin embargo, aún no puedo traer la paz a los vivos. Eso es asunto tuyo y del Rey del Fuego.\n\nHasta entonces, todavía tengo varias cosas que sería mejor dejar para los vivos, si las necesitas.";
 	}
 
     // Fire King defeated
 	[0x0000]
 	{
 		from = "Why did I ever accept this accursed blessing of eternal life, when it has become a millenium of servitude to a dead man's tomb? I don't know how my kinswoman across the valley has retained her composure after all these centuries.\n\nI am a failure. I have failed to unlock the mysteries of my master's chalice. I have failed to bring an end to my eternal damnation, and now in desperation, I have even failed my oath to shelter the valley of his heirs... What have I done? What have I done...";
-		to = "";
+		to = "¿Por qué acepté esta maldita bendición de la vida eterna, cuando se ha convertido en un milenio de servidumbre a la tumba de un muerto? No sé cómo la Reina del otro lado del valle ha conservado la compostura después de tantos siglos.\n\nSoy un fracaso. No he logrado descifrar los misterios del cáliz de mi amo. No he logrado poner fin a mi condenación eterna, y ahora, desesperado, incluso he roto mi juramento de proteger el valle de sus herederos... ¿Qué he hecho? ¿Qué he hecho...?";
 	}
 	[0x0000]
 	{
 		from = "After a millenium of servitude, I should have known my ancient master would have planned for my release. You have freed me stranger. I cannot ever hope to repay you.\n\nI pledge to undo what I have done, and uphold my stewardship of Yesterhaven with renewed vigor until the natural end of my days.";
-		to = "";
+		to = "Tras un milenio de servidumbre, debería haber sabido que mi antiguo amo habría planeado mi liberación. Me has liberado, forastero. Jamás podré agradecértelo lo suficiente.\n\nMe comprometo a deshacer lo que he hecho y a mantener mi responsabilidad al frente de Yesterhaven con renovado vigor hasta el final natural de mis días.";
 	}
     // Dante (4)
 	[0x0000]
 	{
 		from = "Well done, outlander! The bravado of these ancient guardians is at long last quieted. I stand ready to return the Chalice to its rightful place, and lift the circle of curses that have befallen the people of Yesterhaven.";
-		to = "";
+		to = "¡Bien hecho, forastero! La bravuconería de estos antiguos guardianes por fin se ha acallado. Estoy listo para devolver el Cáliz a su legítimo lugar y romper el círculo de maldiciones que han caído sobre el pueblo de Yesterhaven.";
 	}
 	[0x0000]
 	{
 		from = "Give Chalice";
-		to = "";
+		to = "Dar el Cáliz";
 	}
 	[0x0000]
 	{
 		from = "The eternal burdens these guardians of fire and ice have borne is too great to ask of a mortal. When the bloodline of my decendants passes with the Undertaker of Yesterhaven, so also will their millenium of servitude to my master. With it, the Valley of the Dead will be forever sealed, and the Archmage's mourning will be complete. So it is written.\n\nFarewell, outlander. You have the eternal thanks of the wardens of the Archmage. Go now and join with the living. The good people of Yesterhaven will be anxious to hear of their newfound freedoms.";
-		to = "";
+		to = "Las cargas eternas que han soportado estos guardianes del fuego y el hielo son demasiado grandes para exigírselas a un mortal. Cuando el linaje de mis descendientes se extinga con el Sepulturero de Yesterhaven, también lo hará su milenio de servidumbre a mi amo. Con ello, el Valle de los Muertos quedará sellado para siempre, y el luto del Archimago será completo. Así está escrito.\n\nAdiós, forastero. Los guardianes del Archimago te agradecen eternamente. Vete ahora y únete a los vivos. La buena gente de Yesterhaven estará ansiosa por saber de sus nuevas libertades.";
 	}
 
     // Happy end obelisk inscription
 	[0x0000]
 	{
 		from = "A blizzard howled and fell wolves bayed,\nThe Snow Queen's power at last was stayed;\nBroken wards bought death's release,\nAn Undead Lord at last found peace;\nMountains roared and ashes rolled,\nThe Fire King's forge has since grown cold.\n\nThankless deeds for heroes gone.\nSeen no more, recalled in song.\nWith hope restored, for this we plead\nOur gift of thanks would be received.\nAnd on some future brighter day,\nThat flowers bloom where treasure lay.";
-		to = "";
+		to = "Una ventisca aullaba y los lobos caídos ladraban,\nEl poder de la Reina de las Nieves finalmente fue frenado;\nLas protecciones rotas compraron la liberación de la muerte,\nUn Señor No Muerto finalmente encontró la paz;\nLas montañas rugieron y las cenizas rodaron,\nLa forja del Rey del Fuego se ha enfriado desde entonces.\n\nHazañas ingratas para los héroes desaparecidos.\nYa no se les ve, pero se les recuerda en una canción.\nCon la esperanza restaurada, por esto suplicamos\nNuestro gesto de agradecimiento sería recibido.\nY en algún futuro día más brillante,\nQue las flores florezcan donde descansa el tesoro.";
 	}
 }
