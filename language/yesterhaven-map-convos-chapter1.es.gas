@@ -4,7 +4,7 @@
 	[0x0000]
 	{
 		from = "Once a town, never sleeping\nThrice cursed, ever weeping\nFrozen time, still as death\nBurning mind, laid to rest\nValleys rise, mountains fall\nWith none to heed the heroes' call";
-		to = Una vez un pueblo, nunca dormía\nTres veces maldito, siempre llorando\nTiempo congelado, quieto como la muerte\nMente ardiente, puesta en reposo.\nLos valles se elevan, las montañas se derrumban.\nSin nadie que atienda el llamado de los héroes";
+		to = "Una vez un pueblo, nunca dormía\nTres veces maldito, siempre llorando\nTiempo congelado, quieto como la muerte\nMente ardiente, puesta en reposo.\nLos valles se elevan, las montañas se derrumban.\nSin nadie que atienda el llamado de los héroes";
 	}
 
     // Obelisk inscription back in time
