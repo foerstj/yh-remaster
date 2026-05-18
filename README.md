@@ -21,7 +21,7 @@ The "revisited" map variant is based on the remaster, with these changes applied
 - Fixed order of multiplayer start positions.
 - Fixed compatibility issue with LoA (Lich King Gas Pillar turret spell, second PackLightning$ parameter), works with both vanilla and LoA.
 - Brushed up plants that had default scale multiplier or orientation.
-- Added translation to German.
+- Added translations to German & Spanish.
 - Added single-player mode (making player-world-location triggers multi-player only).
 - Added Veteran & Elite world levels.
 - Small fixes like making e.g. stalagmites not camera-blocking.
@@ -51,5 +51,7 @@ Supports Thrillvilled's voices mod.
 GasPy repo: https://github.com/foerstj/gaspy
 
 ## Attribution
+
+- Spanish translations by Nekurrot
 
 This map was created by Gas-Powered Games, not me. I'm just doing minor changes here.
