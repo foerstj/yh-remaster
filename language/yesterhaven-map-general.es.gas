@@ -3,8 +3,8 @@
     // Map name & description
 	[0x0000]
 	{
-		from = "Yesterhaven";
-		to = "Yesterhaven";
+		from = "Yesterhaven (revisited)";
+		to = "Yesterhaven (revisitado)";
 	}
 	[0x0000]
 	{
