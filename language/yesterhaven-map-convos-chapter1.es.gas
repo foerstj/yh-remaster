@@ -73,7 +73,7 @@
 	[0x0000]
 	{
 		from = "This may seem strange, but... I found the most beautiful necklace laying in my shop today. Nobody is claiming it, and even though I adore it, it must belong to someone!\n\nIf you happen to hear whom it belongs to, will you let me know? Thanks!";
-		to = "Puede parecer extraño, pero... hoy encontré en mi tienda un collar precioso. Nadie lo reclama y ​​aunque me encanta, ¡tiene que pertenecer a alguien!\n\nSi por casualidad sabes a quién pertenece, ¿me lo harías saber? ¡Gracias!";
+		to = "Puede parecer extraño, pero... hoy encontré en mi tienda un collar precioso. Nadie lo reclama y aunque me encanta, ¡tiene que pertenecer a alguien!\n\nSi por casualidad sabes a quién pertenece, ¿me lo harías saber? ¡Gracias!";
 	}
     // Assistant
 	[0x0000]
