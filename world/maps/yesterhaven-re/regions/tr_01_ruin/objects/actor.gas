@@ -1,5 +1,9 @@
 [t:gpg_plaque_ice_obelisk_01,n:0x00b00041]
 {
+	[common]
+	{
+		dev_instance_text = "SNOW";
+	}
 	[conversation]
 	{
 		[conversations]
@@ -14,6 +18,10 @@
 }
 [t:gpg_plaque_grs_obelisk_01,n:0x00b00101]
 {
+	[common]
+	{
+		dev_instance_text = "RUINS";
+	}
 	[conversation]
 	{
 		[conversations]
