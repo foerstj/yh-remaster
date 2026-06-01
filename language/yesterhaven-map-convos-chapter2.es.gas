@@ -57,7 +57,7 @@
 	[0x0000]
 	{
 		from = "You have to understand. My father and forefathers have tended the Valley of the Dead since the ancient days of the Empire.\n\nMy lineage is descended from the royal retainers of the Archmage of the tombs. It is people of our bloodlines alone that are permitted entry to the catacombs... but I have no children to take my place, and when I die there will be noone left to tend the Valley of the Dead as my fathers before me did.";
-		to = "Debes entenderlo. Mi padre y mis antepasados ​​han cuidado el Valle de los Muertos desde los tiempos antiguos del Imperio.\n\nMi linaje desciende de los sirvientes reales del Archimago de las tumbas. Solo a las personas de nuestro linaje se les permite el acceso a las catacumbas... pero no tengo hijos que tomen mi lugar, y cuando muera no quedará nadie que cuide el Valle de los Muertos como lo hicieron mis antepasados.";
+		to = "Debes entenderlo. Mi padre y mis antepasados han cuidado el Valle de los Muertos desde los tiempos antiguos del Imperio.\n\nMi linaje desciende de los sirvientes reales del Archimago de las tumbas. Solo a las personas de nuestro linaje se les permite el acceso a las catacumbas... pero no tengo hijos que tomen mi lugar, y cuando muera no quedará nadie que cuide el Valle de los Muertos como lo hicieron mis antepasados.";
 	}
 	[0x0000]
 	{
