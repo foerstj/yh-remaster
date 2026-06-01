@@ -4,7 +4,7 @@
 	[0x0000]
 	{
 		from = "Once a town, never sleeping\nThrice cursed, ever weeping\nFrozen time, still as death\nBurning mind, laid to rest\nValleys rise, mountains fall\nWith none to heed the heroes' call";
-		to = "Una vez un pueblo, nunca dormía\nTres veces maldito, siempre llorando\nTiempo congelado, quieto como la muerte\nMente ardiente, puesta en reposo.\nLos valles se elevan, las montañas se derrumban.\nSin nadie que atienda el llamado de los héroes";
+		to = Una vez un pueblo, nunca dormía\nTres veces maldito, siempre llorando\nTiempo congelado, quieto como la muerte\nMente ardiente, puesta en reposo.\nLos valles se elevan, las montañas se derrumban.\nSin nadie que atienda el llamado de los héroes";
 	}
 
     // Obelisk inscription back in time
@@ -24,13 +24,13 @@
 	[0x0000]
 	{
 		from = "This is the Snow Queen's work, no doubt, but in all my days she never sent us a blizzard, especially in the middle of Summer.\n\nWe sent our best men up Wintershroud Mountain to see what went wrong, but we haven't heard from them in days. I can't spare any more townsfolk, but now that you're here, I guess you've got two choices: stay here and starve with us, or head north and find Captain Kellan and his men.\n\nIf he's still alive, I think we can find a way out of this.";
-		to = "Sin duda, esto es obra de la Reina de las Nieves, pero en toda mi vida nunca nos ha enviado una ventisca, especialmente en pleno verano.\n\nEnviamos a nuestros mejores hombres a la montaña Wintershroud para ver qué había salido mal, pero no hemos tenido noticias de ellos en días. No puedo prescindir de más gente del pueblo, pero ahora que estás aquí, supongo que tienes dos opciones: quedarte aquí y morir de hambre con nosotros, o dirigirte al norte y encontrar al capitán Kellan y sus hombres.\n\nSi aún está vivo, creo que podremos encontrar una solución.";
+		to = "Sin duda, esto es obra de la Reina de las Nieves, pero en toda mi vida nunca nos ha enviado una ventisca, especialmente en pleno verano.\n\nEnviamos a nuestros mejores hombres a la montaña Niebla Invernal para ver qué había salido mal, pero no hemos tenido noticias de ellos en días. No puedo prescindir de más gente del pueblo, pero ahora que estás aquí, supongo que tienes dos opciones: quedarte aquí y morir de hambre con nosotros, o dirigirte al norte y encontrar al capitán Kellan y sus hombres.\n\nSi aún está vivo, creo que podremos encontrar una solución.";
 	}
     // Redric
 	[0x0000]
 	{
 		from = "Well now. First a terrible commotion up on Wintershroud, then this blasted storm, and now you.\n\nNot many visitors to Yesterhaven lately. But hey! What can I do for you? Did you come to buy a tome? Or did someone tell you I was the historian?";
-		to = "Bueno, vaya. Primero un terrible alboroto en Wintershroud, luego esta maldita tormenta, y ahora tú.\n\nÚltimamente no hay muchos visitantes en Yesterhaven. ¡Pero bueno! ¿En qué puedo ayudarle? ¿Vinisteis a comprar un tomo? ¿O alguien le dijo que yo era el historiador?";
+		to = "Bueno, vaya. Primero un terrible alboroto en la montaña Niebla Invernal, luego esta maldita tormenta, y ahora tú.\n\nÚltimamente no hay muchos visitantes en Yesterhaven. ¡Pero bueno! ¿En qué puedo ayudarle? ¿Vinisteis a comprar un tomo? ¿O alguien le dijo que yo era el historiador?";
 	}
 	[0x0000]
 	{

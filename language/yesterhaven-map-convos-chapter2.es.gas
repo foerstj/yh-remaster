@@ -23,7 +23,7 @@
 	[0x0000]
 	{
 		from = "Well fought! I have the rest of the town holed up in here to keep them safe. We already lost Gwendolyn and the Undertaker last night. We think they dragged them off into the woods, but nobody knows that area except the Undertaker and his apprentice.\n\nThe Mayor was hoping you would show up to help look for them. I can supply you with some extra weapons we have left over, or you can head on inside if you need anything else, I need to keep an eye out from here.";
-		to = "¡Bien luchados! Tengo al resto del pueblo resguardado aquí para protegerlos. Anoche perdimos a Gwendolyn y al Sepulturero. Creemos que se los llevaron al bosque, pero nadie conoce esa zona excepto el Sepulturero y su aprendiz.\n\nEl alcalde esperaba que vinieras a ayudar a buscarlos. Puedo darte algunas armas adicionales que nos sobran, o puedes pasar adentro si necesitas algo más, yo debo vigilar desde aquí.";
+		to = "¡Bien luchado! Tengo al resto del pueblo resguardado aquí para protegerlos. Anoche perdimos a Gwendolyn y al Sepulturero. Creemos que se los llevaron al bosque, pero nadie conoce esa zona excepto el Sepulturero y su aprendiz.\n\nEl alcalde esperaba que vinieras a ayudar a buscarlos. Puedo darte algunas armas adicionales que nos sobran, o puedes pasar adentro si necesitas algo más, yo debo vigilar desde aquí.";
 	}
     // Mayor
 	[0x0000]
